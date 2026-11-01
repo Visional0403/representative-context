@@ -1,0 +1,7297 @@
+{
+  "case": "gma_sintel",
+  "resource_exponents": [
+    13
+  ],
+  "execution_mode": "sparse",
+  "scope": "complete evaluation split",
+  "records": [
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0001.png",
+      "epe": 0.1632688343524933,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0002.png",
+      "epe": 0.16061103343963623,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0003.png",
+      "epe": 0.17804330587387085,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0004.png",
+      "epe": 0.17952343821525574,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0005.png",
+      "epe": 0.19596049189567566,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0006.png",
+      "epe": 0.20967118442058563,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0007.png",
+      "epe": 0.21848423779010773,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0008.png",
+      "epe": 0.21530434489250183,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0009.png",
+      "epe": 0.2058539241552353,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0010.png",
+      "epe": 0.19914217293262482,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0011.png",
+      "epe": 0.19848650693893433,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0012.png",
+      "epe": 0.18705640733242035,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0013.png",
+      "epe": 0.1965087354183197,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0014.png",
+      "epe": 0.16231639683246613,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0015.png",
+      "epe": 0.15808838605880737,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0016.png",
+      "epe": 0.14589783549308777,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0017.png",
+      "epe": 0.14870426058769226,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0018.png",
+      "epe": 0.21006183326244354,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0019.png",
+      "epe": 0.2501906156539917,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0020.png",
+      "epe": 0.25539204478263855,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0021.png",
+      "epe": 0.2833121716976166,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0022.png",
+      "epe": 0.3279491662979126,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0023.png",
+      "epe": 0.4006146788597107,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0024.png",
+      "epe": 0.8467073440551758,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0025.png",
+      "epe": 0.3990488648414612,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0026.png",
+      "epe": 0.3560726046562195,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0027.png",
+      "epe": 0.26827263832092285,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0028.png",
+      "epe": 0.2341824769973755,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0029.png",
+      "epe": 0.15779604017734528,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0030.png",
+      "epe": 0.1423051804304123,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0031.png",
+      "epe": 0.14617866277694702,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0032.png",
+      "epe": 0.12431766092777252,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0033.png",
+      "epe": 0.10731091350317001,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0034.png",
+      "epe": 0.0911446139216423,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0035.png",
+      "epe": 0.08679880946874619,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0036.png",
+      "epe": 0.08313851058483124,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0037.png",
+      "epe": 0.08196154981851578,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0038.png",
+      "epe": 0.08421116322278976,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0039.png",
+      "epe": 0.10664868354797363,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0040.png",
+      "epe": 0.15958483517169952,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0041.png",
+      "epe": 0.18177726864814758,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0042.png",
+      "epe": 0.2209782749414444,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0043.png",
+      "epe": 0.22694770991802216,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0044.png",
+      "epe": 0.23027624189853668,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0045.png",
+      "epe": 0.3252156376838684,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0046.png",
+      "epe": 0.22690340876579285,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0047.png",
+      "epe": 0.2558310329914093,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0048.png",
+      "epe": 0.24106554687023163,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_1",
+      "frame": "frame_0049.png",
+      "epe": 0.1755892038345337,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0001.png",
+      "epe": 0.09116299450397491,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0002.png",
+      "epe": 0.10631705075502396,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0003.png",
+      "epe": 0.11630716919898987,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0004.png",
+      "epe": 0.11348573863506317,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0005.png",
+      "epe": 0.12478694319725037,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0006.png",
+      "epe": 0.1303901970386505,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0007.png",
+      "epe": 0.1584032028913498,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0008.png",
+      "epe": 0.18656176328659058,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0009.png",
+      "epe": 0.19053247570991516,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0010.png",
+      "epe": 0.19925381243228912,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0011.png",
+      "epe": 0.16561880707740784,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0012.png",
+      "epe": 0.1815122663974762,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0013.png",
+      "epe": 0.21016812324523926,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0014.png",
+      "epe": 0.22198843955993652,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0015.png",
+      "epe": 0.2926184833049774,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0016.png",
+      "epe": 0.2362351417541504,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0017.png",
+      "epe": 0.2175142467021942,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0018.png",
+      "epe": 0.2261696606874466,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0019.png",
+      "epe": 0.22075583040714264,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0020.png",
+      "epe": 0.2595334053039551,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0021.png",
+      "epe": 0.1846562772989273,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0022.png",
+      "epe": 0.18364767730236053,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0023.png",
+      "epe": 0.19548647105693817,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0024.png",
+      "epe": 0.19309645891189575,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0025.png",
+      "epe": 0.20180736482143402,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0026.png",
+      "epe": 0.20749686658382416,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0027.png",
+      "epe": 0.22708119451999664,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0028.png",
+      "epe": 0.17782017588615417,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0029.png",
+      "epe": 0.18654786050319672,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0030.png",
+      "epe": 0.19103877246379852,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0031.png",
+      "epe": 0.20918244123458862,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0032.png",
+      "epe": 0.26380863785743713,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0033.png",
+      "epe": 0.22957482933998108,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0034.png",
+      "epe": 0.23162046074867249,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0035.png",
+      "epe": 0.24296467006206512,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0036.png",
+      "epe": 0.23340317606925964,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0037.png",
+      "epe": 0.2260957658290863,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0038.png",
+      "epe": 0.19624079763889313,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0039.png",
+      "epe": 0.18427586555480957,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0040.png",
+      "epe": 0.23373453319072723,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0041.png",
+      "epe": 0.19803710281848907,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0042.png",
+      "epe": 0.19390489161014557,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0043.png",
+      "epe": 0.20125718414783478,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0044.png",
+      "epe": 0.22340600192546844,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0045.png",
+      "epe": 0.20512673258781433,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0046.png",
+      "epe": 0.22374233603477478,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0047.png",
+      "epe": 0.23941953480243683,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0048.png",
+      "epe": 0.20487511157989502,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "alley_2",
+      "frame": "frame_0049.png",
+      "epe": 0.18610413372516632,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0001.png",
+      "epe": 5.706923961639404,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0002.png",
+      "epe": 7.797471523284912,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0003.png",
+      "epe": 8.00295352935791,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0004.png",
+      "epe": 10.147960662841797,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0005.png",
+      "epe": 12.115524291992188,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0006.png",
+      "epe": 14.352370262145996,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0007.png",
+      "epe": 12.357372283935547,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0008.png",
+      "epe": 14.693435668945312,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0009.png",
+      "epe": 23.34217071533203,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0010.png",
+      "epe": 25.517911911010742,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0011.png",
+      "epe": 25.669204711914062,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0012.png",
+      "epe": 31.43436622619629,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0013.png",
+      "epe": 54.77508544921875,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0014.png",
+      "epe": 62.48575210571289,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0015.png",
+      "epe": 64.18988800048828,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0016.png",
+      "epe": 8.930710792541504,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0017.png",
+      "epe": 2.7610182762145996,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0018.png",
+      "epe": 2.253661632537842,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0019.png",
+      "epe": 6.910861968994141,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_2",
+      "frame": "frame_0020.png",
+      "epe": 9.572575569152832,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0001.png",
+      "epe": 5.881923675537109,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0002.png",
+      "epe": 5.899351119995117,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0003.png",
+      "epe": 5.847385883331299,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0004.png",
+      "epe": 63.16746520996094,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0005.png",
+      "epe": 71.02391052246094,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0006.png",
+      "epe": 40.146202087402344,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0007.png",
+      "epe": 46.724693298339844,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0008.png",
+      "epe": 27.40613555908203,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0009.png",
+      "epe": 13.182586669921875,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0010.png",
+      "epe": 12.247541427612305,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0011.png",
+      "epe": 9.612844467163086,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0012.png",
+      "epe": 10.574593544006348,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0013.png",
+      "epe": 6.531120300292969,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0014.png",
+      "epe": 4.421387672424316,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0015.png",
+      "epe": 4.765679359436035,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0016.png",
+      "epe": 7.631266117095947,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0017.png",
+      "epe": 7.200416564941406,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0018.png",
+      "epe": 3.7444961071014404,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0019.png",
+      "epe": 1.9789623022079468,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0020.png",
+      "epe": 2.6471056938171387,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0021.png",
+      "epe": 2.938849449157715,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0022.png",
+      "epe": 2.1006577014923096,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0023.png",
+      "epe": 2.5508267879486084,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0024.png",
+      "epe": 1.9740278720855713,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0025.png",
+      "epe": 1.8195786476135254,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0026.png",
+      "epe": 7.042322635650635,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0027.png",
+      "epe": 21.80175018310547,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0028.png",
+      "epe": 24.541231155395508,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0029.png",
+      "epe": 16.399951934814453,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0030.png",
+      "epe": 10.638195991516113,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0031.png",
+      "epe": 7.15336799621582,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_4",
+      "frame": "frame_0032.png",
+      "epe": 2.6477856636047363,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0001.png",
+      "epe": 2.0993292331695557,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0002.png",
+      "epe": 3.165299654006958,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0003.png",
+      "epe": 3.226409435272217,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0004.png",
+      "epe": 2.2014784812927246,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0005.png",
+      "epe": 0.5894563794136047,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0006.png",
+      "epe": 0.8671407699584961,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0007.png",
+      "epe": 1.1924785375595093,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0008.png",
+      "epe": 1.8193907737731934,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0009.png",
+      "epe": 1.8323756456375122,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0010.png",
+      "epe": 1.6928211450576782,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0011.png",
+      "epe": 1.4778432846069336,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0012.png",
+      "epe": 1.948311448097229,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0013.png",
+      "epe": 1.2522817850112915,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0014.png",
+      "epe": 4.498732089996338,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0015.png",
+      "epe": 3.1524994373321533,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0016.png",
+      "epe": 1.3688464164733887,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0017.png",
+      "epe": 1.1461982727050781,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0018.png",
+      "epe": 1.0349451303482056,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0019.png",
+      "epe": 0.9812808036804199,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0020.png",
+      "epe": 1.1439083814620972,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0021.png",
+      "epe": 2.5924324989318848,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0022.png",
+      "epe": 2.7942395210266113,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0023.png",
+      "epe": 4.786868572235107,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0024.png",
+      "epe": 1.4619837999343872,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0025.png",
+      "epe": 0.8394646644592285,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0026.png",
+      "epe": 0.84610515832901,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0027.png",
+      "epe": 0.9449754357337952,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0028.png",
+      "epe": 2.1328814029693604,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0029.png",
+      "epe": 3.381354331970215,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0030.png",
+      "epe": 7.61646032333374,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0031.png",
+      "epe": 10.846125602722168,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0032.png",
+      "epe": 7.850559234619141,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0033.png",
+      "epe": 4.877472877502441,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0034.png",
+      "epe": 3.7314577102661133,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0035.png",
+      "epe": 6.279943466186523,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0036.png",
+      "epe": 6.706351280212402,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0037.png",
+      "epe": 23.57470703125,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0038.png",
+      "epe": 20.82973861694336,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0039.png",
+      "epe": 22.07511329650879,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0040.png",
+      "epe": 14.99917984008789,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0041.png",
+      "epe": 10.341275215148926,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0042.png",
+      "epe": 5.488589286804199,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0043.png",
+      "epe": 5.532254695892334,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0044.png",
+      "epe": 12.457392692565918,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0045.png",
+      "epe": 15.714229583740234,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0046.png",
+      "epe": 12.77498722076416,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0047.png",
+      "epe": 29.48077392578125,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0048.png",
+      "epe": 45.12990951538086,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_5",
+      "frame": "frame_0049.png",
+      "epe": 26.53619384765625,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0001.png",
+      "epe": 3.8074769973754883,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0002.png",
+      "epe": 3.931417226791382,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0003.png",
+      "epe": 3.815666437149048,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0004.png",
+      "epe": 3.2738451957702637,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0005.png",
+      "epe": 3.866342782974243,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0006.png",
+      "epe": 4.277005195617676,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0007.png",
+      "epe": 4.5738606452941895,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0008.png",
+      "epe": 5.093341827392578,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0009.png",
+      "epe": 4.422312259674072,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0010.png",
+      "epe": 5.290211200714111,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0011.png",
+      "epe": 6.406615734100342,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0012.png",
+      "epe": 4.792213439941406,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0013.png",
+      "epe": 4.376485347747803,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0014.png",
+      "epe": 10.207478523254395,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0015.png",
+      "epe": 42.07875061035156,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0016.png",
+      "epe": 12.519864082336426,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0017.png",
+      "epe": 5.337330341339111,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0018.png",
+      "epe": 5.035672664642334,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_6",
+      "frame": "frame_0019.png",
+      "epe": 3.9947192668914795,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0001.png",
+      "epe": 0.06020332872867584,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0002.png",
+      "epe": 0.08908940106630325,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0003.png",
+      "epe": 0.13890811800956726,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0004.png",
+      "epe": 0.09716381132602692,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0005.png",
+      "epe": 0.10449089109897614,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0006.png",
+      "epe": 1.4055373668670654,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0007.png",
+      "epe": 0.37032344937324524,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0008.png",
+      "epe": 0.3129584491252899,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0009.png",
+      "epe": 0.40766507387161255,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0010.png",
+      "epe": 0.42139410972595215,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0011.png",
+      "epe": 0.9548194408416748,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0012.png",
+      "epe": 0.5490854382514954,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0013.png",
+      "epe": 0.5470650792121887,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0014.png",
+      "epe": 0.3971889317035675,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0015.png",
+      "epe": 0.1458049863576889,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0016.png",
+      "epe": 0.12438309192657471,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0017.png",
+      "epe": 0.13129223883152008,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0018.png",
+      "epe": 0.1369609832763672,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0019.png",
+      "epe": 0.10989262908697128,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0020.png",
+      "epe": 0.1085401177406311,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0021.png",
+      "epe": 0.11922729760408401,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0022.png",
+      "epe": 0.10316110402345657,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0023.png",
+      "epe": 0.10583636909723282,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0024.png",
+      "epe": 0.1349819451570511,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0025.png",
+      "epe": 0.16100609302520752,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0026.png",
+      "epe": 0.13206671178340912,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0027.png",
+      "epe": 0.13913343846797943,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0028.png",
+      "epe": 0.20733556151390076,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0029.png",
+      "epe": 0.23104174435138702,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0030.png",
+      "epe": 0.2510697841644287,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0031.png",
+      "epe": 0.2954104244709015,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0032.png",
+      "epe": 0.292667955160141,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0033.png",
+      "epe": 0.2722058892250061,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0034.png",
+      "epe": 0.27704182267189026,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0035.png",
+      "epe": 0.17622718214988708,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0036.png",
+      "epe": 0.15316642820835114,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0037.png",
+      "epe": 0.3288048803806305,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0038.png",
+      "epe": 0.5356100797653198,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0039.png",
+      "epe": 0.676054835319519,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0040.png",
+      "epe": 1.016112208366394,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0041.png",
+      "epe": 5.447078704833984,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0042.png",
+      "epe": 3.4575014114379883,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0043.png",
+      "epe": 1.7210454940795898,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0044.png",
+      "epe": 1.5703372955322266,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0045.png",
+      "epe": 2.6632015705108643,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0046.png",
+      "epe": 0.08230920135974884,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0047.png",
+      "epe": 0.10691999644041061,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0048.png",
+      "epe": 0.11057978123426437,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "ambush_7",
+      "frame": "frame_0049.png",
+      "epe": 0.08086787909269333,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0001.png",
+      "epe": 0.23081517219543457,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0002.png",
+      "epe": 0.2540021538734436,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0003.png",
+      "epe": 0.27632012963294983,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0004.png",
+      "epe": 0.25457146763801575,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0005.png",
+      "epe": 0.25916048884391785,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0006.png",
+      "epe": 0.2591251730918884,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0007.png",
+      "epe": 0.27369242906570435,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0008.png",
+      "epe": 0.28137463331222534,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0009.png",
+      "epe": 0.27126097679138184,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0010.png",
+      "epe": 0.32252225279808044,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0011.png",
+      "epe": 0.2960813045501709,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0012.png",
+      "epe": 0.32452666759490967,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0013.png",
+      "epe": 0.3036772608757019,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0014.png",
+      "epe": 0.31791383028030396,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0015.png",
+      "epe": 0.3041708767414093,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0016.png",
+      "epe": 0.34417128562927246,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0017.png",
+      "epe": 0.33840298652648926,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0018.png",
+      "epe": 0.34733372926712036,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0019.png",
+      "epe": 0.34384098649024963,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0020.png",
+      "epe": 0.33382609486579895,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0021.png",
+      "epe": 0.33868515491485596,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0022.png",
+      "epe": 0.3316023647785187,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0023.png",
+      "epe": 0.32114577293395996,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0024.png",
+      "epe": 0.34012219309806824,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0025.png",
+      "epe": 0.35557714104652405,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0026.png",
+      "epe": 0.3684227168560028,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0027.png",
+      "epe": 0.37415874004364014,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0028.png",
+      "epe": 0.40070006251335144,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0029.png",
+      "epe": 0.3575446903705597,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0030.png",
+      "epe": 0.34532421827316284,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0031.png",
+      "epe": 0.35801857709884644,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0032.png",
+      "epe": 0.609346866607666,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0033.png",
+      "epe": 0.3684333562850952,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0034.png",
+      "epe": 0.4044959843158722,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0035.png",
+      "epe": 0.3628388047218323,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0036.png",
+      "epe": 0.33040714263916016,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0037.png",
+      "epe": 0.37377074360847473,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0038.png",
+      "epe": 0.36790916323661804,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0039.png",
+      "epe": 0.4020363688468933,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0040.png",
+      "epe": 0.43952757120132446,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0041.png",
+      "epe": 0.40561386942863464,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0042.png",
+      "epe": 0.39534279704093933,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0043.png",
+      "epe": 0.4010222852230072,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0044.png",
+      "epe": 0.393170565366745,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0045.png",
+      "epe": 0.5062580108642578,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0046.png",
+      "epe": 0.9479206800460815,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0047.png",
+      "epe": 1.197723388671875,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0048.png",
+      "epe": 0.3892810046672821,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_1",
+      "frame": "frame_0049.png",
+      "epe": 0.3825051784515381,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0001.png",
+      "epe": 0.22613926231861115,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0002.png",
+      "epe": 0.26425567269325256,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0003.png",
+      "epe": 0.2411918044090271,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0004.png",
+      "epe": 0.3658394515514374,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0005.png",
+      "epe": 0.27103498578071594,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0006.png",
+      "epe": 0.18886679410934448,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0007.png",
+      "epe": 0.24637119472026825,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0008.png",
+      "epe": 0.3542524576187134,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0009.png",
+      "epe": 0.2881503999233246,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0010.png",
+      "epe": 0.35749396681785583,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0011.png",
+      "epe": 0.3675767779350281,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0012.png",
+      "epe": 0.5015733242034912,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0013.png",
+      "epe": 0.6472729444503784,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0014.png",
+      "epe": 1.5144639015197754,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0015.png",
+      "epe": 0.613406240940094,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0016.png",
+      "epe": 0.5988209843635559,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0017.png",
+      "epe": 0.5766610503196716,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0018.png",
+      "epe": 0.395418256521225,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0019.png",
+      "epe": 0.2830132246017456,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0020.png",
+      "epe": 0.29104089736938477,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0021.png",
+      "epe": 0.3335840106010437,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0022.png",
+      "epe": 0.366982102394104,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0023.png",
+      "epe": 0.3577441871166229,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0024.png",
+      "epe": 0.3902783989906311,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0025.png",
+      "epe": 0.44567009806632996,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0026.png",
+      "epe": 0.38118377327919006,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0027.png",
+      "epe": 0.3729793429374695,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0028.png",
+      "epe": 0.3727629482746124,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0029.png",
+      "epe": 0.3973481059074402,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0030.png",
+      "epe": 0.38443639874458313,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0031.png",
+      "epe": 0.39958328008651733,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0032.png",
+      "epe": 0.4089905619621277,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0033.png",
+      "epe": 0.41445207595825195,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0034.png",
+      "epe": 0.5671775341033936,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0035.png",
+      "epe": 0.6298544406890869,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0036.png",
+      "epe": 0.7276622653007507,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0037.png",
+      "epe": 0.6255074143409729,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0038.png",
+      "epe": 0.5573298335075378,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0039.png",
+      "epe": 0.4961259067058563,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0040.png",
+      "epe": 0.7287455797195435,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0041.png",
+      "epe": 1.115907907485962,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0042.png",
+      "epe": 1.2624763250350952,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0043.png",
+      "epe": 1.3632608652114868,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0044.png",
+      "epe": 1.6719722747802734,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0045.png",
+      "epe": 1.3078423738479614,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0046.png",
+      "epe": 2.4565367698669434,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0047.png",
+      "epe": 3.3721628189086914,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0048.png",
+      "epe": 2.4985451698303223,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bamboo_2",
+      "frame": "frame_0049.png",
+      "epe": 5.502894878387451,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0001.png",
+      "epe": 0.5401076674461365,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0002.png",
+      "epe": 0.5916812419891357,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0003.png",
+      "epe": 0.6084354519844055,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0004.png",
+      "epe": 0.5266003608703613,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0005.png",
+      "epe": 0.4947604835033417,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0006.png",
+      "epe": 0.5131477117538452,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0007.png",
+      "epe": 0.558310329914093,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0008.png",
+      "epe": 0.5891294479370117,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0009.png",
+      "epe": 0.7239640951156616,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0010.png",
+      "epe": 0.5355373024940491,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0011.png",
+      "epe": 0.6258071660995483,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0012.png",
+      "epe": 0.6587230563163757,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0013.png",
+      "epe": 0.658990204334259,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0014.png",
+      "epe": 0.6611180305480957,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0015.png",
+      "epe": 0.7108132839202881,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0016.png",
+      "epe": 0.6340280771255493,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0017.png",
+      "epe": 0.692916750907898,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0018.png",
+      "epe": 0.5233834385871887,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0019.png",
+      "epe": 0.4302416741847992,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0020.png",
+      "epe": 0.4796156585216522,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0021.png",
+      "epe": 0.37599611282348633,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0022.png",
+      "epe": 0.31507608294487,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0023.png",
+      "epe": 0.280396968126297,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0024.png",
+      "epe": 0.27257323265075684,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0025.png",
+      "epe": 0.29413607716560364,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0026.png",
+      "epe": 0.2669127285480499,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0027.png",
+      "epe": 0.24893249571323395,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0028.png",
+      "epe": 0.23837915062904358,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0029.png",
+      "epe": 0.2285459339618683,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0030.png",
+      "epe": 0.20933161675930023,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0031.png",
+      "epe": 0.21086470782756805,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0032.png",
+      "epe": 0.2159540206193924,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0033.png",
+      "epe": 0.22909539937973022,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0034.png",
+      "epe": 0.2297176867723465,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0035.png",
+      "epe": 0.2304844707250595,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0036.png",
+      "epe": 0.24454519152641296,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0037.png",
+      "epe": 0.25222405791282654,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0038.png",
+      "epe": 0.2468598335981369,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0039.png",
+      "epe": 0.2813965082168579,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0040.png",
+      "epe": 0.25914546847343445,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0041.png",
+      "epe": 0.25589799880981445,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0042.png",
+      "epe": 0.2588147819042206,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0043.png",
+      "epe": 0.22342993319034576,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0044.png",
+      "epe": 0.25296929478645325,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0045.png",
+      "epe": 0.2796133756637573,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0046.png",
+      "epe": 0.35923853516578674,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0047.png",
+      "epe": 0.850269079208374,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0048.png",
+      "epe": 0.7481953501701355,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_1",
+      "frame": "frame_0049.png",
+      "epe": 0.615445077419281,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0001.png",
+      "epe": 0.7070651054382324,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0002.png",
+      "epe": 0.9215858578681946,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0003.png",
+      "epe": 1.1453583240509033,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0004.png",
+      "epe": 0.9586648941040039,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0005.png",
+      "epe": 0.9551805257797241,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0006.png",
+      "epe": 0.9396353960037231,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0007.png",
+      "epe": 0.8528943657875061,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0008.png",
+      "epe": 0.8491246104240417,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0009.png",
+      "epe": 0.8540812730789185,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0010.png",
+      "epe": 0.7654489874839783,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0011.png",
+      "epe": 0.679473340511322,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0012.png",
+      "epe": 0.681560218334198,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0013.png",
+      "epe": 0.5988519787788391,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0014.png",
+      "epe": 0.6366391181945801,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0015.png",
+      "epe": 0.5303964018821716,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0016.png",
+      "epe": 0.4492773413658142,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0017.png",
+      "epe": 0.4524242579936981,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0018.png",
+      "epe": 0.3948751986026764,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0019.png",
+      "epe": 0.3951454758644104,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0020.png",
+      "epe": 0.373203843832016,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0021.png",
+      "epe": 0.4012795686721802,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0022.png",
+      "epe": 0.3330071270465851,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0023.png",
+      "epe": 0.3217702805995941,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0024.png",
+      "epe": 0.33116334676742554,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0025.png",
+      "epe": 0.34660542011260986,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0026.png",
+      "epe": 0.3439406752586365,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0027.png",
+      "epe": 0.3479922115802765,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0028.png",
+      "epe": 0.38920870423316956,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0029.png",
+      "epe": 0.37582674622535706,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0030.png",
+      "epe": 0.3817040026187897,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0031.png",
+      "epe": 0.3526778221130371,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0032.png",
+      "epe": 0.3770059049129486,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0033.png",
+      "epe": 0.3583586812019348,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0034.png",
+      "epe": 0.3125642240047455,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0035.png",
+      "epe": 0.29540321230888367,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0036.png",
+      "epe": 0.2474060356616974,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0037.png",
+      "epe": 0.23800912499427795,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0038.png",
+      "epe": 0.2320387363433838,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0039.png",
+      "epe": 0.21524055302143097,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0040.png",
+      "epe": 0.19537515938282013,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0041.png",
+      "epe": 0.21333995461463928,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0042.png",
+      "epe": 0.18486422300338745,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0043.png",
+      "epe": 0.18983297049999237,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0044.png",
+      "epe": 0.17817847430706024,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0045.png",
+      "epe": 0.1662093698978424,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0046.png",
+      "epe": 0.15373222529888153,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0047.png",
+      "epe": 0.1501283496618271,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0048.png",
+      "epe": 0.15320894122123718,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "bandage_2",
+      "frame": "frame_0049.png",
+      "epe": 0.15198297798633575,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0001.png",
+      "epe": 1.0738893747329712,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0002.png",
+      "epe": 0.9347348809242249,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0003.png",
+      "epe": 0.7186593413352966,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0004.png",
+      "epe": 0.7949202656745911,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0005.png",
+      "epe": 1.1184866428375244,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0006.png",
+      "epe": 1.8548400402069092,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0007.png",
+      "epe": 1.1929795742034912,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0008.png",
+      "epe": 0.9240376949310303,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0009.png",
+      "epe": 0.7813276648521423,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0010.png",
+      "epe": 0.7918673157691956,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0011.png",
+      "epe": 0.9101680517196655,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0012.png",
+      "epe": 1.2478034496307373,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0013.png",
+      "epe": 1.908721923828125,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0014.png",
+      "epe": 1.9652583599090576,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0015.png",
+      "epe": 2.6172308921813965,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0016.png",
+      "epe": 3.1429405212402344,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0017.png",
+      "epe": 2.297128438949585,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0018.png",
+      "epe": 3.565474510192871,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0019.png",
+      "epe": 3.7130517959594727,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0020.png",
+      "epe": 4.781988143920898,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0021.png",
+      "epe": 6.189614772796631,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0022.png",
+      "epe": 16.658748626708984,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0023.png",
+      "epe": 19.836681365966797,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0024.png",
+      "epe": 30.15191078186035,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0025.png",
+      "epe": 36.561798095703125,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0026.png",
+      "epe": 16.00156593322754,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0027.png",
+      "epe": 7.394377708435059,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0028.png",
+      "epe": 6.562020778656006,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0029.png",
+      "epe": 10.309706687927246,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0030.png",
+      "epe": 18.899513244628906,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0031.png",
+      "epe": 14.57039737701416,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0032.png",
+      "epe": 17.401103973388672,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0033.png",
+      "epe": 11.912837982177734,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0034.png",
+      "epe": 5.757048606872559,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0035.png",
+      "epe": 5.474795818328857,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0036.png",
+      "epe": 6.352727890014648,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0037.png",
+      "epe": 6.948208808898926,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0038.png",
+      "epe": 3.8713722229003906,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0039.png",
+      "epe": 2.388725519180298,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0040.png",
+      "epe": 1.668025255203247,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0041.png",
+      "epe": 1.395078420639038,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0042.png",
+      "epe": 1.0500816106796265,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0043.png",
+      "epe": 0.5757400989532471,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0044.png",
+      "epe": 0.5281656384468079,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0045.png",
+      "epe": 0.5358762741088867,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0046.png",
+      "epe": 0.6285646557807922,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0047.png",
+      "epe": 0.6555602550506592,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0048.png",
+      "epe": 0.486563503742218,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_2",
+      "frame": "frame_0049.png",
+      "epe": 0.42152532935142517,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0001.png",
+      "epe": 3.5288968086242676,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0002.png",
+      "epe": 2.8464417457580566,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0003.png",
+      "epe": 2.8281188011169434,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0004.png",
+      "epe": 1.6074883937835693,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0005.png",
+      "epe": 2.7992260456085205,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0006.png",
+      "epe": 3.073312997817993,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0007.png",
+      "epe": 2.915482997894287,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0008.png",
+      "epe": 4.583855152130127,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0009.png",
+      "epe": 4.103751182556152,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0010.png",
+      "epe": 6.010141849517822,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0011.png",
+      "epe": 6.852773666381836,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0012.png",
+      "epe": 1.927838921546936,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0013.png",
+      "epe": 1.7624505758285522,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0014.png",
+      "epe": 1.4965953826904297,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0015.png",
+      "epe": 1.797658920288086,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0016.png",
+      "epe": 2.546485185623169,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0017.png",
+      "epe": 2.117845058441162,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0018.png",
+      "epe": 2.144064426422119,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0019.png",
+      "epe": 1.9169554710388184,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0020.png",
+      "epe": 1.7258491516113281,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0021.png",
+      "epe": 0.971693754196167,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0022.png",
+      "epe": 0.7495080232620239,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0023.png",
+      "epe": 0.8128703832626343,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0024.png",
+      "epe": 0.821925163269043,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0025.png",
+      "epe": 1.0625851154327393,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0026.png",
+      "epe": 1.0290641784667969,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0027.png",
+      "epe": 0.9385170936584473,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0028.png",
+      "epe": 0.7792880535125732,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0029.png",
+      "epe": 0.6473672389984131,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0030.png",
+      "epe": 0.8156782984733582,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0031.png",
+      "epe": 0.7118362188339233,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0032.png",
+      "epe": 0.7610620856285095,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0033.png",
+      "epe": 0.670112133026123,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0034.png",
+      "epe": 0.7228145003318787,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0035.png",
+      "epe": 0.5538386702537537,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0036.png",
+      "epe": 0.6188607811927795,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0037.png",
+      "epe": 0.7897199988365173,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0038.png",
+      "epe": 0.7521948218345642,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0039.png",
+      "epe": 0.8540694713592529,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0040.png",
+      "epe": 1.1008925437927246,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0041.png",
+      "epe": 2.089169979095459,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0042.png",
+      "epe": 4.51855993270874,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0043.png",
+      "epe": 7.561405181884766,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0044.png",
+      "epe": 12.93073844909668,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0045.png",
+      "epe": 17.823333740234375,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0046.png",
+      "epe": 15.782381057739258,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0047.png",
+      "epe": 5.932291507720947,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0048.png",
+      "epe": 5.4713873863220215,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "cave_4",
+      "frame": "frame_0049.png",
+      "epe": 3.383768081665039,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0001.png",
+      "epe": 0.5400487780570984,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0002.png",
+      "epe": 0.7394617199897766,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0003.png",
+      "epe": 1.2349936962127686,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0004.png",
+      "epe": 1.115079402923584,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0005.png",
+      "epe": 1.138302206993103,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0006.png",
+      "epe": 0.9479694962501526,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0007.png",
+      "epe": 0.9343854784965515,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0008.png",
+      "epe": 0.7481171488761902,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0009.png",
+      "epe": 0.7020776271820068,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0010.png",
+      "epe": 0.7272799015045166,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0011.png",
+      "epe": 0.6784416437149048,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0012.png",
+      "epe": 0.9670400619506836,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0013.png",
+      "epe": 0.9514042735099792,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0014.png",
+      "epe": 0.8270741701126099,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0015.png",
+      "epe": 0.7543048858642578,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0016.png",
+      "epe": 0.6954067945480347,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0017.png",
+      "epe": 0.8000921010971069,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0018.png",
+      "epe": 0.7802622318267822,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0019.png",
+      "epe": 0.7612592577934265,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0020.png",
+      "epe": 0.7867034077644348,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0021.png",
+      "epe": 0.8863222599029541,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0022.png",
+      "epe": 0.9642695784568787,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0023.png",
+      "epe": 1.0448822975158691,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0024.png",
+      "epe": 1.6631090641021729,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0025.png",
+      "epe": 0.9304277896881104,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0026.png",
+      "epe": 0.7778233289718628,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0027.png",
+      "epe": 0.5249620079994202,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0028.png",
+      "epe": 0.49737194180488586,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0029.png",
+      "epe": 0.4595835506916046,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0030.png",
+      "epe": 0.3334272503852844,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0031.png",
+      "epe": 0.44583919644355774,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0032.png",
+      "epe": 0.4552857279777527,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0033.png",
+      "epe": 0.389894962310791,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0034.png",
+      "epe": 0.36034831404685974,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0035.png",
+      "epe": 0.4352837800979614,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0036.png",
+      "epe": 0.5329299569129944,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0037.png",
+      "epe": 0.19190555810928345,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0038.png",
+      "epe": 0.1294775754213333,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0039.png",
+      "epe": 0.12456703186035156,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0040.png",
+      "epe": 0.12247642874717712,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0041.png",
+      "epe": 0.1290266066789627,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0042.png",
+      "epe": 0.1353294849395752,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0043.png",
+      "epe": 0.13810664415359497,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0044.png",
+      "epe": 0.14386673271656036,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0045.png",
+      "epe": 0.14206106960773468,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0046.png",
+      "epe": 0.1406964510679245,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0047.png",
+      "epe": 0.15108418464660645,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0048.png",
+      "epe": 0.1465120017528534,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_2",
+      "frame": "frame_0049.png",
+      "epe": 0.16626672446727753,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0001.png",
+      "epe": 4.663314342498779,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0002.png",
+      "epe": 3.444146156311035,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0003.png",
+      "epe": 7.032509803771973,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0004.png",
+      "epe": 7.436350345611572,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0005.png",
+      "epe": 19.27546501159668,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0006.png",
+      "epe": 14.32740592956543,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0007.png",
+      "epe": 4.870406150817871,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0008.png",
+      "epe": 6.207298278808594,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0009.png",
+      "epe": 17.271581649780273,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0010.png",
+      "epe": 9.885601997375488,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0011.png",
+      "epe": 33.946651458740234,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0012.png",
+      "epe": 35.32244110107422,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0013.png",
+      "epe": 20.51538848876953,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0014.png",
+      "epe": 10.30471420288086,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0015.png",
+      "epe": 6.272284984588623,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0016.png",
+      "epe": 7.315197467803955,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0017.png",
+      "epe": 7.8506269454956055,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0018.png",
+      "epe": 13.30887222290039,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0019.png",
+      "epe": 28.819047927856445,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0020.png",
+      "epe": 28.63409996032715,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0021.png",
+      "epe": 15.638463973999023,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0022.png",
+      "epe": 14.582842826843262,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0023.png",
+      "epe": 13.67228889465332,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0024.png",
+      "epe": 5.96645975112915,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0025.png",
+      "epe": 8.649537086486816,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0026.png",
+      "epe": 8.362300872802734,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0027.png",
+      "epe": 3.1860604286193848,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0028.png",
+      "epe": 9.659064292907715,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0029.png",
+      "epe": 15.094221115112305,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0030.png",
+      "epe": 9.258469581604004,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0031.png",
+      "epe": 9.044461250305176,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0032.png",
+      "epe": 1.6471171379089355,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0033.png",
+      "epe": 1.2166508436203003,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0034.png",
+      "epe": 1.4863042831420898,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0035.png",
+      "epe": 1.360924243927002,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0036.png",
+      "epe": 0.7028127312660217,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0037.png",
+      "epe": 0.8219089508056641,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0038.png",
+      "epe": 0.6546685695648193,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0039.png",
+      "epe": 0.5387076735496521,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0040.png",
+      "epe": 0.5958170294761658,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0041.png",
+      "epe": 0.7762593030929565,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0042.png",
+      "epe": 0.8154115080833435,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0043.png",
+      "epe": 1.0303903818130493,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0044.png",
+      "epe": 1.8475985527038574,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0045.png",
+      "epe": 2.2537755966186523,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0046.png",
+      "epe": 2.6942808628082275,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0047.png",
+      "epe": 5.789742946624756,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0048.png",
+      "epe": 8.48766040802002,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_5",
+      "frame": "frame_0049.png",
+      "epe": 26.700958251953125,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0001.png",
+      "epe": 2.347381114959717,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0002.png",
+      "epe": 2.407787561416626,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0003.png",
+      "epe": 2.6797306537628174,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0004.png",
+      "epe": 2.966543674468994,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0005.png",
+      "epe": 3.3040928840637207,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0006.png",
+      "epe": 3.0898470878601074,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0007.png",
+      "epe": 3.089012384414673,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0008.png",
+      "epe": 3.1159770488739014,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0009.png",
+      "epe": 3.3617799282073975,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0010.png",
+      "epe": 3.1034607887268066,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0011.png",
+      "epe": 3.0186867713928223,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0012.png",
+      "epe": 4.533758640289307,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0013.png",
+      "epe": 1.8262379169464111,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0014.png",
+      "epe": 1.637391448020935,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0015.png",
+      "epe": 7.800632953643799,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0016.png",
+      "epe": 1.6331361532211304,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0017.png",
+      "epe": 1.1454416513442993,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0018.png",
+      "epe": 0.9774815440177917,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0019.png",
+      "epe": 0.9670873284339905,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0020.png",
+      "epe": 1.0830775499343872,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0021.png",
+      "epe": 0.8934658765792847,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0022.png",
+      "epe": 0.8961272835731506,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0023.png",
+      "epe": 0.8788240551948547,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0024.png",
+      "epe": 0.7502440810203552,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0025.png",
+      "epe": 0.6929759383201599,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0026.png",
+      "epe": 3.5059592723846436,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0027.png",
+      "epe": 1.0410207509994507,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0028.png",
+      "epe": 1.9732195138931274,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0029.png",
+      "epe": 4.525426387786865,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0030.png",
+      "epe": 3.1771128177642822,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0031.png",
+      "epe": 2.516903877258301,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0032.png",
+      "epe": 2.8251519203186035,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0033.png",
+      "epe": 3.0782628059387207,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0034.png",
+      "epe": 2.64050030708313,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0035.png",
+      "epe": 1.3177741765975952,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0036.png",
+      "epe": 1.3909703493118286,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0037.png",
+      "epe": 1.9138635396957397,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0038.png",
+      "epe": 1.2416679859161377,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "market_6",
+      "frame": "frame_0039.png",
+      "epe": 1.0825985670089722,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0001.png",
+      "epe": 0.18726179003715515,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0002.png",
+      "epe": 0.20060306787490845,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0003.png",
+      "epe": 0.19552552700042725,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0004.png",
+      "epe": 0.21765238046646118,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0005.png",
+      "epe": 0.23048622906208038,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0006.png",
+      "epe": 0.22255855798721313,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0007.png",
+      "epe": 0.22076556086540222,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0008.png",
+      "epe": 0.2274799346923828,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0009.png",
+      "epe": 0.22980619966983795,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0010.png",
+      "epe": 0.3146848976612091,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0011.png",
+      "epe": 0.29634130001068115,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0012.png",
+      "epe": 0.3042081296443939,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0013.png",
+      "epe": 0.25204890966415405,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0014.png",
+      "epe": 0.25681763887405396,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0015.png",
+      "epe": 0.2713271975517273,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0016.png",
+      "epe": 0.2382640540599823,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0017.png",
+      "epe": 0.2583489418029785,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0018.png",
+      "epe": 0.2450011819601059,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0019.png",
+      "epe": 0.23658639192581177,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0020.png",
+      "epe": 0.26825380325317383,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0021.png",
+      "epe": 0.267829954624176,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0022.png",
+      "epe": 0.24246808886528015,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0023.png",
+      "epe": 0.290676087141037,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0024.png",
+      "epe": 0.3100951611995697,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0025.png",
+      "epe": 0.34231969714164734,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0026.png",
+      "epe": 0.6370416283607483,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0027.png",
+      "epe": 1.2758082151412964,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0028.png",
+      "epe": 0.8536831736564636,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0029.png",
+      "epe": 0.473947674036026,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0030.png",
+      "epe": 0.3437238335609436,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0031.png",
+      "epe": 0.17785540223121643,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0032.png",
+      "epe": 0.15041027963161469,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0033.png",
+      "epe": 0.17814196646213531,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0034.png",
+      "epe": 0.16067656874656677,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0035.png",
+      "epe": 0.15727689862251282,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0036.png",
+      "epe": 0.14820678532123566,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0037.png",
+      "epe": 0.1590712070465088,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0038.png",
+      "epe": 0.1551806926727295,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0039.png",
+      "epe": 0.13983680307865143,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0040.png",
+      "epe": 0.1770421415567398,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0041.png",
+      "epe": 0.15848411619663239,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0042.png",
+      "epe": 0.13879646360874176,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0043.png",
+      "epe": 0.15953029692173004,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0044.png",
+      "epe": 0.1756485402584076,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0045.png",
+      "epe": 0.14155763387680054,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0046.png",
+      "epe": 0.16335059702396393,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0047.png",
+      "epe": 0.1473599225282669,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0048.png",
+      "epe": 0.1565295159816742,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "mountain_1",
+      "frame": "frame_0049.png",
+      "epe": 0.15248271822929382,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0001.png",
+      "epe": 0.19247999787330627,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0002.png",
+      "epe": 0.1875329315662384,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0003.png",
+      "epe": 0.17158707976341248,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0004.png",
+      "epe": 0.18240714073181152,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0005.png",
+      "epe": 0.14852406084537506,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0006.png",
+      "epe": 0.17889021337032318,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0007.png",
+      "epe": 0.2238795906305313,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0008.png",
+      "epe": 0.2629534602165222,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0009.png",
+      "epe": 0.2732621431350708,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0010.png",
+      "epe": 0.3815271854400635,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0011.png",
+      "epe": 0.29988834261894226,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0012.png",
+      "epe": 0.2307639718055725,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0013.png",
+      "epe": 0.22501695156097412,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0014.png",
+      "epe": 0.23285949230194092,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0015.png",
+      "epe": 0.23284783959388733,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0016.png",
+      "epe": 0.2288731336593628,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0017.png",
+      "epe": 0.26105785369873047,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0018.png",
+      "epe": 0.31935039162635803,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0019.png",
+      "epe": 0.30101290345191956,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0020.png",
+      "epe": 0.29976436495780945,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0021.png",
+      "epe": 0.3384478986263275,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0022.png",
+      "epe": 0.35132506489753723,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0023.png",
+      "epe": 0.3194350004196167,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0024.png",
+      "epe": 0.29994815587997437,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0025.png",
+      "epe": 0.29047146439552307,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0026.png",
+      "epe": 0.3254505693912506,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0027.png",
+      "epe": 0.35047879815101624,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0028.png",
+      "epe": 0.3709311783313751,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0029.png",
+      "epe": 0.3331625759601593,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0030.png",
+      "epe": 0.3949550688266754,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0031.png",
+      "epe": 0.3355391323566437,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0032.png",
+      "epe": 0.33946409821510315,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0033.png",
+      "epe": 0.34196531772613525,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0034.png",
+      "epe": 0.32440945506095886,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0035.png",
+      "epe": 0.25856491923332214,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0036.png",
+      "epe": 0.2511182725429535,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0037.png",
+      "epe": 0.2323041409254074,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0038.png",
+      "epe": 0.24794436991214752,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0039.png",
+      "epe": 0.24187733232975006,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0040.png",
+      "epe": 0.23426978290081024,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0041.png",
+      "epe": 0.20024839043617249,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0042.png",
+      "epe": 0.19926637411117554,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0043.png",
+      "epe": 0.1602449268102646,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0044.png",
+      "epe": 0.15414808690547943,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0045.png",
+      "epe": 0.12827648222446442,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0046.png",
+      "epe": 0.1401887685060501,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0047.png",
+      "epe": 0.19748203456401825,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0048.png",
+      "epe": 0.24467992782592773,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_2",
+      "frame": "frame_0049.png",
+      "epe": 0.2709062099456787,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0001.png",
+      "epe": 0.11426207423210144,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0002.png",
+      "epe": 0.13091421127319336,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0003.png",
+      "epe": 0.13787204027175903,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0004.png",
+      "epe": 0.14892761409282684,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0005.png",
+      "epe": 0.16270844638347626,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0006.png",
+      "epe": 0.1732366383075714,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0007.png",
+      "epe": 0.18601037561893463,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0008.png",
+      "epe": 0.21095047891139984,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0009.png",
+      "epe": 0.26691144704818726,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0010.png",
+      "epe": 0.3407694399356842,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0011.png",
+      "epe": 0.2333606332540512,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0012.png",
+      "epe": 0.24337323009967804,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0013.png",
+      "epe": 0.23985829949378967,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0014.png",
+      "epe": 0.23810440301895142,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0015.png",
+      "epe": 0.23542530834674835,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0016.png",
+      "epe": 0.22207632660865784,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0017.png",
+      "epe": 0.23802827298641205,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0018.png",
+      "epe": 0.22298595309257507,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0019.png",
+      "epe": 0.23516727983951569,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0020.png",
+      "epe": 0.21110832691192627,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0021.png",
+      "epe": 0.20966681838035583,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0022.png",
+      "epe": 0.20109206438064575,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0023.png",
+      "epe": 0.21521127223968506,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0024.png",
+      "epe": 0.21028347313404083,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0025.png",
+      "epe": 0.1953967958688736,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0026.png",
+      "epe": 0.20841002464294434,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0027.png",
+      "epe": 0.20854493975639343,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0028.png",
+      "epe": 0.2079121470451355,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0029.png",
+      "epe": 0.21865874528884888,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0030.png",
+      "epe": 0.21289652585983276,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0031.png",
+      "epe": 0.22006234526634216,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0032.png",
+      "epe": 0.24207359552383423,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0033.png",
+      "epe": 0.2411767989397049,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0034.png",
+      "epe": 0.25523823499679565,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0035.png",
+      "epe": 0.27253586053848267,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0036.png",
+      "epe": 0.2846963107585907,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0037.png",
+      "epe": 0.3151453733444214,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0038.png",
+      "epe": 0.3248111605644226,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0039.png",
+      "epe": 0.33196714520454407,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0040.png",
+      "epe": 0.3246949315071106,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0041.png",
+      "epe": 0.36295032501220703,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0042.png",
+      "epe": 0.34852325916290283,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0043.png",
+      "epe": 0.31630539894104004,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0044.png",
+      "epe": 0.31244680285453796,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0045.png",
+      "epe": 0.34316810965538025,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0046.png",
+      "epe": 0.3407404124736786,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0047.png",
+      "epe": 0.30808165669441223,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0048.png",
+      "epe": 0.3586098849773407,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "shaman_3",
+      "frame": "frame_0049.png",
+      "epe": 0.31208497285842896,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0001.png",
+      "epe": 0.12240588665008545,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0002.png",
+      "epe": 0.12863996624946594,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0003.png",
+      "epe": 0.12513068318367004,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0004.png",
+      "epe": 0.12092864513397217,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0005.png",
+      "epe": 0.114662304520607,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0006.png",
+      "epe": 0.12509392201900482,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0007.png",
+      "epe": 0.12720851600170135,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0008.png",
+      "epe": 0.12397376447916031,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0009.png",
+      "epe": 0.11768931895494461,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0010.png",
+      "epe": 0.13471470773220062,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0011.png",
+      "epe": 0.13532377779483795,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0012.png",
+      "epe": 0.12722419202327728,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0013.png",
+      "epe": 0.12495005875825882,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0014.png",
+      "epe": 0.12975530326366425,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0015.png",
+      "epe": 0.12931902706623077,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0016.png",
+      "epe": 0.13548611104488373,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0017.png",
+      "epe": 0.11888420581817627,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0018.png",
+      "epe": 0.12683747708797455,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0019.png",
+      "epe": 0.1371612548828125,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0020.png",
+      "epe": 0.12506744265556335,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0021.png",
+      "epe": 0.12184575945138931,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0022.png",
+      "epe": 0.13081438839435577,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0023.png",
+      "epe": 0.12374512851238251,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0024.png",
+      "epe": 0.12705384194850922,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0025.png",
+      "epe": 0.12090468406677246,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0026.png",
+      "epe": 0.11752478778362274,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0027.png",
+      "epe": 0.12558645009994507,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0028.png",
+      "epe": 0.11302193254232407,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0029.png",
+      "epe": 0.12529760599136353,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0030.png",
+      "epe": 0.11964186280965805,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0031.png",
+      "epe": 0.1187761053442955,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0032.png",
+      "epe": 0.12686456739902496,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0033.png",
+      "epe": 0.11805711686611176,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0034.png",
+      "epe": 0.12194904685020447,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0035.png",
+      "epe": 0.11624130606651306,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0036.png",
+      "epe": 0.1205236166715622,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0037.png",
+      "epe": 0.11341109871864319,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0038.png",
+      "epe": 0.11586696654558182,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0039.png",
+      "epe": 0.12214363366365433,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0040.png",
+      "epe": 0.11221509426832199,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0041.png",
+      "epe": 0.12229965627193451,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0042.png",
+      "epe": 0.11440755426883698,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0043.png",
+      "epe": 0.10606127977371216,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0044.png",
+      "epe": 0.11072739958763123,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0045.png",
+      "epe": 0.10742831975221634,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0046.png",
+      "epe": 0.10724548250436783,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0047.png",
+      "epe": 0.10386516153812408,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0048.png",
+      "epe": 0.11023978888988495,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_1",
+      "frame": "frame_0049.png",
+      "epe": 0.10145905613899231,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0001.png",
+      "epe": 0.09859555214643478,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0002.png",
+      "epe": 0.09851472079753876,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0003.png",
+      "epe": 0.09857673197984695,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0004.png",
+      "epe": 0.10991401970386505,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0005.png",
+      "epe": 0.10812107473611832,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0006.png",
+      "epe": 0.11325666308403015,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0007.png",
+      "epe": 0.10365699976682663,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0008.png",
+      "epe": 0.11407753825187683,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0009.png",
+      "epe": 0.10864393413066864,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0010.png",
+      "epe": 0.10570584237575531,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0011.png",
+      "epe": 0.11395061761140823,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0012.png",
+      "epe": 0.11294526606798172,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0013.png",
+      "epe": 0.10812238603830338,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0014.png",
+      "epe": 0.10837069898843765,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0015.png",
+      "epe": 0.11350376158952713,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0016.png",
+      "epe": 0.11869363486766815,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0017.png",
+      "epe": 0.10483185201883316,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0018.png",
+      "epe": 0.11442415416240692,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0019.png",
+      "epe": 0.11885737627744675,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0020.png",
+      "epe": 0.10504861176013947,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0021.png",
+      "epe": 0.11777515709400177,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0022.png",
+      "epe": 0.11249402165412903,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0023.png",
+      "epe": 0.111470527946949,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0024.png",
+      "epe": 0.11509794741868973,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0025.png",
+      "epe": 0.11060983687639236,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0026.png",
+      "epe": 0.11571130901575089,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0027.png",
+      "epe": 0.10957665741443634,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0028.png",
+      "epe": 0.11549632251262665,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0029.png",
+      "epe": 0.11647553741931915,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0030.png",
+      "epe": 0.11341051757335663,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0031.png",
+      "epe": 0.11864236742258072,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0032.png",
+      "epe": 0.11021289229393005,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0033.png",
+      "epe": 0.11455307900905609,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0034.png",
+      "epe": 0.11210144311189651,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0035.png",
+      "epe": 0.11361881345510483,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0036.png",
+      "epe": 0.11103715002536774,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0037.png",
+      "epe": 0.11261416226625443,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0038.png",
+      "epe": 0.10903524607419968,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0039.png",
+      "epe": 0.11269514262676239,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0040.png",
+      "epe": 0.11525627225637436,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0041.png",
+      "epe": 0.12092822790145874,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0042.png",
+      "epe": 0.11398575454950333,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0043.png",
+      "epe": 0.11297643184661865,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0044.png",
+      "epe": 0.11084292083978653,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0045.png",
+      "epe": 0.11574751883745193,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0046.png",
+      "epe": 0.11405235528945923,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0047.png",
+      "epe": 0.11163134127855301,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0048.png",
+      "epe": 0.1166820228099823,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "sleeping_2",
+      "frame": "frame_0049.png",
+      "epe": 0.11354707926511765,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0001.png",
+      "epe": 0.6301679611206055,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0002.png",
+      "epe": 0.6500714421272278,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0003.png",
+      "epe": 0.7232393622398376,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0004.png",
+      "epe": 0.6969340443611145,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0005.png",
+      "epe": 0.6401425004005432,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0006.png",
+      "epe": 0.6438236236572266,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0007.png",
+      "epe": 1.1894054412841797,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0008.png",
+      "epe": 0.6712988018989563,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0009.png",
+      "epe": 0.6466333866119385,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0010.png",
+      "epe": 0.7334241271018982,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0011.png",
+      "epe": 0.7856304049491882,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0012.png",
+      "epe": 0.9133297801017761,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0013.png",
+      "epe": 2.1723690032958984,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0014.png",
+      "epe": 1.1963789463043213,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0015.png",
+      "epe": 1.1990965604782104,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0016.png",
+      "epe": 1.4950039386749268,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0017.png",
+      "epe": 1.1465327739715576,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0018.png",
+      "epe": 1.2571595907211304,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0019.png",
+      "epe": 5.533773899078369,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0020.png",
+      "epe": 1.1258957386016846,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0021.png",
+      "epe": 1.8036531209945679,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0022.png",
+      "epe": 2.1701152324676514,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0023.png",
+      "epe": 3.0693979263305664,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0024.png",
+      "epe": 9.407464027404785,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0025.png",
+      "epe": 24.339962005615234,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0026.png",
+      "epe": 5.345837593078613,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0027.png",
+      "epe": 7.320137023925781,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0028.png",
+      "epe": 6.307083606719971,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0029.png",
+      "epe": 5.418693542480469,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0030.png",
+      "epe": 4.654598236083984,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0031.png",
+      "epe": 0.6175562143325806,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0032.png",
+      "epe": 0.9307347536087036,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0033.png",
+      "epe": 0.727757453918457,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0034.png",
+      "epe": 1.0205848217010498,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0035.png",
+      "epe": 1.1663795709609985,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0036.png",
+      "epe": 0.7613219618797302,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0037.png",
+      "epe": 0.5152910947799683,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0038.png",
+      "epe": 0.456231951713562,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0039.png",
+      "epe": 0.39149731397628784,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0040.png",
+      "epe": 0.3888152241706848,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0041.png",
+      "epe": 0.38755637407302856,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0042.png",
+      "epe": 0.39523494243621826,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0043.png",
+      "epe": 0.3873847424983978,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0044.png",
+      "epe": 0.3942250609397888,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0045.png",
+      "epe": 0.4142901599407196,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0046.png",
+      "epe": 0.42365530133247375,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0047.png",
+      "epe": 0.4063016474246979,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0048.png",
+      "epe": 0.36451777815818787,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_2",
+      "frame": "frame_0049.png",
+      "epe": 0.35932886600494385,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0001.png",
+      "epe": 1.4020870923995972,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0002.png",
+      "epe": 1.4916448593139648,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0003.png",
+      "epe": 1.4781960248947144,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0004.png",
+      "epe": 2.0675339698791504,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0005.png",
+      "epe": 0.5821097493171692,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0006.png",
+      "epe": 0.48609843850135803,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0007.png",
+      "epe": 0.3482860028743744,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0008.png",
+      "epe": 0.246301531791687,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0009.png",
+      "epe": 0.3113096356391907,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0010.png",
+      "epe": 0.5631877183914185,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0011.png",
+      "epe": 0.401612788438797,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0012.png",
+      "epe": 0.5589985847473145,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0013.png",
+      "epe": 0.47086119651794434,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0014.png",
+      "epe": 0.4618769586086273,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0015.png",
+      "epe": 0.5322887301445007,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0016.png",
+      "epe": 1.146112322807312,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0017.png",
+      "epe": 0.705669641494751,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0018.png",
+      "epe": 1.2345441579818726,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0019.png",
+      "epe": 1.8050997257232666,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0020.png",
+      "epe": 2.4828383922576904,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0021.png",
+      "epe": 6.095118999481201,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0022.png",
+      "epe": 11.55256175994873,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0023.png",
+      "epe": 10.486919403076172,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0024.png",
+      "epe": 5.204402446746826,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0025.png",
+      "epe": 4.339064121246338,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0026.png",
+      "epe": 5.590168476104736,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0027.png",
+      "epe": 5.0866594314575195,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0028.png",
+      "epe": 6.3741865158081055,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0029.png",
+      "epe": 13.83399772644043,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0030.png",
+      "epe": 9.931925773620605,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0031.png",
+      "epe": 9.660372734069824,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0032.png",
+      "epe": 17.071548461914062,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0033.png",
+      "epe": 4.156233310699463,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0034.png",
+      "epe": 3.801513910293579,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0035.png",
+      "epe": 6.450416564941406,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0036.png",
+      "epe": 6.036065101623535,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0037.png",
+      "epe": 10.97609806060791,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0038.png",
+      "epe": 7.602920055389404,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0039.png",
+      "epe": 9.629901885986328,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0040.png",
+      "epe": 5.126130104064941,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0041.png",
+      "epe": 4.088168621063232,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0042.png",
+      "epe": 5.177549362182617,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0043.png",
+      "epe": 2.3579866886138916,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0044.png",
+      "epe": 1.5343456268310547,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0045.png",
+      "epe": 1.6045211553573608,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0046.png",
+      "epe": 1.4141489267349243,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0047.png",
+      "epe": 1.396769404411316,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0048.png",
+      "epe": 1.0261058807373047,
+      "pixels": 446464
+    },
+    {
+      "pass": "final",
+      "scene": "temple_3",
+      "frame": "frame_0049.png",
+      "epe": 0.8943262100219727,
+      "pixels": 446464
+    }
+  ]
+}

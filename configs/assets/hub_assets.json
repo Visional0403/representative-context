@@ -1,0 +1,131 @@
+{
+  "assets": {
+    "glpn_nyu": {
+      "repo_id": "vinvino02/glpn-nyu",
+      "repo_type": "model",
+      "revision": "cb8ce03174424af9a3315da175ead88667f0578c",
+      "files": [
+        {
+          "remote": "config.json",
+          "local": "weights/glpn_nyu/config.json"
+        },
+        {
+          "remote": "model.safetensors",
+          "local": "weights/glpn_nyu/model.safetensors"
+        },
+        {
+          "remote": "preprocessor_config.json",
+          "local": "weights/glpn_nyu/preprocessor_config.json"
+        }
+      ]
+    },
+    "tcd_model": {
+      "repo_id": "restor/tcd-segformer-mit-b0",
+      "repo_type": "model",
+      "revision": "904e2fb0696abb4bae63f43344bd99ec1959d092",
+      "files": [
+        {
+          "remote": "config.json",
+          "local": "weights/oam_tcd/config.json"
+        },
+        {
+          "remote": "model.safetensors",
+          "local": "weights/oam_tcd/model.safetensors"
+        }
+      ]
+    },
+    "hitnet": {
+      "repo_id": "stablediffusionuser/hitnet",
+      "repo_type": "model",
+      "revision": "b9adfd179eddbdd580924a1c1a252de89adf2f82",
+      "files": [
+        {
+          "remote": "Net_epoch_best.pth",
+          "local": "weights/hitnet/hitnet.pth"
+        }
+      ]
+    },
+    "pi3": {
+      "repo_id": "yyfz233/Pi3",
+      "repo_type": "model",
+      "revision": "ae722e7039287d0c8fde9f11f197f804f44b510c",
+      "files": [
+        {
+          "remote": "model.safetensors",
+          "local": "weights/pi3/model.safetensors"
+        }
+      ]
+    },
+    "tur": {
+      "repo_id": "GWu/TUR",
+      "repo_type": "model",
+      "revision": "0caa4ef69202d1841d98c18f2c0fe1fc2ae23aa8",
+      "files": [
+        {
+          "remote": "Transweather_TUR_5task.pth",
+          "local": "outputs/downloads/Transweather_TUR_5task.pth"
+        }
+      ]
+    },
+    "gamus_weights": {
+      "repo_id": "Dilavesh/altimap-height",
+      "repo_type": "model",
+      "revision": "d9c715f97a817ab8feb00dd2fbef463f2d99dd01",
+      "files": [
+        {
+          "remote": "best.pth",
+          "local": "outputs/downloads/altimap_gamus_author.pth"
+        }
+      ]
+    },
+    "oam_tcd": {
+      "repo_id": "restor/tcd",
+      "repo_type": "dataset",
+      "revision": "d97d4da0ebbb6e249ae95ac5e19656babd972eb2",
+      "files": [
+        {
+          "remote": "data/test-00000-of-00001.parquet",
+          "local": "datasets/oam_tcd/test.parquet"
+        }
+      ],
+      "evaluation_units": 439
+    },
+    "quickbird": {
+      "repo_id": "elsting/PanCollection",
+      "repo_type": "dataset",
+      "revision": "b39e5daf0a322105977a7d4ce53ca0c4806defed",
+      "files": [
+        {
+          "remote": "test_data/test_qb_multiExm1.h5",
+          "local": "datasets/quickbird/test_qb_multiExm1.h5"
+        }
+      ],
+      "evaluation_units": 20
+    },
+    "fsc147": {
+      "repo_id": "isentropic/FSC147",
+      "repo_type": "dataset",
+      "revision": "3e420cb6537e803dd6d4516623ce82a79c0317b8",
+      "files": [
+        {
+          "remote": "Train_Test_Val_FSC_147.json",
+          "local": "datasets/fsc147/annotations/Train_Test_Val_FSC_147.json"
+        },
+        {
+          "remote": "annotation_FSC147_384.json",
+          "local": "datasets/fsc147/annotations/annotation_FSC147_384.json"
+        }
+      ],
+      "selection": "fsc147_test",
+      "evaluation_units": 1190
+    },
+    "gamus": {
+      "repo_id": "earthflow/GAMUS",
+      "repo_type": "dataset",
+      "revision": "a3c0e2511f06d909612406f436cf8abb4da805f5",
+      "files": [],
+      "selection": "gamus_test",
+      "evaluation_units": 2861
+    }
+  }
+}

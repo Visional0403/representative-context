@@ -1,0 +1,7 @@
+# SegFormer/UAVid GPU environment
+# Python 3.10.12; Linux; CUDA-enabled PyTorch wheel
+torch==2.10.0
+triton==3.6.0
+numpy==2.2.6
+albumentations==2.0.8
+opencv-python==5.0.0.93

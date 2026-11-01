@@ -1,0 +1,29 @@
+{
+  "case": "iml",
+  "files": [
+    {
+      "file": "accuracy_01.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "accuracy_units": 2010
+    },
+    {
+      "file": "timing_02.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "accuracy_units": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "case": "tcd_tiled",
+  "files": [
+    {
+      "file": "accuracy_01.json",
+      "resource_exponents": [
+        14
+      ],
+      "accuracy_units": 439
+    },
+    {
+      "file": "accuracy_02.json",
+      "resource_exponents": [
+        12
+      ],
+      "accuracy_units": 439
+    },
+    {
+      "file": "accuracy_03.json",
+      "resource_exponents": [
+        13
+      ],
+      "accuracy_units": 439
+    },
+    {
+      "file": "accuracy_04.json",
+      "resource_exponents": [
+        15
+      ],
+      "accuracy_units": 439
+    },
+    {
+      "file": "accuracy_05.json",
+      "resource_exponents": [
+        16
+      ],
+      "accuracy_units": 439
+    },
+    {
+      "file": "accuracy_06.json",
+      "resource_exponents": [
+        17
+      ],
+      "accuracy_units": 439
+    },
+    {
+      "file": "timing_07.json",
+      "resource_exponents": [
+        12
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_08.json",
+      "resource_exponents": [
+        13
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_09.json",
+      "resource_exponents": [
+        14
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_10.json",
+      "resource_exponents": [
+        15
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_11.json",
+      "resource_exponents": [
+        16
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_12.json",
+      "resource_exponents": [
+        17
+      ],
+      "accuracy_units": null
+    }
+  ]
+}

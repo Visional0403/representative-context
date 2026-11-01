@@ -1,0 +1,23 @@
+{
+  "case": "changeformer",
+  "dataset": "LEVIR-CD test",
+  "expected_samples": 128,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/levir_cd",
+  "weights": "weights/changeformer/changeformer_v6.pth",
+  "source": "third_party/sources/changeformer",
+  "execution": {
+    "cudnn_allow_tf32": true,
+    "cudnn_deterministic": false
+  },
+  "timing": {
+    "warmup": 6,
+    "repeats": 20,
+    "rounds": 3
+  },
+  "timer": "wall_clock",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "timing_summary": "pooled_median",
+  "speedup_summary": "ratio_of_reported_latencies"
+}

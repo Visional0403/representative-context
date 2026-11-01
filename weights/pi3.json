@@ -1,0 +1,16 @@
+{
+  "case": "pi3",
+  "path": "pi3/model.safetensors",
+  "format": "safetensors",
+  "source": {
+    "repository": "yyfz/Pi3",
+    "revision": "9fa3ddb3f8d53041f8b2738df404f62223bbaa7b",
+    "subdirectory": "",
+    "include": [
+      "pi3",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "weights_url": "https://huggingface.co/yyfz233/Pi3/resolve/ae722e7039287d0c8fde9f11f197f804f44b510c/model.safetensors"
+}

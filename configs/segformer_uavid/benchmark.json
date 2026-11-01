@@ -1,0 +1,12 @@
+{
+  "checkpoint": "weights/segformer/segformer_b0_uavid.pth",
+  "height": 1024,
+  "width": 1024,
+  "k": 16,
+  "pattern": "dispersed32",
+  "seed": 42,
+  "threads": 4,
+  "warmup": 5,
+  "rounds": 3,
+  "repeats": 20
+}

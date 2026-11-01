@@ -1,0 +1,25 @@
+{
+  "case": "gamus",
+  "expected_samples": 2861,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/gamus",
+  "weights": "weights/gamus/altimap_gamus.pth",
+  "source": "third_party/sources/altimap",
+  "execution": {
+    "cudnn_allow_tf32": false,
+    "cudnn_deterministic": true
+  },
+  "timing": {
+    "warmup": 25,
+    "repeats": 25,
+    "rounds": 3
+  },
+  "timer": "cuda_event",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "dense_backend": "sdpa",
+  "samples": "configs/gamus/samples.json",
+  "timing_summary": "median_weighted_round_medians",
+  "speedup_summary": "median_paired_round_ratios",
+  "timing_sample_id": "PHL_4085"
+}

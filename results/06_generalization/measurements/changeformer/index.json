@@ -1,0 +1,58 @@
+{
+  "case": "changeformer",
+  "files": [
+    {
+      "file": "accuracy_k12.json",
+      "resource_exponents": [
+        12
+      ],
+      "accuracy_units": 128
+    },
+    {
+      "file": "accuracy_k13.json",
+      "resource_exponents": [
+        13
+      ],
+      "accuracy_units": 128
+    },
+    {
+      "file": "accuracy_k14.json",
+      "resource_exponents": [
+        14
+      ],
+      "accuracy_units": 128
+    },
+    {
+      "file": "accuracy_k15.json",
+      "resource_exponents": [
+        15
+      ],
+      "accuracy_units": 128
+    },
+    {
+      "file": "accuracy_k16.json",
+      "resource_exponents": [
+        16
+      ],
+      "accuracy_units": 128
+    },
+    {
+      "file": "accuracy_k17.json",
+      "resource_exponents": [
+        17
+      ],
+      "accuracy_units": 128
+    },
+    {
+      "file": "timing.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ]
+}

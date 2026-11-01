@@ -1,0 +1,27 @@
+{
+  "case": "pi3",
+  "expected_samples": 10,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/tum/rgbd_dataset_freiburg1_desk",
+  "weights": "weights/pi3/model.safetensors",
+  "source": "third_party/sources/pi3",
+  "execution": {
+    "cudnn_allow_tf32": false,
+    "cudnn_deterministic": true
+  },
+  "timing": {
+    "warmup": 2,
+    "repeats": 5,
+    "rounds": 2
+  },
+  "timer": "cuda_event",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "dense_backend": "sdpa",
+  "release_evaluation_cache": true,
+  "samples": "configs/pi3/samples.json",
+  "precision": "BF16 autocast with FP32 prediction heads and normalization",
+  "release_timing_cache": true,
+  "timing_summary": "median_weighted_round_medians",
+  "speedup_summary": "median_paired_round_ratios"
+}

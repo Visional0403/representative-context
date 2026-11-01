@@ -1,0 +1,436 @@
+{
+  "case": "twins_uavid",
+  "inference_seed": 42,
+  "cudnn_allow_tf32": false,
+  "window_size": 2048,
+  "classes": 8,
+  "complete_windows": true,
+  "resource_exponents": [
+    14,
+    15,
+    16
+  ],
+  "sampled_pixels_per_window": 8192,
+  "windows": [
+    {
+      "index": 5,
+      "scene": "seq16",
+      "image": "val/seq16/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_005.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 40547,
+          "new_errors": 7941,
+          "corrections": 26646,
+          "wrong_class_switches": 5960,
+          "truncated_competition_sum": 85394.92670023016,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 10232363.7758134,
+          "label_change_percent": 0.9667158126831055,
+          "competition_bound_percent": 2.0359737086350957,
+          "new_error_percent": 0.18932819366455078,
+          "correction_percent": 0.6352901458740234,
+          "accuracy_change_pp": 0.44596195220947266,
+          "centered_vector_rms": 1.5619172936745818
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 27357,
+          "new_errors": 5992,
+          "corrections": 17237,
+          "wrong_class_switches": 4128,
+          "truncated_competition_sum": 59713.458613862684,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 3506146.7834619447,
+          "label_change_percent": 0.6522417068481445,
+          "competition_bound_percent": 1.42367979559571,
+          "new_error_percent": 0.14286041259765625,
+          "correction_percent": 0.4109621047973633,
+          "accuracy_change_pp": 0.26810169219970703,
+          "centered_vector_rms": 0.9142923680281437
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 18009,
+          "new_errors": 4083,
+          "corrections": 11185,
+          "wrong_class_switches": 2741,
+          "truncated_competition_sum": 35890.083036332595,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 1308189.102194078,
+          "label_change_percent": 0.4293680191040039,
+          "competition_bound_percent": 0.855686260135951,
+          "new_error_percent": 0.09734630584716797,
+          "correction_percent": 0.26667118072509766,
+          "accuracy_change_pp": 0.1693248748779297,
+          "centered_vector_rms": 0.5584770245419778
+        }
+      }
+    },
+    {
+      "index": 15,
+      "scene": "seq17",
+      "image": "val/seq17/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_015.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 75480,
+          "new_errors": 30064,
+          "corrections": 35724,
+          "wrong_class_switches": 9692,
+          "truncated_competition_sum": 138605.12270684936,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 27044458.15806899,
+          "label_change_percent": 1.7995834350585938,
+          "competition_bound_percent": 3.304603641196474,
+          "new_error_percent": 0.7167816162109375,
+          "correction_percent": 0.8517265319824219,
+          "accuracy_change_pp": 0.13494491577148438,
+          "centered_vector_rms": 2.5392718024304664
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 59637,
+          "new_errors": 21847,
+          "corrections": 28313,
+          "wrong_class_switches": 9477,
+          "truncated_competition_sum": 114430.38294316248,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 11681789.684231212,
+          "label_change_percent": 1.4218568801879883,
+          "competition_bound_percent": 2.728232930735647,
+          "new_error_percent": 0.5208730697631836,
+          "correction_percent": 0.6750345230102539,
+          "accuracy_change_pp": 0.1541614532470703,
+          "centered_vector_rms": 1.6688785749351858
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 33201,
+          "new_errors": 11982,
+          "corrections": 13023,
+          "wrong_class_switches": 8196,
+          "truncated_competition_sum": 64880.09550923105,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 5558388.36233062,
+          "label_change_percent": 0.7915735244750977,
+          "competition_bound_percent": 1.5468620183284532,
+          "new_error_percent": 0.2856731414794922,
+          "correction_percent": 0.31049251556396484,
+          "accuracy_change_pp": 0.024819374084472656,
+          "centered_vector_rms": 1.151183328337206
+        }
+      }
+    },
+    {
+      "index": 25,
+      "scene": "seq18",
+      "image": "val/seq18/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_025.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 47962,
+          "new_errors": 22783,
+          "corrections": 21778,
+          "wrong_class_switches": 3401,
+          "truncated_competition_sum": 90924.25046308606,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 5923110.720346552,
+          "label_change_percent": 1.143503189086914,
+          "competition_bound_percent": 2.1678030601283567,
+          "new_error_percent": 0.5431890487670898,
+          "correction_percent": 0.5192279815673828,
+          "accuracy_change_pp": -0.02396106719970703,
+          "centered_vector_rms": 1.188351649052694
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 31404,
+          "new_errors": 14777,
+          "corrections": 14650,
+          "wrong_class_switches": 1977,
+          "truncated_competition_sum": 63120.818551489676,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 2688796.4528912087,
+          "label_change_percent": 0.7487297058105469,
+          "competition_bound_percent": 1.5049175870773714,
+          "new_error_percent": 0.3523111343383789,
+          "correction_percent": 0.34928321838378906,
+          "accuracy_change_pp": -0.0030279159545898438,
+          "centered_vector_rms": 0.8006616200316107
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 20117,
+          "new_errors": 9041,
+          "corrections": 9593,
+          "wrong_class_switches": 1483,
+          "truncated_competition_sum": 40523.78152368524,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 1104326.1426123688,
+          "label_change_percent": 0.4796266555786133,
+          "competition_bound_percent": 0.9661622410699187,
+          "new_error_percent": 0.21555423736572266,
+          "correction_percent": 0.2287149429321289,
+          "accuracy_change_pp": 0.01316070556640625,
+          "centered_vector_rms": 0.51311974215221
+        }
+      }
+    },
+    {
+      "index": 35,
+      "scene": "seq19",
+      "image": "val/seq19/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_035.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 43822,
+          "new_errors": 20849,
+          "corrections": 16314,
+          "wrong_class_switches": 6659,
+          "truncated_competition_sum": 93986.95996143133,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 5023063.878514186,
+          "label_change_percent": 1.0447978973388672,
+          "competition_bound_percent": 2.24082374480799,
+          "new_error_percent": 0.49707889556884766,
+          "correction_percent": 0.38895606994628906,
+          "accuracy_change_pp": -0.1081228256225586,
+          "centered_vector_rms": 1.0943453534655938
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 31323,
+          "new_errors": 14096,
+          "corrections": 12567,
+          "wrong_class_switches": 4660,
+          "truncated_competition_sum": 66706.94805002236,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 2251482.7564658592,
+          "label_change_percent": 0.7467985153198242,
+          "competition_bound_percent": 1.5904175770288076,
+          "new_error_percent": 0.3360748291015625,
+          "correction_percent": 0.2996206283569336,
+          "accuracy_change_pp": -0.036454200744628906,
+          "centered_vector_rms": 0.7326631693133342
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 18975,
+          "new_errors": 8244,
+          "corrections": 7835,
+          "wrong_class_switches": 2896,
+          "truncated_competition_sum": 38359.410251299916,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 738546.5685194884,
+          "label_change_percent": 0.45239925384521484,
+          "competition_bound_percent": 0.9145596087288836,
+          "new_error_percent": 0.19655227661132812,
+          "correction_percent": 0.18680095672607422,
+          "accuracy_change_pp": -0.009751319885253906,
+          "centered_vector_rms": 0.4196227156229167
+        }
+      }
+    },
+    {
+      "index": 45,
+      "scene": "seq20",
+      "image": "val/seq20/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_045.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 52553,
+          "new_errors": 15683,
+          "corrections": 32175,
+          "wrong_class_switches": 4695,
+          "truncated_competition_sum": 96243.93828048861,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 5863813.635926686,
+          "label_change_percent": 1.2529611587524414,
+          "competition_bound_percent": 2.294634301197257,
+          "new_error_percent": 0.37391185760498047,
+          "correction_percent": 0.7671117782592773,
+          "accuracy_change_pp": 0.3931999206542969,
+          "centered_vector_rms": 1.1823883098178904
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 33716,
+          "new_errors": 9091,
+          "corrections": 21590,
+          "wrong_class_switches": 3035,
+          "truncated_competition_sum": 65399.05798138382,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 2577753.238667638,
+          "label_change_percent": 0.8038520812988281,
+          "competition_bound_percent": 1.559235047850223,
+          "new_error_percent": 0.21674633026123047,
+          "correction_percent": 0.5147457122802734,
+          "accuracy_change_pp": 0.29799938201904297,
+          "centered_vector_rms": 0.7839542489441518
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 13960,
+          "new_errors": 6270,
+          "corrections": 6138,
+          "wrong_class_switches": 1552,
+          "truncated_competition_sum": 29450.000348620204,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 913269.8873838267,
+          "label_change_percent": 0.33283233642578125,
+          "competition_bound_percent": 0.702142723765855,
+          "new_error_percent": 0.1494884490966797,
+          "correction_percent": 0.14634132385253906,
+          "accuracy_change_pp": -0.003147125244140625,
+          "centered_vector_rms": 0.4666267340029887
+        }
+      }
+    },
+    {
+      "index": 55,
+      "scene": "seq36",
+      "image": "val/seq36/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_055.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 84467,
+          "new_errors": 41768,
+          "corrections": 36064,
+          "wrong_class_switches": 6635,
+          "truncated_competition_sum": 152392.96989262453,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 5732963.76626469,
+          "label_change_percent": 2.013850212097168,
+          "competition_bound_percent": 3.6333315346866737,
+          "new_error_percent": 0.9958267211914062,
+          "correction_percent": 0.859832763671875,
+          "accuracy_change_pp": -0.13599395751953125,
+          "centered_vector_rms": 1.1691214971907624
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 53672,
+          "new_errors": 27726,
+          "corrections": 20419,
+          "wrong_class_switches": 5527,
+          "truncated_competition_sum": 97106.53884767875,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 2260712.9800245515,
+          "label_change_percent": 1.2796401977539062,
+          "competition_bound_percent": 2.315200301353425,
+          "new_error_percent": 0.6610393524169922,
+          "correction_percent": 0.48682689666748047,
+          "accuracy_change_pp": -0.17421245574951172,
+          "centered_vector_rms": 0.7341634534992276
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 31232,
+          "new_errors": 16244,
+          "corrections": 13132,
+          "wrong_class_switches": 1856,
+          "truncated_competition_sum": 59060.891808201566,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 812449.7364562249,
+          "label_change_percent": 0.74462890625,
+          "competition_bound_percent": 1.408121390538253,
+          "new_error_percent": 0.3872871398925781,
+          "correction_percent": 0.3130912780761719,
+          "accuracy_change_pp": -0.07419586181640625,
+          "centered_vector_rms": 0.440117156854095
+        }
+      }
+    },
+    {
+      "index": 65,
+      "scene": "seq37",
+      "image": "val/seq37/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "arrays": "window_065.npz",
+      "full_statistics": {
+        "k14": {
+          "pixels": 4194304,
+          "label_changes": 53259,
+          "new_errors": 25876,
+          "corrections": 22543,
+          "wrong_class_switches": 4840,
+          "truncated_competition_sum": 111701.3616195183,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 4764427.641630594,
+          "label_change_percent": 1.2697935104370117,
+          "competition_bound_percent": 2.6631679921035363,
+          "new_error_percent": 0.6169319152832031,
+          "correction_percent": 0.5374670028686523,
+          "accuracy_change_pp": -0.07946491241455078,
+          "centered_vector_rms": 1.0657992627834636
+        },
+        "k15": {
+          "pixels": 4194304,
+          "label_changes": 36121,
+          "new_errors": 17081,
+          "corrections": 15687,
+          "wrong_class_switches": 3353,
+          "truncated_competition_sum": 75720.3360344094,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 2073499.1476102462,
+          "label_change_percent": 0.8611917495727539,
+          "competition_bound_percent": 1.805313492641673,
+          "new_error_percent": 0.4072427749633789,
+          "correction_percent": 0.3740072250366211,
+          "accuracy_change_pp": -0.03323554992675781,
+          "centered_vector_rms": 0.703107901066071
+        },
+        "k16": {
+          "pixels": 4194304,
+          "label_changes": 22911,
+          "new_errors": 10765,
+          "corrections": 9951,
+          "wrong_class_switches": 2195,
+          "truncated_competition_sum": 47366.39974225773,
+          "unit_bound_pixels": 0,
+          "centered_error_squared_sum": 1033666.5347037688,
+          "label_change_percent": 0.5462408065795898,
+          "competition_bound_percent": 1.1293029723705705,
+          "new_error_percent": 0.25665760040283203,
+          "correction_percent": 0.23725032806396484,
+          "accuracy_change_pp": -0.019407272338867188,
+          "centered_vector_rms": 0.4964325799833332
+        }
+      }
+    }
+  ]
+}

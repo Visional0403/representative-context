@@ -1,0 +1,2975 @@
+{
+  "case": "segformer_uavid",
+  "k": 14,
+  "seed": 42,
+  "input_side": 2048,
+  "stride": 1024,
+  "complete_validation": true,
+  "images": [
+    "val/seq16/Images/000000.png",
+    "val/seq16/Images/000100.png",
+    "val/seq16/Images/000200.png",
+    "val/seq16/Images/000300.png",
+    "val/seq16/Images/000400.png",
+    "val/seq16/Images/000500.png",
+    "val/seq16/Images/000600.png",
+    "val/seq16/Images/000700.png",
+    "val/seq16/Images/000800.png",
+    "val/seq16/Images/000900.png",
+    "val/seq17/Images/000000.png",
+    "val/seq17/Images/000100.png",
+    "val/seq17/Images/000200.png",
+    "val/seq17/Images/000300.png",
+    "val/seq17/Images/000400.png",
+    "val/seq17/Images/000500.png",
+    "val/seq17/Images/000600.png",
+    "val/seq17/Images/000700.png",
+    "val/seq17/Images/000800.png",
+    "val/seq17/Images/000900.png",
+    "val/seq18/Images/000000.png",
+    "val/seq18/Images/000100.png",
+    "val/seq18/Images/000200.png",
+    "val/seq18/Images/000300.png",
+    "val/seq18/Images/000400.png",
+    "val/seq18/Images/000500.png",
+    "val/seq18/Images/000600.png",
+    "val/seq18/Images/000700.png",
+    "val/seq18/Images/000800.png",
+    "val/seq18/Images/000900.png",
+    "val/seq19/Images/000000.png",
+    "val/seq19/Images/000100.png",
+    "val/seq19/Images/000200.png",
+    "val/seq19/Images/000300.png",
+    "val/seq19/Images/000400.png",
+    "val/seq19/Images/000500.png",
+    "val/seq19/Images/000600.png",
+    "val/seq19/Images/000700.png",
+    "val/seq19/Images/000800.png",
+    "val/seq19/Images/000900.png",
+    "val/seq20/Images/000000.png",
+    "val/seq20/Images/000100.png",
+    "val/seq20/Images/000200.png",
+    "val/seq20/Images/000300.png",
+    "val/seq20/Images/000400.png",
+    "val/seq20/Images/000500.png",
+    "val/seq20/Images/000600.png",
+    "val/seq20/Images/000700.png",
+    "val/seq20/Images/000800.png",
+    "val/seq20/Images/000900.png",
+    "val/seq36/Images/000000.png",
+    "val/seq36/Images/000100.png",
+    "val/seq36/Images/000200.png",
+    "val/seq36/Images/000300.png",
+    "val/seq36/Images/000400.png",
+    "val/seq36/Images/000500.png",
+    "val/seq36/Images/000600.png",
+    "val/seq36/Images/000700.png",
+    "val/seq36/Images/000800.png",
+    "val/seq36/Images/000900.png",
+    "val/seq37/Images/000000.png",
+    "val/seq37/Images/000100.png",
+    "val/seq37/Images/000200.png",
+    "val/seq37/Images/000300.png",
+    "val/seq37/Images/000400.png",
+    "val/seq37/Images/000500.png",
+    "val/seq37/Images/000600.png",
+    "val/seq37/Images/000700.png",
+    "val/seq37/Images/000800.png",
+    "val/seq37/Images/000900.png"
+  ],
+  "patterns": [
+    "extent0",
+    "extent1",
+    "extent2",
+    "extent3",
+    "extent4",
+    "extent5",
+    "extent6",
+    "dispersed32"
+  ],
+  "layouts": [
+    {
+      "pattern": "extent0",
+      "miou_percent": 71.29194827504942,
+      "per_class_iou_percent": [
+        62.64519070043969,
+        90.57766010741678,
+        79.22549378099659,
+        77.21225838684444,
+        69.11844493149857,
+        68.91909372441275,
+        75.75553049804147,
+        46.881914070745054
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          95.69894409179688,
+          96.43929290771484,
+          96.88575744628906,
+          96.5814437866211,
+          96.6266860961914,
+          95.50643157958984,
+          97.03731536865234,
+          97.08438110351562,
+          97.32300567626953,
+          96.71270751953125,
+          96.39936065673828,
+          95.71430206298828,
+          96.91545867919922,
+          96.63385772705078,
+          97.13859558105469,
+          96.5713882446289,
+          95.43244934082031,
+          96.65219116210938,
+          97.01683044433594,
+          97.52985382080078
+        ],
+        "median_ms": 96.64302444458008,
+        "stdev_ms": 0.5786925894043288
+      }
+    },
+    {
+      "pattern": "extent1",
+      "miou_percent": 71.82471322076229,
+      "per_class_iou_percent": [
+        63.752281446726045,
+        90.68476742787537,
+        79.23660380419119,
+        78.15758105242145,
+        70.02484626091356,
+        69.31349597663765,
+        76.41137613055761,
+        47.01675366677545
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          96.20582580566406,
+          95.83103942871094,
+          97.32096099853516,
+          97.30048370361328,
+          97.35065460205078,
+          96.03276824951172,
+          96.1259536743164,
+          97.51136016845703,
+          97.73465728759766,
+          97.21855926513672,
+          97.24825286865234,
+          96.74854278564453,
+          95.80742645263672,
+          97.05062103271484,
+          97.44691467285156,
+          96.8057632446289,
+          96.58863830566406,
+          96.78534698486328,
+          96.08499145507812,
+          96.99533081054688
+        ],
+        "median_ms": 96.90054702758789,
+        "stdev_ms": 0.5906498298772458
+      }
+    },
+    {
+      "pattern": "extent2",
+      "miou_percent": 72.17288870653896,
+      "per_class_iou_percent": [
+        64.69130849305176,
+        90.96655288616577,
+        79.37732794267514,
+        78.80548236088111,
+        70.77697551967465,
+        69.19333369823914,
+        76.18723209152995,
+        47.384896660094086
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          97.368896484375,
+          96.51200103759766,
+          95.47366333007812,
+          97.11923217773438,
+          96.66252899169922,
+          97.9783706665039,
+          97.47660827636719,
+          96.74752044677734,
+          95.5280990600586,
+          97.112060546875,
+          97.54214477539062,
+          97.10694122314453,
+          97.16429138183594,
+          95.7712631225586,
+          95.96006774902344,
+          97.2759017944336,
+          97.40799713134766,
+          98.07769775390625,
+          97.23494720458984,
+          95.5156478881836
+        ],
+        "median_ms": 97.11564636230469,
+        "stdev_ms": 0.7875917208772035
+      }
+    },
+    {
+      "pattern": "extent3",
+      "miou_percent": 72.02058080240043,
+      "per_class_iou_percent": [
+        64.77367715944825,
+        90.73644048183863,
+        79.24073463453126,
+        78.97123015727956,
+        70.98857573045623,
+        68.57209077890144,
+        76.08605940265224,
+        46.795838074095826
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          96.35494232177734,
+          95.52178955078125,
+          96.74649810791016,
+          96.81791687011719,
+          97.46943664550781,
+          98.06233978271484,
+          96.24540710449219,
+          96.12054443359375,
+          96.04402923583984,
+          97.10054779052734,
+          97.26361846923828,
+          96.23040008544922,
+          96.1269760131836,
+          96.20787048339844,
+          97.33222198486328,
+          97.0198745727539,
+          97.29942321777344,
+          96.395263671875,
+          95.63510131835938,
+          97.35151672363281
+        ],
+        "median_ms": 96.57088088989258,
+        "stdev_ms": 0.659715348702003
+      }
+    },
+    {
+      "pattern": "extent4",
+      "miou_percent": 71.8741366352797,
+      "per_class_iou_percent": [
+        64.25045863557816,
+        90.57682183748808,
+        79.17674943720587,
+        78.72722626571831,
+        70.81377079850387,
+        68.79957258941666,
+        76.26656647119022,
+        46.381927047136365
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          96.95231628417969,
+          97.30560302734375,
+          97.55926513671875,
+          95.06201934814453,
+          95.50335693359375,
+          97.07520294189453,
+          97.24607849121094,
+          97.21113586425781,
+          95.22665405273438,
+          95.41426849365234,
+          96.93798065185547,
+          97.82563018798828,
+          97.80838775634766,
+          96.88543701171875,
+          94.86233520507812,
+          96.49868774414062,
+          96.74137878417969,
+          96.63488006591797,
+          96.65740966796875,
+          95.1388168334961
+        ],
+        "median_ms": 96.81340789794922,
+        "stdev_ms": 0.939700893617843
+      }
+    },
+    {
+      "pattern": "extent5",
+      "miou_percent": 71.93370672582459,
+      "per_class_iou_percent": [
+        64.2242145621497,
+        90.6281793049583,
+        78.98686846905554,
+        78.68005104510694,
+        70.82506687501946,
+        69.09151858193071,
+        76.32643131518287,
+        46.70732365319326
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          96.01741027832031,
+          96.3051528930664,
+          96.79644775390625,
+          97.00863647460938,
+          97.79609680175781,
+          97.10591888427734,
+          95.34976196289062,
+          96.81817626953125,
+          98.4115219116211,
+          97.691650390625,
+          97.48889923095703,
+          97.11299133300781,
+          96.4505615234375,
+          96.048095703125,
+          97.2258529663086,
+          97.13459014892578,
+          97.25337219238281,
+          96.1072998046875,
+          95.889404296875,
+          97.12025451660156
+        ],
+        "median_ms": 97.05727767944336,
+        "stdev_ms": 0.7276187575813665
+      }
+    },
+    {
+      "pattern": "extent6",
+      "miou_percent": 72.00472851896575,
+      "per_class_iou_percent": [
+        64.36801547557872,
+        90.6712621187046,
+        79.054783046567,
+        78.72868885053353,
+        70.78971058352468,
+        69.13424698281024,
+        76.39478698949982,
+        46.8963341045075
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          95.77062225341797,
+          97.3031997680664,
+          96.88371276855469,
+          96.3880615234375,
+          95.67436981201172,
+          96.43536376953125,
+          97.49606323242188,
+          97.11103820800781,
+          97.85238647460938,
+          95.8787841796875,
+          95.54739379882812,
+          96.80793762207031,
+          97.29740905761719,
+          96.99238586425781,
+          97.20832061767578,
+          96.22220611572266,
+          95.29945373535156,
+          97.17766571044922,
+          96.8622055053711,
+          97.58924865722656
+        ],
+        "median_ms": 96.87295913696289,
+        "stdev_ms": 0.7266222427100127
+      }
+    },
+    {
+      "pattern": "dispersed32",
+      "miou_percent": 72.07881086502118,
+      "per_class_iou_percent": [
+        64.303153323266,
+        90.67057883201362,
+        79.07834571116811,
+        78.76846304552178,
+        70.90966760549418,
+        69.3789975233478,
+        76.65397162861233,
+        46.86730925074561
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          96.86624145507812,
+          95.6866226196289,
+          97.31858825683594,
+          96.85913848876953,
+          97.45817565917969,
+          96.7372817993164,
+          95.8187484741211,
+          95.93753814697266,
+          96.42598724365234,
+          97.65580749511719,
+          96.48912048339844,
+          95.8238754272461,
+          96.19660949707031,
+          96.84786987304688,
+          97.65580749511719,
+          97.66809844970703,
+          96.27545928955078,
+          95.61907196044922,
+          97.15609741210938,
+          98.18214416503906
+        ],
+        "median_ms": 96.79257583618164,
+        "stdev_ms": 0.7434345117989047
+      }
+    }
+  ],
+  "arrays": "confusion.npz",
+  "windows": [
+    {
+      "index": 0,
+      "image": "val/seq16/Images/000000.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.08601139485836029,
+            "difference_rms": 5.711181216838668e-08,
+            "relative_l2": 6.6400286868884e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.4642488658428192,
+              "aggregation_error_squared_sum": 13.061832427978516,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.040115781128406525
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4070563018321991,
+              "aggregation_error_squared_sum": 10.04179573059082,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.033990949392318726
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3961626887321472,
+              "aggregation_error_squared_sum": 9.511512756347656,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.02715623378753662
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.388164758682251,
+              "aggregation_error_squared_sum": 9.131343841552734,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.0236088577657938
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.36063212156295776,
+              "aggregation_error_squared_sum": 7.8819050788879395,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.021024074405431747
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.33284348249435425,
+              "aggregation_error_squared_sum": 6.714018821716309,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.019027642905712128
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.30384424328804016,
+              "aggregation_error_squared_sum": 5.595057010650635,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.01771744154393673
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2976655960083008,
+              "aggregation_error_squared_sum": 5.3698201179504395,
+              "dense_aggregation_squared_sum": 60.60416030883789,
+              "retained_dense_probability_mass": 0.01648828014731407
+            }
+          }
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.06771548837423325,
+            "difference_rms": 4.379497653417275e-08,
+            "relative_l2": 6.467498110396264e-07,
+            "cosine_similarity": 0.9999998807907104,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.108730435371399,
+              "aggregation_error_squared_sum": 46.17621612548828,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.027852918952703476
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.9612317085266113,
+              "aggregation_error_squared_sum": 34.70744323730469,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.023658357560634613
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.893606424331665,
+              "aggregation_error_squared_sum": 29.995698928833008,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.019669070839881897
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.83343905210495,
+              "aggregation_error_squared_sum": 26.092403411865234,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.019756533205509186
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.7708420157432556,
+              "aggregation_error_squared_sum": 22.32015609741211,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.019018707796931267
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.6858149170875549,
+              "aggregation_error_squared_sum": 17.667709350585938,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.01723305508494377
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5875707268714905,
+              "aggregation_error_squared_sum": 12.96841049194336,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.016365516930818558
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5490627288818359,
+              "aggregation_error_squared_sum": 11.324274063110352,
+              "dense_aggregation_squared_sum": 37.56352996826172,
+              "retained_dense_probability_mass": 0.01640324667096138
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.06995958089828491,
+            "difference_rms": 1.0058607102791939e-07,
+            "relative_l2": 1.4377740171767073e-06,
+            "cosine_similarity": 1.000000238418579,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9442487955093384,
+              "aggregation_error_squared_sum": 71.49699401855469,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.056305889040231705
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7920878529548645,
+              "aggregation_error_squared_sum": 50.31084442138672,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.047367505729198456
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.748469352722168,
+              "aggregation_error_squared_sum": 44.922401428222656,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.042209211736917496
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.6302536129951477,
+              "aggregation_error_squared_sum": 31.852645874023438,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.039362285286188126
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.5185138583183289,
+              "aggregation_error_squared_sum": 21.559349060058594,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.03536500781774521
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.40767645835876465,
+              "aggregation_error_squared_sum": 13.327421188354492,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.03171835094690323
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.40767645835876465,
+              "aggregation_error_squared_sum": 13.327421188354492,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.03171835094690323
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.42914989590644836,
+              "aggregation_error_squared_sum": 14.768380165100098,
+              "dense_aggregation_squared_sum": 80.18902587890625,
+              "retained_dense_probability_mass": 0.03173007816076279
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.06386640667915344,
+            "difference_rms": 7.76535813429291e-08,
+            "relative_l2": 1.2158752724644728e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.0994443893432617,
+              "aggregation_error_squared_sum": 80.78147888183594,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.0422692745923996
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8955628275871277,
+              "aggregation_error_squared_sum": 53.59908676147461,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.03782180696725845
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.8613828420639038,
+              "aggregation_error_squared_sum": 49.585845947265625,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.03705338388681412
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.7056469917297363,
+              "aggregation_error_squared_sum": 33.276702880859375,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.03493789955973625
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.6298070549964905,
+              "aggregation_error_squared_sum": 26.50820541381836,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.03349754214286804
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.5474486947059631,
+              "aggregation_error_squared_sum": 20.028671264648438,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.031570062041282654
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5474486947059631,
+              "aggregation_error_squared_sum": 20.028671264648438,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.031570062041282654
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5551515817642212,
+              "aggregation_error_squared_sum": 20.596267700195312,
+              "dense_aggregation_squared_sum": 66.82905578613281,
+              "retained_dense_probability_mass": 0.03184594213962555
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.1353144645690918,
+            "difference_rms": 1.8062566198295826e-07,
+            "relative_l2": 1.3348585525818635e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8815832138061523,
+              "aggregation_error_squared_sum": 582.875,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.11032465845346451
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7777420878410339,
+              "aggregation_error_squared_sum": 453.64910888671875,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.0955699011683464
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6916636824607849,
+              "aggregation_error_squared_sum": 358.7886962890625,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.08757247775793076
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5571064949035645,
+              "aggregation_error_squared_sum": 232.76907348632812,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.07493630796670914
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4291084408760071,
+              "aggregation_error_squared_sum": 138.0966033935547,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.06666933745145798
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.4291084408760071,
+              "aggregation_error_squared_sum": 138.0966033935547,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.06666933745145798
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.4291084408760071,
+              "aggregation_error_squared_sum": 138.0966033935547,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.06666933745145798
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.42938852310180664,
+              "aggregation_error_squared_sum": 138.27691650390625,
+              "dense_aggregation_squared_sum": 749.978515625,
+              "retained_dense_probability_mass": 0.06747443974018097
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.13332436978816986,
+            "difference_rms": 1.6792580481705954e-07,
+            "relative_l2": 1.2595281759786303e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.221665859222412,
+              "aggregation_error_squared_sum": 1086.6370849609375,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.10524914413690567
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.0843853950500488,
+              "aggregation_error_squared_sum": 856.144287109375,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.09201285988092422
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.9694185853004456,
+              "aggregation_error_squared_sum": 684.230224609375,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.08395266532897949
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.7650438547134399,
+              "aggregation_error_squared_sum": 426.13995361328125,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.07310330122709274
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.5760221481323242,
+              "aggregation_error_squared_sum": 241.57835388183594,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.06453902274370193
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.5760221481323242,
+              "aggregation_error_squared_sum": 241.57835388183594,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.06453902274370193
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5760221481323242,
+              "aggregation_error_squared_sum": 241.57835388183594,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.06453902274370193
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5888650417327881,
+              "aggregation_error_squared_sum": 252.47079467773438,
+              "dense_aggregation_squared_sum": 728.080810546875,
+              "retained_dense_probability_mass": 0.06496217101812363
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.19728370010852814,
+            "difference_rms": 2.422699481030577e-07,
+            "relative_l2": 1.2280281680432381e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.0564422607421875,
+              "aggregation_error_squared_sum": 2846.783203125,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.17559759318828583
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8645007014274597,
+              "aggregation_error_squared_sum": 1906.3096923828125,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.15986251831054688
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6335466504096985,
+              "aggregation_error_squared_sum": 1023.8114013671875,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.14481763541698456
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.381793737411499,
+              "aggregation_error_squared_sum": 371.80938720703125,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.12621277570724487
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.381793737411499,
+              "aggregation_error_squared_sum": 371.80938720703125,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.12621277570724487
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.381793737411499,
+              "aggregation_error_squared_sum": 371.80938720703125,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.12621277570724487
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.381793737411499,
+              "aggregation_error_squared_sum": 371.80938720703125,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.12621277570724487
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.39668503403663635,
+              "aggregation_error_squared_sum": 401.37884521484375,
+              "dense_aggregation_squared_sum": 2550.72021484375,
+              "retained_dense_probability_mass": 0.12990868091583252
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.3149719834327698,
+            "difference_rms": 3.712184479809366e-07,
+            "relative_l2": 1.178576098936901e-06,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.1120332479476929,
+              "aggregation_error_squared_sum": 8040.0693359375,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.1654796004295349
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.9772867560386658,
+              "aggregation_error_squared_sum": 6209.6669921875,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.15085801482200623
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6112322211265564,
+              "aggregation_error_squared_sum": 2429.05126953125,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.13668134808540344
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3175642490386963,
+              "aggregation_error_squared_sum": 655.6732177734375,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.1243540495634079
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3175642490386963,
+              "aggregation_error_squared_sum": 655.6732177734375,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.1243540495634079
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.3175642490386963,
+              "aggregation_error_squared_sum": 655.6732177734375,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.1243540495634079
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.3175642490386963,
+              "aggregation_error_squared_sum": 655.6732177734375,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.1243540495634079
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.33321255445480347,
+              "aggregation_error_squared_sum": 721.8832397460938,
+              "dense_aggregation_squared_sum": 6501.66015625,
+              "retained_dense_probability_mass": 0.1316068023443222
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "image": "val/seq17/Images/000700.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.08237449824810028,
+            "difference_rms": 5.489030741046008e-08,
+            "relative_l2": 6.663507292614668e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.416083425283432,
+              "aggregation_error_squared_sum": 9.62358283996582,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.033641282469034195
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.37421971559524536,
+              "aggregation_error_squared_sum": 7.784473419189453,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.02997634746134281
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3595806360244751,
+              "aggregation_error_squared_sum": 7.1873459815979,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.0262466911226511
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.33626362681388855,
+              "aggregation_error_squared_sum": 6.285440444946289,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.02337750792503357
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.30236682295799255,
+              "aggregation_error_squared_sum": 5.0821123123168945,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.019206160679459572
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.2649518549442291,
+              "aggregation_error_squared_sum": 3.9022035598754883,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.017614267766475677
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.21814019978046417,
+              "aggregation_error_squared_sum": 2.645131826400757,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.016097867861390114
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.20838256180286407,
+              "aggregation_error_squared_sum": 2.413785696029663,
+              "dense_aggregation_squared_sum": 55.58735275268555,
+              "retained_dense_probability_mass": 0.015828203409910202
+            }
+          }
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.07897204160690308,
+            "difference_rms": 5.731924801466448e-08,
+            "relative_l2": 7.258169034685125e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.99982088804245,
+              "aggregation_error_squared_sum": 51.071861267089844,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.029441114515066147
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.9219608902931213,
+              "aggregation_error_squared_sum": 43.427249908447266,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.026155926287174225
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.9034582376480103,
+              "aggregation_error_squared_sum": 41.7016716003418,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.021058974787592888
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.7675102949142456,
+              "aggregation_error_squared_sum": 30.095788955688477,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.02123032510280609
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.7413939237594604,
+              "aggregation_error_squared_sum": 28.082469940185547,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.01829395443201065
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.6807732582092285,
+              "aggregation_error_squared_sum": 23.677852630615234,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.01757720299065113
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.523094892501831,
+              "aggregation_error_squared_sum": 13.979713439941406,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.015161724761128426
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5257769823074341,
+              "aggregation_error_squared_sum": 14.123437881469727,
+              "dense_aggregation_squared_sum": 51.09016418457031,
+              "retained_dense_probability_mass": 0.016246914863586426
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.07929601520299911,
+            "difference_rms": 1.0793198867986575e-07,
+            "relative_l2": 1.361127488053171e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9102508425712585,
+              "aggregation_error_squared_sum": 85.35823059082031,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.060022637248039246
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8488973379135132,
+              "aggregation_error_squared_sum": 74.2392578125,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.05152565985918045
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.7592303156852722,
+              "aggregation_error_squared_sum": 59.384117126464844,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.04821553826332092
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.6644033193588257,
+              "aggregation_error_squared_sum": 45.47648239135742,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.03941367566585541
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.5591797232627869,
+              "aggregation_error_squared_sum": 32.21261978149414,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.03678710386157036
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.2829454243183136,
+              "aggregation_error_squared_sum": 8.247618675231934,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.03135692700743675
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.2829454243183136,
+              "aggregation_error_squared_sum": 8.247618675231934,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.03135692700743675
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2794450521469116,
+              "aggregation_error_squared_sum": 8.044815063476562,
+              "dense_aggregation_squared_sum": 103.02041625976562,
+              "retained_dense_probability_mass": 0.03219328075647354
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.05943719670176506,
+            "difference_rms": 7.621628128617886e-08,
+            "relative_l2": 1.2822994222005946e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.476204514503479,
+              "aggregation_error_squared_sum": 126.1334228515625,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.046776026487350464
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.4184168577194214,
+              "aggregation_error_squared_sum": 116.45146179199219,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.041873615235090256
+            },
+            "extent2": {
+              "aggregation_relative_l2": 1.3037636280059814,
+              "aggregation_error_squared_sum": 98.3863525390625,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.04060395807027817
+            },
+            "extent3": {
+              "aggregation_relative_l2": 1.097172498703003,
+              "aggregation_error_squared_sum": 69.67659759521484,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.036780789494514465
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.8187881708145142,
+              "aggregation_error_squared_sum": 38.8043327331543,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.035338811576366425
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.5636884570121765,
+              "aggregation_error_squared_sum": 18.39142608642578,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.031451620161533356
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5636884570121765,
+              "aggregation_error_squared_sum": 18.39142608642578,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.031451620161533356
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5609299540519714,
+              "aggregation_error_squared_sum": 18.211868286132812,
+              "dense_aggregation_squared_sum": 57.88114547729492,
+              "retained_dense_probability_mass": 0.03176210820674896
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.1622769683599472,
+            "difference_rms": 2.5311265972050023e-07,
+            "relative_l2": 1.5597571518810582e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8359304070472717,
+              "aggregation_error_squared_sum": 753.7278442382812,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.13110998272895813
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7602364420890808,
+              "aggregation_error_squared_sum": 623.406982421875,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.11372166126966476
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6623796224594116,
+              "aggregation_error_squared_sum": 473.24737548828125,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.09460585564374924
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5028179883956909,
+              "aggregation_error_squared_sum": 272.7067565917969,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.07788307964801788
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.305090993642807,
+              "aggregation_error_squared_sum": 100.39984893798828,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.06619516015052795
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.305090993642807,
+              "aggregation_error_squared_sum": 100.39984893798828,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.06619516015052795
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.305090993642807,
+              "aggregation_error_squared_sum": 100.39984893798828,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.06619516015052795
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.30154111981391907,
+              "aggregation_error_squared_sum": 98.07705688476562,
+              "dense_aggregation_squared_sum": 1078.634521484375,
+              "retained_dense_probability_mass": 0.06645649671554565
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.16927073895931244,
+            "difference_rms": 2.2160519108638255e-07,
+            "relative_l2": 1.309176013819524e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.0333881378173828,
+              "aggregation_error_squared_sum": 1253.28857421875,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.1335626095533371
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.9283978343009949,
+              "aggregation_error_squared_sum": 1011.5617065429688,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.12015759944915771
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.8470273017883301,
+              "aggregation_error_squared_sum": 842.013427734375,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.10060548782348633
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.7300810217857361,
+              "aggregation_error_squared_sum": 625.5560913085938,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.08196254819631577
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4004075825214386,
+              "aggregation_error_squared_sum": 188.16064453125,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.06493963301181793
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.4004075825214386,
+              "aggregation_error_squared_sum": 188.16064453125,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.06493963301181793
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.4004075825214386,
+              "aggregation_error_squared_sum": 188.16064453125,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.06493963301181793
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.37921494245529175,
+              "aggregation_error_squared_sum": 168.76992797851562,
+              "dense_aggregation_squared_sum": 1173.611083984375,
+              "retained_dense_probability_mass": 0.06594772636890411
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2528931200504303,
+            "difference_rms": 3.1000496392152854e-07,
+            "relative_l2": 1.2258338983883732e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8814356327056885,
+              "aggregation_error_squared_sum": 3256.383544921875,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.19724246859550476
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.72181236743927,
+              "aggregation_error_squared_sum": 2183.75048828125,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.17375926673412323
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6212854981422424,
+              "aggregation_error_squared_sum": 1617.844482421875,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.15129134058952332
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.31512007117271423,
+              "aggregation_error_squared_sum": 416.20428466796875,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.12543940544128418
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.31512007117271423,
+              "aggregation_error_squared_sum": 416.20428466796875,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.12543940544128418
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.31512007117271423,
+              "aggregation_error_squared_sum": 416.20428466796875,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.12543940544128418
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.31512007117271423,
+              "aggregation_error_squared_sum": 416.20428466796875,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.12543940544128418
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.30828505754470825,
+              "aggregation_error_squared_sum": 398.3448791503906,
+              "dense_aggregation_squared_sum": 4191.35498046875,
+              "retained_dense_probability_mass": 0.12951597571372986
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.3467186689376831,
+            "difference_rms": 3.7449549949997163e-07,
+            "relative_l2": 1.0801134067150997e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.1495842933654785,
+              "aggregation_error_squared_sum": 10411.5732421875,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.17090436816215515
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.0244054794311523,
+              "aggregation_error_squared_sum": 8267.58203125,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.14908981323242188
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.8307850956916809,
+              "aggregation_error_squared_sum": 5437.6611328125,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.13886569440364838
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.271516889333725,
+              "aggregation_error_squared_sum": 580.802490234375,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.12477206438779831
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.271516889333725,
+              "aggregation_error_squared_sum": 580.802490234375,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.12477206438779831
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.271516889333725,
+              "aggregation_error_squared_sum": 580.802490234375,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.12477206438779831
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.271516889333725,
+              "aggregation_error_squared_sum": 580.802490234375,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.12477206438779831
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.26817306876182556,
+              "aggregation_error_squared_sum": 566.5850830078125,
+              "dense_aggregation_squared_sum": 7878.34130859375,
+              "retained_dense_probability_mass": 0.1332569420337677
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "image": "val/seq19/Images/000400.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.08190033584833145,
+            "difference_rms": 6.087049797542932e-08,
+            "relative_l2": 7.432264510498499e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.48225879669189453,
+              "aggregation_error_squared_sum": 12.779743194580078,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.03442325443029404
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4478723406791687,
+              "aggregation_error_squared_sum": 11.022253036499023,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.02901417762041092
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.38799169659614563,
+              "aggregation_error_squared_sum": 8.271928787231445,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.025494253262877464
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3676559329032898,
+              "aggregation_error_squared_sum": 7.427539825439453,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.021485719829797745
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3157911002635956,
+              "aggregation_error_squared_sum": 5.479761123657227,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.019006378948688507
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.27344268560409546,
+              "aggregation_error_squared_sum": 4.108606338500977,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.01734914630651474
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.22841055691242218,
+              "aggregation_error_squared_sum": 2.86677885055542,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.01625940203666687
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.23052264750003815,
+              "aggregation_error_squared_sum": 2.920041561126709,
+              "dense_aggregation_squared_sum": 54.94926452636719,
+              "retained_dense_probability_mass": 0.016726139932870865
+            }
+          }
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.06916610151529312,
+            "difference_rms": 5.106715761371561e-08,
+            "relative_l2": 7.383263778137916e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.136144995689392,
+              "aggregation_error_squared_sum": 50.5876579284668,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.030092917382717133
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.04091215133667,
+              "aggregation_error_squared_sum": 42.462467193603516,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.026726018637418747
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.9253221154212952,
+              "aggregation_error_squared_sum": 33.555442810058594,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.023406919091939926
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.8056287169456482,
+              "aggregation_error_squared_sum": 25.435890197753906,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.01932612806558609
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.609929621219635,
+              "aggregation_error_squared_sum": 14.579296112060547,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.01794285699725151
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.5507087707519531,
+              "aggregation_error_squared_sum": 11.885597229003906,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.01669362187385559
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.4809756577014923,
+              "aggregation_error_squared_sum": 9.066158294677734,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.01629979908466339
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.4626926779747009,
+              "aggregation_error_squared_sum": 8.390007019042969,
+              "dense_aggregation_squared_sum": 39.19016647338867,
+              "retained_dense_probability_mass": 0.01585535891354084
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.07658558338880539,
+            "difference_rms": 9.121452393401341e-08,
+            "relative_l2": 1.1910142347915098e-06,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8341978192329407,
+              "aggregation_error_squared_sum": 66.87326049804688,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.06337673962116241
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7338423132896423,
+              "aggregation_error_squared_sum": 51.75114440917969,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.052346717566251755
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6299548745155334,
+              "aggregation_error_squared_sum": 38.135833740234375,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.045470014214515686
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5038540363311768,
+              "aggregation_error_squared_sum": 24.396297454833984,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.03839492052793503
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.46873345971107483,
+              "aggregation_error_squared_sum": 21.11379623413086,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.03568702191114426
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.34674790501594543,
+              "aggregation_error_squared_sum": 11.554258346557617,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.032012514770030975
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.34674790501594543,
+              "aggregation_error_squared_sum": 11.554258346557617,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.032012514770030975
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3582037687301636,
+              "aggregation_error_squared_sum": 12.330330848693848,
+              "dense_aggregation_squared_sum": 96.0980224609375,
+              "retained_dense_probability_mass": 0.031949639320373535
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.08372224122285843,
+            "difference_rms": 9.349049179263602e-08,
+            "relative_l2": 1.1166745252921828e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.0328477621078491,
+              "aggregation_error_squared_sum": 122.51093292236328,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.0540214478969574
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8679755330085754,
+              "aggregation_error_squared_sum": 86.52012634277344,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.04832722619175911
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.7242939472198486,
+              "aggregation_error_squared_sum": 60.24650573730469,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.04203365370631218
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.56659334897995,
+              "aggregation_error_squared_sum": 36.86762237548828,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.03757057338953018
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.467194527387619,
+              "aggregation_error_squared_sum": 25.06673240661621,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.034284379333257675
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.34982892870903015,
+              "aggregation_error_squared_sum": 14.054441452026367,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.03171433508396149
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.34982892870903015,
+              "aggregation_error_squared_sum": 14.054441452026367,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.03171433508396149
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3442608416080475,
+              "aggregation_error_squared_sum": 13.610603332519531,
+              "dense_aggregation_squared_sum": 114.8423843383789,
+              "retained_dense_probability_mass": 0.03166193515062332
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.1384195238351822,
+            "difference_rms": 2.9841453397239093e-07,
+            "relative_l2": 2.155870333808707e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9849233627319336,
+              "aggregation_error_squared_sum": 761.3072509765625,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.12304659187793732
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8509228825569153,
+              "aggregation_error_squared_sum": 568.2449340820312,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.09911227226257324
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6426889896392822,
+              "aggregation_error_squared_sum": 324.1580810546875,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.08271897584199905
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5376547574996948,
+              "aggregation_error_squared_sum": 226.86219787597656,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.07384484261274338
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.42924147844314575,
+              "aggregation_error_squared_sum": 144.59674072265625,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.06819216161966324
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.42924147844314575,
+              "aggregation_error_squared_sum": 144.59674072265625,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.06819216161966324
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.42924147844314575,
+              "aggregation_error_squared_sum": 144.59674072265625,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.06819216161966324
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.4178712069988251,
+              "aggregation_error_squared_sum": 137.03768920898438,
+              "dense_aggregation_squared_sum": 784.7930908203125,
+              "retained_dense_probability_mass": 0.06923392415046692
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.13506589829921722,
+            "difference_rms": 2.0426961100383778e-07,
+            "relative_l2": 1.5123700904950965e-06,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.1985270977020264,
+              "aggregation_error_squared_sum": 1073.365478515625,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.10677728801965714
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.012535810470581,
+              "aggregation_error_squared_sum": 766.0775146484375,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.08954337984323502
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.7352586984634399,
+              "aggregation_error_squared_sum": 403.9542541503906,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.07796377688646317
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.619121253490448,
+              "aggregation_error_squared_sum": 286.419921875,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.06990666687488556
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4948860704898834,
+              "aggregation_error_squared_sum": 183.00473022460938,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.06428013741970062
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.4948860704898834,
+              "aggregation_error_squared_sum": 183.00473022460938,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.06428013741970062
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.4948860704898834,
+              "aggregation_error_squared_sum": 183.00473022460938,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.06428013741970062
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.4950176179409027,
+              "aggregation_error_squared_sum": 183.10205078125,
+              "dense_aggregation_squared_sum": 747.225830078125,
+              "retained_dense_probability_mass": 0.06563730537891388
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.22407595813274384,
+            "difference_rms": 3.1612884754395054e-07,
+            "relative_l2": 1.410811137247947e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8926987051963806,
+              "aggregation_error_squared_sum": 2622.29052734375,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.16795554757118225
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5780802369117737,
+              "aggregation_error_squared_sum": 1099.631591796875,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.1464606523513794
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.49087876081466675,
+              "aggregation_error_squared_sum": 792.9019165039062,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.13508646190166473
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.29664233326911926,
+              "aggregation_error_squared_sum": 289.5591125488281,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.12625253200531006
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.29664233326911926,
+              "aggregation_error_squared_sum": 289.5591125488281,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.12625253200531006
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.29664233326911926,
+              "aggregation_error_squared_sum": 289.5591125488281,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.12625253200531006
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.29664233326911926,
+              "aggregation_error_squared_sum": 289.5591125488281,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.12625253200531006
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3037967383861542,
+              "aggregation_error_squared_sum": 303.6946716308594,
+              "dense_aggregation_squared_sum": 3290.568603515625,
+              "retained_dense_probability_mass": 0.13097664713859558
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.3611246645450592,
+            "difference_rms": 6.216018846316729e-07,
+            "relative_l2": 1.7212944385391893e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8665418028831482,
+              "aggregation_error_squared_sum": 6417.61572265625,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.15289942920207977
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5263659954071045,
+              "aggregation_error_squared_sum": 2367.93798828125,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.1387915313243866
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.4067324995994568,
+              "aggregation_error_squared_sum": 1413.8795166015625,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.1300395429134369
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.24439699947834015,
+              "aggregation_error_squared_sum": 510.4890441894531,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.1265781819820404
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.24439699947834015,
+              "aggregation_error_squared_sum": 510.4890441894531,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.1265781819820404
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.24439699947834015,
+              "aggregation_error_squared_sum": 510.4890441894531,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.1265781819820404
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.24439699947834015,
+              "aggregation_error_squared_sum": 510.4890441894531,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.1265781819820404
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.24833370745182037,
+              "aggregation_error_squared_sum": 527.0672607421875,
+              "dense_aggregation_squared_sum": 8546.6259765625,
+              "retained_dense_probability_mass": 0.13483074307441711
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "image": "val/seq36/Images/000100.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.05957502871751785,
+            "difference_rms": 4.6459003755217054e-08,
+            "relative_l2": 7.798402634762169e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6218467950820923,
+              "aggregation_error_squared_sum": 11.243093490600586,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.035622209310531616
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5407741069793701,
+              "aggregation_error_squared_sum": 8.502580642700195,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.02926633507013321
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.51668781042099,
+              "aggregation_error_squared_sum": 7.7620320320129395,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.027132846415042877
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.4471060633659363,
+              "aggregation_error_squared_sum": 5.812194347381592,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.02063228189945221
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.36882978677749634,
+              "aggregation_error_squared_sum": 3.9552226066589355,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.018615491688251495
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.31207990646362305,
+              "aggregation_error_squared_sum": 2.8317220211029053,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.01667088270187378
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.3102582097053528,
+              "aggregation_error_squared_sum": 2.7987592220306396,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.016529642045497894
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.29381439089775085,
+              "aggregation_error_squared_sum": 2.5099503993988037,
+              "dense_aggregation_squared_sum": 29.074951171875,
+              "retained_dense_probability_mass": 0.01644224487245083
+            }
+          }
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.07907098531723022,
+            "difference_rms": 5.1082182039863255e-08,
+            "relative_l2": 6.460293775489845e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8070859313011169,
+              "aggregation_error_squared_sum": 33.36293029785156,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.02681475505232811
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6742663979530334,
+              "aggregation_error_squared_sum": 23.285619735717773,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.02395358309149742
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6242727041244507,
+              "aggregation_error_squared_sum": 19.960590362548828,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.02247229591012001
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5481171011924744,
+              "aggregation_error_squared_sum": 15.387618064880371,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.01903291419148445
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4780413806438446,
+              "aggregation_error_squared_sum": 11.70457649230957,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.01736113615334034
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.38053759932518005,
+              "aggregation_error_squared_sum": 7.416856288909912,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.016503775492310524
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.36573073267936707,
+              "aggregation_error_squared_sum": 6.850899696350098,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.016340121626853943
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.37262997031211853,
+              "aggregation_error_squared_sum": 7.111812591552734,
+              "dense_aggregation_squared_sum": 51.2182502746582,
+              "retained_dense_probability_mass": 0.016153711825609207
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.07112351059913635,
+            "difference_rms": 8.164661124965278e-08,
+            "relative_l2": 1.1479553450044477e-06,
+            "cosine_similarity": 0.9999998807907104,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7828913331031799,
+              "aggregation_error_squared_sum": 50.79835891723633,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.0559229701757431
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.72673499584198,
+              "aggregation_error_squared_sum": 43.772254943847656,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.049414925277233124
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6070848107337952,
+              "aggregation_error_squared_sum": 30.545377731323242,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.04206228256225586
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.4525893032550812,
+              "aggregation_error_squared_sum": 16.976781845092773,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.03825618326663971
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3637855052947998,
+              "aggregation_error_squared_sum": 10.968255996704102,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.03382771089673042
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.3336818814277649,
+              "aggregation_error_squared_sum": 9.228096008300781,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.032141197472810745
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.3336818814277649,
+              "aggregation_error_squared_sum": 9.228096008300781,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.032141197472810745
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3499126434326172,
+              "aggregation_error_squared_sum": 10.147663116455078,
+              "dense_aggregation_squared_sum": 82.87943267822266,
+              "retained_dense_probability_mass": 0.03251908719539642
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.052293553948402405,
+            "difference_rms": 6.50338094487779e-08,
+            "relative_l2": 1.2436295264706132e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.661050796508789,
+              "aggregation_error_squared_sum": 123.61822509765625,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.05059999227523804
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.4994304180145264,
+              "aggregation_error_squared_sum": 100.73241424560547,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.04589027166366577
+            },
+            "extent2": {
+              "aggregation_relative_l2": 1.1557488441467285,
+              "aggregation_error_squared_sum": 59.84716796875,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.04024390131235123
+            },
+            "extent3": {
+              "aggregation_relative_l2": 1.0273377895355225,
+              "aggregation_error_squared_sum": 47.28715515136719,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.03735915571451187
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.7152371406555176,
+              "aggregation_error_squared_sum": 22.920114517211914,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.03340023756027222
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.6533163785934448,
+              "aggregation_error_squared_sum": 19.123336791992188,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.03154771029949188
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.6533163785934448,
+              "aggregation_error_squared_sum": 19.123336791992188,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.03154771029949188
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.7229710817337036,
+              "aggregation_error_squared_sum": 23.418466567993164,
+              "dense_aggregation_squared_sum": 44.803985595703125,
+              "retained_dense_probability_mass": 0.03137291222810745
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.1417159140110016,
+            "difference_rms": 2.0077536078133562e-07,
+            "relative_l2": 1.4167452491165022e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9549418687820435,
+              "aggregation_error_squared_sum": 750.156005859375,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.1224934458732605
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7953283190727234,
+              "aggregation_error_squared_sum": 520.343994140625,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.0944012999534607
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.7060438990592957,
+              "aggregation_error_squared_sum": 410.07293701171875,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.08356478065252304
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.47863972187042236,
+              "aggregation_error_squared_sum": 188.458251953125,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.07097979635000229
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.41303959488868713,
+              "aggregation_error_squared_sum": 140.33987426757812,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.0667044073343277
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.41303959488868713,
+              "aggregation_error_squared_sum": 140.33987426757812,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.0667044073343277
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.41303959488868713,
+              "aggregation_error_squared_sum": 140.33987426757812,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.0667044073343277
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.396109014749527,
+              "aggregation_error_squared_sum": 129.07054138183594,
+              "dense_aggregation_squared_sum": 822.6170654296875,
+              "retained_dense_probability_mass": 0.06667996197938919
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.12507791817188263,
+            "difference_rms": 1.7050365386239719e-07,
+            "relative_l2": 1.3631795354740461e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.5053563117980957,
+              "aggregation_error_squared_sum": 1452.11279296875,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.1129717156291008
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.2689096927642822,
+              "aggregation_error_squared_sum": 1031.7705078125,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.09249837696552277
+            },
+            "extent2": {
+              "aggregation_relative_l2": 1.125239610671997,
+              "aggregation_error_squared_sum": 811.3565063476562,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.08153647184371948
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.724575936794281,
+              "aggregation_error_squared_sum": 336.426025390625,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.06891825050115585
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.5670574307441711,
+              "aggregation_error_squared_sum": 206.05148315429688,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.06428416818380356
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.5670574307441711,
+              "aggregation_error_squared_sum": 206.05148315429688,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.06428416818380356
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5670574307441711,
+              "aggregation_error_squared_sum": 206.05148315429688,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.06428416818380356
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5820924043655396,
+              "aggregation_error_squared_sum": 217.12289428710938,
+              "dense_aggregation_squared_sum": 640.7988891601562,
+              "retained_dense_probability_mass": 0.06461597979068756
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.21434427797794342,
+            "difference_rms": 2.822874023422628e-07,
+            "relative_l2": 1.3169812973501394e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.0976333618164062,
+              "aggregation_error_squared_sum": 3627.594970703125,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.1744755059480667
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.9505041837692261,
+              "aggregation_error_squared_sum": 2720.271728515625,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.15251857042312622
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.580344021320343,
+              "aggregation_error_squared_sum": 1014.0869750976562,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.13369332253932953
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3712846040725708,
+              "aggregation_error_squared_sum": 415.0668640136719,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.12557671964168549
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3712846040725708,
+              "aggregation_error_squared_sum": 415.0668640136719,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.12557671964168549
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.3712846040725708,
+              "aggregation_error_squared_sum": 415.0668640136719,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.12557671964168549
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.3712846040725708,
+              "aggregation_error_squared_sum": 415.0668640136719,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.12557671964168549
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.37212249636650085,
+              "aggregation_error_squared_sum": 416.9423828125,
+              "dense_aggregation_squared_sum": 3010.95458984375,
+              "retained_dense_probability_mass": 0.12681177258491516
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.37113305926322937,
+            "difference_rms": 4.985469104212825e-07,
+            "relative_l2": 1.3433104868454393e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8824227452278137,
+              "aggregation_error_squared_sum": 7028.9921875,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.16829675436019897
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7268946170806885,
+              "aggregation_error_squared_sum": 4769.60693359375,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.15130499005317688
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.42725735902786255,
+              "aggregation_error_squared_sum": 1647.8544921875,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.12978443503379822
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.23745104670524597,
+              "aggregation_error_squared_sum": 508.9649658203125,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.12576256692409515
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.23745104670524597,
+              "aggregation_error_squared_sum": 508.9649658203125,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.12576256692409515
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.23745104670524597,
+              "aggregation_error_squared_sum": 508.9649658203125,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.12576256692409515
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.23745104670524597,
+              "aggregation_error_squared_sum": 508.9649658203125,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.12576256692409515
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.25488173961639404,
+              "aggregation_error_squared_sum": 586.4313354492188,
+              "dense_aggregation_squared_sum": 9026.9228515625,
+              "retained_dense_probability_mass": 0.12847332656383514
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "image": "val/seq37/Images/000900.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.0826098695397377,
+            "difference_rms": 5.168932304400187e-08,
+            "relative_l2": 6.257039331103442e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5285955667495728,
+              "aggregation_error_squared_sum": 15.620731353759766,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.03133154660463333
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4442415237426758,
+              "aggregation_error_squared_sum": 11.032975196838379,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.02801024168729782
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.4128643274307251,
+              "aggregation_error_squared_sum": 9.529476165771484,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.024619879201054573
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.36278122663497925,
+              "aggregation_error_squared_sum": 7.357730865478516,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.02160215750336647
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3338136672973633,
+              "aggregation_error_squared_sum": 6.229633808135986,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.01870759204030037
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.30246347188949585,
+              "aggregation_error_squared_sum": 5.114465236663818,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.017696963623166084
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.2669326364994049,
+              "aggregation_error_squared_sum": 3.9834342002868652,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.016477953642606735
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.27431219816207886,
+              "aggregation_error_squared_sum": 4.206728935241699,
+              "dense_aggregation_squared_sum": 55.90546417236328,
+              "retained_dense_probability_mass": 0.016027318313717842
+            }
+          }
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.0647393986582756,
+            "difference_rms": 4.656221008758621e-08,
+            "relative_l2": 7.192252269305754e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.2945793867111206,
+              "aggregation_error_squared_sum": 57.542022705078125,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.025743471458554268
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.0694912672042847,
+              "aggregation_error_squared_sum": 39.271934509277344,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.023597437888383865
+            },
+            "extent2": {
+              "aggregation_relative_l2": 1.0367109775543213,
+              "aggregation_error_squared_sum": 36.901424407958984,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.020827770233154297
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.8677459955215454,
+              "aggregation_error_squared_sum": 25.853120803833008,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.018896909430623055
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.7649670243263245,
+              "aggregation_error_squared_sum": 20.091537475585938,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.016749823465943336
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.7246280312538147,
+              "aggregation_error_squared_sum": 18.02843475341797,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.016697674989700317
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5418862104415894,
+              "aggregation_error_squared_sum": 10.081937789916992,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.015986956655979156
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5273439884185791,
+              "aggregation_error_squared_sum": 9.548074722290039,
+              "dense_aggregation_squared_sum": 34.33426284790039,
+              "retained_dense_probability_mass": 0.01635006070137024
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.06786088645458221,
+            "difference_rms": 7.55441078581498e-08,
+            "relative_l2": 1.1132201507280115e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9028026461601257,
+              "aggregation_error_squared_sum": 61.4957389831543,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.053058087825775146
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.803240180015564,
+              "aggregation_error_squared_sum": 48.67996597290039,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.04877982288599014
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6532865166664124,
+              "aggregation_error_squared_sum": 32.2008056640625,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.04040265828371048
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.4797722101211548,
+              "aggregation_error_squared_sum": 17.367191314697266,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.03652575984597206
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4175964891910553,
+              "aggregation_error_squared_sum": 13.157489776611328,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.035033583641052246
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.30780497193336487,
+              "aggregation_error_squared_sum": 7.148429870605469,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.03152596578001976
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.30780497193336487,
+              "aggregation_error_squared_sum": 7.148429870605469,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.03152596578001976
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3238391578197479,
+              "aggregation_error_squared_sum": 7.9125800132751465,
+              "dense_aggregation_squared_sum": 75.45002746582031,
+              "retained_dense_probability_mass": 0.03139473870396614
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.05029274895787239,
+            "difference_rms": 6.032625776697387e-08,
+            "relative_l2": 1.1995020940958057e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.3296458721160889,
+              "aggregation_error_squared_sum": 73.26610565185547,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.042084041982889175
+            },
+            "extent1": {
+              "aggregation_relative_l2": 1.1527631282806396,
+              "aggregation_error_squared_sum": 55.06952667236328,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.041420649737119675
+            },
+            "extent2": {
+              "aggregation_relative_l2": 1.047398328781128,
+              "aggregation_error_squared_sum": 45.462669372558594,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.03804990276694298
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.7964519262313843,
+              "aggregation_error_squared_sum": 26.287567138671875,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.03412141278386116
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.7738361954689026,
+              "aggregation_error_squared_sum": 24.81585693359375,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.03365030884742737
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.6261522769927979,
+              "aggregation_error_squared_sum": 16.247671127319336,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.03158039599657059
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.6261522769927979,
+              "aggregation_error_squared_sum": 16.247671127319336,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.03158039599657059
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.667561948299408,
+              "aggregation_error_squared_sum": 18.46776580810547,
+              "dense_aggregation_squared_sum": 41.44108963012695,
+              "retained_dense_probability_mass": 0.03224779665470123
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.12514837086200714,
+            "difference_rms": 1.7704439869703492e-07,
+            "relative_l2": 1.414676034983131e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9675990343093872,
+              "aggregation_error_squared_sum": 600.6226806640625,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.12450482696294785
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7943164706230164,
+              "aggregation_error_squared_sum": 404.7603759765625,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.09861012548208237
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6772955656051636,
+              "aggregation_error_squared_sum": 294.28448486328125,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.0838560089468956
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5461235642433167,
+              "aggregation_error_squared_sum": 191.33425903320312,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.07609692215919495
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.45743969082832336,
+              "aggregation_error_squared_sum": 134.2389373779297,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.06674955040216446
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.45743969082832336,
+              "aggregation_error_squared_sum": 134.2389373779297,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.06674955040216446
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.45743969082832336,
+              "aggregation_error_squared_sum": 134.2389373779297,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.06674955040216446
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.4449581205844879,
+              "aggregation_error_squared_sum": 127.01327514648438,
+              "dense_aggregation_squared_sum": 641.5209350585938,
+              "retained_dense_probability_mass": 0.06693514436483383
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.1322641521692276,
+            "difference_rms": 1.7595787937807472e-07,
+            "relative_l2": 1.3303520063345786e-06,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.179738998413086,
+              "aggregation_error_squared_sum": 997.2786865234375,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.11042409390211105
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.922745943069458,
+              "aggregation_error_squared_sum": 610.1112060546875,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.09165159612894058
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.807102620601654,
+              "aggregation_error_squared_sum": 466.76922607421875,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.08075010031461716
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.6619026064872742,
+              "aggregation_error_squared_sum": 313.9300537109375,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.07371439039707184
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.5304281115531921,
+              "aggregation_error_squared_sum": 201.6033477783203,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.06467443704605103
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.5304281115531921,
+              "aggregation_error_squared_sum": 201.6033477783203,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.06467443704605103
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.5304281115531921,
+              "aggregation_error_squared_sum": 201.6033477783203,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.06467443704605103
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.5371877551078796,
+              "aggregation_error_squared_sum": 206.7744598388672,
+              "dense_aggregation_squared_sum": 716.5469970703125,
+              "retained_dense_probability_mass": 0.06423002481460571
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 0,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.18773141503334045,
+            "difference_rms": 2.3561067052924045e-07,
+            "relative_l2": 1.2550412975542713e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9572107791900635,
+              "aggregation_error_squared_sum": 2116.26220703125,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.17833182215690613
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7664898037910461,
+              "aggregation_error_squared_sum": 1356.960205078125,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.15632981061935425
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6710230708122253,
+              "aggregation_error_squared_sum": 1039.990234375,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.14438758790493011
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.39365503191947937,
+              "aggregation_error_squared_sum": 357.91998291015625,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.12632831931114197
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.39365503191947937,
+              "aggregation_error_squared_sum": 357.91998291015625,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.12632831931114197
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.39365503191947937,
+              "aggregation_error_squared_sum": 357.91998291015625,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.12632831931114197
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.39365503191947937,
+              "aggregation_error_squared_sum": 357.91998291015625,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.12632831931114197
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.40950918197631836,
+              "aggregation_error_squared_sum": 387.3304138183594,
+              "dense_aggregation_squared_sum": 2309.693359375,
+              "retained_dense_probability_mass": 0.12730297446250916
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.33975324034690857,
+            "difference_rms": 4.5823622940588393e-07,
+            "relative_l2": 1.3487324395100586e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8215713500976562,
+              "aggregation_error_squared_sum": 5106.20458984375,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.1665111780166626
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6877598166465759,
+              "aggregation_error_squared_sum": 3578.33642578125,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.1497199684381485
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.5667364001274109,
+              "aggregation_error_squared_sum": 2429.7958984375,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.13992995023727417
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.2826465964317322,
+              "aggregation_error_squared_sum": 604.3591918945312,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.12552613019943237
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.2826465964317322,
+              "aggregation_error_squared_sum": 604.3591918945312,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.12552613019943237
+            },
+            "extent5": {
+              "aggregation_relative_l2": 0.2826465964317322,
+              "aggregation_error_squared_sum": 604.3591918945312,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.12552613019943237
+            },
+            "extent6": {
+              "aggregation_relative_l2": 0.2826465964317322,
+              "aggregation_error_squared_sum": 604.3591918945312,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.12552613019943237
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3036237359046936,
+              "aggregation_error_squared_sum": 697.3953857421875,
+              "dense_aggregation_squared_sum": 7564.97705078125,
+              "retained_dense_probability_mass": 0.1296803504228592
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "precision": "FP32",
+  "cudnn_allow_tf32": true,
+  "cudnn_deterministic": true,
+  "matmul_allow_tf32": false,
+  "fusion": {
+    "coordinates": "pixel",
+    "center": "(size-1)/2",
+    "sigma": "size/4",
+    "normalization": "positive_weight_sum",
+    "seed": 42,
+    "threads": 4,
+    "precision": "float32",
+    "fusion": "logits"
+  }
+}

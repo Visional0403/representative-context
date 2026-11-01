@@ -1,0 +1,23 @@
+{
+  "case": "geco2",
+  "path": "geco2/geco2_fsc147.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "jerpelhan/GECO2",
+    "revision": "67d27e8a93f14226f94d1f2c5c6dab5b5dd7162b",
+    "subdirectory": "",
+    "include": [
+      "models",
+      "utils",
+      "configs",
+      "Deformable-DETR/models",
+      "sam2/sam2",
+      "sam2/LICENSE",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "task_weights_url": "https://drive.google.com/file/d/1OG6-tTP2Egvx-O5oK6lxPzvQO1LWgHbb/view",
+  "sam2_weights_url": "https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_base_plus.pt",
+  "preparation_entry": "scripts/prepare_counting_weights.py"
+}

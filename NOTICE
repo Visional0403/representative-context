@@ -1,0 +1,10 @@
+Representative context
+
+This distribution includes selected components from MMSegmentation 1.2.2.
+Copyright 2020 The MMSegmentation Authors. All rights reserved.
+Upstream: https://github.com/open-mmlab/mmsegmentation/tree/v1.2.2
+License: Apache License, Version 2.0
+
+The bundled components retain their original copyright and license notices.
+The selected package exports and current MMCV attention interface are
+identified by modification notices in the affected source files.

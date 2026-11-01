@@ -1,0 +1,121 @@
+{
+  "architecture": "segformer_b0",
+  "dataset": "Cityscapes",
+  "classes": 19,
+  "model": {
+    "type": "EncoderDecoder",
+    "data_preprocessor": {
+      "type": "SegDataPreProcessor",
+      "mean": [
+        123.675,
+        116.28,
+        103.53
+      ],
+      "std": [
+        58.395,
+        57.12,
+        57.375
+      ],
+      "bgr_to_rgb": true,
+      "pad_val": 0,
+      "seg_pad_val": 255,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "pretrained": null,
+    "backbone": {
+      "type": "MixVisionTransformer",
+      "in_channels": 3,
+      "embed_dims": 32,
+      "num_stages": 4,
+      "num_layers": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "num_heads": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "patch_sizes": [
+        7,
+        3,
+        3,
+        3
+      ],
+      "sr_ratios": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "out_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mlp_ratio": 4,
+      "qkv_bias": true,
+      "drop_rate": 0.0,
+      "attn_drop_rate": 0.0,
+      "drop_path_rate": 0.1,
+      "init_cfg": null
+    },
+    "decode_head": {
+      "type": "SegformerHead",
+      "in_channels": [
+        32,
+        64,
+        160,
+        256
+      ],
+      "in_index": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "channels": 256,
+      "dropout_ratio": 0.1,
+      "num_classes": 19,
+      "norm_cfg": {
+        "type": "SyncBN",
+        "requires_grad": true
+      },
+      "align_corners": false,
+      "loss_decode": {
+        "type": "CrossEntropyLoss",
+        "use_sigmoid": false,
+        "loss_weight": 1.0
+      }
+    },
+    "train_cfg": {},
+    "test_cfg": {
+      "mode": "slide",
+      "crop_size": [
+        1024,
+        1024
+      ],
+      "stride": [
+        768,
+        768
+      ]
+    }
+  },
+  "checkpoint": "weights/segformer/segformer_b0_cityscapes.pth",
+  "data_root": "datasets/Cityscapes",
+  "expected_images": 500,
+  "seed": 42,
+  "threads": 4,
+  "timing": {
+    "warmup": 10,
+    "repeats": 10,
+    "rounds": 3
+  }
+}

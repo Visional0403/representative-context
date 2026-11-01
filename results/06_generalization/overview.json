@@ -1,0 +1,255 @@
+[
+  {
+    "case": "polyp_kvasir",
+    "name": "Polyp-PVT / Kvasir-SEG",
+    "k": 14,
+    "sparse_metric": 90.7128810534529,
+    "dense_metric": 90.67498837666773,
+    "relative_metric_loss_percent": -0.04178955791840725,
+    "speedup": 1.0730289061134444,
+    "dense_median_ms": 22.44041633605957,
+    "sparse_median_ms": 20.913151741027832
+  },
+  {
+    "case": "hitnet",
+    "name": "HitNet / CHAMELEON",
+    "k": 15,
+    "sparse_metric": 83.00831079404445,
+    "dense_metric": 83.00782679191605,
+    "relative_metric_loss_percent": -0.0005830801107656877,
+    "speedup": 1.633834547534587,
+    "dense_median_ms": 280.7004089355469,
+    "sparse_median_ms": 171.80467224121094,
+    "speed_gain_range_percent": [
+      52.0375145716909,
+      63.3834547534587
+    ]
+  },
+  {
+    "case": "tcd_tiled",
+    "name": "SegFormer / OAM-TCD",
+    "k": 16,
+    "sparse_metric": 79.75819029325629,
+    "dense_metric": 79.76295541744588,
+    "relative_metric_loss_percent": 0.005974106857814538,
+    "speedup": 1.2686447926441484,
+    "dense_median_ms": 294.3462371826172,
+    "sparse_median_ms": 232.01627349853516
+  },
+  {
+    "case": "changeformer",
+    "name": "ChangeFormerV6 / LEVIR-CD",
+    "k": 16,
+    "sparse_metric": 90.36742475369316,
+    "dense_metric": 90.37392656105371,
+    "relative_metric_loss_percent": 0.007194339792415292,
+    "speedup": 2.1726704874549108,
+    "dense_median_ms": 1805.1337804999862,
+    "sparse_median_ms": 830.8364249999727
+  },
+  {
+    "case": "iml",
+    "name": "IML-ViT / IMD2020",
+    "k": 14,
+    "sparse_metric": 83.31999923823155,
+    "dense_metric": 83.38389672950284,
+    "relative_metric_loss_percent": 0.07663049314974375,
+    "speedup": 1.1679683905571598,
+    "dense_median_ms": 208.1075210571289,
+    "sparse_median_ms": 178.17906951904297,
+    "speed_gain_range_percent": [
+      8.097255568843508,
+      18.269515142979962
+    ]
+  },
+  {
+    "case": "trufor",
+    "name": "TruFor / Columbia",
+    "k": 14,
+    "sparse_metric": 85.81925481204792,
+    "dense_metric": 85.72453721822367,
+    "relative_metric_loss_percent": -0.11049064468336019,
+    "speedup": 1.0658994562751398,
+    "dense_median_ms": 205.38195775349934,
+    "sparse_median_ms": 192.6841753641764,
+    "speed_gain_range_percent": [
+      5.596385177426133,
+      6.589945627513982
+    ]
+  },
+  {
+    "case": "gma_sintel",
+    "name": "GMA / Sintel Final",
+    "k": 14,
+    "sparse_metric": 2.7329942311740147,
+    "dense_metric": 2.738922844133597,
+    "relative_metric_loss_percent": -0.21645783021162587,
+    "speedup": 1.204973993152043,
+    "dense_median_ms": 104.12382507324219,
+    "sparse_median_ms": 86.41167831420898
+  },
+  {
+    "case": "div2k",
+    "name": "TransWeather / DIV2K",
+    "k": 14,
+    "sparse_metric": 30.942587821497085,
+    "dense_metric": 30.98576632458101,
+    "relative_metric_loss_percent": 0.13934947624539556,
+    "speedup": 2.5529443487818924,
+    "dense_median_ms": 533.5142211914062,
+    "sparse_median_ms": 208.97996520996094,
+    "speed_gain_range_percent": [
+      135.9023062275364,
+      155.82511196388418
+    ],
+    "measured_speed_ratio": 2.5529443487818924,
+    "identical_execution": false
+  },
+  {
+    "case": "gopro",
+    "name": "TransWeather / GoPro",
+    "k": 14,
+    "sparse_metric": 26.616115220687227,
+    "dense_metric": 26.623120297205492,
+    "relative_metric_loss_percent": 0.026312004153022876,
+    "speedup": 1.4595590040983015,
+    "dense_median_ms": 98.17203521728516,
+    "sparse_median_ms": 67.26143646240234,
+    "speed_gain_range_percent": [
+      44.508275508969874,
+      47.84806554288063
+    ],
+    "measured_speed_ratio": 1.4595590040983015,
+    "identical_execution": false
+  },
+  {
+    "case": "cave",
+    "name": "Fusformer / CAVE",
+    "k": 16,
+    "sparse_metric": 47.97377586065436,
+    "dense_metric": 47.982117104901775,
+    "relative_metric_loss_percent": 0.01738406879626059,
+    "speedup": 3.9549794122692687,
+    "dense_median_ms": 15450.1376953125,
+    "sparse_median_ms": 3906.502685546875,
+    "speed_gain_range_percent": [
+      289.4851570408556,
+      298.81950136350554
+    ],
+    "measured_speed_ratio": 3.9549794122692687,
+    "identical_execution": false
+  },
+  {
+    "case": "qb",
+    "name": "Fusformer / QuickBird",
+    "k": 14,
+    "sparse_metric": 27.267921208452538,
+    "dense_metric": 27.268080973711168,
+    "relative_metric_loss_percent": 0.0005859057657333713,
+    "speedup": 3.8866013052893873,
+    "dense_median_ms": 887.3579406738281,
+    "sparse_median_ms": 228.3120574951172,
+    "speed_gain_range_percent": [
+      286.4776485526614,
+      288.66013052893874
+    ],
+    "measured_speed_ratio": 3.8866013052893873,
+    "identical_execution": false
+  },
+  {
+    "case": "geco",
+    "name": "GECO2 / FSC147",
+    "k": 14,
+    "sparse_metric": 7.618487394957983,
+    "dense_metric": 7.644537815126051,
+    "relative_metric_loss_percent": -0.3407716829724189,
+    "speedup": 1.0619075434459337,
+    "dense_median_ms": 291.4334411621094,
+    "sparse_median_ms": 274.4433288574219,
+    "speed_gain_range_percent": [
+      -0.9968705334628236,
+      7.676766901750587
+    ],
+    "measured_speed_ratio": 1.0619075434459337,
+    "identical_execution": false
+  },
+  {
+    "case": "glpn_nyu",
+    "name": "GLPN / NYUv2",
+    "k": 15,
+    "sparse_metric": 0.09846115130817215,
+    "dense_metric": 0.09838836391482057,
+    "relative_metric_loss_percent": 0.0739796765139765,
+    "speedup": 1.023615686145472,
+    "dense_median_ms": 34.53289604187012,
+    "sparse_median_ms": 33.73619270324707,
+    "measured_speed_ratio": 1.023615686145472,
+    "identical_execution": false
+  },
+  {
+    "case": "gamus",
+    "name": "AltiMap / GAMUS",
+    "k": 16,
+    "sparse_metric": 4.319180754146845,
+    "dense_metric": 4.337619735358319,
+    "relative_metric_loss_percent": -0.42509446047490546,
+    "speedup": 1.1901321981671271,
+    "dense_median_ms": 1391.6826171875,
+    "sparse_median_ms": 1166.8489990234375,
+    "speed_gain_range_percent": [
+      14.492581289145324,
+      19.26844161945811
+    ],
+    "round_speedups": [
+      1.1449258128914532,
+      1.1901321981671271,
+      1.192684416194581
+    ],
+    "identical_execution": false
+  },
+  {
+    "case": "pi3",
+    "name": "Pi3 / TUM fr1/desk",
+    "k": 17,
+    "sparse_metric": 0.03483819039315622,
+    "dense_metric": 0.03592475573013365,
+    "relative_metric_loss_percent": -3.0245587336478974,
+    "speedup": 1.7262488774136369,
+    "dense_median_ms": 22991.693359375,
+    "sparse_median_ms": 13318.880859375,
+    "speed_gain_range_percent": [
+      72.33151137905922,
+      72.91826410366815
+    ],
+    "round_speedups": [
+      1.7291826410366815,
+      1.7233151137905922
+    ],
+    "identical_execution": false,
+    "auxiliary_metrics": {
+      "relative_point_error": 0.03483819039315622,
+      "point_rmse_m": 0.1157432495564483,
+      "point_delta1": 0.9848816294143802,
+      "rotation_rpe_deg": 0.38081027533100653,
+      "translation_direction_error_deg": 20.214281665007597
+    }
+  },
+  {
+    "case": "main_sra",
+    "name": "SegFormer / UAVid",
+    "k": 16,
+    "sparse_metric": 72.22761837625495,
+    "dense_metric": 72.241193849095,
+    "relative_metric_loss_percent": 0.018791872222382638,
+    "speedup": 2.4731885892487675
+  },
+  {
+    "case": "main_twins",
+    "name": "Twins / Cityscapes",
+    "k": 16,
+    "sparse_metric": 79.00499840530513,
+    "dense_metric": 79.01315513321748,
+    "relative_metric_loss_percent": 0.010323253005905244,
+    "speedup": 1.1032713747559126
+  }
+]

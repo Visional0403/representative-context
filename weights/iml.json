@@ -1,0 +1,20 @@
+{
+  "case": "iml",
+  "path": "iml/iml_vit.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "SunnyHaze/IML-ViT",
+    "revision": "07dd2be0f4ea27a5c97c9fa5ffbe236733833eac",
+    "subdirectory": "",
+    "include": [
+      "iml_vit_model.py",
+      "modules",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "weights_url": "https://drive.google.com/file/d/1jlXw97GkyBbY4u5-e_liuhahKSQWCAFu/view",
+  "task_checkpoint": "iml_vit.pth",
+  "upstream_filename": "iml-vit_checkpoint_trufor_20231104.pth",
+  "training_protocol": "TruFor"
+}

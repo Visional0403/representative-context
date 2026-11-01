@@ -1,0 +1,12 @@
+{
+  "checkpoint": "weights/segformer/segformer_b0_uavid.pth",
+  "data_root": "datasets/UAVid",
+  "split": "val",
+  "expected_split_size": 70,
+  "window_size": 1024,
+  "stride": 512,
+  "k": 16,
+  "pattern": "dispersed32",
+  "seed": 42,
+  "threads": 4
+}

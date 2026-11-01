@@ -1,0 +1,23 @@
+{
+  "case": "glpn_nyu",
+  "dataset": "NYUv2 official test",
+  "expected_samples": 654,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/nyuv2",
+  "weights": "weights/glpn_nyu",
+  "source": null,
+  "execution": {
+    "cudnn_allow_tf32": true,
+    "cudnn_deterministic": false
+  },
+  "timing": {
+    "warmup": 5,
+    "repeats": 20,
+    "rounds": 3
+  },
+  "timer": "cuda_event",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "timing_summary": "pooled_median",
+  "speedup_summary": "ratio_of_reported_latencies"
+}

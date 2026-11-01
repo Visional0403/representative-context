@@ -1,0 +1,22 @@
+{
+  "case": "gma_sintel",
+  "path": "gma/gma_things.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "zacjiang/GMA",
+    "revision": "2f1fd29468a86a354d44dd25d107930b3f175043",
+    "subdirectory": "",
+    "include": [
+      "core",
+      "imgs",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "pretraining": "FlyingChairs then FlyingThings3D",
+  "evaluation_split": "Sintel labeled training split, Final rendering",
+  "recurrent_iterations": 12,
+  "mixed_precision": true,
+  "weights_url": "https://raw.githubusercontent.com/zacjiang/GMA/2f1fd29468a86a354d44dd25d107930b3f175043/checkpoints/gma-things.pth",
+  "upstream_filename": "gma-things.pth"
+}

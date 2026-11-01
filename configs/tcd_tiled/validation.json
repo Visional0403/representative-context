@@ -1,0 +1,23 @@
+{
+  "case": "tcd_tiled",
+  "dataset": "OAM-TCD CC-BY test",
+  "expected_samples": 439,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/oam_tcd",
+  "weights": "weights/oam_tcd",
+  "source": null,
+  "execution": {
+    "cudnn_allow_tf32": false,
+    "cudnn_deterministic": true
+  },
+  "timing": {
+    "warmup": 5,
+    "repeats": 20,
+    "rounds": 3
+  },
+  "timer": "cuda_event",
+  "timing_scope": "nine-window probability-merged original-image prediction",
+  "timing_summary": "pooled_median",
+  "speedup_summary": "ratio_of_reported_latencies"
+}

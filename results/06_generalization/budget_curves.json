@@ -1,0 +1,1383 @@
+{
+  "polyp_kvasir": {
+    "name": "Polyp-PVT / Kvasir-SEG",
+    "metric": "Dice (%)",
+    "evaluation_units": 100,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 89.90215598172648,
+        "dense_metric": 90.67498837666773,
+        "relative_metric_loss_percent": 0.8523104427991417,
+        "speedup": 1.1304121136252043,
+        "dense_median_ms": 22.6779842376709,
+        "sparse_median_ms": 20.06169605255127
+      },
+      {
+        "k": 13,
+        "sparse_metric": 90.55891567493198,
+        "dense_metric": 90.67498837666773,
+        "relative_metric_loss_percent": 0.12800961302975306,
+        "speedup": 1.1034382494661739,
+        "dense_median_ms": 22.616000175476074,
+        "sparse_median_ms": 20.495936393737793
+      },
+      {
+        "k": 14,
+        "sparse_metric": 90.7128810534529,
+        "dense_metric": 90.67498837666773,
+        "relative_metric_loss_percent": -0.04178955791840725,
+        "speedup": 1.0730289061134444,
+        "dense_median_ms": 22.44041633605957,
+        "sparse_median_ms": 20.913151741027832
+      },
+      {
+        "k": 15,
+        "sparse_metric": 90.58726027214836,
+        "dense_metric": 90.67498837666773,
+        "relative_metric_loss_percent": 0.09675005874270966,
+        "speedup": 1.044230345089707,
+        "dense_median_ms": 22.517600059509277,
+        "sparse_median_ms": 21.56382465362549
+      },
+      {
+        "k": 16,
+        "sparse_metric": 90.70569206427149,
+        "dense_metric": 90.67498837666773,
+        "relative_metric_loss_percent": -0.03386125342108344,
+        "speedup": 1.0336319659338484,
+        "dense_median_ms": 22.689760208129883,
+        "sparse_median_ms": 21.951488494873047
+      },
+      {
+        "k": 17,
+        "sparse_metric": 90.66693954559514,
+        "dense_metric": 90.67498837666773,
+        "relative_metric_loss_percent": 0.008876572488931886,
+        "speedup": 1.0114477420880057,
+        "dense_median_ms": 22.45734405517578,
+        "sparse_median_ms": 22.20316791534424
+      }
+    ]
+  },
+  "hitnet": {
+    "name": "HitNet / CHAMELEON",
+    "metric": "Dice",
+    "evaluation_units": 76,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 78.68259614967967,
+        "dense_metric": 83.00782679191605,
+        "relative_metric_loss_percent": 5.210629900092267,
+        "speedup": 1.7950401867015358,
+        "dense_median_ms": 280.7004089355469,
+        "sparse_median_ms": 156.37555694580078,
+        "speed_gain_range_percent": [
+          70.76426182277073,
+          79.50401867015357
+        ]
+      },
+      {
+        "k": 13,
+        "sparse_metric": 80.74546040964924,
+        "dense_metric": 83.00782679191605,
+        "relative_metric_loss_percent": 2.725485619492368,
+        "speedup": 1.80794479296206,
+        "dense_median_ms": 280.7004089355469,
+        "sparse_median_ms": 155.25939178466797,
+        "speed_gain_range_percent": [
+          67.15429716287076,
+          80.794479296206
+        ]
+      },
+      {
+        "k": 14,
+        "sparse_metric": 82.0724645097041,
+        "dense_metric": 83.00782679191605,
+        "relative_metric_loss_percent": 1.1268362494981419,
+        "speedup": 1.7272718139404568,
+        "dense_median_ms": 280.7004089355469,
+        "sparse_median_ms": 162.51084899902344,
+        "speed_gain_range_percent": [
+          62.38371694006268,
+          72.72718139404569
+        ]
+      },
+      {
+        "k": 15,
+        "sparse_metric": 83.00831079404445,
+        "dense_metric": 83.00782679191605,
+        "relative_metric_loss_percent": -0.0005830801107656877,
+        "speedup": 1.633834547534587,
+        "dense_median_ms": 280.7004089355469,
+        "sparse_median_ms": 171.80467224121094,
+        "speed_gain_range_percent": [
+          52.0375145716909,
+          63.3834547534587
+        ]
+      },
+      {
+        "k": 16,
+        "sparse_metric": 82.91337283573989,
+        "dense_metric": 83.00782679191605,
+        "relative_metric_loss_percent": 0.11378921702519709,
+        "speedup": 1.5621105122090315,
+        "dense_median_ms": 280.7004089355469,
+        "sparse_median_ms": 179.69305419921875,
+        "speed_gain_range_percent": [
+          43.05255764256051,
+          56.21105122090315
+        ]
+      },
+      {
+        "k": 17,
+        "sparse_metric": 82.69386344146344,
+        "dense_metric": 83.00782679191605,
+        "relative_metric_loss_percent": 0.37823343001094745,
+        "speedup": 1.3951800562168013,
+        "dense_median_ms": 280.7004089355469,
+        "sparse_median_ms": 201.19296264648438,
+        "speed_gain_range_percent": [
+          28.832030861910816,
+          39.51800562168013
+        ]
+      }
+    ]
+  },
+  "tcd_tiled": {
+    "name": "SegFormer / OAM-TCD",
+    "metric": "foreground IoU (%)",
+    "evaluation_units": 439,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 79.26488782812878,
+        "dense_metric": 79.76295541744588,
+        "relative_metric_loss_percent": 0.6244347224979635,
+        "speedup": 1.477720221503424,
+        "dense_median_ms": 296.7992248535156,
+        "sparse_median_ms": 200.84940338134766
+      },
+      {
+        "k": 13,
+        "sparse_metric": 79.49222293727286,
+        "dense_metric": 79.76295541744588,
+        "relative_metric_loss_percent": 0.3394213250450957,
+        "speedup": 1.4933570838537036,
+        "dense_median_ms": 295.963134765625,
+        "sparse_median_ms": 198.1864471435547
+      },
+      {
+        "k": 14,
+        "sparse_metric": 79.63937297095673,
+        "dense_metric": 79.76295541744588,
+        "relative_metric_loss_percent": 0.15493714574939388,
+        "speedup": 1.4542137961128798,
+        "dense_median_ms": 295.9503479003906,
+        "sparse_median_ms": 203.51226806640625
+      },
+      {
+        "k": 15,
+        "sparse_metric": 79.72753990300062,
+        "dense_metric": 79.76295541744588,
+        "relative_metric_loss_percent": 0.044400955631485765,
+        "speedup": 1.3716002720747573,
+        "dense_median_ms": 293.8018493652344,
+        "sparse_median_ms": 214.20369720458984
+      },
+      {
+        "k": 16,
+        "sparse_metric": 79.75819029325629,
+        "dense_metric": 79.76295541744588,
+        "relative_metric_loss_percent": 0.005974106857814538,
+        "speedup": 1.2686447926441484,
+        "dense_median_ms": 294.3462371826172,
+        "sparse_median_ms": 232.01627349853516
+      },
+      {
+        "k": 17,
+        "sparse_metric": 79.76007961942038,
+        "dense_metric": 79.76295541744588,
+        "relative_metric_loss_percent": 0.0036054306293550674,
+        "speedup": 1.1275833401216846,
+        "dense_median_ms": 292.5317077636719,
+        "sparse_median_ms": 259.4324493408203
+      }
+    ]
+  },
+  "changeformer": {
+    "name": "ChangeFormerV6 / LEVIR-CD",
+    "metric": "F1 (%)",
+    "evaluation_units": 128,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 90.04302023135966,
+        "dense_metric": 90.37392656105371,
+        "relative_metric_loss_percent": 0.3661524316645636,
+        "speedup": 2.829793389867127,
+        "dense_median_ms": 1805.1337804999862,
+        "sparse_median_ms": 637.9030309999933
+      },
+      {
+        "k": 13,
+        "sparse_metric": 90.29173996958295,
+        "dense_metric": 90.37392656105371,
+        "relative_metric_loss_percent": 0.09094060045652225,
+        "speedup": 2.7163705990730453,
+        "dense_median_ms": 1805.1337804999862,
+        "sparse_median_ms": 664.5388450000098
+      },
+      {
+        "k": 14,
+        "sparse_metric": 90.30777018822363,
+        "dense_metric": 90.37392656105371,
+        "relative_metric_loss_percent": 0.07320294176372433,
+        "speedup": 2.567085206687266,
+        "dense_median_ms": 1805.1337804999862,
+        "sparse_median_ms": 703.1842089999998
+      },
+      {
+        "k": 15,
+        "sparse_metric": 90.3599155090406,
+        "dense_metric": 90.37392656105371,
+        "relative_metric_loss_percent": 0.015503422885623697,
+        "speedup": 2.097867997316197,
+        "dense_median_ms": 1805.1337804999862,
+        "sparse_median_ms": 860.4610884999886
+      },
+      {
+        "k": 16,
+        "sparse_metric": 90.36742475369316,
+        "dense_metric": 90.37392656105371,
+        "relative_metric_loss_percent": 0.007194339792415292,
+        "speedup": 2.1726704874549108,
+        "dense_median_ms": 1805.1337804999862,
+        "sparse_median_ms": 830.8364249999727
+      },
+      {
+        "k": 17,
+        "sparse_metric": 90.37068532002718,
+        "dense_metric": 90.37392656105371,
+        "relative_metric_loss_percent": 0.003586478036162093,
+        "speedup": 1.5135609394820762,
+        "dense_median_ms": 1805.1337804999862,
+        "sparse_median_ms": 1192.6403049999976
+      }
+    ]
+  },
+  "iml": {
+    "name": "IML-ViT / IMD2020",
+    "metric": "F1",
+    "evaluation_units": 2010,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 79.78788356890053,
+        "dense_metric": 83.38389672950284,
+        "relative_metric_loss_percent": 4.312599076855054,
+        "speedup": 1.220835227852786,
+        "dense_median_ms": 208.1075210571289,
+        "sparse_median_ms": 170.4632339477539,
+        "speed_gain_range_percent": [
+          16.092958683014615,
+          23.62285797712451
+        ]
+      },
+      {
+        "k": 13,
+        "sparse_metric": 82.02951083061419,
+        "dense_metric": 83.38389672950284,
+        "relative_metric_loss_percent": 1.6242775308070285,
+        "speedup": 1.1907949777278204,
+        "dense_median_ms": 208.1075210571289,
+        "sparse_median_ms": 174.76351928710938,
+        "speed_gain_range_percent": [
+          12.581475982483026,
+          20.47400658238765
+        ]
+      },
+      {
+        "k": 14,
+        "sparse_metric": 83.31999923823155,
+        "dense_metric": 83.38389672950284,
+        "relative_metric_loss_percent": 0.07663049314974375,
+        "speedup": 1.1679683905571598,
+        "dense_median_ms": 208.1075210571289,
+        "sparse_median_ms": 178.17906951904297,
+        "speed_gain_range_percent": [
+          8.097255568843508,
+          18.269515142979962
+        ]
+      },
+      {
+        "k": 15,
+        "sparse_metric": 83.35007195882817,
+        "dense_metric": 83.38389672950284,
+        "relative_metric_loss_percent": 0.04056511149196758,
+        "speedup": 1.0813758973946268,
+        "dense_median_ms": 208.1075210571289,
+        "sparse_median_ms": 192.4469757080078,
+        "speed_gain_range_percent": [
+          -1.3757551352414632,
+          8.13758973946268
+        ]
+      },
+      {
+        "k": 16,
+        "sparse_metric": 83.38389672950284,
+        "dense_metric": 83.38389672950284,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 208.1075210571289,
+        "sparse_median_ms": 208.1075210571289,
+        "speed_gain_range_percent": [
+          0.0,
+          0.0
+        ],
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_02.json",
+        "independent_sparse_measurement": false
+      },
+      {
+        "k": 17,
+        "sparse_metric": 83.38389672950284,
+        "dense_metric": 83.38389672950284,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 208.1075210571289,
+        "sparse_median_ms": 208.1075210571289,
+        "speed_gain_range_percent": [
+          0.0,
+          0.0
+        ],
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_02.json",
+        "independent_sparse_measurement": false
+      }
+    ]
+  },
+  "trufor": {
+    "name": "TruFor / Columbia",
+    "metric": "F1",
+    "evaluation_units": 180,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 85.9872052218072,
+        "dense_metric": 85.72453721822367,
+        "relative_metric_loss_percent": -0.3064093573522247,
+        "speedup": 1.0731377812719858,
+        "dense_median_ms": 205.38195775349934,
+        "sparse_median_ms": 191.38451868693033,
+        "speed_gain_range_percent": [
+          7.313778127198578,
+          8.125058649220795
+        ]
+      },
+      {
+        "k": 13,
+        "sparse_metric": 85.96554302892059,
+        "dense_metric": 85.72453721822367,
+        "relative_metric_loss_percent": -0.28113982124325176,
+        "speedup": 1.0796008305697815,
+        "dense_median_ms": 205.38195775349934,
+        "sparse_median_ms": 190.23879191080727,
+        "speed_gain_range_percent": [
+          7.064822433675788,
+          7.960083056978151
+        ]
+      },
+      {
+        "k": 14,
+        "sparse_metric": 85.81925481204792,
+        "dense_metric": 85.72453721822367,
+        "relative_metric_loss_percent": -0.11049064468336019,
+        "speedup": 1.0658994562751398,
+        "dense_median_ms": 205.38195775349934,
+        "sparse_median_ms": 192.6841753641764,
+        "speed_gain_range_percent": [
+          5.596385177426133,
+          6.589945627513982
+        ]
+      },
+      {
+        "k": 15,
+        "sparse_metric": 86.14250031501784,
+        "dense_metric": 85.72453721822367,
+        "relative_metric_loss_percent": -0.4875652996879817,
+        "speedup": 1.0426074318385448,
+        "dense_median_ms": 205.38195775349934,
+        "sparse_median_ms": 196.9887720743815,
+        "speed_gain_range_percent": [
+          3.9524120371493554,
+          4.918328335648003
+        ]
+      },
+      {
+        "k": 16,
+        "sparse_metric": 85.86067345925608,
+        "dense_metric": 85.72453721822367,
+        "relative_metric_loss_percent": -0.15880662112628238,
+        "speedup": 1.025000425182501,
+        "dense_median_ms": 205.38195775349934,
+        "sparse_median_ms": 200.37255859375,
+        "speed_gain_range_percent": [
+          1.505713767444905,
+          2.8040542904988808
+        ]
+      },
+      {
+        "k": 17,
+        "sparse_metric": 85.74380269904943,
+        "dense_metric": 85.72453721822367,
+        "relative_metric_loss_percent": -0.022473706421661487,
+        "speedup": 1.0122601093461903,
+        "dense_median_ms": 205.38195775349934,
+        "sparse_median_ms": 202.8944496154785,
+        "speed_gain_range_percent": [
+          0.44592712602449236,
+          1.2260109346190262
+        ]
+      }
+    ]
+  },
+  "gma_sintel": {
+    "name": "GMA / Sintel Final",
+    "metric": "Final EPE",
+    "evaluation_units": 1041,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 2.7690987817158166,
+        "dense_metric": 2.738922844133597,
+        "relative_metric_loss_percent": 1.1017447113142484,
+        "speedup": 1.2004168738914063,
+        "dense_median_ms": 102.56177520751953,
+        "sparse_median_ms": 85.4384651184082,
+        "identical_execution": false,
+        "measured_speed_ratio": 1.2004168738914063
+      },
+      {
+        "k": 13,
+        "sparse_metric": 2.744197819920449,
+        "dense_metric": 2.738922844133597,
+        "relative_metric_loss_percent": 0.19259307717084823,
+        "speedup": 1.177020230655379,
+        "dense_median_ms": 102.90944290161133,
+        "sparse_median_ms": 87.43217849731445,
+        "identical_execution": false,
+        "measured_speed_ratio": 1.177020230655379
+      },
+      {
+        "k": 14,
+        "sparse_metric": 2.7329942311740147,
+        "dense_metric": 2.738922844133597,
+        "relative_metric_loss_percent": -0.21645783021162587,
+        "speedup": 1.204973993152043,
+        "dense_median_ms": 104.12382507324219,
+        "sparse_median_ms": 86.41167831420898,
+        "identical_execution": false,
+        "measured_speed_ratio": 1.204973993152043
+      },
+      {
+        "k": 15,
+        "sparse_metric": 2.745118847121324,
+        "dense_metric": 2.738922844133597,
+        "relative_metric_loss_percent": 0.2262204282606225,
+        "speedup": 1.1147581324833389,
+        "dense_median_ms": 104.28913497924805,
+        "sparse_median_ms": 93.55315017700195,
+        "identical_execution": false,
+        "measured_speed_ratio": 1.1147581324833389
+      },
+      {
+        "k": 16,
+        "sparse_metric": 2.738922844133597,
+        "dense_metric": 2.738922844133597,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 104.22054672241211,
+        "sparse_median_ms": 104.22054672241211,
+        "identical_execution": true,
+        "measured_speed_ratio": 1.0018216344892121,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_10.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 104.22054672241211,
+        "observed_sparse_median_ms": 104.03104019165039
+      },
+      {
+        "k": 17,
+        "sparse_metric": 2.738922844133597,
+        "dense_metric": 2.738922844133597,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 106.76979446411133,
+        "sparse_median_ms": 106.76979446411133,
+        "identical_execution": true,
+        "measured_speed_ratio": 1.0313200558427513,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_11.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 106.76979446411133,
+        "observed_sparse_median_ms": 103.52731323242188
+      }
+    ]
+  },
+  "div2k": {
+    "name": "TransWeather / DIV2K",
+    "metric": "PSNRdB",
+    "evaluation_units": 100,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 30.8074538280007,
+        "dense_metric": 30.98576632458101,
+        "relative_metric_loss_percent": 0.5754658274785214,
+        "speedup": 2.7070797820919417,
+        "dense_median_ms": 533.5142211914062,
+        "sparse_median_ms": 197.08108520507812,
+        "speed_gain_range_percent": [
+          148.9132089335971,
+          171.2706952187481
+        ],
+        "measured_speed_ratio": 2.7070797820919417,
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 30.897270804579605,
+        "dense_metric": 30.98576632458101,
+        "relative_metric_loss_percent": 0.2856005530875058,
+        "speedup": 2.5985145585877745,
+        "dense_median_ms": 533.5142211914062,
+        "sparse_median_ms": 205.31507873535156,
+        "speed_gain_range_percent": [
+          144.23556239758645,
+          160.39160556229336
+        ],
+        "measured_speed_ratio": 2.5985145585877745,
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 30.942587821497085,
+        "dense_metric": 30.98576632458101,
+        "relative_metric_loss_percent": 0.13934947624539556,
+        "speedup": 2.5529443487818924,
+        "dense_median_ms": 533.5142211914062,
+        "sparse_median_ms": 208.97996520996094,
+        "speed_gain_range_percent": [
+          135.9023062275364,
+          155.82511196388418
+        ],
+        "measured_speed_ratio": 2.5529443487818924,
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 30.964959297916366,
+        "dense_metric": 30.98576632458101,
+        "relative_metric_loss_percent": 0.06715027295658317,
+        "speedup": 2.3829364451922523,
+        "dense_median_ms": 533.5142211914062,
+        "sparse_median_ms": 223.889404296875,
+        "speed_gain_range_percent": [
+          121.64812531065405,
+          138.7889822921517
+        ],
+        "measured_speed_ratio": 2.3829364451922523,
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 30.975514943489838,
+        "dense_metric": 30.98576632458101,
+        "relative_metric_loss_percent": 0.033084161881904633,
+        "speedup": 2.122084669534682,
+        "dense_median_ms": 533.5142211914062,
+        "sparse_median_ms": 251.41043090820312,
+        "speed_gain_range_percent": [
+          96.22622309965043,
+          112.64958182092073
+        ],
+        "measured_speed_ratio": 2.122084669534682,
+        "identical_execution": false
+      },
+      {
+        "k": 17,
+        "sparse_metric": 30.9831045368299,
+        "dense_metric": 30.98576632458101,
+        "relative_metric_loss_percent": 0.008590356369532636,
+        "speedup": 1.8169612206451564,
+        "dense_median_ms": 533.5142211914062,
+        "sparse_median_ms": 293.62994384765625,
+        "speed_gain_range_percent": [
+          65.74808316307129,
+          82.0738113337129
+        ],
+        "measured_speed_ratio": 1.8169612206451564,
+        "identical_execution": false
+      }
+    ]
+  },
+  "gopro": {
+    "name": "TransWeather / GoPro",
+    "metric": "PSNRdB",
+    "evaluation_units": 1111,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 26.59380879148102,
+        "dense_metric": 26.623120297205492,
+        "relative_metric_loss_percent": 0.1100979351678347,
+        "speedup": 1.5370367284576072,
+        "dense_median_ms": 98.17203521728516,
+        "sparse_median_ms": 63.870975494384766,
+        "speed_gain_range_percent": [
+          50.36956664002281,
+          55.696279720603826
+        ],
+        "measured_speed_ratio": 1.5370367284576072,
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 26.60908292144343,
+        "dense_metric": 26.623120297205492,
+        "relative_metric_loss_percent": 0.05272626050348795,
+        "speedup": 1.5067442575567278,
+        "dense_median_ms": 98.17203521728516,
+        "sparse_median_ms": 65.15507507324219,
+        "speed_gain_range_percent": [
+          48.5245774860855,
+          52.62776161983962
+        ],
+        "measured_speed_ratio": 1.5067442575567278,
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 26.616115220687227,
+        "dense_metric": 26.623120297205492,
+        "relative_metric_loss_percent": 0.026312004153022876,
+        "speedup": 1.4595590040983015,
+        "dense_median_ms": 98.17203521728516,
+        "sparse_median_ms": 67.26143646240234,
+        "speed_gain_range_percent": [
+          44.508275508969874,
+          47.84806554288063
+        ],
+        "measured_speed_ratio": 1.4595590040983015,
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 26.619157084971324,
+        "dense_metric": 26.623120297205492,
+        "relative_metric_loss_percent": 0.014886355130148373,
+        "speedup": 1.3761537994261643,
+        "dense_median_ms": 98.17203521728516,
+        "sparse_median_ms": 71.33798217773438,
+        "speed_gain_range_percent": [
+          34.463493211307906,
+          39.39941897747394
+        ],
+        "measured_speed_ratio": 1.3761537994261643,
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 26.62152306389634,
+        "dense_metric": 26.623120297205492,
+        "relative_metric_loss_percent": 0.005999421898414743,
+        "speedup": 1.2712642967285972,
+        "dense_median_ms": 98.17203521728516,
+        "sparse_median_ms": 77.22393798828125,
+        "speed_gain_range_percent": [
+          23.162767254084706,
+          28.77449047095524
+        ],
+        "measured_speed_ratio": 1.2712642967285972,
+        "identical_execution": false
+      },
+      {
+        "k": 17,
+        "sparse_metric": 26.622816645441773,
+        "dense_metric": 26.623120297205492,
+        "relative_metric_loss_percent": 0.0011405566302122457,
+        "speedup": 1.1177960187240925,
+        "dense_median_ms": 98.17203521728516,
+        "sparse_median_ms": 87.82643127441406,
+        "speed_gain_range_percent": [
+          7.053991377845792,
+          13.22870714773794
+        ],
+        "measured_speed_ratio": 1.1177960187240925,
+        "identical_execution": false
+      }
+    ]
+  },
+  "cave": {
+    "name": "Fusformer / CAVE",
+    "metric": "PSNRdB",
+    "evaluation_units": 11,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 47.46129609040319,
+        "dense_metric": 47.982117104901775,
+        "relative_metric_loss_percent": 1.0854481751189355,
+        "speedup": 53.88907307131883,
+        "dense_median_ms": 15450.1376953125,
+        "sparse_median_ms": 286.7026062011719,
+        "speed_gain_range_percent": [
+          5136.459120349676,
+          5376.9041952624975
+        ],
+        "measured_speed_ratio": 53.88907307131883,
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 47.58903421901595,
+        "dense_metric": 47.982117104901775,
+        "relative_metric_loss_percent": 0.8192278907294571,
+        "speedup": 28.908305413064287,
+        "dense_median_ms": 15450.1376953125,
+        "sparse_median_ms": 534.4532470703125,
+        "speed_gain_range_percent": [
+          2754.794483779203,
+          2885.7790978551307
+        ],
+        "measured_speed_ratio": 28.908305413064287,
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 47.77364576048067,
+        "dense_metric": 47.982117104901775,
+        "relative_metric_loss_percent": 0.43447716982835893,
+        "speedup": 14.914200488618405,
+        "dense_median_ms": 15450.1376953125,
+        "sparse_median_ms": 1035.9346923828125,
+        "speed_gain_range_percent": [
+          1391.4200488618405,
+          1429.4003105251795
+        ],
+        "measured_speed_ratio": 14.914200488618405,
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 47.7967157038213,
+        "dense_metric": 47.982117104901775,
+        "relative_metric_loss_percent": 0.38639687505897025,
+        "speedup": 7.717264914239555,
+        "dense_median_ms": 15450.1376953125,
+        "sparse_median_ms": 2002.0224609375,
+        "speed_gain_range_percent": [
+          664.7327860163731,
+          678.2077791452101
+        ],
+        "measured_speed_ratio": 7.717264914239555,
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 47.97377586065436,
+        "dense_metric": 47.982117104901775,
+        "relative_metric_loss_percent": 0.01738406879626059,
+        "speedup": 3.9549794122692687,
+        "dense_median_ms": 15450.1376953125,
+        "sparse_median_ms": 3906.502685546875,
+        "speed_gain_range_percent": [
+          289.4851570408556,
+          298.81950136350554
+        ],
+        "measured_speed_ratio": 3.9549794122692687,
+        "identical_execution": false
+      },
+      {
+        "k": 17,
+        "sparse_metric": 47.977848901337566,
+        "dense_metric": 47.982117104901775,
+        "relative_metric_loss_percent": 0.008895404833591072,
+        "speedup": 1.9905408381653815,
+        "dense_median_ms": 15450.1376953125,
+        "sparse_median_ms": 7761.77880859375,
+        "speed_gain_range_percent": [
+          92.2305583569025,
+          101.03640693277569
+        ],
+        "measured_speed_ratio": 1.9905408381653815,
+        "identical_execution": false
+      }
+    ]
+  },
+  "qb": {
+    "name": "Fusformer / QuickBird",
+    "metric": "PSNRdB",
+    "evaluation_units": 20,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 27.26710475883705,
+        "dense_metric": 27.268080973711168,
+        "relative_metric_loss_percent": 0.00358006445359796,
+        "speedup": 13.8418172959492,
+        "dense_median_ms": 887.3579406738281,
+        "sparse_median_ms": 64.10704040527344,
+        "speed_gain_range_percent": [
+          1280.7589285872439,
+          1346.2739830732833
+        ],
+        "measured_speed_ratio": 13.8418172959492,
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 27.2677592818382,
+        "dense_metric": 27.268080973711168,
+        "relative_metric_loss_percent": 0.0011797378527637994,
+        "speedup": 7.420452787688155,
+        "dense_median_ms": 887.3579406738281,
+        "sparse_median_ms": 119.58272171020508,
+        "speed_gain_range_percent": [
+          638.9266177763817,
+          642.0452787688155
+        ],
+        "measured_speed_ratio": 7.420452787688155,
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 27.267921208452538,
+        "dense_metric": 27.268080973711168,
+        "relative_metric_loss_percent": 0.0005859057657333713,
+        "speedup": 3.8866013052893873,
+        "dense_median_ms": 887.3579406738281,
+        "sparse_median_ms": 228.3120574951172,
+        "speed_gain_range_percent": [
+          286.4776485526614,
+          288.66013052893874
+        ],
+        "measured_speed_ratio": 3.8866013052893873,
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 27.268058071385834,
+        "dense_metric": 27.268080973711168,
+        "relative_metric_loss_percent": 8.398950170367014e-05,
+        "speedup": 1.9894244957685052,
+        "dense_median_ms": 887.3579406738281,
+        "sparse_median_ms": 446.0375061035156,
+        "speed_gain_range_percent": [
+          94.54607633691592,
+          98.94244957685052
+        ],
+        "measured_speed_ratio": 1.9894244957685052,
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 27.268080973711168,
+        "dense_metric": 27.268080973711168,
+        "relative_metric_loss_percent": -0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 887.3579406738281,
+        "sparse_median_ms": 887.3579406738281,
+        "speed_gain_range_percent": [
+          -2.4707699110930625,
+          1.2741649419573342
+        ],
+        "measured_speed_ratio": 1.0127416494195733,
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_03.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 887.3579406738281,
+        "observed_sparse_median_ms": 876.1937866210938
+      },
+      {
+        "k": 17,
+        "sparse_metric": 27.268080973711168,
+        "dense_metric": 27.268080973711168,
+        "relative_metric_loss_percent": -0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 887.3579406738281,
+        "sparse_median_ms": 887.3579406738281,
+        "speed_gain_range_percent": [
+          -2.5858939720158847,
+          0.8273881228947344
+        ],
+        "measured_speed_ratio": 1.0082738812289473,
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_03.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 887.3579406738281,
+        "observed_sparse_median_ms": 880.0762939453125
+      }
+    ]
+  },
+  "geco": {
+    "name": "GECO2 / FSC147",
+    "metric": "count MAE",
+    "evaluation_units": 1190,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 8.412605042016807,
+        "dense_metric": 7.644537815126051,
+        "relative_metric_loss_percent": 10.047268330218753,
+        "speedup": 1.0797042554782772,
+        "dense_median_ms": 291.4334411621094,
+        "sparse_median_ms": 269.91969299316406,
+        "speed_gain_range_percent": [
+          4.71229801770634,
+          7.97042554782772
+        ],
+        "measured_speed_ratio": 1.0797042554782772,
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 7.902521008403362,
+        "dense_metric": 7.644537815126051,
+        "relative_metric_loss_percent": 3.374738924920303,
+        "speedup": 1.0799004627494941,
+        "dense_median_ms": 291.4334411621094,
+        "sparse_median_ms": 269.8706512451172,
+        "speed_gain_range_percent": [
+          2.4100396386718126,
+          7.990046274949414
+        ],
+        "measured_speed_ratio": 1.0799004627494941,
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 7.618487394957983,
+        "dense_metric": 7.644537815126051,
+        "relative_metric_loss_percent": -0.3407716829724189,
+        "speedup": 1.0619075434459337,
+        "dense_median_ms": 291.4334411621094,
+        "sparse_median_ms": 274.4433288574219,
+        "speed_gain_range_percent": [
+          -0.9968705334628236,
+          7.676766901750587
+        ],
+        "measured_speed_ratio": 1.0619075434459337,
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 7.610084033613445,
+        "dense_metric": 7.644537815126051,
+        "relative_metric_loss_percent": -0.4506980323183567,
+        "speedup": 1.037795507569333,
+        "dense_median_ms": 291.4334411621094,
+        "sparse_median_ms": 280.81971740722656,
+        "speed_gain_range_percent": [
+          -4.360052313752627,
+          3.779550756933303
+        ],
+        "measured_speed_ratio": 1.037795507569333,
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 7.644537815126051,
+        "dense_metric": 7.644537815126051,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 291.4334411621094,
+        "sparse_median_ms": 291.4334411621094,
+        "speed_gain_range_percent": [
+          -6.68438255167959,
+          -0.35744772017102244
+        ],
+        "measured_speed_ratio": 0.9826741734426644,
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_03.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 291.4334411621094,
+        "observed_sparse_median_ms": 296.57179260253906
+      },
+      {
+        "k": 17,
+        "sparse_metric": 7.644537815126051,
+        "dense_metric": 7.644537815126051,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 291.4334411621094,
+        "sparse_median_ms": 291.4334411621094,
+        "speed_gain_range_percent": [
+          -7.691771072099796,
+          0.9287307580822413
+        ],
+        "measured_speed_ratio": 0.9953584568547135,
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_03.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 291.4334411621094,
+        "observed_sparse_median_ms": 292.7924499511719
+      }
+    ]
+  },
+  "glpn_nyu": {
+    "name": "GLPN / NYUv2",
+    "metric": "AbsRel",
+    "evaluation_units": 654,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 0.10375971370447848,
+        "dense_metric": 0.09838836391482057,
+        "relative_metric_loss_percent": 5.459334392741947,
+        "speedup": 1.1421942456697838,
+        "dense_median_ms": 35.414527893066406,
+        "sparse_median_ms": 31.005696296691895,
+        "measured_speed_ratio": 1.1421942456697838,
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 0.10155352979146559,
+        "dense_metric": 0.09838836391482057,
+        "relative_metric_loss_percent": 3.21701240950124,
+        "speedup": 1.1016170648835197,
+        "dense_median_ms": 34.635263442993164,
+        "sparse_median_ms": 31.440383911132812,
+        "measured_speed_ratio": 1.1016170648835197,
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 0.0993151521931092,
+        "dense_metric": 0.09838836391482057,
+        "relative_metric_loss_percent": 0.9419693970020583,
+        "speedup": 1.0649661813729536,
+        "dense_median_ms": 34.938880920410156,
+        "sparse_median_ms": 32.80750274658203,
+        "measured_speed_ratio": 1.0649661813729536,
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 0.09846115130817215,
+        "dense_metric": 0.09838836391482057,
+        "relative_metric_loss_percent": 0.0739796765139765,
+        "speedup": 1.023615686145472,
+        "dense_median_ms": 34.53289604187012,
+        "sparse_median_ms": 33.73619270324707,
+        "measured_speed_ratio": 1.023615686145472,
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 0.09840926393832362,
+        "dense_metric": 0.09838836391482057,
+        "relative_metric_loss_percent": 0.02124237325578979,
+        "speedup": 1.008206274391185,
+        "dense_median_ms": 34.53388786315918,
+        "sparse_median_ms": 34.25279998779297,
+        "measured_speed_ratio": 1.008206274391185,
+        "identical_execution": false
+      },
+      {
+        "k": 17,
+        "sparse_metric": 0.09838836391482057,
+        "dense_metric": 0.09838836391482057,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "dense_median_ms": 35.16364860534668,
+        "sparse_median_ms": 35.16364860534668,
+        "measured_speed_ratio": 1.0085615048212795,
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "timing_file": "timing_12.json",
+        "independent_sparse_measurement": true,
+        "observed_dense_median_ms": 35.16364860534668,
+        "observed_sparse_median_ms": 34.865150451660156
+      }
+    ]
+  },
+  "gamus": {
+    "name": "AltiMap / GAMUS",
+    "metric": "RMSEm",
+    "evaluation_units": 2861,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 8.717175344180438,
+        "dense_metric": 4.337619735358319,
+        "relative_metric_loss_percent": 100.96679460216296,
+        "speedup": 1.6107112206779735,
+        "dense_median_ms": 1381.53369140625,
+        "sparse_median_ms": 830.0001220703125,
+        "speed_gain_range_percent": [
+          60.37567861051403,
+          68.32509702014644
+        ],
+        "round_speedups": [
+          1.6107112206779735,
+          1.6037567861051403,
+          1.6832509702014644
+        ],
+        "identical_execution": false
+      },
+      {
+        "k": 13,
+        "sparse_metric": 6.85992214631057,
+        "dense_metric": 4.337619735358319,
+        "relative_metric_loss_percent": 58.149459031449425,
+        "speedup": 1.552688079105637,
+        "dense_median_ms": 1381.53369140625,
+        "sparse_median_ms": 882.3910522460938,
+        "speed_gain_range_percent": [
+          53.16777980541958,
+          58.330992498838796
+        ],
+        "round_speedups": [
+          1.5316777980541958,
+          1.552688079105637,
+          1.583309924988388
+        ],
+        "identical_execution": false
+      },
+      {
+        "k": 14,
+        "sparse_metric": 4.702581127046607,
+        "dense_metric": 4.337619735358319,
+        "relative_metric_loss_percent": 8.413863223493003,
+        "speedup": 1.3916551284857397,
+        "dense_median_ms": 1381.53369140625,
+        "sparse_median_ms": 985.4822387695312,
+        "speed_gain_range_percent": [
+          36.228442387908544,
+          41.76800512271013
+        ],
+        "round_speedups": [
+          1.3622844238790854,
+          1.3916551284857397,
+          1.4176800512271013
+        ],
+        "identical_execution": false
+      },
+      {
+        "k": 15,
+        "sparse_metric": 4.408724298707281,
+        "dense_metric": 4.337619735358319,
+        "relative_metric_loss_percent": 1.6392530393881668,
+        "speedup": 1.2929111632776238,
+        "dense_median_ms": 1364.16650390625,
+        "sparse_median_ms": 1051.9398193359375,
+        "speed_gain_range_percent": [
+          23.91524691728395,
+          29.681040572018013
+        ],
+        "round_speedups": [
+          1.2391524691728395,
+          1.2968104057201801,
+          1.2929111632776238
+        ],
+        "identical_execution": false
+      },
+      {
+        "k": 16,
+        "sparse_metric": 4.319180754146845,
+        "dense_metric": 4.337619735358319,
+        "relative_metric_loss_percent": -0.42509446047490546,
+        "speedup": 1.1901321981671271,
+        "dense_median_ms": 1391.6826171875,
+        "sparse_median_ms": 1166.8489990234375,
+        "speed_gain_range_percent": [
+          14.492581289145324,
+          19.26844161945811
+        ],
+        "round_speedups": [
+          1.1449258128914532,
+          1.1901321981671271,
+          1.192684416194581
+        ],
+        "identical_execution": false
+      },
+      {
+        "k": 17,
+        "sparse_metric": 4.337619735358319,
+        "dense_metric": 4.337619735358319,
+        "relative_metric_loss_percent": 0.0,
+        "speedup": 1.0,
+        "identical_execution": true,
+        "latency_source": "dense_baseline_reuse",
+        "independent_sparse_measurement": false
+      }
+    ]
+  },
+  "pi3": {
+    "name": "Pi3 / TUM fr1/desk",
+    "metric": "relative 3D point error",
+    "evaluation_units": 596,
+    "points": [
+      {
+        "k": 12,
+        "sparse_metric": 0.28246535568299536,
+        "dense_metric": 0.03592475573013365,
+        "relative_metric_loss_percent": 686.2693842788294,
+        "speedup": 2.318630064870001,
+        "dense_median_ms": 22991.693359375,
+        "sparse_median_ms": 9916.06494140625,
+        "speed_gain_range_percent": [
+          131.80325282613302,
+          131.9227601478672
+        ],
+        "round_speedups": [
+          2.319227601478672,
+          2.3180325282613303
+        ],
+        "identical_execution": false,
+        "auxiliary_metrics": {
+          "relative_point_error": 0.28246535568299536,
+          "point_rmse_m": 0.4561950985569458,
+          "point_delta1": 0.51172502233691,
+          "rotation_rpe_deg": 1.7449807022080412,
+          "translation_direction_error_deg": 87.51001239767051
+        }
+      },
+      {
+        "k": 13,
+        "sparse_metric": 0.060428646425287814,
+        "dense_metric": 0.03592475573013365,
+        "relative_metric_loss_percent": 68.20892779126213,
+        "speedup": 2.2407147728679977,
+        "dense_median_ms": 22991.693359375,
+        "sparse_median_ms": 10260.93310546875,
+        "speed_gain_range_percent": [
+          123.67483462707227,
+          124.46811994652722
+        ],
+        "round_speedups": [
+          2.2367483462707227,
+          2.2446811994652722
+        ],
+        "identical_execution": false,
+        "auxiliary_metrics": {
+          "relative_point_error": 0.060428646425287814,
+          "point_rmse_m": 0.15185565157195074,
+          "point_delta1": 0.9781876562617804,
+          "rotation_rpe_deg": 0.8658602403396429,
+          "translation_direction_error_deg": 49.417039157191454
+        }
+      },
+      {
+        "k": 14,
+        "sparse_metric": 0.041777750379147154,
+        "dense_metric": 0.03592475573013365,
+        "relative_metric_loss_percent": 16.29237145822544,
+        "speedup": 2.134775004870451,
+        "dense_median_ms": 22991.693359375,
+        "sparse_median_ms": 10770.08203125,
+        "speed_gain_range_percent": [
+          113.1205455161898,
+          113.83445545790045
+        ],
+        "round_speedups": [
+          2.1383445545790045,
+          2.131205455161898
+        ],
+        "identical_execution": false,
+        "auxiliary_metrics": {
+          "relative_point_error": 0.041777750379147154,
+          "point_rmse_m": 0.12480283688541134,
+          "point_delta1": 0.9836958451812489,
+          "rotation_rpe_deg": 0.49249375830034836,
+          "translation_direction_error_deg": 29.86439936722089
+        }
+      },
+      {
+        "k": 15,
+        "sparse_metric": 0.03762496957462368,
+        "dense_metric": 0.03592475573013365,
+        "relative_metric_loss_percent": 4.732708156074938,
+        "speedup": 2.1654013189216785,
+        "dense_median_ms": 22991.693359375,
+        "sparse_median_ms": 10617.798828125,
+        "speed_gain_range_percent": [
+          115.90039258924772,
+          117.17987119508804
+        ],
+        "round_speedups": [
+          2.1717987119508804,
+          2.159003925892477
+        ],
+        "identical_execution": false,
+        "auxiliary_metrics": {
+          "relative_point_error": 0.03762496957462368,
+          "point_rmse_m": 0.11723580221548655,
+          "point_delta1": 0.9851012151978178,
+          "rotation_rpe_deg": 0.402137041619448,
+          "translation_direction_error_deg": 23.171285844636543
+        }
+      },
+      {
+        "k": 16,
+        "sparse_metric": 0.03552863754698917,
+        "dense_metric": 0.03592475573013365,
+        "relative_metric_loss_percent": -1.1026329200958696,
+        "speedup": 2.003967340515935,
+        "dense_median_ms": 22991.693359375,
+        "sparse_median_ms": 11473.14404296875,
+        "speed_gain_range_percent": [
+          99.78486222420813,
+          101.00860587897888
+        ],
+        "round_speedups": [
+          2.010086058789789,
+          1.9978486222420813
+        ],
+        "identical_execution": false,
+        "auxiliary_metrics": {
+          "relative_point_error": 0.03552863754698917,
+          "point_rmse_m": 0.11579362992346542,
+          "point_delta1": 0.9851091506839397,
+          "rotation_rpe_deg": 0.3889794959515773,
+          "translation_direction_error_deg": 21.16945901413114
+        }
+      },
+      {
+        "k": 17,
+        "sparse_metric": 0.03483819039315622,
+        "dense_metric": 0.03592475573013365,
+        "relative_metric_loss_percent": -3.0245587336478974,
+        "speedup": 1.7262488774136369,
+        "dense_median_ms": 22991.693359375,
+        "sparse_median_ms": 13318.880859375,
+        "speed_gain_range_percent": [
+          72.33151137905922,
+          72.91826410366815
+        ],
+        "round_speedups": [
+          1.7291826410366815,
+          1.7233151137905922
+        ],
+        "identical_execution": false,
+        "auxiliary_metrics": {
+          "relative_point_error": 0.03483819039315622,
+          "point_rmse_m": 0.1157432495564483,
+          "point_delta1": 0.9848816294143802,
+          "rotation_rpe_deg": 0.38081027533100653,
+          "translation_direction_error_deg": 20.214281665007597
+        }
+      }
+    ]
+  }
+}

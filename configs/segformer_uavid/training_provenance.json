@@ -1,0 +1,167 @@
+{
+  "model": "segformer_b0_uavid_dense_sra",
+  "scope": "Task architecture, training configuration and evaluation protocol.",
+  "architecture": {
+    "backbone": "MiT-B0 with dense spatial-reduction attention",
+    "stage_widths": [
+      32,
+      64,
+      160,
+      256
+    ],
+    "stage_depths": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "heads": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "sr_ratios": [
+      8,
+      4,
+      2,
+      1
+    ],
+    "decoder": "Four Conv1x1-BatchNorm-ReLU branches, interpolation, concatenation, fusion Conv1x1-BatchNorm-ReLU, Dropout2d and classifier.",
+    "decoder_width": 256,
+    "branch_convolution_bias": false,
+    "fusion_convolution_bias": false,
+    "decoder_dropout": 0.1,
+    "interpolation": "bilinear",
+    "align_corners": false
+  },
+  "training_protocol": {
+    "epoch_budget": 40,
+    "training_images": 200,
+    "training_crops": 5600,
+    "crop_size": 1024,
+    "crop_stride": 512,
+    "crop_manifest": "configs/segformer_uavid/training_crops.json",
+    "crop_field_of_view": "Original full image, including upper and lower edges.",
+    "padding_sides": [
+      "right",
+      "bottom"
+    ],
+    "padding_multiple": 512,
+    "image_padding_rgb": [
+      0,
+      0,
+      0
+    ],
+    "label_padding_rgb": [
+      0,
+      0,
+      255
+    ],
+    "label_padding_class_id": 0,
+    "label_padding_class": "clutter",
+    "augmentation_mask_border_id": 255,
+    "loss_ignore_index": 255,
+    "validation_images": 70,
+    "validation_window": 1024,
+    "validation_stride": 512,
+    "validations_per_epoch": 4,
+    "checkpoint_selection": "maximum validation mIoU"
+  },
+  "final_evaluation": {
+    "split": "all 70 original UAVid validation images",
+    "precision": "FP32",
+    "window_sizes": [
+      1024,
+      2048
+    ],
+    "stride": "half the window size",
+    "fusion": "pixel-coordinate Gaussian logits, sigma=window_size/4, normalized by covering weights",
+    "native_inference": "one complete forward on the original image grid",
+    "dense_1024_miou_percent": 72.81881699963238,
+    "same_checkpoint_for_dense_and_sparse": true
+  },
+  "initialization": {
+    "backbone": "ImageNet-pretrained MiT-B0"
+  },
+  "training_implementation": {
+    "microbatch_size": 1,
+    "gradient_accumulation": 4,
+    "effective_batch_size": 4,
+    "batch_norm_update": "once per actual one-image training forward",
+    "precision": "FP32",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "no_decay_name_substrings": [
+      "bias",
+      "LayerNorm.weight"
+    ],
+    "warmup_optimizer_updates": 125,
+    "schedule": "linear warmup followed by linear decay",
+    "minimum_learning_rate": 1e-06,
+    "loss": {
+      "weighted_cross_entropy_coefficient": 0.5,
+      "dice_coefficient": 0.5,
+      "class_order": [
+        "clutter",
+        "building",
+        "road",
+        "tree",
+        "low_vegetation",
+        "static_car",
+        "moving_car",
+        "human"
+      ],
+      "class_weights": [
+        1.5,
+        0.8,
+        2.0,
+        2.5,
+        2.0,
+        14.0,
+        8.0,
+        18.0
+      ],
+      "weight_selection": "manually_tuned"
+    },
+    "seed_in_saved_configuration": 42,
+    "augmentation": {
+      "rotation_degrees": 15,
+      "rotation_probability": 0.5,
+      "horizontal_flip_probability": 0.5,
+      "brightness_factor": [
+        0.875,
+        1.125
+      ],
+      "contrast_factor": [
+        0.7,
+        1.3
+      ],
+      "saturation_factor": [
+        0.8,
+        1.2
+      ],
+      "opencv_hue_shift": [
+        -9,
+        9
+      ],
+      "probability_per_photometric_transform": 0.5,
+      "spatial_resizing": false
+    },
+    "rgb_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "rgb_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "case": "iml",
+  "expected_samples": 2010,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/imd2020",
+  "weights": "weights/iml/iml_vit.pth",
+  "source": "third_party/sources/iml_vit",
+  "execution": {
+    "cudnn_allow_tf32": false,
+    "cudnn_deterministic": true
+  },
+  "timing": {
+    "warmup": 5,
+    "repeats": 20,
+    "rounds": 3
+  },
+  "timer": "cuda_event",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "dense_backend": "fused_relative",
+  "timing_summary": "median_weighted_round_medians",
+  "speedup_summary": "ratio_of_reported_latencies"
+}

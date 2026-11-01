@@ -1,0 +1,534 @@
+{
+  "case": "twins_uavid",
+  "inference_seed": 42,
+  "cudnn_allow_tf32": false,
+  "window_size": 2048,
+  "classes": 8,
+  "complete_windows": true,
+  "capacities": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "layouts": [
+    "point32",
+    "cover16",
+    "strip"
+  ],
+  "windows": [
+    {
+      "index": 5,
+      "scene": "seq16",
+      "image": "val/seq16/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_005.npz",
+      "diagnostic_arrays": "diagnostics_005.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "scene": "seq17",
+      "image": "val/seq17/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_015.npz",
+      "diagnostic_arrays": "diagnostics_015.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "scene": "seq18",
+      "image": "val/seq18/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_025.npz",
+      "diagnostic_arrays": "diagnostics_025.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "scene": "seq19",
+      "image": "val/seq19/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_035.npz",
+      "diagnostic_arrays": "diagnostics_035.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "scene": "seq20",
+      "image": "val/seq20/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_045.npz",
+      "diagnostic_arrays": "diagnostics_045.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "scene": "seq36",
+      "image": "val/seq36/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_055.npz",
+      "diagnostic_arrays": "diagnostics_055.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "scene": "seq37",
+      "image": "val/seq37/Images/000500.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "qkv_arrays": "qkv_065.npz",
+      "diagnostic_arrays": "diagnostics_065.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "query_grid": [
+            512,
+            512
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 43,
+          "heads": 2,
+          "head_dimension": 32
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "query_grid": [
+            256,
+            256
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 143,
+          "heads": 4,
+          "head_dimension": 32
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "query_grid": [
+            128,
+            128
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 243,
+          "heads": 8,
+          "head_dimension": 32
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "query_grid": [
+            64,
+            64
+          ],
+          "kv_grid": [
+            64,
+            64
+          ],
+          "seed": 343,
+          "heads": 16,
+          "head_dimension": 32
+        }
+      ]
+    }
+  ]
+}

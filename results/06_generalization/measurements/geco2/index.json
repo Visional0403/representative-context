@@ -1,0 +1,35 @@
+{
+  "case": "geco2",
+  "files": [
+    {
+      "file": "accuracy_01.json",
+      "resource_exponents": [
+        14
+      ],
+      "accuracy_units": 1190
+    },
+    {
+      "file": "accuracy_02.json",
+      "resource_exponents": [
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "accuracy_units": 1190
+    },
+    {
+      "file": "timing_03.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "accuracy_units": null
+    }
+  ]
+}

@@ -1,0 +1,2309 @@
+{
+  "case": "polyp_kvasir",
+  "resource_exponents": [
+    16
+  ],
+  "scope": "complete evaluation split",
+  "records": [
+    {
+      "image": "cju0u82z3cuma0835wlxrnrjv.png",
+      "original_shape": [
+        546,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9264341102594512,
+          "IoU": 0.8629503965363062
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9273076127025722,
+          "IoU": 0.8644674127303779
+        }
+      }
+    },
+    {
+      "image": "cju15wdt3zla10801odjiw7sy.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9830704727754915,
+          "IoU": 0.9667046205832721
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.983288208383906,
+          "IoU": 0.9671258034894459
+        }
+      }
+    },
+    {
+      "image": "cju16ach3m1da0993r1dq3sn2.png",
+      "original_shape": [
+        528,
+        616
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9857030256655149,
+          "IoU": 0.9718090959625212
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9856393261529972,
+          "IoU": 0.9716852708957288
+        }
+      }
+    },
+    {
+      "image": "cju16whaj0e7n0855q7b6cjkm.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.7386874339813448,
+          "IoU": 0.5856497856935223
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7318257702231167,
+          "IoU": 0.5770703685974591
+        }
+      }
+    },
+    {
+      "image": "cju17z0qongpa0993de4boim4.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9657410114001854,
+          "IoU": 0.933751625120155
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9656925774401035,
+          "IoU": 0.9336610724982011
+        }
+      }
+    },
+    {
+      "image": "cju1amqw6p8pw0993d9gc5crl.png",
+      "original_shape": [
+        547,
+        622
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9536481217897435,
+          "IoU": 0.9114028862078171
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9537357743691528,
+          "IoU": 0.9115630172618685
+        }
+      }
+    },
+    {
+      "image": "cju1bm8063nmh07996rsjjemq.png",
+      "original_shape": [
+        530,
+        607
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9497759375245716,
+          "IoU": 0.9043555289391393
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9497115888830657,
+          "IoU": 0.9042388536622018
+        }
+      }
+    },
+    {
+      "image": "cju1c3218411b08014g9f6gig.png",
+      "original_shape": [
+        546,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9587189016990331,
+          "IoU": 0.920710942764023
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9590202007754255,
+          "IoU": 0.9212668694337842
+        }
+      }
+    },
+    {
+      "image": "cju1cbokpuiw70988j4lq1fpi.png",
+      "original_shape": [
+        529,
+        615
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9188880969351679,
+          "IoU": 0.8499472573840652
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9193272519954677,
+          "IoU": 0.850699024004319
+        }
+      }
+    },
+    {
+      "image": "cju1cj3f0qi5n0993ut8f49rj.png",
+      "original_shape": [
+        530,
+        616
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.949200177359395,
+          "IoU": 0.9033120837174403
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9534417767514549,
+          "IoU": 0.9110260237523641
+        }
+      }
+    },
+    {
+      "image": "cju1cqc7n4gpy0855jt246k68.png",
+      "original_shape": [
+        529,
+        616
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9528671390221569,
+          "IoU": 0.9099773052030681
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9524060646012075,
+          "IoU": 0.9091366725397189
+        }
+      }
+    },
+    {
+      "image": "cju1ddr6p4k5z08780uuuzit2.png",
+      "original_shape": [
+        531,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8102464489499756,
+          "IoU": 0.6810204081635908
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8210336538462614,
+          "IoU": 0.6964012641454822
+        }
+      }
+    },
+    {
+      "image": "cju1f8w0t65en0799m9oacq0q.png",
+      "original_shape": [
+        528,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9594021277984532,
+          "IoU": 0.9219720253402992
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9588512994756426,
+          "IoU": 0.9209551901594324
+        }
+      }
+    },
+    {
+      "image": "cju1h89h6xbnx08352k2790o9.png",
+      "original_shape": [
+        531,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9737681886603163,
+          "IoU": 0.9488774153172381
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9737248840803762,
+          "IoU": 0.9487951807229116
+        }
+      }
+    },
+    {
+      "image": "cju1hp9i2xu8e0988u2dazk7m.png",
+      "original_shape": [
+        531,
+        490
+      ],
+      "input_shape": [
+        544,
+        512
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9862773114246612,
+          "IoU": 0.9729261488768248
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9861452148161397,
+          "IoU": 0.9726690934711212
+        }
+      }
+    },
+    {
+      "image": "cju2hfqnmhisa0993gpleeldd.png",
+      "original_shape": [
+        530,
+        621
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.09885961902185009,
+          "IoU": 0.05200016790504538
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.0988075772682673,
+          "IoU": 0.05197137127570234
+        }
+      }
+    },
+    {
+      "image": "cju2hjrqcvi2j0801bx1i6gxg.png",
+      "original_shape": [
+        531,
+        599
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9324928832859573,
+          "IoU": 0.8735238095240504
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9330624682580669,
+          "IoU": 0.8745239908608634
+        }
+      }
+    },
+    {
+      "image": "cju2hos57llxm08359g92p6jj.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8079682196853009,
+          "IoU": 0.677807616397632
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8081288446913361,
+          "IoU": 0.6780337296459553
+        }
+      }
+    },
+    {
+      "image": "cju2hqt33lmra0988fr5ijv8j.png",
+      "original_shape": [
+        528,
+        602
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9838714801596984,
+          "IoU": 0.9682549608137468
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9837846997892346,
+          "IoU": 0.9680868803935532
+        }
+      }
+    },
+    {
+      "image": "cju2lberzkdzm09938cl40pog.png",
+      "original_shape": [
+        528,
+        605
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9790678244263435,
+          "IoU": 0.9589939937745753
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.979823172735149,
+          "IoU": 0.9604444509508322
+        }
+      }
+    },
+    {
+      "image": "cju2mh8t6p07008350e01tx2a.png",
+      "original_shape": [
+        528,
+        588
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9718295218295292,
+          "IoU": 0.9452027095339475
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9717376043264679,
+          "IoU": 0.9450288257307854
+        }
+      }
+    },
+    {
+      "image": "cju2nnqrqzp580855z8mhzgd6.png",
+      "original_shape": [
+        518,
+        569
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.7592797006889052,
+          "IoU": 0.6119668559549694
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7592191837716222,
+          "IoU": 0.6118882350868766
+        }
+      }
+    },
+    {
+      "image": "cju2np2k9zi3v079992ypxqkn.png",
+      "original_shape": [
+        531,
+        603
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9676164357351328,
+          "IoU": 0.9372644714894862
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.96746930314145,
+          "IoU": 0.9369884169884365
+        }
+      }
+    },
+    {
+      "image": "cju2omjpeqj5a0988pjdlb8l1.png",
+      "original_shape": [
+        530,
+        566
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9833452250098037,
+          "IoU": 0.9672361249857783
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.983077219828973,
+          "IoU": 0.966717669225229
+        }
+      }
+    },
+    {
+      "image": "cju2osuru0ki00855txo0n3uu.png",
+      "original_shape": [
+        528,
+        594
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9841791880878606,
+          "IoU": 0.9688511758636694
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9839747064137323,
+          "IoU": 0.9684549318064676
+        }
+      }
+    },
+    {
+      "image": "cju2pag1f0s4r0878h52uq83s.png",
+      "original_shape": [
+        530,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9569916399122804,
+          "IoU": 0.9175301718883838
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9571991859577852,
+          "IoU": 0.9179118131365994
+        }
+      }
+    },
+    {
+      "image": "cju2rga4psq9n09881z519xx0.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9616070914637767,
+          "IoU": 0.9260532150776463
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9621133724272847,
+          "IoU": 0.9269927435883637
+        }
+      }
+    },
+    {
+      "image": "cju2rmd2rsw9g09888hh1efu0.png",
+      "original_shape": [
+        531,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8909858455428582,
+          "IoU": 0.8034034930595458
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8918717375095901,
+          "IoU": 0.8048452220735538
+        }
+      }
+    },
+    {
+      "image": "cju2rqo702wpx0855fn7d5cxh.png",
+      "original_shape": [
+        529,
+        621
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9622764227642481,
+          "IoU": 0.9272955186462684
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9625575724736047,
+          "IoU": 0.927817820954844
+        }
+      }
+    },
+    {
+      "image": "cju2top2ruxxy0988p1svx36g.png",
+      "original_shape": [
+        530,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9267423169353742,
+          "IoU": 0.8634853787294823
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9266514371224179,
+          "IoU": 0.8633275984812733
+        }
+      }
+    },
+    {
+      "image": "cju2wve9v7esz0878mxsdcy04.png",
+      "original_shape": [
+        529,
+        620
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9732289716975857,
+          "IoU": 0.9478539468596653
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9733484547774388,
+          "IoU": 0.9480806407070157
+        }
+      }
+    },
+    {
+      "image": "cju2y40d8ulqo0993q0adtgtb.png",
+      "original_shape": [
+        529,
+        617
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.897263550084347,
+          "IoU": 0.8136699844763461
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8973884588761063,
+          "IoU": 0.8138754451648677
+        }
+      }
+    },
+    {
+      "image": "cju2yi9tz8vky0801yqip0xyl.png",
+      "original_shape": [
+        528,
+        616
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9721151854153736,
+          "IoU": 0.945743308610132
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9722532753674639,
+          "IoU": 0.9460047422822871
+        }
+      }
+    },
+    {
+      "image": "cju2yo1j1v0qz09934o0e683p.png",
+      "original_shape": [
+        546,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9618499510516498,
+          "IoU": 0.9265037862551863
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9619463382558716,
+          "IoU": 0.9266826694100011
+        }
+      }
+    },
+    {
+      "image": "cju2yv4imv6cz099314jveiib.png",
+      "original_shape": [
+        529,
+        621
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9619507337381278,
+          "IoU": 0.9266908276928192
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9617543762617237,
+          "IoU": 0.9263264436394827
+        }
+      }
+    },
+    {
+      "image": "cju2zp89k9q1g0855k1x0f1xa.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9545427884333658,
+          "IoU": 0.9130385996410311
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9545481203448745,
+          "IoU": 0.913048356333543
+        }
+      }
+    },
+    {
+      "image": "cju2zwg05a0oy0801yr73ig7g.png",
+      "original_shape": [
+        531,
+        599
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9733827860805098,
+          "IoU": 0.9481457868451949
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9740291592860099,
+          "IoU": 0.9493731406714967
+        }
+      }
+    },
+    {
+      "image": "cju30ajhw09sx0988qyahx9s8.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9230148705592688,
+          "IoU": 0.8570358543748786
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9311032914217091,
+          "IoU": 0.8710881827488738
+        }
+      }
+    },
+    {
+      "image": "cju30gxjq0djk0988jytm49rs.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9509225967768519,
+          "IoU": 0.9064370215727535
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.950708980418645,
+          "IoU": 0.9060489060489387
+        }
+      }
+    },
+    {
+      "image": "cju30j1rgadut0801vuyrsnt8.png",
+      "original_shape": [
+        530,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9534965775174981,
+          "IoU": 0.9111260957519742
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.953563867325368,
+          "IoU": 0.9112489884004434
+        }
+      }
+    },
+    {
+      "image": "cju31w6goazci0799n014ly1q.png",
+      "original_shape": [
+        547,
+        627
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.94387232173362,
+          "IoU": 0.8937104302417178
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9463637912984264,
+          "IoU": 0.8981883723080002
+        }
+      }
+    },
+    {
+      "image": "cju32srle1xfq083575i3fl75.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9751745720357843,
+          "IoU": 0.9515518891573075
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9750344473247916,
+          "IoU": 0.9512850893182869
+        }
+      }
+    },
+    {
+      "image": "cju34m7h536wq0988xz7gx79v.png",
+      "original_shape": [
+        531,
+        617
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9146701098305653,
+          "IoU": 0.8427576888053807
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9136602256227101,
+          "IoU": 0.8410446226609557
+        }
+      }
+    },
+    {
+      "image": "cju34xspwzenf0993cyzajv9n.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.887223075141742,
+          "IoU": 0.7973054215289116
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8872994228179958,
+          "IoU": 0.7974287431980704
+        }
+      }
+    },
+    {
+      "image": "cju3tp94kfstl08181awh6z49.png",
+      "original_shape": [
+        530,
+        593
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9839080219164896,
+          "IoU": 0.9683257452462882
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9838853136608595,
+          "IoU": 0.9682817568611314
+        }
+      }
+    },
+    {
+      "image": "cju3uhb79gcgr0871orbrbi3x.png",
+      "original_shape": [
+        531,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.31100632300969294,
+          "IoU": 0.18413705583808113
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.3134320380569173,
+          "IoU": 0.18584014705001847
+        }
+      }
+    },
+    {
+      "image": "cju3v11mrgwwb0755u242ygye.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9490109610532896,
+          "IoU": 0.902969418220002
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9485336217316732,
+          "IoU": 0.9021055179090424
+        }
+      }
+    },
+    {
+      "image": "cju3x5u2tiihx0818914gzxy1.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.976338900041643,
+          "IoU": 0.9537716145327432
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9764645912074811,
+          "IoU": 0.9540115396295228
+        }
+      }
+    },
+    {
+      "image": "cju3xga12iixg0817dijbvjxw.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.719222219447029,
+          "IoU": 0.5615511374163088
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7192543788365784,
+          "IoU": 0.5615903478032114
+        }
+      }
+    },
+    {
+      "image": "cju3ya7goj6at0818v2l5ay7f.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9354180238871073,
+          "IoU": 0.8786716710183757
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9361942896936211,
+          "IoU": 0.8800425497096146
+        }
+      }
+    },
+    {
+      "image": "cju3ykamdj9u208503pygyuc8.png",
+      "original_shape": [
+        1010,
+        1220
+      ],
+      "input_shape": [
+        1024,
+        1248
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.5332016244101392,
+          "IoU": 0.36351391798878496
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.5381409074143235,
+          "IoU": 0.3681209154451394
+        }
+      }
+    },
+    {
+      "image": "cju40m0rjkpw80871z6n6yg1u.png",
+      "original_shape": [
+        528,
+        586
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.925445925310015,
+          "IoU": 0.8612371839704973
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9248808266948264,
+          "IoU": 0.8602588900461449
+        }
+      }
+    },
+    {
+      "image": "cju42qet0lsq90871e50xbnuv.png",
+      "original_shape": [
+        531,
+        598
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9510483489043029,
+          "IoU": 0.9066655721556778
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.949123298897934,
+          "IoU": 0.9031728440668624
+        }
+      }
+    },
+    {
+      "image": "cju42wamblrqn098798r2yyok.png",
+      "original_shape": [
+        547,
+        621
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8604349821904915,
+          "IoU": 0.7550556297739366
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8603171467254014,
+          "IoU": 0.754874168944023
+        }
+      }
+    },
+    {
+      "image": "cju43jcqim2cp08172dvjvyui.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9617566510172331,
+          "IoU": 0.9263306641545678
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9617491684602026,
+          "IoU": 0.926316781306015
+        }
+      }
+    },
+    {
+      "image": "cju45rj7ln8980850a7821fov.png",
+      "original_shape": [
+        546,
+        585
+      ],
+      "input_shape": [
+        576,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9631645475500092,
+          "IoU": 0.9289463870801387
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9630543702888802,
+          "IoU": 0.9287414332004909
+        }
+      }
+    },
+    {
+      "image": "cju45ty6zn9oz0850qy4qnck1.png",
+      "original_shape": [
+        531,
+        551
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9697509443233164,
+          "IoU": 0.9412781685942706
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.969878408253505,
+          "IoU": 0.9415183761066079
+        }
+      }
+    },
+    {
+      "image": "cju45v0pungu40871acnwtmu5.png",
+      "original_shape": [
+        530,
+        606
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9737830197013899,
+          "IoU": 0.9489055807847214
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9745513110432116,
+          "IoU": 0.9503657487091329
+        }
+      }
+    },
+    {
+      "image": "cju5cky5xb0ay0801oxet697t.png",
+      "original_shape": [
+        528,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9245708855497048,
+          "IoU": 0.8597227591539959
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9255192878338501,
+          "IoU": 0.8613642640155419
+        }
+      }
+    },
+    {
+      "image": "cju5clr68b48r0755cmuvponm.png",
+      "original_shape": [
+        526,
+        601
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9645704330701274,
+          "IoU": 0.9315654718361626
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.964563722797787,
+          "IoU": 0.9315529540881904
+        }
+      }
+    },
+    {
+      "image": "cju5hi52odyf90817prvcwg45.png",
+      "original_shape": [
+        352,
+        568
+      ],
+      "input_shape": [
+        352,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8958657726651735,
+          "IoU": 0.8113739711046237
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8958657726651735,
+          "IoU": 0.8113739711046237
+        }
+      }
+    },
+    {
+      "image": "cju5hyi9yegob0755ho3do8en.png",
+      "original_shape": [
+        529,
+        623
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9051498617236144,
+          "IoU": 0.8267340251229428
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9052761378073565,
+          "IoU": 0.8269447383691754
+        }
+      }
+    },
+    {
+      "image": "cju5k3j3uf6de0817hszzfr7n.png",
+      "original_shape": [
+        530,
+        547
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9546096429292139,
+          "IoU": 0.9131609417214269
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9545523329130116,
+          "IoU": 0.913056064846171
+        }
+      }
+    },
+    {
+      "image": "cju5o4pk9h0720755lgp9jq8m.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9837933925453398,
+          "IoU": 0.9681037156503979
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9837946183761852,
+          "IoU": 0.9681060897396176
+        }
+      }
+    },
+    {
+      "image": "cju5wrrs0m2af0818vmnajbtw.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9565859222975531,
+          "IoU": 0.9167845659165057
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9563057923350854,
+          "IoU": 0.9162700964631302
+        }
+      }
+    },
+    {
+      "image": "cju5x00l6m5j608503k78ptee.png",
+      "original_shape": [
+        529,
+        554
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8947756195579415,
+          "IoU": 0.8095872977395453
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8951610539582096,
+          "IoU": 0.8102185908319328
+        }
+      }
+    },
+    {
+      "image": "cju5xjn5mm78b09871spyqhhr.png",
+      "original_shape": [
+        528,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.7897825722430507,
+          "IoU": 0.6525956031775997
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7728406257084819,
+          "IoU": 0.6297801588768465
+        }
+      }
+    },
+    {
+      "image": "cju5xkwzxmf0z0818gk4xabdm.png",
+      "original_shape": [
+        505,
+        609
+      ],
+      "input_shape": [
+        512,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8467648311632037,
+          "IoU": 0.7342516548617833
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8567061780389348,
+          "IoU": 0.7493315905175347
+        }
+      }
+    },
+    {
+      "image": "cju5xq3tdm9fn0987pbedxdg5.png",
+      "original_shape": [
+        529,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.7105310209191784,
+          "IoU": 0.5510260676654177
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7103851198284784,
+          "IoU": 0.5508505917163915
+        }
+      }
+    },
+    {
+      "image": "cju5y4hgqmk0i08180rjhbwvp.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9557267736387036,
+          "IoU": 0.9152075812274559
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9560650486923192,
+          "IoU": 0.9158281821053297
+        }
+      }
+    },
+    {
+      "image": "cju5yeqiwmkgl0801fzv2douc.png",
+      "original_shape": [
+        531,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.3766441018250011,
+          "IoU": 0.23201572880508145
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.37630491588047216,
+          "IoU": 0.23175836372296946
+        }
+      }
+    },
+    {
+      "image": "cju6us80mv1b50871ebyq2wxa.png",
+      "original_shape": [
+        530,
+        562
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9019274376418623,
+          "IoU": 0.8213732576153294
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9023941068141346,
+          "IoU": 0.8221476510071705
+        }
+      }
+    },
+    {
+      "image": "cju6uy20suzbl0987rzuhz7z9.png",
+      "original_shape": [
+        546,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9416209771538491,
+          "IoU": 0.889682199692213
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9400878398766269,
+          "IoU": 0.8869488201429925
+        }
+      }
+    },
+    {
+      "image": "cju6v1m1xv07w09870ah3njy1.png",
+      "original_shape": [
+        530,
+        565
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8389622120741107,
+          "IoU": 0.7225968188106316
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8412179164570103,
+          "IoU": 0.7259500542889356
+        }
+      }
+    },
+    {
+      "image": "cju6vifjlv55z0987un6y4zdo.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.759787905722262,
+          "IoU": 0.6126273959332345
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7650839574444781,
+          "IoU": 0.6195432977461635
+        }
+      }
+    },
+    {
+      "image": "cju6vrs1ov8cr098788h8gs6j.png",
+      "original_shape": [
+        529,
+        621
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9633922001471783,
+          "IoU": 0.9293700088731562
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9631104847110843,
+          "IoU": 0.928845812895261
+        }
+      }
+    },
+    {
+      "image": "cju6x0yqbvxqt0755dhxislgb.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9546746869052427,
+          "IoU": 0.9132799856141177
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9550408719346102,
+          "IoU": 0.913950456323357
+        }
+      }
+    },
+    {
+      "image": "cju7ajnbo1gvm098749rdouk0.png",
+      "original_shape": [
+        546,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9675576196076108,
+          "IoU": 0.9371541095008962
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9673037560807061,
+          "IoU": 0.9366779067672351
+        }
+      }
+    },
+    {
+      "image": "cju7awzmu1ncs0871hziy65zx.png",
+      "original_shape": [
+        527,
+        592
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9831305758313091,
+          "IoU": 0.9668208645717152
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9828831021335315,
+          "IoU": 0.9663423193491919
+        }
+      }
+    },
+    {
+      "image": "cju7bd1qu1mx409877xjxibox.png",
+      "original_shape": [
+        530,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9632530561452377,
+          "IoU": 0.9291110640401296
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9627771572953544,
+          "IoU": 0.9282259488084984
+        }
+      }
+    },
+    {
+      "image": "cju7bgnvb1sf808717qa799ir.png",
+      "original_shape": [
+        528,
+        590
+      ],
+      "input_shape": [
+        544,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9761561262230171,
+          "IoU": 0.9534228325476611
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9761232394058371,
+          "IoU": 0.9533600888054046
+        }
+      }
+    },
+    {
+      "image": "cju7crgxa28550755wbsgqkel.png",
+      "original_shape": [
+        504,
+        622
+      ],
+      "input_shape": [
+        512,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9225403386805173,
+          "IoU": 0.8562179836512575
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9224912763032765,
+          "IoU": 0.8561334641806005
+        }
+      }
+    },
+    {
+      "image": "cju7da88w2eod0755wejzynvt.png",
+      "original_shape": [
+        484,
+        622
+      ],
+      "input_shape": [
+        512,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9368384435720634,
+          "IoU": 0.8811816397121799
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.937468933293599,
+          "IoU": 0.8822979041917269
+        }
+      }
+    },
+    {
+      "image": "cju7ddtz729960801uazp1knc.png",
+      "original_shape": [
+        528,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9404108919252945,
+          "IoU": 0.8875241211511221
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9385359607313137,
+          "IoU": 0.8841900676898525
+        }
+      }
+    },
+    {
+      "image": "cju7do8c72dbo0801vxfzxdc4.png",
+      "original_shape": [
+        547,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9041265901334533,
+          "IoU": 0.8250283125709053
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9041818605012397,
+          "IoU": 0.8251203625036639
+        }
+      }
+    },
+    {
+      "image": "cju7dymur2od30755eg8yv2ht.png",
+      "original_shape": [
+        530,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.94729027468449,
+          "IoU": 0.8998589562764671
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9471741845471892,
+          "IoU": 0.8996494677895311
+        }
+      }
+    },
+    {
+      "image": "cju7ecl9i2i060987xawjp4l0.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8832918099641809,
+          "IoU": 0.7909781784047487
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8832670295422967,
+          "IoU": 0.7909384364108967
+        }
+      }
+    },
+    {
+      "image": "cju7fbndk2sl608015ravktum.png",
+      "original_shape": [
+        530,
+        569
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9546827794562004,
+          "IoU": 0.9132947976878873
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.954879098521018,
+          "IoU": 0.9136541974902174
+        }
+      }
+    },
+    {
+      "image": "cju7fcgbe2z3p07550vaflqdb.png",
+      "original_shape": [
+        530,
+        620
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9758952163270639,
+          "IoU": 0.9529251614537315
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9759426774308634,
+          "IoU": 0.9530156719962156
+        }
+      }
+    },
+    {
+      "image": "cju7fpfzq2wyf0818xxd1oziv.png",
+      "original_shape": [
+        530,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9610146840590674,
+          "IoU": 0.9249550203592177
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.961771546499823,
+          "IoU": 0.9263583012557698
+        }
+      }
+    },
+    {
+      "image": "cju84hibuktj80871u519o71q.png",
+      "original_shape": [
+        529,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9861760172249306,
+          "IoU": 0.9727290278984589
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9862993590057283,
+          "IoU": 0.972969059226735
+        }
+      }
+    },
+    {
+      "image": "cju88cddensj00987788yotmg.png",
+      "original_shape": [
+        531,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9748321231642805,
+          "IoU": 0.9508999893492647
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9747816593886531,
+          "IoU": 0.9508039612395108
+        }
+      }
+    },
+    {
+      "image": "cju88t4fvokxf07558ymyh281.png",
+      "original_shape": [
+        530,
+        570
+      ],
+      "input_shape": [
+        544,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9430760087169177,
+          "IoU": 0.8922836613558937
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9438432097136255,
+          "IoU": 0.8936582318026282
+        }
+      }
+    },
+    {
+      "image": "cju88vx2uoocy075531lc63n3.png",
+      "original_shape": [
+        508,
+        596
+      ],
+      "input_shape": [
+        512,
+        608
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9754840014153691,
+          "IoU": 0.9521413064930411
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9750997525127657,
+          "IoU": 0.9514094224325336
+        }
+      }
+    },
+    {
+      "image": "cju8alhigqn2h0801zksudldd.png",
+      "original_shape": [
+        528,
+        614
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9913954788387297,
+          "IoU": 0.9829377699965831
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9913844899921112,
+          "IoU": 0.9829161659276467
+        }
+      }
+    },
+    {
+      "image": "cju8aqq8uqmoq0987hphto9gg.png",
+      "original_shape": [
+        546,
+        626
+      ],
+      "input_shape": [
+        576,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9804008883891556,
+          "IoU": 0.9615552595374881
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9805886315180068,
+          "IoU": 0.9619165155850722
+        }
+      }
+    },
+    {
+      "image": "cju8bk8oirjhw0817hgkua2w8.png",
+      "original_shape": [
+        509,
+        575
+      ],
+      "input_shape": [
+        512,
+        576
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9624725312068166,
+          "IoU": 0.9276598067580187
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9625115399210492,
+          "IoU": 0.92773228518398
+        }
+      }
+    },
+    {
+      "image": "cju8c2rqzs5t80850d0zky5dy.png",
+      "original_shape": [
+        490,
+        615
+      ],
+      "input_shape": [
+        512,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.7530802045520949,
+          "IoU": 0.6039524011900124
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.7547207027140914,
+          "IoU": 0.6060654058563684
+        }
+      }
+    },
+    {
+      "image": "cju8d4jgatgpj0871q2ophhkm.png",
+      "original_shape": [
+        531,
+        622
+      ],
+      "input_shape": [
+        544,
+        640
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.9793574128517452,
+          "IoU": 0.9595498220274552
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.9793020886933349,
+          "IoU": 0.9594436099508303
+        }
+      }
+    },
+    {
+      "image": "cju8dqkrqu83i0818ev74qpxq.png",
+      "original_shape": [
+        1070,
+        1348
+      ],
+      "input_shape": [
+        1088,
+        1376
+      ],
+      "dense_sdpa": {
+        "author_normalized_binary": {
+          "Dice": 0.8570485512730409,
+          "IoU": 0.7498556060518926
+        }
+      },
+      "sparse_point32": {
+        "author_normalized_binary": {
+          "Dice": 0.8589938538763546,
+          "IoU": 0.7528389367529937
+        }
+      }
+    }
+  ]
+}

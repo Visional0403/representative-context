@@ -1,0 +1,72 @@
+{
+  "case": "segformer_uavid",
+  "layout": "dispersed32",
+  "windows": [
+    {
+      "validation_index": 0,
+      "valid_pixels": 4194304,
+      "certified_pixels": 3707232,
+      "image": "val/seq16/Images/000000.png",
+      "top_left": [
+        112,
+        1024
+      ]
+    },
+    {
+      "validation_index": 17,
+      "valid_pixels": 4194304,
+      "certified_pixels": 3779616,
+      "image": "val/seq17/Images/000700.png",
+      "top_left": [
+        112,
+        1024
+      ]
+    },
+    {
+      "validation_index": 34,
+      "valid_pixels": 4194304,
+      "certified_pixels": 3513976,
+      "image": "val/seq19/Images/000400.png",
+      "top_left": [
+        112,
+        1024
+      ]
+    },
+    {
+      "validation_index": 51,
+      "valid_pixels": 4194304,
+      "certified_pixels": 3269379,
+      "image": "val/seq36/Images/000100.png",
+      "top_left": [
+        112,
+        1024
+      ]
+    },
+    {
+      "validation_index": 69,
+      "valid_pixels": 4194304,
+      "certified_pixels": 3427551,
+      "image": "val/seq37/Images/000900.png",
+      "top_left": [
+        112,
+        1024
+      ]
+    }
+  ],
+  "predicate": "2 * centered_error_energy < minimum_dense_margin ** 2",
+  "definitions": {
+    "centered_error_energy": "Squared Euclidean norm of the centered sparse-minus-dense class-score vector.",
+    "minimum_dense_margin": "Dense winning score minus the largest competing score.",
+    "valid_pixels": "Ground-truth class ID is in 0 through 7."
+  },
+  "aggregation": "Sum certified and valid pixels over complete windows.",
+  "certified_pixels": 17697754,
+  "valid_pixels": 20971520,
+  "certified_percent": 84.38946723937988,
+  "k": 14,
+  "window_size": 2048,
+  "precision": "FP32",
+  "statistic_precision": "float64",
+  "cudnn_allow_tf32": false,
+  "input_manifest": "results/03_theory/classification/manifest.json"
+}

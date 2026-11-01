@@ -1,0 +1,974 @@
+[
+  {
+    "case": "segformer_uavid",
+    "k": 14,
+    "policy": "structural",
+    "capacities": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "groups": [
+      64,
+      32,
+      16,
+      8
+    ],
+    "continuous_capacities": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "target_attention_flops": 18253611008,
+    "relative_compute_difference": 0.0,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 32,
+        "blocks": 2,
+        "groups": 64,
+        "min_retained_keys": 64,
+        "max_retained_keys": 64,
+        "effective_retained_keys": 64.0,
+        "edges_per_block": 16777216,
+        "stage_flops": 4294967296
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 2,
+        "groups": 32,
+        "min_retained_keys": 128,
+        "max_retained_keys": 128,
+        "effective_retained_keys": 128.0,
+        "edges_per_block": 8388608,
+        "stage_flops": 4294967296
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 160,
+        "blocks": 2,
+        "groups": 16,
+        "min_retained_keys": 256,
+        "max_retained_keys": 256,
+        "effective_retained_keys": 256.0,
+        "edges_per_block": 4194304,
+        "stage_flops": 5368709120
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 2,
+        "groups": 8,
+        "min_retained_keys": 512,
+        "max_retained_keys": 512,
+        "effective_retained_keys": 512.0,
+        "edges_per_block": 2097152,
+        "stage_flops": 4294967296
+      }
+    ],
+    "attention_flops": 18253611008,
+    "total_edges": 62914560
+  },
+  {
+    "case": "segformer_uavid",
+    "k": 14,
+    "policy": "uniform",
+    "capacities": [
+      142,
+      137,
+      142,
+      147
+    ],
+    "groups": [
+      29,
+      30,
+      29,
+      28
+    ],
+    "continuous_capacities": [
+      141.3698064516129,
+      141.3698064516129,
+      141.3698064516129,
+      141.3698064516129
+    ],
+    "target_attention_flops": 18253611008,
+    "relative_compute_difference": -0.00024088691262635908,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 32,
+        "blocks": 2,
+        "groups": 29,
+        "min_retained_keys": 141,
+        "max_retained_keys": 142,
+        "effective_retained_keys": 141.24267578125,
+        "edges_per_block": 37025920,
+        "stage_flops": 9478635520
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 2,
+        "groups": 30,
+        "min_retained_keys": 136,
+        "max_retained_keys": 137,
+        "effective_retained_keys": 136.53515625,
+        "edges_per_block": 8947968,
+        "stage_flops": 4581359616
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 160,
+        "blocks": 2,
+        "groups": 29,
+        "min_retained_keys": 141,
+        "max_retained_keys": 142,
+        "effective_retained_keys": 141.24267578125,
+        "edges_per_block": 2314120,
+        "stage_flops": 2962073600
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 2,
+        "groups": 28,
+        "min_retained_keys": 146,
+        "max_retained_keys": 147,
+        "effective_retained_keys": 146.287109375,
+        "edges_per_block": 599192,
+        "stage_flops": 1227145216
+      }
+    ],
+    "attention_flops": 18249213952,
+    "total_edges": 97774400
+  },
+  {
+    "case": "segformer_uavid",
+    "k": 14,
+    "policy": "no_density",
+    "capacities": [
+      205,
+      98,
+      49,
+      26
+    ],
+    "groups": [
+      20,
+      42,
+      84,
+      158
+    ],
+    "continuous_capacities": [
+      199.98958139534884,
+      99.99479069767442,
+      49.99739534883721,
+      24.998697674418604
+    ],
+    "target_attention_flops": 18253611008,
+    "relative_compute_difference": 0.0001620124368106879,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 32,
+        "blocks": 2,
+        "groups": 20,
+        "min_retained_keys": 204,
+        "max_retained_keys": 205,
+        "effective_retained_keys": 204.80078125,
+        "edges_per_block": 53687296,
+        "stage_flops": 13743947776
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 2,
+        "groups": 42,
+        "min_retained_keys": 97,
+        "max_retained_keys": 98,
+        "effective_retained_keys": 97.5263671875,
+        "edges_per_block": 6391488,
+        "stage_flops": 3272441856
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 160,
+        "blocks": 2,
+        "groups": 84,
+        "min_retained_keys": 48,
+        "max_retained_keys": 49,
+        "effective_retained_keys": 48.765625,
+        "edges_per_block": 798976,
+        "stage_flops": 1022689280
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 2,
+        "groups": 158,
+        "min_retained_keys": 25,
+        "max_retained_keys": 26,
+        "effective_retained_keys": 25.9267578125,
+        "edges_per_block": 106196,
+        "stage_flops": 217489408
+      }
+    ],
+    "attention_flops": 18256568320,
+    "total_edges": 121967912
+  },
+  {
+    "case": "segformer_uavid",
+    "k": 16,
+    "policy": "structural",
+    "capacities": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "groups": [
+      16,
+      8,
+      4,
+      2
+    ],
+    "continuous_capacities": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "target_attention_flops": 73014444032,
+    "relative_compute_difference": 0.0,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 32,
+        "blocks": 2,
+        "groups": 16,
+        "min_retained_keys": 256,
+        "max_retained_keys": 256,
+        "effective_retained_keys": 256.0,
+        "edges_per_block": 67108864,
+        "stage_flops": 17179869184
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 2,
+        "groups": 8,
+        "min_retained_keys": 512,
+        "max_retained_keys": 512,
+        "effective_retained_keys": 512.0,
+        "edges_per_block": 33554432,
+        "stage_flops": 17179869184
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 160,
+        "blocks": 2,
+        "groups": 4,
+        "min_retained_keys": 1024,
+        "max_retained_keys": 1024,
+        "effective_retained_keys": 1024.0,
+        "edges_per_block": 16777216,
+        "stage_flops": 21474836480
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 2,
+        "groups": 2,
+        "min_retained_keys": 2048,
+        "max_retained_keys": 2048,
+        "effective_retained_keys": 2048.0,
+        "edges_per_block": 8388608,
+        "stage_flops": 17179869184
+      }
+    ],
+    "attention_flops": 73014444032,
+    "total_edges": 251658240
+  },
+  {
+    "case": "segformer_uavid",
+    "k": 16,
+    "policy": "uniform",
+    "capacities": [
+      586,
+      512,
+      586,
+      512
+    ],
+    "groups": [
+      7,
+      8,
+      7,
+      8
+    ],
+    "continuous_capacities": [
+      547.5096774193548,
+      547.5096774193548,
+      547.5096774193548,
+      547.5096774193548
+    ],
+    "target_attention_flops": 73014444032,
+    "relative_compute_difference": 2.524432014539002e-07,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 32,
+        "blocks": 2,
+        "groups": 7,
+        "min_retained_keys": 585,
+        "max_retained_keys": 586,
+        "effective_retained_keys": 585.14306640625,
+        "edges_per_block": 153391744,
+        "stage_flops": 39268286464
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 2,
+        "groups": 8,
+        "min_retained_keys": 512,
+        "max_retained_keys": 512,
+        "effective_retained_keys": 512.0,
+        "edges_per_block": 33554432,
+        "stage_flops": 17179869184
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 160,
+        "blocks": 2,
+        "groups": 7,
+        "min_retained_keys": 585,
+        "max_retained_keys": 586,
+        "effective_retained_keys": 585.14306640625,
+        "edges_per_block": 9586984,
+        "stage_flops": 12271339520
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 2,
+        "groups": 8,
+        "min_retained_keys": 512,
+        "max_retained_keys": 512,
+        "effective_retained_keys": 512.0,
+        "edges_per_block": 2097152,
+        "stage_flops": 4294967296
+      }
+    ],
+    "attention_flops": 73014462464,
+    "total_edges": 397260624
+  },
+  {
+    "case": "segformer_uavid",
+    "k": 16,
+    "policy": "no_density",
+    "capacities": [
+      820,
+      373,
+      216,
+      106
+    ],
+    "groups": [
+      5,
+      11,
+      19,
+      39
+    ],
+    "continuous_capacities": [
+      819.3905116279069,
+      409.69525581395345,
+      204.84762790697673,
+      102.42381395348836
+    ],
+    "target_attention_flops": 73014444032,
+    "relative_compute_difference": -0.001949142007266813,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 32,
+        "blocks": 2,
+        "groups": 5,
+        "min_retained_keys": 819,
+        "max_retained_keys": 820,
+        "effective_retained_keys": 819.2001953125,
+        "edges_per_block": 214748416,
+        "stage_flops": 54975594496
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 2,
+        "groups": 11,
+        "min_retained_keys": 372,
+        "max_retained_keys": 373,
+        "effective_retained_keys": 372.3642578125,
+        "edges_per_block": 24403264,
+        "stage_flops": 12494471168
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 160,
+        "blocks": 2,
+        "groups": 19,
+        "min_retained_keys": 215,
+        "max_retained_keys": 216,
+        "effective_retained_keys": 215.580078125,
+        "edges_per_block": 3532064,
+        "stage_flops": 4521041920
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 2,
+        "groups": 39,
+        "min_retained_keys": 105,
+        "max_retained_keys": 106,
+        "effective_retained_keys": 105.02587890625,
+        "edges_per_block": 430186,
+        "stage_flops": 881020928
+      }
+    ],
+    "attention_flops": 72872128512,
+    "total_edges": 486227860
+  },
+  {
+    "case": "twins_uavid",
+    "k": 14,
+    "policy": "structural",
+    "capacities": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "groups": [
+      64,
+      32,
+      16,
+      8
+    ],
+    "continuous_capacities": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "target_attention_flops": 38654705664,
+    "relative_compute_difference": 0.0,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 1,
+        "groups": 64,
+        "min_retained_keys": 64,
+        "max_retained_keys": 64,
+        "effective_retained_keys": 64.0,
+        "edges_per_block": 16777216,
+        "stage_flops": 4294967296
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 128,
+        "blocks": 1,
+        "groups": 32,
+        "min_retained_keys": 128,
+        "max_retained_keys": 128,
+        "effective_retained_keys": 128.0,
+        "edges_per_block": 8388608,
+        "stage_flops": 4294967296
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 5,
+        "groups": 16,
+        "min_retained_keys": 256,
+        "max_retained_keys": 256,
+        "effective_retained_keys": 256.0,
+        "edges_per_block": 4194304,
+        "stage_flops": 21474836480
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 512,
+        "blocks": 2,
+        "groups": 8,
+        "min_retained_keys": 512,
+        "max_retained_keys": 512,
+        "effective_retained_keys": 512.0,
+        "edges_per_block": 2097152,
+        "stage_flops": 8589934592
+      }
+    ],
+    "attention_flops": 38654705664,
+    "total_edges": 50331648
+  },
+  {
+    "case": "twins_uavid",
+    "k": 14,
+    "policy": "uniform",
+    "capacities": [
+      187,
+      196,
+      196,
+      196
+    ],
+    "groups": [
+      22,
+      21,
+      21,
+      21
+    ],
+    "continuous_capacities": [
+      192.768,
+      192.768,
+      192.768,
+      192.768
+    ],
+    "target_attention_flops": 38654705664,
+    "relative_compute_difference": 0.0004831949869792407,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 1,
+        "groups": 22,
+        "min_retained_keys": 186,
+        "max_retained_keys": 187,
+        "effective_retained_keys": 186.1826171875,
+        "edges_per_block": 48806656,
+        "stage_flops": 12494503936
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 128,
+        "blocks": 1,
+        "groups": 21,
+        "min_retained_keys": 195,
+        "max_retained_keys": 196,
+        "effective_retained_keys": 195.0478515625,
+        "edges_per_block": 12782656,
+        "stage_flops": 6544719872
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 5,
+        "groups": 21,
+        "min_retained_keys": 195,
+        "max_retained_keys": 196,
+        "effective_retained_keys": 195.0478515625,
+        "edges_per_block": 3195664,
+        "stage_flops": 16361799680
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 512,
+        "blocks": 2,
+        "groups": 21,
+        "min_retained_keys": 195,
+        "max_retained_keys": 196,
+        "effective_retained_keys": 195.0478515625,
+        "edges_per_block": 798916,
+        "stage_flops": 3272359936
+      }
+    ],
+    "attention_flops": 38673383424,
+    "total_edges": 79165464
+  },
+  {
+    "case": "twins_uavid",
+    "k": 14,
+    "policy": "no_density",
+    "capacities": [
+      373,
+      179,
+      84,
+      42
+    ],
+    "groups": [
+      11,
+      23,
+      49,
+      98
+    ],
+    "continuous_capacities": [
+      343.7025882352941,
+      171.85129411764706,
+      85.92564705882353,
+      42.962823529411764
+    ],
+    "target_attention_flops": 38654705664,
+    "relative_compute_difference": 0.0006099277072482145,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 1,
+        "groups": 11,
+        "min_retained_keys": 372,
+        "max_retained_keys": 373,
+        "effective_retained_keys": 372.3642578125,
+        "edges_per_block": 97613056,
+        "stage_flops": 24988942336
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 128,
+        "blocks": 1,
+        "groups": 23,
+        "min_retained_keys": 178,
+        "max_retained_keys": 179,
+        "effective_retained_keys": 178.08740234375,
+        "edges_per_block": 11671136,
+        "stage_flops": 5975621632
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 5,
+        "groups": 49,
+        "min_retained_keys": 83,
+        "max_retained_keys": 84,
+        "effective_retained_keys": 83.5947265625,
+        "edges_per_block": 1369616,
+        "stage_flops": 7012433920
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 512,
+        "blocks": 2,
+        "groups": 98,
+        "min_retained_keys": 41,
+        "max_retained_keys": 42,
+        "effective_retained_keys": 41.7998046875,
+        "edges_per_block": 171212,
+        "stage_flops": 701284352
+      }
+    ],
+    "attention_flops": 38678282240,
+    "total_edges": 116474696
+  },
+  {
+    "case": "twins_uavid",
+    "k": 16,
+    "policy": "structural",
+    "capacities": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "groups": [
+      16,
+      8,
+      4,
+      2
+    ],
+    "continuous_capacities": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "target_attention_flops": 154618822656,
+    "relative_compute_difference": 0.0,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 1,
+        "groups": 16,
+        "min_retained_keys": 256,
+        "max_retained_keys": 256,
+        "effective_retained_keys": 256.0,
+        "edges_per_block": 67108864,
+        "stage_flops": 17179869184
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 128,
+        "blocks": 1,
+        "groups": 8,
+        "min_retained_keys": 512,
+        "max_retained_keys": 512,
+        "effective_retained_keys": 512.0,
+        "edges_per_block": 33554432,
+        "stage_flops": 17179869184
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 5,
+        "groups": 4,
+        "min_retained_keys": 1024,
+        "max_retained_keys": 1024,
+        "effective_retained_keys": 1024.0,
+        "edges_per_block": 16777216,
+        "stage_flops": 85899345920
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 512,
+        "blocks": 2,
+        "groups": 2,
+        "min_retained_keys": 2048,
+        "max_retained_keys": 2048,
+        "effective_retained_keys": 2048.0,
+        "edges_per_block": 8388608,
+        "stage_flops": 34359738368
+      }
+    ],
+    "attention_flops": 154618822656,
+    "total_edges": 201326592
+  },
+  {
+    "case": "twins_uavid",
+    "k": 16,
+    "policy": "uniform",
+    "capacities": [
+      820,
+      820,
+      683,
+      820
+    ],
+    "groups": [
+      5,
+      5,
+      6,
+      5
+    ],
+    "continuous_capacities": [
+      782.5920000000001,
+      782.5920000000001,
+      782.5920000000001,
+      782.5920000000001
+    ],
+    "target_attention_flops": 154618822656,
+    "relative_compute_difference": -0.007407082451714397,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 1,
+        "groups": 5,
+        "min_retained_keys": 819,
+        "max_retained_keys": 820,
+        "effective_retained_keys": 819.2001953125,
+        "edges_per_block": 214748416,
+        "stage_flops": 54975594496
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 128,
+        "blocks": 1,
+        "groups": 5,
+        "min_retained_keys": 819,
+        "max_retained_keys": 820,
+        "effective_retained_keys": 819.2001953125,
+        "edges_per_block": 53687104,
+        "stage_flops": 27487797248
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 5,
+        "groups": 6,
+        "min_retained_keys": 682,
+        "max_retained_keys": 683,
+        "effective_retained_keys": 682.6669921875,
+        "edges_per_block": 11184816,
+        "stage_flops": 57266257920
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 512,
+        "blocks": 2,
+        "groups": 5,
+        "min_retained_keys": 819,
+        "max_retained_keys": 820,
+        "effective_retained_keys": 819.2001953125,
+        "edges_per_block": 3355444,
+        "stage_flops": 13743898624
+      }
+    ],
+    "attention_flops": 153473548288,
+    "total_edges": 331070488
+  },
+  {
+    "case": "twins_uavid",
+    "k": 16,
+    "policy": "no_density",
+    "capacities": [
+      1366,
+      820,
+      373,
+      196
+    ],
+    "groups": [
+      3,
+      5,
+      11,
+      21
+    ],
+    "continuous_capacities": [
+      1510.7011764705883,
+      755.3505882352941,
+      377.67529411764707,
+      188.83764705882353
+    ],
+    "target_attention_flops": 154618822656,
+    "relative_compute_difference": -0.0064449310302734375,
+    "stages": [
+      {
+        "stage": 1,
+        "Q": 262144,
+        "K": 4096,
+        "channels": 64,
+        "blocks": 1,
+        "groups": 3,
+        "min_retained_keys": 1365,
+        "max_retained_keys": 1366,
+        "effective_retained_keys": 1365.33349609375,
+        "edges_per_block": 357913984,
+        "stage_flops": 91625979904
+      },
+      {
+        "stage": 2,
+        "Q": 65536,
+        "K": 4096,
+        "channels": 128,
+        "blocks": 1,
+        "groups": 5,
+        "min_retained_keys": 819,
+        "max_retained_keys": 820,
+        "effective_retained_keys": 819.2001953125,
+        "edges_per_block": 53687104,
+        "stage_flops": 27487797248
+      },
+      {
+        "stage": 3,
+        "Q": 16384,
+        "K": 4096,
+        "channels": 256,
+        "blocks": 5,
+        "groups": 11,
+        "min_retained_keys": 372,
+        "max_retained_keys": 373,
+        "effective_retained_keys": 372.3642578125,
+        "edges_per_block": 6100816,
+        "stage_flops": 31236177920
+      },
+      {
+        "stage": 4,
+        "Q": 4096,
+        "K": 4096,
+        "channels": 512,
+        "blocks": 2,
+        "groups": 21,
+        "min_retained_keys": 195,
+        "max_retained_keys": 196,
+        "effective_retained_keys": 195.0478515625,
+        "edges_per_block": 798916,
+        "stage_flops": 3272359936
+      }
+    ],
+    "attention_flops": 153622315008,
+    "total_edges": 443703000
+  }
+]

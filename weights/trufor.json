@@ -1,0 +1,19 @@
+{
+  "case": "trufor",
+  "dataset": "Columbia spliced images",
+  "path": "trufor/trufor.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "grip-unina/TruFor",
+    "revision": "ae54475df6f41a491d7615100feb19263dec13f7",
+    "subdirectory": "TruFor_train_test",
+    "include": [
+      "lib",
+      "LICENSE.txt",
+      "LICENSE_CMX.txt",
+      "README.md"
+    ]
+  },
+  "weights_url": "https://www.grip.unina.it/download/prog/TruFor/TruFor_weights.zip",
+  "upstream_filename": "trufor.pth.tar"
+}

@@ -1,0 +1,3866 @@
+{
+  "scope": "Shared dense-trajectory QKV; per-block aggregation with separate uninstrumented and staged timings.",
+  "blocks": [
+    {
+      "stage": 1,
+      "block": 1,
+      "method": "dense",
+      "Q": 65536,
+      "KV": 1024,
+      "capacity": 64,
+      "heads": 2,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          7.805952072143555,
+          7.485311985015869,
+          7.577600002288818,
+          7.79366397857666,
+          8.048640251159668,
+          7.4844160079956055,
+          7.500800132751465,
+          7.506944179534912,
+          7.745535850524902,
+          7.568384170532227
+        ],
+        "median_ms": 7.5729920864105225,
+        "mean_ms": 7.651724863052368,
+        "stdev_ms": 0.179482716920807,
+        "peak_allocated_mib": 161.25244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 7.4967041015625
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 7.803904056549072
+        },
+        {
+          "dense_attention": 7.489535808563232
+        },
+        {
+          "dense_attention": 7.4967041015625
+        },
+        {
+          "dense_attention": 7.7946882247924805
+        },
+        {
+          "dense_attention": 7.4844160079956055
+        }
+      ],
+      "instrumented_total_ms": [
+        7.809023857116699,
+        7.494656085968018,
+        7.501760005950928,
+        7.799680233001709,
+        7.489439964294434
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.926629450594191e-07,
+          "max_abs_error": 3.0994415283203125e-06
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "block": 1,
+      "method": "point32",
+      "Q": 65536,
+      "KV": 1024,
+      "capacity": 64,
+      "heads": 2,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.30617600679397583,
+          0.3891200125217438,
+          0.31942400336265564,
+          0.2969599962234497,
+          0.31436800956726074,
+          0.33689600229263306,
+          0.3193280100822449,
+          0.4710400104522705,
+          0.16793599724769592,
+          0.20150400698184967
+        ],
+        "median_ms": 0.3168480098247528,
+        "mean_ms": 0.312275205552578,
+        "stdev_ms": 0.0807456623012999,
+        "peak_allocated_mib": 161.25244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.19865599274635315
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.19660800695419312
+        },
+        {
+          "fixed_indexed_attention": 0.20377600193023682
+        },
+        {
+          "fixed_indexed_attention": 0.20070399343967438
+        },
+        {
+          "fixed_indexed_attention": 0.19865599274635315
+        },
+        {
+          "fixed_indexed_attention": 0.19865599274635315
+        }
+      ],
+      "instrumented_total_ms": [
+        0.2107200026512146,
+        0.22303999960422516,
+        0.21401600539684296,
+        0.21094399690628052,
+        0.21094399690628052
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.926629450594191e-07,
+          "max_abs_error": 3.0994415283203125e-06
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "block": 1,
+      "method": "proxy8",
+      "Q": 65536,
+      "KV": 1024,
+      "capacity": 64,
+      "heads": 2,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          12.164735794067383,
+          12.06067180633545,
+          11.936575889587402,
+          11.610112190246582,
+          11.788288116455078,
+          11.783231735229492,
+          11.774975776672363,
+          11.940863609313965,
+          12.118720054626465,
+          11.729920387268066
+        ],
+        "median_ms": 11.86243200302124,
+        "mean_ms": 11.890809535980225,
+        "stdev_ms": 0.17338089923509473,
+        "peak_allocated_mib": 305.31494140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 8.988671779632568,
+        "proxy_projection": 0.13516800105571747,
+        "selected_attention": 0.8111039772629738,
+        "output_allocation": 0.002047999994829297,
+        "pairing_scores": 1.8503679782152176
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.26316800713539124,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.8534400165081024,
+          "topk_and_indices": 8.732767820358276,
+          "selected_attention": 0.9984959661960602
+        },
+        {
+          "proxy_projection": 0.12492799758911133,
+          "output_allocation": 0.0030720001086592674,
+          "pairing_scores": 1.8832639902830124,
+          "topk_and_indices": 8.988671779632568,
+          "selected_attention": 0.808991976082325
+        },
+        {
+          "proxy_projection": 0.13516800105571747,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.8350079953670502,
+          "topk_and_indices": 9.256959795951843,
+          "selected_attention": 0.8111039772629738
+        },
+        {
+          "proxy_projection": 0.17203199863433838,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.8503679782152176,
+          "topk_and_indices": 8.96623980998993,
+          "selected_attention": 0.8110079765319824
+        },
+        {
+          "proxy_projection": 0.12591999769210815,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.8484160006046295,
+          "topk_and_indices": 9.454591751098633,
+          "selected_attention": 0.8130559772253036
+        }
+      ],
+      "instrumented_total_ms": [
+        11.887616157531738,
+        11.849727630615234,
+        12.093440055847168,
+        11.842559814453125,
+        12.302080154418945
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.926629450594191e-07,
+          "max_abs_error": 3.0994415283203125e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "block": 1,
+      "method": "exact",
+      "Q": 65536,
+      "KV": 1024,
+      "capacity": 64,
+      "heads": 2,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          16.69696044921875,
+          16.942079544067383,
+          16.571392059326172,
+          16.544767379760742,
+          16.80246353149414,
+          16.68060874938965,
+          16.874496459960938,
+          16.514047622680664,
+          16.508928298950195,
+          16.79020881652832
+        ],
+        "median_ms": 16.6887845993042,
+        "mean_ms": 16.692595291137696,
+        "stdev_ms": 0.14807050305843475,
+        "peak_allocated_mib": 301.25244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 9.220095872879028,
+        "proxy_projection": 0.0010239999974146485,
+        "selected_attention": 0.550912007689476,
+        "output_allocation": 0.0030720001086592674,
+        "pairing_scores": 6.953984022140503
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.005791999865323305,
+          "pairing_scores": 6.957056045532227,
+          "topk_and_indices": 9.220095872879028,
+          "selected_attention": 0.5551040098071098
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.004095999989658594,
+          "pairing_scores": 6.844479918479919,
+          "topk_and_indices": 10.024959921836853,
+          "selected_attention": 0.5498880073428154
+        },
+        {
+          "proxy_projection": 0.004095999989658594,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 7.180287957191467,
+          "topk_and_indices": 9.199615836143494,
+          "selected_attention": 0.5560320094227791
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 6.953984022140503,
+          "topk_and_indices": 9.152511835098267,
+          "selected_attention": 0.550912007689476
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0030720001086592674,
+          "pairing_scores": 6.866943955421448,
+          "topk_and_indices": 9.281535863876343,
+          "selected_attention": 0.5478400066494942
+        }
+      ],
+      "instrumented_total_ms": [
+        16.778911590576172,
+        17.4836483001709,
+        16.985088348388672,
+        16.709375381469727,
+        16.747488021850586
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.926629450594191e-07,
+          "max_abs_error": 3.0994415283203125e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "block": 1,
+      "method": "region",
+      "Q": 65536,
+      "KV": 1024,
+      "capacity": 64,
+      "heads": 2,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.9368320107460022,
+          0.9458879828453064,
+          0.9460160136222839,
+          0.9809280037879944,
+          0.9748479723930359,
+          0.9758719801902771,
+          0.9000959992408752,
+          0.9799680113792419,
+          0.9441279768943787,
+          0.9400320053100586
+        ],
+        "median_ms": 0.9459519982337952,
+        "mean_ms": 0.9524607956409454,
+        "stdev_ms": 0.024313117246196284,
+        "peak_allocated_mib": 205.83203125,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.016607999801635742,
+        "candidate_kv_copy": 0.05215999856591225,
+        "region_organization_and_pooling": 0.477183997631073,
+        "restore_query_order": 0.12697599828243256,
+        "selected_attention": 0.3328000009059906,
+        "pairing_scores": 0.008224000222980976
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.48844799399375916,
+          "pairing_scores": 0.009216000325977802,
+          "topk_and_indices": 0.008191999979317188,
+          "candidate_kv_copy": 0.04915200173854828,
+          "selected_attention": 0.3317759931087494,
+          "restore_query_order": 0.12697599828243256
+        },
+        {
+          "region_organization_and_pooling": 0.4116480052471161,
+          "pairing_scores": 0.0071680000983178616,
+          "topk_and_indices": 0.008191999979317188,
+          "candidate_kv_copy": 0.058400001376867294,
+          "selected_attention": 0.3307519853115082,
+          "restore_query_order": 0.1260800063610077
+        },
+        {
+          "region_organization_and_pooling": 0.4301759898662567,
+          "pairing_scores": 0.008191999979317188,
+          "topk_and_indices": 0.043007999658584595,
+          "candidate_kv_copy": 0.05215999856591225,
+          "selected_attention": 0.3768320083618164,
+          "restore_query_order": 0.12697599828243256
+        },
+        {
+          "region_organization_and_pooling": 0.5240960121154785,
+          "pairing_scores": 0.05628800019621849,
+          "topk_and_indices": 0.016607999801635742,
+          "candidate_kv_copy": 0.08191999793052673,
+          "selected_attention": 0.3328000009059906,
+          "restore_query_order": 0.12697599828243256
+        },
+        {
+          "region_organization_and_pooling": 0.477183997631073,
+          "pairing_scores": 0.008224000222980976,
+          "topk_and_indices": 0.045791998505592346,
+          "candidate_kv_copy": 0.03174399957060814,
+          "selected_attention": 0.392192006111145,
+          "restore_query_order": 0.12800000607967377
+        }
+      ],
+      "instrumented_total_ms": [
+        1.171455979347229,
+        1.0004479885101318,
+        1.1038719415664673,
+        1.1755520105361938,
+        1.1315200328826904
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.926629450594191e-07,
+          "max_abs_error": 3.0994415283203125e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "block": 1,
+      "method": "dense",
+      "Q": 16384,
+      "KV": 1024,
+      "capacity": 128,
+      "heads": 4,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          2.284543991088867,
+          2.448064088821411,
+          2.3284800052642822,
+          2.4494080543518066,
+          2.331648111343384,
+          2.2456319332122803,
+          2.2456319332122803,
+          2.3265280723571777,
+          2.436095952987671,
+          2.249727964401245
+        ],
+        "median_ms": 2.32750403881073,
+        "mean_ms": 2.3345760107040405,
+        "stdev_ms": 0.07874467333279504,
+        "peak_allocated_mib": 145.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 2.3296000957489014
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 2.4309120178222656
+        },
+        {
+          "dense_attention": 2.3296000957489014
+        },
+        {
+          "dense_attention": 2.2436161041259766
+        },
+        {
+          "dense_attention": 2.4299519062042236
+        },
+        {
+          "dense_attention": 2.327552080154419
+        }
+      ],
+      "instrumented_total_ms": [
+        2.4381439685821533,
+        2.333440065383911,
+        2.2476799488067627,
+        2.4340479373931885,
+        2.331648111343384
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 6.399853305083525e-07,
+          "max_abs_error": 2.6226043701171875e-06
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "block": 1,
+      "method": "point32",
+      "Q": 16384,
+      "KV": 1024,
+      "capacity": 128,
+      "heads": 4,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.1658879965543747,
+          0.18227200210094452,
+          0.1658879965543747,
+          0.16566400229930878,
+          0.16579200327396393,
+          0.1658879965543747,
+          0.1658879965543747,
+          0.1658879965543747,
+          0.1658879965543747,
+          0.1658879965543747
+        ],
+        "median_ms": 0.1658879965543747,
+        "mean_ms": 0.16749439835548402,
+        "stdev_ms": 0.004926355228971464,
+        "peak_allocated_mib": 145.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.1740799993276596
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.1740799993276596
+        },
+        {
+          "fixed_indexed_attention": 0.1658879965543747
+        },
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        },
+        {
+          "fixed_indexed_attention": 0.21913599967956543
+        },
+        {
+          "fixed_indexed_attention": 0.32767999172210693
+        }
+      ],
+      "instrumented_total_ms": [
+        0.18831999599933624,
+        0.17395199835300446,
+        0.16896000504493713,
+        0.23129600286483765,
+        0.3420160114765167
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 6.399853305083525e-07,
+          "max_abs_error": 2.6226043701171875e-06
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "block": 1,
+      "method": "proxy8",
+      "Q": 16384,
+      "KV": 1024,
+      "capacity": 128,
+      "heads": 4,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          7.462912082672119,
+          7.392352104187012,
+          7.828479766845703,
+          7.4700798988342285,
+          7.486464023590088,
+          7.705632209777832,
+          7.467008113861084,
+          7.429120063781738,
+          7.365600109100342,
+          7.855103969573975
+        ],
+        "median_ms": 7.468544006347656,
+        "mean_ms": 7.546275234222412,
+        "stdev_ms": 0.17119760450657495,
+        "peak_allocated_mib": 299.87744140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 5.749760031700134,
+        "proxy_projection": 0.07372800260782242,
+        "selected_attention": 0.770112007856369,
+        "output_allocation": 0.002047999994829297,
+        "pairing_scores": 0.9553920030593872
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.07475200295448303,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.207392007112503,
+          "topk_and_indices": 5.47430419921875,
+          "selected_attention": 0.7690239995718002
+        },
+        {
+          "proxy_projection": 0.07372800260782242,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.2042240053415298,
+          "topk_and_indices": 5.486592054367065,
+          "selected_attention": 0.7700480073690414
+        },
+        {
+          "proxy_projection": 0.2764799892902374,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.9553920030593872,
+          "topk_and_indices": 5.749760031700134,
+          "selected_attention": 0.7710720002651215
+        },
+        {
+          "proxy_projection": 0.07161600142717361,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.9287679940462112,
+          "topk_and_indices": 5.751807928085327,
+          "selected_attention": 0.770112007856369
+        },
+        {
+          "proxy_projection": 0.0716480016708374,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.92569600045681,
+          "topk_and_indices": 5.769215941429138,
+          "selected_attention": 0.7731520086526871
+        }
+      ],
+      "instrumented_total_ms": [
+        7.547904014587402,
+        7.558015823364258,
+        7.776095867156982,
+        7.550655841827393,
+        7.5702080726623535
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 6.399853305083525e-07,
+          "max_abs_error": 2.6226043701171875e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "block": 1,
+      "method": "exact",
+      "Q": 16384,
+      "KV": 1024,
+      "capacity": 128,
+      "heads": 4,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          9.682944297790527,
+          9.959424018859863,
+          9.684608459472656,
+          9.659392356872559,
+          9.905152320861816,
+          9.702400207519531,
+          10.108832359313965,
+          9.895936012268066,
+          9.82812786102295,
+          10.097663879394531
+        ],
+        "median_ms": 9.862031936645508,
+        "mean_ms": 9.852448177337646,
+        "stdev_ms": 0.1610138178623226,
+        "peak_allocated_mib": 297.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 5.750783920288086,
+        "proxy_projection": 0.0017600000137463212,
+        "selected_attention": 0.5570559948682785,
+        "output_allocation": 0.020640000700950623,
+        "pairing_scores": 3.6700159907341003
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 3.5850239396095276,
+          "topk_and_indices": 5.73747193813324,
+          "selected_attention": 0.5550080090761185
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.10627199709415436,
+          "pairing_scores": 3.3689600229263306,
+          "topk_and_indices": 6.024191975593567,
+          "selected_attention": 0.5570559948682785
+        },
+        {
+          "proxy_projection": 0.05321599915623665,
+          "output_allocation": 0.046271998435258865,
+          "pairing_scores": 3.6700159907341003,
+          "topk_and_indices": 5.498879909515381,
+          "selected_attention": 0.5519359856843948
+        },
+        {
+          "proxy_projection": 0.0017600000137463212,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 3.774463951587677,
+          "topk_and_indices": 5.757951974868774,
+          "selected_attention": 0.5580799877643585
+        },
+        {
+          "proxy_projection": 0.004095999989658594,
+          "output_allocation": 0.020640000700950623,
+          "pairing_scores": 3.677248001098633,
+          "topk_and_indices": 5.750783920288086,
+          "selected_attention": 0.5662719905376434
+        }
+      ],
+      "instrumented_total_ms": [
+        9.904128074645996,
+        10.084159851074219,
+        9.857024192810059,
+        10.767135620117188,
+        10.076800346374512
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 6.399853305083525e-07,
+          "max_abs_error": 2.6226043701171875e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "block": 1,
+      "method": "region",
+      "Q": 16384,
+      "KV": 1024,
+      "capacity": 128,
+      "heads": 4,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.9019520282745361,
+          0.8253440260887146,
+          0.8426880240440369,
+          0.7823359966278076,
+          0.7626240253448486,
+          0.7720959782600403,
+          0.8509119749069214,
+          0.8417279720306396,
+          0.7096319794654846,
+          0.8323519825935364
+        ],
+        "median_ms": 0.8288480043411255,
+        "mean_ms": 0.8121663987636566,
+        "stdev_ms": 0.05235693670688715,
+        "peak_allocated_mib": 170.8349609375,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.029664000496268272,
+        "candidate_kv_copy": 0.12185599654912949,
+        "region_organization_and_pooling": 0.3420160114765167,
+        "restore_query_order": 0.06451199948787689,
+        "selected_attention": 0.3256320059299469,
+        "pairing_scores": 0.03670400008559227
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.5209599733352661,
+          "pairing_scores": 0.029055999591946602,
+          "topk_and_indices": 0.03465599939227104,
+          "candidate_kv_copy": 0.14745600521564484,
+          "selected_attention": 0.3184640109539032,
+          "restore_query_order": 0.06451199948787689
+        },
+        {
+          "region_organization_and_pooling": 0.31916800141334534,
+          "pairing_scores": 0.05939200147986412,
+          "topk_and_indices": 0.028704000636935234,
+          "candidate_kv_copy": 0.12185599654912949,
+          "selected_attention": 0.3328000009059906,
+          "restore_query_order": 0.06454399973154068
+        },
+        {
+          "region_organization_and_pooling": 0.33587199449539185,
+          "pairing_scores": 0.03670400008559227,
+          "topk_and_indices": 0.02969600073993206,
+          "candidate_kv_copy": 0.10342399775981903,
+          "selected_attention": 0.32767999172210693,
+          "restore_query_order": 0.06451199948787689
+        },
+        {
+          "region_organization_and_pooling": 0.37993600964546204,
+          "pairing_scores": 0.03481600061058998,
+          "topk_and_indices": 0.028672000393271446,
+          "candidate_kv_copy": 0.12390399724245071,
+          "selected_attention": 0.3256320059299469,
+          "restore_query_order": 0.06451199948787689
+        },
+        {
+          "region_organization_and_pooling": 0.3420160114765167,
+          "pairing_scores": 0.03753599897027016,
+          "topk_and_indices": 0.029664000496268272,
+          "candidate_kv_copy": 0.12083200365304947,
+          "selected_attention": 0.3256320059299469,
+          "restore_query_order": 0.06451199948787689
+        }
+      ],
+      "instrumented_total_ms": [
+        1.2124160528182983,
+        0.9922559857368469,
+        1.0035200119018555,
+        0.9932799935340881,
+        0.9779199957847595
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 6.399853305083525e-07,
+          "max_abs_error": 2.6226043701171875e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 1,
+      "method": "dense",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.254080057144165,
+          1.253119945526123,
+          1.2554240226745605,
+          1.3486080169677734,
+          1.3035520315170288,
+          1.2513279914855957,
+          1.252351999282837,
+          1.35043203830719,
+          1.1724159717559814,
+          1.252128005027771
+        ],
+        "median_ms": 1.253600001335144,
+        "mean_ms": 1.2693440079689027,
+        "stdev_ms": 0.05002294995278036,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 1.2544000148773193
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 1.2533760070800781
+        },
+        {
+          "dense_attention": 1.3629440069198608
+        },
+        {
+          "dense_attention": 1.2533760070800781
+        },
+        {
+          "dense_attention": 1.2544000148773193
+        },
+        {
+          "dense_attention": 1.2560960054397583
+        }
+      ],
+      "instrumented_total_ms": [
+        1.257472038269043,
+        1.384384036064148,
+        1.2564480304718018,
+        1.25929594039917,
+        1.2625919580459595
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.027313699836668e-07,
+          "max_abs_error": 2.086162567138672e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 1,
+      "method": "point32",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.22220799326896667,
+          0.20787200331687927,
+          0.19865599274635315,
+          0.21184000372886658,
+          0.18534399569034576,
+          0.21401600539684296,
+          0.17612800002098083,
+          0.21376000344753265,
+          0.20265600085258484,
+          0.2314240038394928
+        ],
+        "median_ms": 0.20985600352287292,
+        "mean_ms": 0.20639040023088456,
+        "stdev_ms": 0.015664490413865015,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.20057600736618042
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.16697600483894348
+        },
+        {
+          "fixed_indexed_attention": 0.16793599724769592
+        },
+        {
+          "fixed_indexed_attention": 0.2181120067834854
+        },
+        {
+          "fixed_indexed_attention": 0.20057600736618042
+        },
+        {
+          "fixed_indexed_attention": 0.20479999482631683
+        }
+      ],
+      "instrumented_total_ms": [
+        0.17100800573825836,
+        0.17100800573825836,
+        0.22015999257564545,
+        0.21299199759960175,
+        0.211776003241539
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.027313699836668e-07,
+          "max_abs_error": 2.086162567138672e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 1,
+      "method": "proxy8",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          5.352287769317627,
+          5.151391983032227,
+          4.955135822296143,
+          4.944896221160889,
+          5.183487892150879,
+          5.196800231933594,
+          5.099520206451416,
+          5.197792053222656,
+          5.224448204040527,
+          5.182464122772217
+        ],
+        "median_ms": 5.182976007461548,
+        "mean_ms": 5.148822450637818,
+        "stdev_ms": 0.11648539210710707,
+        "peak_allocated_mib": 316.00244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.6577279567718506,
+        "proxy_projection": 0.049056001007556915,
+        "selected_attention": 0.8048639893531799,
+        "output_allocation": 0.0010239999974146485,
+        "pairing_scores": 0.4270079880952835
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.048128001391887665,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.42291200160980225,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 1.0178559720516205
+        },
+        {
+          "proxy_projection": 0.049056001007556915,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.44646400213241577,
+          "topk_and_indices": 3.6536319255828857,
+          "selected_attention": 0.8038399815559387
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.44339199364185333,
+          "topk_and_indices": 3.6577279567718506,
+          "selected_attention": 0.8048639893531799
+        },
+        {
+          "proxy_projection": 0.04710400104522705,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4270079880952835,
+          "topk_and_indices": 3.9055360555648804,
+          "selected_attention": 0.8048639893531799
+        },
+        {
+          "proxy_projection": 0.050175998359918594,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4198399931192398,
+          "topk_and_indices": 3.917823910713196,
+          "selected_attention": 0.8079360127449036
+        }
+      ],
+      "instrumented_total_ms": [
+        5.186560153961182,
+        4.974592208862305,
+        4.968448162078857,
+        5.201920032501221,
+        5.212160110473633
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.027313699836668e-07,
+          "max_abs_error": 2.086162567138672e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 1,
+      "method": "exact",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          6.354944229125977,
+          6.164480209350586,
+          6.135807991027832,
+          6.169375896453857,
+          6.181888103485107,
+          6.181695938110352,
+          6.142816066741943,
+          6.130688190460205,
+          6.138879776000977,
+          6.246143817901611
+        ],
+        "median_ms": 6.166928052902222,
+        "mean_ms": 6.184672021865845,
+        "stdev_ms": 0.06525372986894655,
+        "peak_allocated_mib": 314.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.9014400243759155,
+        "proxy_projection": 0.0058559998869895935,
+        "selected_attention": 0.5724159777164459,
+        "output_allocation": 0.0019519999623298645,
+        "pairing_scores": 1.8195199966430664
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.014015999622642994,
+          "output_allocation": 0.001888000057078898,
+          "pairing_scores": 2.4850879311561584,
+          "topk_and_indices": 3.890175938606262,
+          "selected_attention": 0.7823359966278076
+        },
+        {
+          "proxy_projection": 0.0058559998869895935,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.8195199966430664,
+          "topk_and_indices": 3.9014400243759155,
+          "selected_attention": 0.5817279815673828
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0019519999623298645,
+          "pairing_scores": 1.7090559601783752,
+          "topk_and_indices": 3.9157758951187134,
+          "selected_attention": 0.5724159777164459
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.021376000717282295,
+          "pairing_scores": 1.7018879652023315,
+          "topk_and_indices": 3.9076480865478516,
+          "selected_attention": 0.5683200061321259
+        },
+        {
+          "proxy_projection": 0.05119999870657921,
+          "output_allocation": 0.03993599861860275,
+          "pairing_scores": 1.9998720288276672,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.5713919997215271
+        }
+      ],
+      "instrumented_total_ms": [
+        7.200767993927002,
+        6.341631889343262,
+        6.215616226196289,
+        6.242303848266602,
+        6.334208011627197
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.027313699836668e-07,
+          "max_abs_error": 2.086162567138672e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 1,
+      "method": "region",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.8601599931716919,
+          0.921343982219696,
+          0.9021440148353577,
+          0.9062399864196777,
+          0.8362879753112793,
+          0.9653760194778442,
+          0.8578559756278992,
+          0.8642560243606567,
+          0.8312960267066956,
+          0.851967990398407
+        ],
+        "median_ms": 0.8622080087661743,
+        "mean_ms": 0.8796927988529205,
+        "stdev_ms": 0.040468269368812045,
+        "peak_allocated_mib": 180.9013671875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.028672000393271446,
+        "candidate_kv_copy": 0.18432000279426575,
+        "region_organization_and_pooling": 0.3330560028553009,
+        "restore_query_order": 0.03286400064826012,
+        "selected_attention": 0.32256001234054565,
+        "pairing_scores": 0.05939200147986412
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.34726399183273315,
+          "pairing_scores": 0.03788800165057182,
+          "topk_and_indices": 0.03891199827194214,
+          "candidate_kv_copy": 0.17919999361038208,
+          "selected_attention": 0.319487988948822,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.3409920036792755,
+          "pairing_scores": 0.1669120043516159,
+          "topk_and_indices": 0.008191999979317188,
+          "candidate_kv_copy": 0.13312000036239624,
+          "selected_attention": 0.3246079981327057,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.3330560028553009,
+          "pairing_scores": 0.05939200147986412,
+          "topk_and_indices": 0.02969600073993206,
+          "candidate_kv_copy": 0.18432000279426575,
+          "selected_attention": 0.32256001234054565,
+          "restore_query_order": 0.03286400064826012
+        },
+        {
+          "region_organization_and_pooling": 0.3256320059299469,
+          "pairing_scores": 0.062463998794555664,
+          "topk_and_indices": 0.028672000393271446,
+          "candidate_kv_copy": 0.1884160041809082,
+          "selected_attention": 0.3235839903354645,
+          "restore_query_order": 0.03276799991726875
+        },
+        {
+          "region_organization_and_pooling": 0.3092480003833771,
+          "pairing_scores": 0.03481600061058998,
+          "topk_and_indices": 0.006144000217318535,
+          "candidate_kv_copy": 0.18636800348758698,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03276799991726875
+        }
+      ],
+      "instrumented_total_ms": [
+        1.0226880311965942,
+        1.0270719528198242,
+        0.9737920165061951,
+        0.9736639857292175,
+        0.9820160269737244
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.027313699836668e-07,
+          "max_abs_error": 2.086162567138672e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 3,
+      "method": "dense",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.2625919580459595,
+          1.264639973640442,
+          1.1704319715499878,
+          1.2941759824752808,
+          1.2503039836883545,
+          1.2481600046157837,
+          1.2472000122070312,
+          1.167296051979065,
+          1.2492799758911133,
+          1.2472319602966309
+        ],
+        "median_ms": 1.2487199902534485,
+        "mean_ms": 1.2401311874389649,
+        "stdev_ms": 0.038132639062301577,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 1.2472319602966309
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 1.2472319602966309
+        },
+        {
+          "dense_attention": 1.1735039949417114
+        },
+        {
+          "dense_attention": 1.2513279914855957
+        },
+        {
+          "dense_attention": 1.220352053642273
+        },
+        {
+          "dense_attention": 1.2503039836883545
+        }
+      ],
+      "instrumented_total_ms": [
+        1.3260799646377563,
+        1.1776000261306763,
+        1.2554240226745605,
+        1.2369920015335083,
+        1.2544000148773193
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.274968538695248e-07,
+          "max_abs_error": 4.5299530029296875e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 3,
+      "method": "point32",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.16687999665737152,
+          0.16675199568271637,
+          0.1658879965543747,
+          0.1666560024023056,
+          0.16793599724769592
+        ],
+        "median_ms": 0.1669120043516159,
+        "mean_ms": 0.16686720103025438,
+        "stdev_ms": 0.0004657514689882792,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.1669120043516159
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.16998399794101715
+        },
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        },
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        },
+        {
+          "fixed_indexed_attention": 0.17081600427627563
+        },
+        {
+          "fixed_indexed_attention": 0.1658879965543747
+        }
+      ],
+      "instrumented_total_ms": [
+        0.1738239973783493,
+        0.16998399794101715,
+        0.16998399794101715,
+        0.17715199291706085,
+        0.16998399794101715
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.274968538695248e-07,
+          "max_abs_error": 4.5299530029296875e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 3,
+      "method": "proxy8",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          5.195775985717773,
+          5.166048049926758,
+          4.940927982330322,
+          4.995071887969971,
+          5.165056228637695,
+          5.16812801361084,
+          5.082111835479736,
+          5.229568004608154,
+          5.162816047668457,
+          5.170176029205322
+        ],
+        "median_ms": 5.165552139282227,
+        "mean_ms": 5.127568006515503,
+        "stdev_ms": 0.08780738824125954,
+        "peak_allocated_mib": 316.00244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.658751964569092,
+        "proxy_projection": 0.04915200173854828,
+        "selected_attention": 0.7936000227928162,
+        "output_allocation": 0.0010239999974146485,
+        "pairing_scores": 0.44339199364185333
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.048128001391887665,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.6789120137691498,
+          "topk_and_indices": 3.907584071159363,
+          "selected_attention": 0.8007679879665375
+        },
+        {
+          "proxy_projection": 0.05119999870657921,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4270080029964447,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.7915520071983337
+        },
+        {
+          "proxy_projection": 0.15360000729560852,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.44339199364185333,
+          "topk_and_indices": 3.658751964569092,
+          "selected_attention": 0.7936000227928162
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.49356798827648163,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.7935999929904938
+        },
+        {
+          "proxy_projection": 0.04710400104522705,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.43007999658584595,
+          "topk_and_indices": 3.909632086753845,
+          "selected_attention": 0.794624000787735
+        }
+      ],
+      "instrumented_total_ms": [
+        5.457920074462891,
+        4.942751884460449,
+        5.064703941345215,
+        5.004288196563721,
+        5.203968048095703
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.274968538695248e-07,
+          "max_abs_error": 4.5299530029296875e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 3,
+      "method": "exact",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          6.145088195800781,
+          6.165503978729248,
+          6.092576026916504,
+          6.196224212646484,
+          6.16534423828125,
+          6.188704013824463,
+          6.172671794891357,
+          6.1235198974609375,
+          6.133600234985352,
+          6.135807991027832
+        ],
+        "median_ms": 6.155216217041016,
+        "mean_ms": 6.151904058456421,
+        "stdev_ms": 0.030135449507495436,
+        "peak_allocated_mib": 314.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.654655933380127,
+        "proxy_projection": 0.002047999994829297,
+        "selected_attention": 0.5744639933109283,
+        "output_allocation": 0.002047999994829297,
+        "pairing_scores": 1.8391039967536926
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.004288000054657459,
+          "output_allocation": 0.0016639999812468886,
+          "pairing_scores": 1.930239975452423,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.5744639933109283
+        },
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.06111999973654747,
+          "pairing_scores": 1.8995199799537659,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.7884800136089325
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0023360000923275948,
+          "pairing_scores": 1.8391039967536926,
+          "topk_and_indices": 3.9157758951187134,
+          "selected_attention": 0.5703679919242859
+        },
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.7745920419692993,
+          "topk_and_indices": 3.6536319255828857,
+          "selected_attention": 0.577536016702652
+        },
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.7991679906845093,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.5703680217266083
+        }
+      ],
+      "instrumented_total_ms": [
+        6.260735988616943,
+        6.4839677810668945,
+        6.351871967315674,
+        6.02623987197876,
+        6.040575981140137
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.274968538695248e-07,
+          "max_abs_error": 4.5299530029296875e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 3,
+      "method": "region",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.719871997833252,
+          0.9768959879875183,
+          0.9379839897155762,
+          0.848800003528595,
+          0.8714240193367004,
+          0.9164800047874451,
+          0.8540160059928894,
+          1.1796480417251587,
+          0.8987839818000793,
+          0.9400320053100586
+        ],
+        "median_ms": 0.9076319932937622,
+        "mean_ms": 0.9143936038017273,
+        "stdev_ms": 0.1110681445177541,
+        "peak_allocated_mib": 180.9013671875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.02252800017595291,
+        "candidate_kv_copy": 0.1769919991493225,
+        "region_organization_and_pooling": 0.35942399501800537,
+        "restore_query_order": 0.03379200026392937,
+        "selected_attention": 0.32153600454330444,
+        "pairing_scores": 0.03379200026392937
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.3407360017299652,
+          "pairing_scores": 0.043007999658584595,
+          "topk_and_indices": 0.019200000911951065,
+          "candidate_kv_copy": 0.18835200369358063,
+          "selected_attention": 0.3235839903354645,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.30713599920272827,
+          "pairing_scores": 0.03903999924659729,
+          "topk_and_indices": 0.02252800017595291,
+          "candidate_kv_copy": 0.1769919991493225,
+          "selected_attention": 0.32051199674606323,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.35942399501800537,
+          "pairing_scores": 0.03379200026392937,
+          "topk_and_indices": 0.035840000957250595,
+          "candidate_kv_copy": 0.17510400712490082,
+          "selected_attention": 0.319487988948822,
+          "restore_query_order": 0.03276799991726875
+        },
+        {
+          "region_organization_and_pooling": 0.52019202709198,
+          "pairing_scores": 0.011264000087976456,
+          "topk_and_indices": 0.0071680000983178616,
+          "candidate_kv_copy": 0.1884160041809082,
+          "selected_attention": 0.32256001234054565,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.4575360119342804,
+          "pairing_scores": 0.03379200026392937,
+          "topk_and_indices": 0.053247999399900436,
+          "candidate_kv_copy": 0.17100800573825836,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03280000016093254
+        }
+      ],
+      "instrumented_total_ms": [
+        1.018880009651184,
+        0.9615359902381897,
+        1.0158079862594604,
+        1.0936319828033447,
+        1.1509759426116943
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.274968538695248e-07,
+          "max_abs_error": 4.5299530029296875e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 5,
+      "method": "dense",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.3096959590911865,
+          1.3916159868240356,
+          1.2974079847335815,
+          1.2472319602966309,
+          1.2479039430618286,
+          1.1783360242843628,
+          1.2472319602966309,
+          1.1806399822235107,
+          1.1785279512405396,
+          1.1713600158691406
+        ],
+        "median_ms": 1.2472319602966309,
+        "mean_ms": 1.2449951767921448,
+        "stdev_ms": 0.06846494402293224,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 1.3393919467926025
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 1.378175973892212
+        },
+        {
+          "dense_attention": 1.3649920225143433
+        },
+        {
+          "dense_attention": 1.248255968093872
+        },
+        {
+          "dense_attention": 1.2471359968185425
+        },
+        {
+          "dense_attention": 1.3393919467926025
+        }
+      ],
+      "instrumented_total_ms": [
+        1.4223359823226929,
+        1.369088053703308,
+        1.2625919580459595,
+        1.2533760070800781,
+        1.341439962387085
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.387202458630782e-07,
+          "max_abs_error": 3.2186508178710938e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 5,
+      "method": "point32",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.1669120043516159,
+          0.1669120043516159,
+          0.16684800386428833,
+          0.20377600193023682,
+          0.1677439957857132,
+          0.1669120043516159,
+          0.19763199985027313,
+          0.19737599790096283,
+          0.1666560024023056,
+          0.19728000462055206
+        ],
+        "median_ms": 0.16732800006866455,
+        "mean_ms": 0.17980480194091797,
+        "stdev_ms": 0.015784366728641842,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.16896000504493713
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.16896000504493713
+        },
+        {
+          "fixed_indexed_attention": 0.2099200040102005
+        },
+        {
+          "fixed_indexed_attention": 0.2303999960422516
+        },
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        },
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        }
+      ],
+      "instrumented_total_ms": [
+        0.17289599776268005,
+        0.2128320038318634,
+        0.24454399943351746,
+        0.16998399794101715,
+        0.16998399794101715
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.387202458630782e-07,
+          "max_abs_error": 3.2186508178710938e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 5,
+      "method": "proxy8",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          5.219327926635742,
+          5.193376064300537,
+          4.9179840087890625,
+          5.307199954986572,
+          5.285888195037842,
+          5.182464122772217,
+          5.207039833068848,
+          5.171199798583984,
+          5.081088066101074,
+          5.178239822387695
+        ],
+        "median_ms": 5.187920093536377,
+        "mean_ms": 5.174380779266357,
+        "stdev_ms": 0.10394984533492824,
+        "peak_allocated_mib": 316.00244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.655679941177368,
+        "proxy_projection": 0.04915200173854828,
+        "selected_attention": 0.7976959943771362,
+        "output_allocation": 0.0010239999974146485,
+        "pairing_scores": 0.4280319958925247
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.05222399905323982,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4280319958925247,
+          "topk_and_indices": 3.909631848335266,
+          "selected_attention": 0.7976959943771362
+        },
+        {
+          "proxy_projection": 0.048128001391887665,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4270080029964447,
+          "topk_and_indices": 3.9014400243759155,
+          "selected_attention": 0.7966720163822174
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4259839951992035,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 1.0240000188350677
+        },
+        {
+          "proxy_projection": 0.05222399905323982,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.448512002825737,
+          "topk_and_indices": 3.655679941177368,
+          "selected_attention": 0.7976959943771362
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4413439929485321,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.7966720163822174
+        }
+      ],
+      "instrumented_total_ms": [
+        5.216095924377441,
+        5.192704200744629,
+        5.170176029205322,
+        4.970367908477783,
+        4.957183837890625
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.387202458630782e-07,
+          "max_abs_error": 3.2186508178710938e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 5,
+      "method": "exact",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          6.305791854858398,
+          6.1532158851623535,
+          6.133791923522949,
+          6.127391815185547,
+          6.129471778869629,
+          6.178815841674805,
+          6.199295997619629,
+          6.215680122375488,
+          6.2259202003479,
+          5.984255790710449
+        ],
+        "median_ms": 6.166015863418579,
+        "mean_ms": 6.165363121032715,
+        "stdev_ms": 0.07995359593369883,
+        "peak_allocated_mib": 314.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.903488039970398,
+        "proxy_projection": 0.004383999854326248,
+        "selected_attention": 0.5744639933109283,
+        "output_allocation": 0.002047999994829297,
+        "pairing_scores": 1.6865280270576477
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.7642560005187988,
+          "topk_and_indices": 3.655679941177368,
+          "selected_attention": 0.751615971326828
+        },
+        {
+          "proxy_projection": 0.004383999854326248,
+          "output_allocation": 0.004095999989658594,
+          "pairing_scores": 1.694815993309021,
+          "topk_and_indices": 3.9055360555648804,
+          "selected_attention": 0.5744639933109283
+        },
+        {
+          "proxy_projection": 0.020479999482631683,
+          "output_allocation": 0.020479999482631683,
+          "pairing_scores": 1.6865280270576477,
+          "topk_and_indices": 3.9065600633621216,
+          "selected_attention": 0.5754880011081696
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.002015999983996153,
+          "pairing_scores": 1.6558079719543457,
+          "topk_and_indices": 3.903488039970398,
+          "selected_attention": 0.5713919997215271
+        },
+        {
+          "proxy_projection": 0.005119999870657921,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.6599040031433105,
+          "topk_and_indices": 3.9024640321731567,
+          "selected_attention": 0.5714559853076935
+        }
+      ],
+      "instrumented_total_ms": [
+        6.202367782592773,
+        6.196224212646484,
+        6.264575958251953,
+        6.152192115783691,
+        6.158304214477539
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.387202458630782e-07,
+          "max_abs_error": 3.2186508178710938e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 5,
+      "method": "region",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.0915839672088623,
+          1.124127984046936,
+          0.9482240080833435,
+          0.936959981918335,
+          0.9297919869422913,
+          0.9820160269737244,
+          0.8724480271339417,
+          0.8346880078315735,
+          0.8908799886703491,
+          0.8826879858970642
+        ],
+        "median_ms": 0.9333759844303131,
+        "mean_ms": 0.9493407964706421,
+        "stdev_ms": 0.08905395112805549,
+        "peak_allocated_mib": 180.9013671875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.020479999482631683,
+        "candidate_kv_copy": 0.17612800002098083,
+        "region_organization_and_pooling": 0.3184640109539032,
+        "restore_query_order": 0.03379200026392937,
+        "selected_attention": 0.3235839903354645,
+        "pairing_scores": 0.03686400130391121
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.39449599385261536,
+          "pairing_scores": 0.037856001406908035,
+          "topk_and_indices": 0.021503999829292297,
+          "candidate_kv_copy": 0.1789119988679886,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.3307519853115082,
+          "pairing_scores": 0.1716800034046173,
+          "topk_and_indices": 0.008191999979317188,
+          "candidate_kv_copy": 0.13209599256515503,
+          "selected_attention": 0.49561598896980286,
+          "restore_query_order": 0.03481600061058998
+        },
+        {
+          "region_organization_and_pooling": 0.3184640109539032,
+          "pairing_scores": 0.03686400130391121,
+          "topk_and_indices": 0.021536000072956085,
+          "candidate_kv_copy": 0.17612800002098083,
+          "selected_attention": 0.32256001234054565,
+          "restore_query_order": 0.03276799991726875
+        },
+        {
+          "region_organization_and_pooling": 0.27878400683403015,
+          "pairing_scores": 0.031968001276254654,
+          "topk_and_indices": 0.020479999482631683,
+          "candidate_kv_copy": 0.1740799993276596,
+          "selected_attention": 0.3235839903354645,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.2865599989891052,
+          "pairing_scores": 0.03654399886727333,
+          "topk_and_indices": 0.01228800043463707,
+          "candidate_kv_copy": 0.2088959962129593,
+          "selected_attention": 0.3246079981327057,
+          "restore_query_order": 0.03379200026392937
+        }
+      ],
+      "instrumented_total_ms": [
+        1.0536960363388062,
+        1.206272006034851,
+        0.9765759706497192,
+        0.9410560131072998,
+        0.9725120067596436
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.387202458630782e-07,
+          "max_abs_error": 3.2186508178710938e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 7,
+      "method": "dense",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.2492799758911133,
+          1.1663360595703125,
+          1.1653120517730713,
+          1.2503039836883545,
+          1.2492799758911133,
+          1.28985595703125,
+          1.1857919692993164,
+          1.2503039836883545,
+          1.2503039836883545,
+          1.2503039836883545
+        ],
+        "median_ms": 1.2497919797897339,
+        "mean_ms": 1.2307071924209594,
+        "stdev_ms": 0.04020218187038247,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 1.170464038848877
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 1.170464038848877
+        },
+        {
+          "dense_attention": 1.346176028251648
+        },
+        {
+          "dense_attention": 1.1673599481582642
+        },
+        {
+          "dense_attention": 1.171455979347229
+        },
+        {
+          "dense_attention": 1.1694079637527466
+        }
+      ],
+      "instrumented_total_ms": [
+        1.1742719411849976,
+        1.3527040481567383,
+        1.1704319715499878,
+        1.1735039949417114,
+        1.1724799871444702
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.331138931476744e-07,
+          "max_abs_error": 6.9141387939453125e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 7,
+      "method": "point32",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.178847998380661,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1666560024023056,
+          0.1666560024023056,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.1658879965543747
+        ],
+        "median_ms": 0.1669120043516159,
+        "mean_ms": 0.16795200258493423,
+        "stdev_ms": 0.003644607745330903,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.20582400262355804
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        },
+        {
+          "fixed_indexed_attention": 0.2672640085220337
+        },
+        {
+          "fixed_indexed_attention": 0.20582400262355804
+        },
+        {
+          "fixed_indexed_attention": 0.22015999257564545
+        },
+        {
+          "fixed_indexed_attention": 0.1669120043516159
+        }
+      ],
+      "instrumented_total_ms": [
+        0.16976000368595123,
+        0.2741760015487671,
+        0.20979200303554535,
+        0.22323200106620789,
+        0.16998399794101715
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.331138931476744e-07,
+          "max_abs_error": 6.9141387939453125e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 7,
+      "method": "proxy8",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          5.318655967712402,
+          5.174272060394287,
+          5.514912128448486,
+          5.178976058959961,
+          4.943871974945068,
+          5.016575813293457,
+          5.224224090576172,
+          5.173247814178467,
+          5.183487892150879,
+          5.1823039054870605
+        ],
+        "median_ms": 5.180639982223511,
+        "mean_ms": 5.191052770614624,
+        "stdev_ms": 0.14652186735050446,
+        "peak_allocated_mib": 316.00244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.909631848335266,
+        "proxy_projection": 0.04915200173854828,
+        "selected_attention": 0.8048639893531799,
+        "output_allocation": 0.002047999994829297,
+        "pairing_scores": 0.45158399641513824
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.04710400104522705,
+          "output_allocation": 0.015359999611973763,
+          "pairing_scores": 0.45158399641513824,
+          "topk_and_indices": 3.909631848335266,
+          "selected_attention": 0.8028160035610199
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.42905600368976593,
+          "topk_and_indices": 3.929087996482849,
+          "selected_attention": 0.8048639893531799
+        },
+        {
+          "proxy_projection": 0.048128001391887665,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.4259839951992035,
+          "topk_and_indices": 3.9208959341049194,
+          "selected_attention": 0.8048639893531799
+        },
+        {
+          "proxy_projection": 0.050175998359918594,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.45260800421237946,
+          "topk_and_indices": 3.82259202003479,
+          "selected_attention": 0.9676800072193146
+        },
+        {
+          "proxy_projection": 0.05407999828457832,
+          "output_allocation": 0.010239999741315842,
+          "pairing_scores": 0.5847039818763733,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.8048639893531799
+        }
+      ],
+      "instrumented_total_ms": [
+        5.2448320388793945,
+        5.226304054260254,
+        5.227519989013672,
+        5.30841588973999,
+        5.124095916748047
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.331138931476744e-07,
+          "max_abs_error": 6.9141387939453125e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 7,
+      "method": "exact",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          6.170623779296875,
+          6.198207855224609,
+          6.1675519943237305,
+          6.139904022216797,
+          6.135807991027832,
+          6.1327362060546875,
+          6.149119853973389,
+          6.189888000488281,
+          6.165503978729248,
+          6.310912132263184
+        ],
+        "median_ms": 6.166527986526489,
+        "mean_ms": 6.1760255813598635,
+        "stdev_ms": 0.04960886675257613,
+        "peak_allocated_mib": 314.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.9301120042800903,
+        "proxy_projection": 0.004383999854326248,
+        "selected_attention": 0.5724160075187683,
+        "output_allocation": 0.002047999994829297,
+        "pairing_scores": 1.7068480253219604
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.6967679858207703,
+          "topk_and_indices": 3.93830406665802,
+          "selected_attention": 0.5683200061321259
+        },
+        {
+          "proxy_projection": 0.02675200067460537,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.7068480253219604,
+          "topk_and_indices": 3.922943949699402,
+          "selected_attention": 0.5877760052680969
+        },
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.6609280109405518,
+          "topk_and_indices": 3.9301120042800903,
+          "selected_attention": 0.5713919997215271
+        },
+        {
+          "proxy_projection": 0.004383999854326248,
+          "output_allocation": 0.06758400052785873,
+          "pairing_scores": 1.7408000230789185,
+          "topk_and_indices": 3.934208035469055,
+          "selected_attention": 0.5724160075187683
+        },
+        {
+          "proxy_projection": 0.04179200157523155,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.9391040205955505,
+          "topk_and_indices": 3.6536319255828857,
+          "selected_attention": 0.5744639933109283
+        }
+      ],
+      "instrumented_total_ms": [
+        6.218751907348633,
+        6.2842559814453125,
+        6.1877121925354,
+        6.33241605758667,
+        6.297599792480469
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.331138931476744e-07,
+          "max_abs_error": 6.9141387939453125e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 7,
+      "method": "region",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.367967963218689,
+          0.8325440287590027,
+          0.8528000116348267,
+          0.8253120183944702,
+          0.8486080169677734,
+          0.9943360090255737,
+          0.8437759876251221,
+          0.8734080195426941,
+          0.984063982963562,
+          0.89164799451828
+        ],
+        "median_ms": 0.8631040155887604,
+        "mean_ms": 0.9314464032649994,
+        "stdev_ms": 0.15620720025285006,
+        "peak_allocated_mib": 180.9013671875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.006144000217318535,
+        "candidate_kv_copy": 0.18636800348758698,
+        "region_organization_and_pooling": 0.3409920036792755,
+        "restore_query_order": 0.03280000016093254,
+        "selected_attention": 0.32256001234054565,
+        "pairing_scores": 0.04726399853825569
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.36556801199913025,
+          "pairing_scores": 0.03379200026392937,
+          "topk_and_indices": 0.006144000217318535,
+          "candidate_kv_copy": 0.20787200331687927,
+          "selected_attention": 0.5181440114974976,
+          "restore_query_order": 0.03481600061058998
+        },
+        {
+          "region_organization_and_pooling": 0.32185599207878113,
+          "pairing_scores": 0.05663999915122986,
+          "topk_and_indices": 0.006144000217318535,
+          "candidate_kv_copy": 0.18636800348758698,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03276799991726875
+        },
+        {
+          "region_organization_and_pooling": 0.3235839903354645,
+          "pairing_scores": 0.03379200026392937,
+          "topk_and_indices": 0.03516799956560135,
+          "candidate_kv_copy": 0.18918399512767792,
+          "selected_attention": 0.3235839903354645,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.34854400157928467,
+          "pairing_scores": 0.053247999399900436,
+          "topk_and_indices": 0.02550400048494339,
+          "candidate_kv_copy": 0.18432000279426575,
+          "selected_attention": 0.32256001234054565,
+          "restore_query_order": 0.03280000016093254
+        },
+        {
+          "region_organization_and_pooling": 0.3409920036792755,
+          "pairing_scores": 0.04726399853825569,
+          "topk_and_indices": 0.006144000217318535,
+          "candidate_kv_copy": 0.15529599785804749,
+          "selected_attention": 0.32051199674606323,
+          "restore_query_order": 0.03276799991726875
+        }
+      ],
+      "instrumented_total_ms": [
+        1.2346559762954712,
+        1.026047945022583,
+        0.9930239915847778,
+        0.9868159890174866,
+        0.9583680033683777
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.331138931476744e-07,
+          "max_abs_error": 6.9141387939453125e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 9,
+      "method": "dense",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          1.2531839609146118,
+          1.307647943496704,
+          1.1816960573196411,
+          1.2554240226745605,
+          1.1898880004882812,
+          1.3752319812774658,
+          1.16428804397583,
+          1.2492799758911133,
+          1.1683199405670166,
+          1.3598719835281372
+        ],
+        "median_ms": 1.2512319684028625,
+        "mean_ms": 1.2504831910133363,
+        "stdev_ms": 0.07308418515805808,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 1.2122880220413208
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 1.16428804397583
+        },
+        {
+          "dense_attention": 1.2122880220413208
+        },
+        {
+          "dense_attention": 1.2881920337677002
+        },
+        {
+          "dense_attention": 1.1632640361785889
+        },
+        {
+          "dense_attention": 1.252351999282837
+        }
+      ],
+      "instrumented_total_ms": [
+        1.2298239469528198,
+        1.2235840559005737,
+        1.2922879457473755,
+        1.1712960004806519,
+        1.2554240226745605
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.467735372301831e-07,
+          "max_abs_error": 7.3909759521484375e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 9,
+      "method": "point32",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.17692799866199493,
+          0.1669120043516159,
+          0.16678400337696075,
+          0.26009601354599,
+          0.17715199291706085,
+          0.1669120043516159,
+          0.1669120043516159,
+          0.19660800695419312,
+          0.19660800695419312,
+          0.20137600600719452
+        ],
+        "median_ms": 0.1770399957895279,
+        "mean_ms": 0.1876288041472435,
+        "stdev_ms": 0.027473747605981622,
+        "peak_allocated_mib": 138.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.20364800095558167
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.22803199291229248
+        },
+        {
+          "fixed_indexed_attention": 0.20364800095558167
+        },
+        {
+          "fixed_indexed_attention": 0.16678400337696075
+        },
+        {
+          "fixed_indexed_attention": 0.23552000522613525
+        },
+        {
+          "fixed_indexed_attention": 0.16896000504493713
+        }
+      ],
+      "instrumented_total_ms": [
+        0.23951999843120575,
+        0.2168000042438507,
+        0.19046400487422943,
+        0.23756800591945648,
+        0.17203199863433838
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.467735372301831e-07,
+          "max_abs_error": 7.3909759521484375e-06
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 9,
+      "method": "proxy8",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          5.166079998016357,
+          5.121791839599609,
+          4.933568000793457,
+          4.927487850189209,
+          5.163008213043213,
+          5.178368091583252,
+          5.0780158042907715,
+          5.271552085876465,
+          5.192704200744629,
+          5.165056228637695
+        ],
+        "median_ms": 5.164032220840454,
+        "mean_ms": 5.1197632312774655,
+        "stdev_ms": 0.10547371565325953,
+        "peak_allocated_mib": 316.00244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.655679941177368,
+        "proxy_projection": 0.04915200173854828,
+        "selected_attention": 0.7884800136089325,
+        "output_allocation": 0.0010239999974146485,
+        "pairing_scores": 0.4331520050764084
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.062463998794555664,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.42905600368976593,
+          "topk_and_indices": 3.9055360555648804,
+          "selected_attention": 0.7864319980144501
+        },
+        {
+          "proxy_projection": 0.048128001391887665,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.43212801218032837,
+          "topk_and_indices": 3.655679941177368,
+          "selected_attention": 1.0219520032405853
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.43724800646305084,
+          "topk_and_indices": 3.6536319255828857,
+          "selected_attention": 0.7874559760093689
+        },
+        {
+          "proxy_projection": 0.04915200173854828,
+          "output_allocation": 0.03276799991726875,
+          "pairing_scores": 0.4472319930791855,
+          "topk_and_indices": 3.655679941177368,
+          "selected_attention": 0.7884800136089325
+        },
+        {
+          "proxy_projection": 0.04806400090456009,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.4331520050764084,
+          "topk_and_indices": 3.9055360555648804,
+          "selected_attention": 0.7895039916038513
+        }
+      ],
+      "instrumented_total_ms": [
+        5.203968048095703,
+        5.172224044799805,
+        4.940800189971924,
+        5.080063819885254,
+        5.194752216339111
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.467735372301831e-07,
+          "max_abs_error": 7.3909759521484375e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 9,
+      "method": "exact",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          6.170303821563721,
+          6.269951820373535,
+          6.1327362060546875,
+          6.3588480949401855,
+          6.164480209350586,
+          6.144000053405762,
+          6.165503978729248,
+          6.155104160308838,
+          6.139904022216797,
+          6.174464225769043
+        ],
+        "median_ms": 6.164992094039917,
+        "mean_ms": 6.18752965927124,
+        "stdev_ms": 0.06770821605472764,
+        "peak_allocated_mib": 314.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 3.903488039970398,
+        "proxy_projection": 0.004191999789327383,
+        "selected_attention": 0.5806079804897308,
+        "output_allocation": 0.0030720001086592674,
+        "pairing_scores": 1.7203200459480286
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.004191999789327383,
+          "output_allocation": 0.005152000114321709,
+          "pairing_scores": 1.9537920355796814,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.5744639933109283
+        },
+        {
+          "proxy_projection": 0.001888000057078898,
+          "output_allocation": 0.0030720001086592674,
+          "pairing_scores": 1.7254400253295898,
+          "topk_and_indices": 3.654655933380127,
+          "selected_attention": 0.7976960241794586
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.004095999989658594,
+          "pairing_scores": 1.6936960220336914,
+          "topk_and_indices": 3.903488039970398,
+          "selected_attention": 0.5806079804897308
+        },
+        {
+          "proxy_projection": 0.005119999870657921,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 1.7121280431747437,
+          "topk_and_indices": 3.904512047767639,
+          "selected_attention": 0.580704003572464
+        },
+        {
+          "proxy_projection": 0.0060800001956522465,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.7203200459480286,
+          "topk_and_indices": 3.904512047767639,
+          "selected_attention": 0.5713919997215271
+        }
+      ],
+      "instrumented_total_ms": [
+        6.317056179046631,
+        6.199295997619629,
+        6.199295997619629,
+        6.217728137969971,
+        6.23308801651001
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.467735372301831e-07,
+          "max_abs_error": 7.3909759521484375e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "block": 9,
+      "method": "region",
+      "Q": 4096,
+      "KV": 1024,
+      "capacity": 256,
+      "heads": 8,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.9144319891929626,
+          0.9051200151443481,
+          0.9215999841690063,
+          1.1376639604568481,
+          0.922432005405426,
+          0.9308159947395325,
+          0.9123839735984802,
+          0.9501760005950928,
+          0.8844159841537476,
+          1.334272027015686
+        ],
+        "median_ms": 0.9220159947872162,
+        "mean_ms": 0.9813311934471131,
+        "stdev_ms": 0.13564529230396244,
+        "peak_allocated_mib": 180.9013671875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.009216000325977802,
+        "candidate_kv_copy": 0.18534399569034576,
+        "region_organization_and_pooling": 0.419840008020401,
+        "restore_query_order": 0.03379200026392937,
+        "selected_attention": 0.32153600454330444,
+        "pairing_scores": 0.03347200155258179
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.5222399830818176,
+          "pairing_scores": 0.18943999707698822,
+          "topk_and_indices": 0.0071680000983178616,
+          "candidate_kv_copy": 0.13209599256515503,
+          "selected_attention": 0.3307519853115082,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.24883200228214264,
+          "pairing_scores": 0.11878400295972824,
+          "topk_and_indices": 0.009216000325977802,
+          "candidate_kv_copy": 0.16486400365829468,
+          "selected_attention": 0.32572799921035767,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.3307519853115082,
+          "pairing_scores": 0.02454400062561035,
+          "topk_and_indices": 0.1980160027742386,
+          "candidate_kv_copy": 0.19865599274635315,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03276799991726875
+        },
+        {
+          "region_organization_and_pooling": 0.419840008020401,
+          "pairing_scores": 0.03347200155258179,
+          "topk_and_indices": 0.020640000700950623,
+          "candidate_kv_copy": 0.1955520063638687,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03379200026392937
+        },
+        {
+          "region_organization_and_pooling": 0.521120011806488,
+          "pairing_scores": 0.009216000325977802,
+          "topk_and_indices": 0.007135999854654074,
+          "candidate_kv_copy": 0.18534399569034576,
+          "selected_attention": 0.32153600454330444,
+          "restore_query_order": 0.03379200026392937
+        }
+      ],
+      "instrumented_total_ms": [
+        1.2533760070800781,
+        0.9112640023231506,
+        1.1786240339279175,
+        1.077247977256775,
+        1.1497279405593872
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.467735372301831e-07,
+          "max_abs_error": 7.3909759521484375e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 1,
+      "method": "dense",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.6717439889907837,
+          0.8253440260887146,
+          0.6275519728660583,
+          0.6266880035400391,
+          0.6297600269317627,
+          0.628607988357544,
+          0.6264960169792175,
+          0.6307839751243591,
+          0.6262720227241516,
+          0.8038399815559387
+        ],
+        "median_ms": 0.6291840076446533,
+        "mean_ms": 0.6697088003158569,
+        "stdev_ms": 0.07375638811451826,
+        "peak_allocated_mib": 136.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 0.6297600269317627
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 0.6308159828186035
+        },
+        {
+          "dense_attention": 0.6318079829216003
+        },
+        {
+          "dense_attention": 0.6297600269317627
+        },
+        {
+          "dense_attention": 0.6287360191345215
+        },
+        {
+          "dense_attention": 0.6277120113372803
+        }
+      ],
+      "instrumented_total_ms": [
+        0.6818879842758179,
+        0.6338559985160828,
+        0.6318079829216003,
+        0.6317440271377563,
+        0.6481919884681702
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.828652428543137e-07,
+          "max_abs_error": 3.933906555175781e-06
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 1,
+      "method": "point32",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.1812479943037033,
+          0.17715199291706085,
+          0.17628799378871918,
+          0.21094399690628052,
+          0.20652799308300018,
+          0.26710399985313416,
+          0.17715199291706085,
+          0.2088959962129593,
+          0.20758399367332458,
+          0.2078080028295517
+        ],
+        "median_ms": 0.20705599337816238,
+        "mean_ms": 0.20207039564847945,
+        "stdev_ms": 0.02603468379915438,
+        "peak_allocated_mib": 136.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.17919999361038208
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.17919999361038208
+        },
+        {
+          "fixed_indexed_attention": 0.17919999361038208
+        },
+        {
+          "fixed_indexed_attention": 0.1762239933013916
+        },
+        {
+          "fixed_indexed_attention": 0.2088959962129593
+        },
+        {
+          "fixed_indexed_attention": 0.2099200040102005
+        }
+      ],
+      "instrumented_total_ms": [
+        0.18195199966430664,
+        0.18192000687122345,
+        0.1842239946126938,
+        0.22220799326896667,
+        0.22323200106620789
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.828652428543137e-07,
+          "max_abs_error": 3.933906555175781e-06
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 1,
+      "method": "proxy8",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          3.1150081157684326,
+          3.3739840984344482,
+          3.354624032974243,
+          3.126271963119507,
+          3.349503993988037,
+          3.276639938354492,
+          3.3523199558258057,
+          3.313663959503174,
+          3.135200023651123,
+          3.3370559215545654
+        ],
+        "median_ms": 3.3253599405288696,
+        "mean_ms": 3.273427200317383,
+        "stdev_ms": 0.10012607851819456,
+        "peak_allocated_mib": 297.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 2.067456007003784,
+        "proxy_projection": 0.04505600035190582,
+        "selected_attention": 0.7854080200195312,
+        "output_allocation": 0.0010239999974146485,
+        "pairing_scores": 0.2242559939622879
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.04505600035190582,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.2181120067834854,
+          "topk_and_indices": 2.067456007003784,
+          "selected_attention": 0.7854080200195312
+        },
+        {
+          "proxy_projection": 0.04505600035190582,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.20787200331687927,
+          "topk_and_indices": 2.3111679553985596,
+          "selected_attention": 0.7854080200195312
+        },
+        {
+          "proxy_projection": 0.04505600035190582,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.2242559939622879,
+          "topk_and_indices": 2.0654079914093018,
+          "selected_attention": 0.7854080200195312
+        },
+        {
+          "proxy_projection": 0.04710400104522705,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.4433920085430145,
+          "topk_and_indices": 2.0654079914093018,
+          "selected_attention": 0.7874559760093689
+        },
+        {
+          "proxy_projection": 0.053247999399900436,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.23628799617290497,
+          "topk_and_indices": 2.067456007003784,
+          "selected_attention": 0.9983999729156494
+        }
+      ],
+      "instrumented_total_ms": [
+        3.1436800956726074,
+        3.363679885864258,
+        3.136320114135742,
+        3.354559898376465,
+        3.414016008377075
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.828652428543137e-07,
+          "max_abs_error": 3.933906555175781e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 1,
+      "method": "exact",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          3.79801607131958,
+          3.445728063583374,
+          3.6925439834594727,
+          3.6874239444732666,
+          3.6687679290771484,
+          3.6761279106140137,
+          3.670016050338745,
+          3.44268798828125,
+          3.685375928878784,
+          3.452928066253662
+        ],
+        "median_ms": 3.6730719804763794,
+        "mean_ms": 3.6219615936279297,
+        "stdev_ms": 0.11978623458872913,
+        "peak_allocated_mib": 296.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 2.066431999206543,
+        "proxy_projection": 0.0010239999974146485,
+        "selected_attention": 0.5304319858551025,
+        "output_allocation": 0.001728000002913177,
+        "pairing_scores": 0.8775680065155029
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.04899200052022934,
+          "pairing_scores": 1.146880030632019,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.5304319858551025
+        },
+        {
+          "proxy_projection": 0.004544000141322613,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.8591039776802063,
+          "topk_and_indices": 2.318336009979248,
+          "selected_attention": 0.5273600220680237
+        },
+        {
+          "proxy_projection": 0.005119999870657921,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.8476160168647766,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.5304319858551025
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0030720001086592674,
+          "pairing_scores": 1.112064003944397,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.5304319858551025
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.001728000002913177,
+          "pairing_scores": 0.8775680065155029,
+          "topk_and_indices": 2.3101439476013184,
+          "selected_attention": 0.5263360142707825
+        }
+      ],
+      "instrumented_total_ms": [
+        3.8113279342651367,
+        3.7201919555664062,
+        3.481503963470459,
+        3.7416958808898926,
+        3.733504056930542
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.828652428543137e-07,
+          "max_abs_error": 3.933906555175781e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 1,
+      "method": "region",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          2.2917120456695557,
+          2.4573440551757812,
+          2.164383888244629,
+          2.124799966812134,
+          2.341887950897217,
+          2.264064073562622,
+          2.3490560054779053,
+          2.1831679344177246,
+          2.2169599533081055,
+          2.4340479373931885
+        ],
+        "median_ms": 2.277888059616089,
+        "mean_ms": 2.2827423810958862,
+        "stdev_ms": 0.1071919225106683,
+        "peak_allocated_mib": 273.0341796875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.02969600073993206,
+        "candidate_kv_copy": 0.6142719984054565,
+        "region_organization_and_pooling": 0.3563520014286041,
+        "restore_query_order": 0.018432000651955605,
+        "selected_attention": 1.1786240339279175,
+        "pairing_scores": 0.033952001482248306
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.43212801218032837,
+          "pairing_scores": 0.01708799973130226,
+          "topk_and_indices": 0.02969600073993206,
+          "candidate_kv_copy": 0.6305919885635376,
+          "selected_attention": 1.176576018333435,
+          "restore_query_order": 0.018432000651955605
+        },
+        {
+          "region_organization_and_pooling": 0.3563520014286041,
+          "pairing_scores": 0.03481600061058998,
+          "topk_and_indices": 0.02393599972128868,
+          "candidate_kv_copy": 0.596992015838623,
+          "selected_attention": 1.3619199991226196,
+          "restore_query_order": 0.018432000651955605
+        },
+        {
+          "region_organization_and_pooling": 0.39638400077819824,
+          "pairing_scores": 0.03481600061058998,
+          "topk_and_indices": 0.03481600061058998,
+          "candidate_kv_copy": 0.6225919723510742,
+          "selected_attention": 1.1786240339279175,
+          "restore_query_order": 0.018432000651955605
+        },
+        {
+          "region_organization_and_pooling": 0.3563520014286041,
+          "pairing_scores": 0.0318400003015995,
+          "topk_and_indices": 0.12297599762678146,
+          "candidate_kv_copy": 0.5653120279312134,
+          "selected_attention": 1.3608959913253784,
+          "restore_query_order": 0.01945599913597107
+        },
+        {
+          "region_organization_and_pooling": 0.230335995554924,
+          "pairing_scores": 0.033952001482248306,
+          "topk_and_indices": 0.02969600073993206,
+          "candidate_kv_copy": 0.6142719984054565,
+          "selected_attention": 1.1776000261306763,
+          "restore_query_order": 0.018432000651955605
+        }
+      ],
+      "instrumented_total_ms": [
+        2.364032030105591,
+        2.504703998565674,
+        2.351840019226074,
+        2.496511936187744,
+        2.136064052581787
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.828652428543137e-07,
+          "max_abs_error": 3.933906555175781e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 3,
+      "method": "dense",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.629472017288208,
+          0.6285439729690552,
+          0.6748160123825073,
+          0.6531839966773987,
+          0.681984007358551,
+          0.6287360191345215,
+          0.6284160017967224,
+          0.6327679753303528,
+          0.6399999856948853,
+          0.6359040141105652
+        ],
+        "median_ms": 0.634335994720459,
+        "mean_ms": 0.6433824002742767,
+        "stdev_ms": 0.018990649225845677,
+        "peak_allocated_mib": 136.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "dense_attention": 0.6287360191345215
+      },
+      "component_observations_ms": [
+        {
+          "dense_attention": 0.6287360191345215
+        },
+        {
+          "dense_attention": 0.6267200112342834
+        },
+        {
+          "dense_attention": 0.8181759715080261
+        },
+        {
+          "dense_attention": 0.6318079829216003
+        },
+        {
+          "dense_attention": 0.6287360191345215
+        }
+      ],
+      "instrumented_total_ms": [
+        0.6314240097999573,
+        0.6305279731750488,
+        0.822272002696991,
+        0.6399679780006409,
+        0.6325119733810425
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.031429731796379e-07,
+          "max_abs_error": 2.2649765014648438e-06
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 3,
+      "method": "point32",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          0.24166400730609894,
+          0.18214400112628937,
+          0.21401600539684296,
+          0.21264000236988068,
+          0.207519993185997,
+          0.17715199291706085,
+          0.17696000635623932,
+          0.17715199291706085,
+          0.20479999482631683,
+          0.2096319943666458
+        ],
+        "median_ms": 0.20615999400615692,
+        "mean_ms": 0.20036799907684327,
+        "stdev_ms": 0.020388378455207714,
+        "peak_allocated_mib": 136.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "fixed_indexed_attention": 0.17817600071430206
+      },
+      "component_observations_ms": [
+        {
+          "fixed_indexed_attention": 0.17692799866199493
+        },
+        {
+          "fixed_indexed_attention": 0.17817600071430206
+        },
+        {
+          "fixed_indexed_attention": 0.17612800002098083
+        },
+        {
+          "fixed_indexed_attention": 0.20582400262355804
+        },
+        {
+          "fixed_indexed_attention": 0.20454399287700653
+        }
+      ],
+      "instrumented_total_ms": [
+        0.19446399807929993,
+        0.1802240014076233,
+        0.1802240014076233,
+        0.2341119945049286,
+        0.23449599742889404
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.031429731796379e-07,
+          "max_abs_error": 2.2649765014648438e-06
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 3,
+      "method": "proxy8",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          3.710815906524658,
+          3.338239908218384,
+          3.1047680377960205,
+          3.38319993019104,
+          3.1293439865112305,
+          3.313663959503174,
+          3.0792319774627686,
+          3.327967882156372,
+          3.091104030609131,
+          3.474463939666748
+        ],
+        "median_ms": 3.320815920829773,
+        "mean_ms": 3.2952799558639527,
+        "stdev_ms": 0.1918210239066261,
+        "peak_allocated_mib": 297.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 2.066431999206543,
+        "proxy_projection": 0.08191999793052673,
+        "selected_attention": 0.7485439777374268,
+        "output_allocation": 0.02236800082027912,
+        "pairing_scores": 0.2314240038394928
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.08396799862384796,
+          "output_allocation": 0.02236800082027912,
+          "pairing_scores": 0.2611199915409088,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.9533439874649048
+        },
+        {
+          "proxy_projection": 0.08726400136947632,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.24883200228214264,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.7485439777374268
+        },
+        {
+          "proxy_projection": 0.07065600156784058,
+          "output_allocation": 0.030719999223947525,
+          "pairing_scores": 0.20771199464797974,
+          "topk_and_indices": 2.3490560054779053,
+          "selected_attention": 0.7526400089263916
+        },
+        {
+          "proxy_projection": 0.07475200295448303,
+          "output_allocation": 0.027871999889612198,
+          "pairing_scores": 0.21913599967956543,
+          "topk_and_indices": 2.0654079914093018,
+          "selected_attention": 0.7485439777374268
+        },
+        {
+          "proxy_projection": 0.08191999793052673,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.2314240038394928,
+          "topk_and_indices": 2.3500800132751465,
+          "selected_attention": 0.7485439777374268
+        }
+      ],
+      "instrumented_total_ms": [
+        3.4005119800567627,
+        3.1795198917388916,
+        3.423935890197754,
+        3.149440050125122,
+        3.4464640617370605
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.031429731796379e-07,
+          "max_abs_error": 2.2649765014648438e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 3,
+      "method": "exact",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          3.5297279357910156,
+          3.659775972366333,
+          3.443711996078491,
+          3.7171199321746826,
+          3.7007360458374023,
+          3.5171520709991455,
+          3.6607680320739746,
+          3.650399923324585,
+          3.4498560428619385,
+          3.6634879112243652
+        ],
+        "median_ms": 3.655087947845459,
+        "mean_ms": 3.5992735862731933,
+        "stdev_ms": 0.098217834833874,
+        "peak_allocated_mib": 296.75244140625,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 2.066431999206543,
+        "proxy_projection": 0.0010239999974146485,
+        "selected_attention": 0.5263360142707825,
+        "output_allocation": 0.0017600000137463212,
+        "pairing_scores": 0.857088029384613
+      },
+      "component_observations_ms": [
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.003295999951660633,
+          "pairing_scores": 0.857088029384613,
+          "topk_and_indices": 2.0654079914093018,
+          "selected_attention": 0.5263360142707825
+        },
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.002047999994829297,
+          "pairing_scores": 0.8386560082435608,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.5253120064735413
+        },
+        {
+          "proxy_projection": 0.002047999994829297,
+          "output_allocation": 0.0017600000137463212,
+          "pairing_scores": 0.8559679985046387,
+          "topk_and_indices": 2.322432041168213,
+          "selected_attention": 0.5232639908790588
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 0.9482240080833435,
+          "topk_and_indices": 2.0654079914093018,
+          "selected_attention": 0.5273600220680237
+        },
+        {
+          "proxy_projection": 0.0010239999974146485,
+          "output_allocation": 0.0010239999974146485,
+          "pairing_scores": 1.1059199571609497,
+          "topk_and_indices": 2.066431999206543,
+          "selected_attention": 0.5283839702606201
+        }
+      ],
+      "instrumented_total_ms": [
+        3.4876480102539062,
+        3.46726393699646,
+        3.719167947769165,
+        3.676896095275879,
+        3.7212159633636475
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.031429731796379e-07,
+          "max_abs_error": 2.2649765014648438e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "block": 3,
+      "method": "region",
+      "Q": 1024,
+      "KV": 1024,
+      "capacity": 512,
+      "heads": 16,
+      "head_dimension": 32,
+      "uninstrumented": {
+        "timing_ms": [
+          2.27839994430542,
+          2.2261760234832764,
+          2.2289280891418457,
+          2.1882879734039307,
+          2.130944013595581,
+          2.937664031982422,
+          2.2159359455108643,
+          2.3296000957489014,
+          2.191391944885254,
+          2.115583896636963
+        ],
+        "median_ms": 2.2210559844970703,
+        "mean_ms": 2.2842911958694456,
+        "stdev_ms": 0.22581473689864015,
+        "peak_allocated_mib": 273.0341796875,
+        "peak_reserved_mib": 704.0,
+        "warmup": 3,
+        "repeats": 10
+      },
+      "component_median_ms": {
+        "topk_and_indices": 0.010239999741315842,
+        "candidate_kv_copy": 0.6348479986190796,
+        "region_organization_and_pooling": 0.4798719882965088,
+        "restore_query_order": 0.018432000651955605,
+        "selected_attention": 1.1786240339279175,
+        "pairing_scores": 0.02969600073993206
+      },
+      "component_observations_ms": [
+        {
+          "region_organization_and_pooling": 0.5150719881057739,
+          "pairing_scores": 0.14028799533843994,
+          "topk_and_indices": 0.006207999773323536,
+          "candidate_kv_copy": 0.5806080102920532,
+          "selected_attention": 1.176576018333435,
+          "restore_query_order": 0.01945599913597107
+        },
+        {
+          "region_organization_and_pooling": 0.4798719882965088,
+          "pairing_scores": 0.03452799841761589,
+          "topk_and_indices": 0.010239999741315842,
+          "candidate_kv_copy": 0.6376000046730042,
+          "selected_attention": 1.183743953704834,
+          "restore_query_order": 0.01945599913597107
+        },
+        {
+          "region_organization_and_pooling": 0.6134080290794373,
+          "pairing_scores": 0.01945599913597107,
+          "topk_and_indices": 0.0071680000983178616,
+          "candidate_kv_copy": 0.9021440148353577,
+          "selected_attention": 1.1776000261306763,
+          "restore_query_order": 0.018432000651955605
+        },
+        {
+          "region_organization_and_pooling": 0.3226560056209564,
+          "pairing_scores": 0.028672000393271446,
+          "topk_and_indices": 0.011008000001311302,
+          "candidate_kv_copy": 0.6348479986190796,
+          "selected_attention": 1.1786240339279175,
+          "restore_query_order": 0.018432000651955605
+        },
+        {
+          "region_organization_and_pooling": 0.34224000573158264,
+          "pairing_scores": 0.02969600073993206,
+          "topk_and_indices": 0.010912000201642513,
+          "candidate_kv_copy": 0.5949440002441406,
+          "selected_attention": 1.3660160303115845,
+          "restore_query_order": 0.018432000651955605
+        }
+      ],
+      "instrumented_total_ms": [
+        2.4647679328918457,
+        2.4545280933380127,
+        2.776063919067383,
+        2.269184112548828,
+        2.4227840900421143
+      ],
+      "numerical_checks": [
+        {
+          "method": "region_sdpa_execution",
+          "relative_l2": 7.031429731796379e-07,
+          "max_abs_error": 2.2649765014648438e-06
+        },
+        {
+          "method": "proxy8",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        },
+        {
+          "method": "exact",
+          "relative_l2": 0.0,
+          "max_abs_error": 0.0
+        }
+      ]
+    }
+  ],
+  "case": "twins_cityscapes",
+  "phase": "cost",
+  "k": 14,
+  "seed": 42,
+  "precision": "FP32",
+  "selector": "triton",
+  "score_elements": 16777216,
+  "complete_blocks": true,
+  "complete_inputs": true
+}

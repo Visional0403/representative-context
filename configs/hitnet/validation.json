@@ -1,0 +1,23 @@
+{
+  "case": "hitnet",
+  "dataset": "CHAMELEON",
+  "expected_samples": 76,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/chameleon",
+  "weights": "weights/hitnet/hitnet.pth",
+  "source": "third_party/sources/hitnet",
+  "execution": {
+    "cudnn_allow_tf32": false,
+    "cudnn_deterministic": true
+  },
+  "timing": {
+    "warmup": 5,
+    "repeats": 20,
+    "rounds": 3
+  },
+  "timer": "cuda_event",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "timing_summary": "median_weighted_round_medians",
+  "speedup_summary": "ratio_of_reported_latencies"
+}

@@ -1,0 +1,820 @@
+{
+  "entries": [
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq16",
+      "layout": "Dispersed",
+      "initial": 1.824,
+      "interventions": {
+        "Mass": {
+          "reduction": -10.0,
+          "miou": 1.317
+        },
+        "Content": {
+          "reduction": 28.86,
+          "miou": 0.195
+        },
+        "Matched": {
+          "reduction": 13.81,
+          "miou": 0.107
+        },
+        "Full": {
+          "reduction": 32.18,
+          "miou": 0.693
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq16",
+      "layout": "Clustered",
+      "initial": 3.865,
+      "interventions": {
+        "Mass": {
+          "reduction": 7.34,
+          "miou": -0.225
+        },
+        "Content": {
+          "reduction": 36.28,
+          "miou": 2.019
+        },
+        "Matched": {
+          "reduction": 27.33,
+          "miou": 1.899
+        },
+        "Full": {
+          "reduction": 35.55,
+          "miou": 0.979
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq17",
+      "layout": "Dispersed",
+      "initial": 2.747,
+      "interventions": {
+        "Mass": {
+          "reduction": 2.53,
+          "miou": 0.473
+        },
+        "Content": {
+          "reduction": 26.39,
+          "miou": -0.565
+        },
+        "Matched": {
+          "reduction": 10.12,
+          "miou": -0.587
+        },
+        "Full": {
+          "reduction": 30.28,
+          "miou": -0.648
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq17",
+      "layout": "Clustered",
+      "initial": 4.734,
+      "interventions": {
+        "Mass": {
+          "reduction": 4.6,
+          "miou": 0.038
+        },
+        "Content": {
+          "reduction": 35.37,
+          "miou": -2.261
+        },
+        "Matched": {
+          "reduction": 10.5,
+          "miou": -2.123
+        },
+        "Full": {
+          "reduction": 42.9,
+          "miou": -2.9
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq18",
+      "layout": "Dispersed",
+      "initial": 1.344,
+      "interventions": {
+        "Mass": {
+          "reduction": 2.46,
+          "miou": -0.105
+        },
+        "Content": {
+          "reduction": 17.53,
+          "miou": 0.368
+        },
+        "Matched": {
+          "reduction": 6.88,
+          "miou": 0.202
+        },
+        "Full": {
+          "reduction": 21.09,
+          "miou": 0.378
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq18",
+      "layout": "Clustered",
+      "initial": 2.761,
+      "interventions": {
+        "Mass": {
+          "reduction": 7.28,
+          "miou": -0.245
+        },
+        "Content": {
+          "reduction": 28.4,
+          "miou": 0.407
+        },
+        "Matched": {
+          "reduction": 16.8,
+          "miou": 0.314
+        },
+        "Full": {
+          "reduction": 39.85,
+          "miou": 0.193
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq19",
+      "layout": "Dispersed",
+      "initial": 2.382,
+      "interventions": {
+        "Mass": {
+          "reduction": 0.38,
+          "miou": -0.425
+        },
+        "Content": {
+          "reduction": 16.28,
+          "miou": -0.207
+        },
+        "Matched": {
+          "reduction": 5.89,
+          "miou": -0.289
+        },
+        "Full": {
+          "reduction": 16.56,
+          "miou": -0.23
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq19",
+      "layout": "Clustered",
+      "initial": 5.139,
+      "interventions": {
+        "Mass": {
+          "reduction": -13.64,
+          "miou": -2.348
+        },
+        "Content": {
+          "reduction": 24.03,
+          "miou": 1.022
+        },
+        "Matched": {
+          "reduction": 12.88,
+          "miou": 1.21
+        },
+        "Full": {
+          "reduction": 16.74,
+          "miou": -1.248
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq20",
+      "layout": "Dispersed",
+      "initial": 1.39,
+      "interventions": {
+        "Mass": {
+          "reduction": -7.4,
+          "miou": -0.207
+        },
+        "Content": {
+          "reduction": 16.66,
+          "miou": 0.414
+        },
+        "Matched": {
+          "reduction": 7.71,
+          "miou": 0.518
+        },
+        "Full": {
+          "reduction": 16.25,
+          "miou": 0.264
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq20",
+      "layout": "Clustered",
+      "initial": 2.843,
+      "interventions": {
+        "Mass": {
+          "reduction": -12.75,
+          "miou": 0.295
+        },
+        "Content": {
+          "reduction": 28.16,
+          "miou": 0.265
+        },
+        "Matched": {
+          "reduction": 16.36,
+          "miou": 0.075
+        },
+        "Full": {
+          "reduction": 20.19,
+          "miou": 0.329
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq36",
+      "layout": "Dispersed",
+      "initial": 3.481,
+      "interventions": {
+        "Mass": {
+          "reduction": -7.26,
+          "miou": 0.142
+        },
+        "Content": {
+          "reduction": 27.02,
+          "miou": -0.023
+        },
+        "Matched": {
+          "reduction": 5.33,
+          "miou": 0.127
+        },
+        "Full": {
+          "reduction": 29.41,
+          "miou": -0.025
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq36",
+      "layout": "Clustered",
+      "initial": 9.047,
+      "interventions": {
+        "Mass": {
+          "reduction": -1.76,
+          "miou": 9.518
+        },
+        "Content": {
+          "reduction": 31.65,
+          "miou": 9.416
+        },
+        "Matched": {
+          "reduction": 14.45,
+          "miou": 8.91
+        },
+        "Full": {
+          "reduction": 37.71,
+          "miou": 10.365
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq37",
+      "layout": "Dispersed",
+      "initial": 1.721,
+      "interventions": {
+        "Mass": {
+          "reduction": -3.6,
+          "miou": -0.324
+        },
+        "Content": {
+          "reduction": 15.24,
+          "miou": 0.169
+        },
+        "Matched": {
+          "reduction": 5.71,
+          "miou": 0.219
+        },
+        "Full": {
+          "reduction": 15.88,
+          "miou": -0.013
+        }
+      }
+    },
+    {
+      "model": "SegFormer-B0 / UAVid",
+      "window": "seq37",
+      "layout": "Clustered",
+      "initial": 4.129,
+      "interventions": {
+        "Mass": {
+          "reduction": 6.97,
+          "miou": -0.303
+        },
+        "Content": {
+          "reduction": 34.18,
+          "miou": -0.088
+        },
+        "Matched": {
+          "reduction": 21.45,
+          "miou": -0.129
+        },
+        "Full": {
+          "reduction": 39.12,
+          "miou": -0.519
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq16",
+      "layout": "Dispersed",
+      "initial": 0.967,
+      "interventions": {
+        "Mass": {
+          "reduction": -6.11,
+          "miou": -0.083
+        },
+        "Content": {
+          "reduction": 9.82,
+          "miou": -0.545
+        },
+        "Matched": {
+          "reduction": 4.55,
+          "miou": -0.259
+        },
+        "Full": {
+          "reduction": 7.83,
+          "miou": -0.795
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq16",
+      "layout": "Clustered",
+      "initial": 3.363,
+      "interventions": {
+        "Mass": {
+          "reduction": -5.22,
+          "miou": 0.136
+        },
+        "Content": {
+          "reduction": 12.54,
+          "miou": -0.066
+        },
+        "Matched": {
+          "reduction": 7.83,
+          "miou": -0.075
+        },
+        "Full": {
+          "reduction": 20.96,
+          "miou": -0.201
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq17",
+      "layout": "Dispersed",
+      "initial": 1.8,
+      "interventions": {
+        "Mass": {
+          "reduction": -2.61,
+          "miou": 0.298
+        },
+        "Content": {
+          "reduction": 3.31,
+          "miou": 0.271
+        },
+        "Matched": {
+          "reduction": 2.63,
+          "miou": 0.115
+        },
+        "Full": {
+          "reduction": 1.61,
+          "miou": 0.39
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq17",
+      "layout": "Clustered",
+      "initial": 4.389,
+      "interventions": {
+        "Mass": {
+          "reduction": -1.81,
+          "miou": 0.056
+        },
+        "Content": {
+          "reduction": 8.73,
+          "miou": -1.333
+        },
+        "Matched": {
+          "reduction": 7.33,
+          "miou": -1.015
+        },
+        "Full": {
+          "reduction": 6.06,
+          "miou": -1.342
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq18",
+      "layout": "Dispersed",
+      "initial": 1.144,
+      "interventions": {
+        "Mass": {
+          "reduction": 3.97,
+          "miou": -0.087
+        },
+        "Content": {
+          "reduction": 8.52,
+          "miou": 0.014
+        },
+        "Matched": {
+          "reduction": -0.25,
+          "miou": 0.087
+        },
+        "Full": {
+          "reduction": 10.74,
+          "miou": -0.061
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq18",
+      "layout": "Clustered",
+      "initial": 2.181,
+      "interventions": {
+        "Mass": {
+          "reduction": 1.34,
+          "miou": -0.211
+        },
+        "Content": {
+          "reduction": 9.95,
+          "miou": -0.123
+        },
+        "Matched": {
+          "reduction": 8.87,
+          "miou": -0.066
+        },
+        "Full": {
+          "reduction": 7.04,
+          "miou": -0.421
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq19",
+      "layout": "Dispersed",
+      "initial": 1.045,
+      "interventions": {
+        "Mass": {
+          "reduction": 0.98,
+          "miou": 0.001
+        },
+        "Content": {
+          "reduction": 5.43,
+          "miou": -0.01
+        },
+        "Matched": {
+          "reduction": 3.2,
+          "miou": -0.019
+        },
+        "Full": {
+          "reduction": 5.2,
+          "miou": -0.043
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq19",
+      "layout": "Clustered",
+      "initial": 3.146,
+      "interventions": {
+        "Mass": {
+          "reduction": 0.4,
+          "miou": 0.024
+        },
+        "Content": {
+          "reduction": 10.99,
+          "miou": -0.029
+        },
+        "Matched": {
+          "reduction": 10.37,
+          "miou": 0.02
+        },
+        "Full": {
+          "reduction": 9.22,
+          "miou": -0.185
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq20",
+      "layout": "Dispersed",
+      "initial": 1.253,
+      "interventions": {
+        "Mass": {
+          "reduction": 0.03,
+          "miou": -0.058
+        },
+        "Content": {
+          "reduction": 8.02,
+          "miou": -0.172
+        },
+        "Matched": {
+          "reduction": 8.16,
+          "miou": -0.137
+        },
+        "Full": {
+          "reduction": 7.46,
+          "miou": -0.213
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq20",
+      "layout": "Clustered",
+      "initial": 2.534,
+      "interventions": {
+        "Mass": {
+          "reduction": -5.77,
+          "miou": -0.04
+        },
+        "Content": {
+          "reduction": 8.35,
+          "miou": -0.042
+        },
+        "Matched": {
+          "reduction": 9.83,
+          "miou": -0.08
+        },
+        "Full": {
+          "reduction": 1.66,
+          "miou": -0.029
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq36",
+      "layout": "Dispersed",
+      "initial": 2.014,
+      "interventions": {
+        "Mass": {
+          "reduction": -0.26,
+          "miou": -0.071
+        },
+        "Content": {
+          "reduction": 0.1,
+          "miou": 0.26
+        },
+        "Matched": {
+          "reduction": -5.1,
+          "miou": 0.295
+        },
+        "Full": {
+          "reduction": 1.59,
+          "miou": 0.244
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq36",
+      "layout": "Clustered",
+      "initial": 4.402,
+      "interventions": {
+        "Mass": {
+          "reduction": -2.69,
+          "miou": -0.006
+        },
+        "Content": {
+          "reduction": 9.76,
+          "miou": 0.686
+        },
+        "Matched": {
+          "reduction": 12.37,
+          "miou": 0.396
+        },
+        "Full": {
+          "reduction": 7.05,
+          "miou": 0.854
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq37",
+      "layout": "Dispersed",
+      "initial": 1.27,
+      "interventions": {
+        "Mass": {
+          "reduction": 1.31,
+          "miou": 0.015
+        },
+        "Content": {
+          "reduction": 2.27,
+          "miou": -0.077
+        },
+        "Matched": {
+          "reduction": 0.56,
+          "miou": -0.065
+        },
+        "Full": {
+          "reduction": 2.59,
+          "miou": -0.077
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / UAVid",
+      "window": "seq37",
+      "layout": "Clustered",
+      "initial": 2.538,
+      "interventions": {
+        "Mass": {
+          "reduction": -0.4,
+          "miou": 0.109
+        },
+        "Content": {
+          "reduction": 2.62,
+          "miou": -0.071
+        },
+        "Matched": {
+          "reduction": 0.0,
+          "miou": -0.123
+        },
+        "Full": {
+          "reduction": 1.62,
+          "miou": -0.053
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / Cityscapes",
+      "window": "frankfurt",
+      "layout": "Dispersed",
+      "initial": 0.157,
+      "interventions": {
+        "Mass": {
+          "reduction": 0.49,
+          "miou": 0.002
+        },
+        "Content": {
+          "reduction": 6.19,
+          "miou": 0.035
+        },
+        "Matched": {
+          "reduction": 1.48,
+          "miou": 0.008
+        },
+        "Full": {
+          "reduction": 8.16,
+          "miou": 0.049
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / Cityscapes",
+      "window": "frankfurt",
+      "layout": "Clustered",
+      "initial": 0.231,
+      "interventions": {
+        "Mass": {
+          "reduction": 1.43,
+          "miou": -0.064
+        },
+        "Content": {
+          "reduction": 0.38,
+          "miou": 0.058
+        },
+        "Matched": {
+          "reduction": -1.34,
+          "miou": 0.05
+        },
+        "Full": {
+          "reduction": 0.72,
+          "miou": -0.01
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / Cityscapes",
+      "window": "lindau",
+      "layout": "Dispersed",
+      "initial": 0.372,
+      "interventions": {
+        "Mass": {
+          "reduction": -2.95,
+          "miou": -0.011
+        },
+        "Content": {
+          "reduction": 5.87,
+          "miou": -0.001
+        },
+        "Matched": {
+          "reduction": 7.69,
+          "miou": 0.025
+        },
+        "Full": {
+          "reduction": 3.2,
+          "miou": -0.016
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / Cityscapes",
+      "window": "lindau",
+      "layout": "Clustered",
+      "initial": 0.548,
+      "interventions": {
+        "Mass": {
+          "reduction": 4.62,
+          "miou": 0.004
+        },
+        "Content": {
+          "reduction": -2.74,
+          "miou": 0.001
+        },
+        "Matched": {
+          "reduction": -3.45,
+          "miou": 0.012
+        },
+        "Full": {
+          "reduction": -2.66,
+          "miou": 0.002
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / Cityscapes",
+      "window": "munster",
+      "layout": "Dispersed",
+      "initial": 0.172,
+      "interventions": {
+        "Mass": {
+          "reduction": 0.24,
+          "miou": 0.045
+        },
+        "Content": {
+          "reduction": 0.91,
+          "miou": -0.004
+        },
+        "Matched": {
+          "reduction": 0.0,
+          "miou": -0.002
+        },
+        "Full": {
+          "reduction": 2.3,
+          "miou": -0.012
+        }
+      }
+    },
+    {
+      "model": "Twins-SVT-S / Cityscapes",
+      "window": "munster",
+      "layout": "Clustered",
+      "initial": 0.17,
+      "interventions": {
+        "Mass": {
+          "reduction": -6.85,
+          "miou": 0.133
+        },
+        "Content": {
+          "reduction": 1.53,
+          "miou": -0.136
+        },
+        "Matched": {
+          "reduction": 1.84,
+          "miou": -0.167
+        },
+        "Full": {
+          "reduction": -1.47,
+          "miou": -0.066
+        }
+      }
+    }
+  ]
+}

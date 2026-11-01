@@ -1,0 +1,3198 @@
+{
+  "case": "twins_cityscapes",
+  "k": 14,
+  "seed": 42,
+  "input_side": 1024,
+  "stride": 768,
+  "complete_validation": true,
+  "images": [
+    "leftImg8bit/val/frankfurt/frankfurt_000000_000294_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_000576_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_001016_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_001236_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_001751_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_002196_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_002963_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_003025_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_003357_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_003920_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_004617_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_005543_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_005898_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_006589_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_007365_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_008206_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_008451_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_009291_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_009561_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_009688_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_009969_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_010351_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_010763_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_011007_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_011074_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_011461_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_011810_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_012009_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_012121_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_012868_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_013067_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_013240_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_013382_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_013942_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_014480_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_015389_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_015676_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_016005_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_016286_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_017228_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_017476_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_018797_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_019607_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_020215_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_020321_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_020880_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_021667_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_021879_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_022254_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000000_022797_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_000538_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_001464_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_002512_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_002646_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_002759_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_003056_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_003588_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_004327_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_004736_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_004859_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_005184_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_005410_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_005703_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_005898_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_007285_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_007407_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_007622_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_007857_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_007973_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_008200_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_008688_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_009058_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_009504_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_009854_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_010156_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_010444_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_010600_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_010830_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_011162_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_011715_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_011835_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_012038_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_012519_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_012699_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_012738_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_012870_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_013016_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_013496_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_013710_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_014221_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_014406_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_014565_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_014741_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_015091_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_015328_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_015768_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_016029_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_016273_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_016462_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_017101_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_017459_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_017842_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_018113_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_019698_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_019854_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_019969_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_020046_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_020287_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_020693_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_021406_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_021825_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_023235_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_023369_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_023769_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_024927_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_025512_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_025713_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_025921_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_027325_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_028232_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_028335_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_028590_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_028854_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_029086_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_029236_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_029600_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_030067_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_030310_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_030669_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_031266_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_031416_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_032018_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_032556_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_032711_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_032942_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_033655_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_034047_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_034816_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_035144_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_035864_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_037705_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_038245_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_038418_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_038645_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_038844_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_039895_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_040575_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_040732_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_041074_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_041354_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_041517_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_041664_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_042098_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_042384_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_042733_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_043395_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_043564_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_044227_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_044413_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_044525_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_044658_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_044787_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_046126_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_046272_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_046504_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_046779_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_047178_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_047552_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_048196_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_048355_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_048654_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_049078_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_049209_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_049298_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_049698_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_049770_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_050149_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_050686_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_051516_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_051737_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_051807_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_052120_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_052594_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_053102_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_054077_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_054219_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_054415_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_054640_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_054884_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055062_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055172_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055306_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055387_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055538_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055603_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_055709_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_056580_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_057181_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_057478_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_057954_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_058057_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_058176_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_058504_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_058914_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_059119_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_059642_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_059789_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_060135_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_060422_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_060545_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_060906_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_061682_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_061763_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_062016_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_062250_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_062396_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_062509_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_062653_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_062793_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_063045_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_064130_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_064305_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_064651_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_064798_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_064925_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_065160_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_065617_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_065850_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_066092_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_066438_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_066574_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_066832_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_067092_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_067178_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_067295_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_067474_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_067735_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_068063_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_068208_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_068682_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_068772_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_069633_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_070099_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_071288_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_071781_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_072155_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_072295_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_073088_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_073243_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_073464_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_073911_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_075296_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_075984_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_076502_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_077092_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_077233_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_077434_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_078803_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_079206_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_080091_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_080391_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_080830_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_082087_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_082466_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_083029_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_083199_leftImg8bit.png",
+    "leftImg8bit/val/frankfurt/frankfurt_000001_083852_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000000_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000001_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000002_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000003_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000004_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000005_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000006_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000007_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000008_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000009_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000010_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000011_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000012_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000013_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000014_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000015_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000016_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000017_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000018_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000019_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000020_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000021_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000022_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000023_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000024_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000025_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000026_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000027_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000028_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000029_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000030_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000031_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000032_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000033_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000034_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000035_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000036_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000037_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000038_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000039_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000040_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000041_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000042_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000043_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000044_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000045_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000046_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000047_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000048_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000049_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000050_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000051_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000052_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000053_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000054_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000055_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000056_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000057_000019_leftImg8bit.png",
+    "leftImg8bit/val/lindau/lindau_000058_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000000_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000001_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000002_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000003_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000004_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000005_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000006_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000007_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000008_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000009_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000010_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000011_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000012_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000013_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000014_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000015_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000016_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000017_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000018_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000019_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000020_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000021_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000022_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000023_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000024_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000025_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000026_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000027_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000028_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000029_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000030_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000031_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000032_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000033_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000034_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000035_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000036_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000037_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000038_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000039_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000040_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000041_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000042_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000043_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000044_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000045_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000046_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000047_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000048_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000049_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000050_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000051_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000052_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000053_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000054_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000055_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000056_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000057_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000058_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000059_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000060_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000061_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000062_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000063_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000064_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000065_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000066_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000067_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000068_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000069_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000070_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000071_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000072_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000073_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000074_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000075_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000076_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000077_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000078_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000079_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000080_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000081_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000082_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000083_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000084_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000085_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000086_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000087_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000088_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000089_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000090_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000091_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000092_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000093_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000094_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000095_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000096_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000097_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000098_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000099_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000100_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000101_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000102_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000103_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000104_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000105_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000106_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000107_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000108_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000109_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000110_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000111_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000112_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000113_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000114_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000115_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000116_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000117_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000118_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000119_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000120_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000121_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000122_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000123_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000124_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000125_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000126_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000127_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000128_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000129_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000130_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000131_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000132_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000133_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000134_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000135_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000136_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000137_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000138_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000139_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000140_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000141_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000142_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000143_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000144_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000145_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000146_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000147_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000148_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000149_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000150_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000151_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000152_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000153_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000154_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000155_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000156_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000157_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000158_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000159_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000160_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000161_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000162_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000163_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000164_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000165_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000166_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000167_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000168_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000169_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000170_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000171_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000172_000019_leftImg8bit.png",
+    "leftImg8bit/val/munster/munster_000173_000019_leftImg8bit.png"
+  ],
+  "patterns": [
+    "extent0",
+    "extent1",
+    "extent2",
+    "extent3",
+    "extent4",
+    "dispersed32"
+  ],
+  "layouts": [
+    {
+      "pattern": "dense",
+      "miou_percent": 79.01315513321748,
+      "per_class_iou_percent": [
+        98.39725717769868,
+        86.69422830908172,
+        92.90404981154356,
+        62.2414205818989,
+        60.8993925440069,
+        64.98323810878118,
+        69.83378232415134,
+        79.02868799097261,
+        92.82265652627882,
+        67.10319432197474,
+        95.26465117991832,
+        82.12948755089207,
+        60.93945030168777,
+        95.13051420642543,
+        82.70466202687274,
+        88.65866612761886,
+        78.06579043832444,
+        66.9187557680208,
+        76.53006223498302
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          65.79199981689453,
+          66.37872314453125,
+          65.63839721679688,
+          66.07257843017578,
+          66.94707489013672,
+          66.5323486328125,
+          65.84111785888672,
+          65.610595703125,
+          66.64498901367188,
+          66.39513397216797,
+          66.64908599853516,
+          66.155517578125,
+          66.3562240600586,
+          66.88050842285156,
+          66.46057891845703,
+          66.30790710449219,
+          66.75558471679688,
+          66.76882934570312,
+          66.27123260498047,
+          66.42278289794922
+        ],
+        "median_ms": 66.38692855834961,
+        "stdev_ms": 0.38428385537049015
+      }
+    },
+    {
+      "pattern": "extent0",
+      "miou_percent": 76.91796928268371,
+      "per_class_iou_percent": [
+        98.14213184759166,
+        84.92217252865228,
+        92.13628104241795,
+        55.58510292783762,
+        58.345933824318905,
+        63.773333393270704,
+        69.18044693088939,
+        77.87058296540296,
+        92.33483621527459,
+        62.48127777263483,
+        94.8978775450338,
+        80.90052989084245,
+        55.94174727845724,
+        94.63594886299748,
+        82.18994493046749,
+        82.30337682651616,
+        75.10737381742048,
+        64.7752950610426,
+        75.9172227099221
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          59.044864654541016,
+          52.36735916137695,
+          54.03241729736328,
+          52.61385726928711,
+          53.69619369506836,
+          52.838401794433594,
+          53.23878479003906,
+          53.68729782104492,
+          53.28076934814453,
+          53.447486877441406,
+          53.367774963378906,
+          53.8172492980957,
+          53.65043258666992,
+          53.744510650634766,
+          53.92588806152344,
+          58.24614334106445,
+          62.12607955932617,
+          60.1343994140625,
+          61.202430725097656,
+          56.797183990478516
+        ],
+        "median_ms": 53.72035217285156,
+        "stdev_ms": 3.0256975780084705
+      }
+    },
+    {
+      "pattern": "extent1",
+      "miou_percent": 77.94975920118873,
+      "per_class_iou_percent": [
+        98.26705550654749,
+        85.4935377127468,
+        92.45685568620654,
+        59.454214844970195,
+        59.49771195716097,
+        64.25432177589266,
+        69.07701694514353,
+        78.46290290250722,
+        92.52888820615638,
+        63.87122439813761,
+        95.24861980835213,
+        81.27983574416464,
+        58.14955476667394,
+        95.07139547779555,
+        83.6889959864877,
+        85.70099723914886,
+        76.79359899707788,
+        65.57261672626392,
+        76.17608014115186
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          52.4666862487793,
+          52.87014389038086,
+          52.584449768066406,
+          52.95820617675781,
+          53.718017578125,
+          52.962303161621094,
+          53.696510314941406,
+          53.39238357543945,
+          53.762046813964844,
+          53.29817581176758,
+          52.72780990600586,
+          53.08921432495117,
+          53.89516830444336,
+          53.217281341552734,
+          52.773887634277344,
+          53.1578254699707,
+          52.84454345703125,
+          53.956607818603516,
+          54.361087799072266,
+          52.401153564453125
+        ],
+        "median_ms": 53.12351989746094,
+        "stdev_ms": 0.5293472677746806
+      }
+    },
+    {
+      "pattern": "extent2",
+      "miou_percent": 78.54992186219539,
+      "per_class_iou_percent": [
+        98.30575689552026,
+        85.8010332407242,
+        92.72826292001022,
+        60.91664631085346,
+        60.08592905574675,
+        64.56674012027764,
+        69.87118877851812,
+        78.78671266179967,
+        92.62703760118515,
+        64.67284838942568,
+        95.26220265267452,
+        81.79088832338324,
+        60.83093758922505,
+        95.0353013273044,
+        82.47511516919317,
+        87.73678799920378,
+        78.71695704895015,
+        65.9586622772712,
+        76.27950702044586
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          52.93974304199219,
+          52.24550247192383,
+          52.388832092285156,
+          53.36848068237305,
+          54.187007904052734,
+          53.356544494628906,
+          52.736000061035156,
+          52.89961624145508,
+          53.95334243774414,
+          53.03705596923828,
+          53.06060791015625,
+          52.569087982177734,
+          52.78281784057617,
+          53.0964469909668,
+          53.25004959106445,
+          54.132606506347656,
+          53.11590576171875,
+          52.814720153808594,
+          53.49580764770508,
+          53.54393768310547
+        ],
+        "median_ms": 53.07852745056152,
+        "stdev_ms": 0.5170425874589835
+      }
+    },
+    {
+      "pattern": "extent3",
+      "miou_percent": 78.54789443540525,
+      "per_class_iou_percent": [
+        98.32827412240454,
+        86.13559129108432,
+        92.7291842486676,
+        61.264906868045486,
+        59.6118898595186,
+        64.69192430108008,
+        69.83599772985454,
+        78.85616565570271,
+        92.6682308538115,
+        65.22319738614468,
+        95.23096158416323,
+        81.76926171376286,
+        60.0284472222245,
+        95.02313619927835,
+        82.46937865856567,
+        87.9773471905387,
+        78.38543284008742,
+        65.86119520074362,
+        76.31947134702136
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          51.85523223876953,
+          52.938751220703125,
+          52.15436935424805,
+          53.07289505004883,
+          52.77900695800781,
+          52.81689453125,
+          52.2690544128418,
+          53.903358459472656,
+          54.11420822143555,
+          52.65510559082031,
+          52.378238677978516,
+          54.27302551269531,
+          52.30796813964844,
+          52.67046356201172,
+          52.77475357055664,
+          52.67251205444336,
+          53.54374313354492,
+          52.88959884643555,
+          52.6561279296875,
+          52.43699264526367
+        ],
+        "median_ms": 52.7236328125,
+        "stdev_ms": 0.6293201153325999
+      }
+    },
+    {
+      "pattern": "extent4",
+      "miou_percent": 78.7921137745865,
+      "per_class_iou_percent": [
+        98.34298745051571,
+        86.34032892130907,
+        92.79546729950054,
+        62.068757195806576,
+        60.75620403429478,
+        64.6360528121065,
+        69.69775316048064,
+        78.90112096131634,
+        92.7209974280806,
+        66.72675199018389,
+        95.16420063935216,
+        81.83495599825386,
+        59.92885348429419,
+        95.07016803505805,
+        82.9921981381726,
+        87.93748797601756,
+        77.99191131086552,
+        66.68123444784486,
+        76.46273043369055
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          52.33356857299805,
+          52.95820617675781,
+          52.84348678588867,
+          52.122623443603516,
+          53.67500686645508,
+          52.60697555541992,
+          52.98175811767578,
+          53.010433197021484,
+          54.315006256103516,
+          52.780033111572266,
+          53.026817321777344,
+          53.18348693847656,
+          52.8966064453125,
+          53.98323059082031,
+          53.619712829589844,
+          53.01737594604492,
+          52.408321380615234,
+          52.75008010864258,
+          52.787200927734375,
+          53.400577545166016
+        ],
+        "median_ms": 52.9699821472168,
+        "stdev_ms": 0.5300119575083783
+      }
+    },
+    {
+      "pattern": "dispersed32",
+      "miou_percent": 78.85101359339598,
+      "per_class_iou_percent": [
+        98.37457923836209,
+        86.55410464071976,
+        92.81150286254322,
+        62.66456471736613,
+        60.511024033021144,
+        64.60979355213493,
+        69.7481648267068,
+        78.91159655355442,
+        92.76594316382062,
+        66.98063732634402,
+        95.12004858588338,
+        82.05586352271514,
+        60.701610236658766,
+        95.06404925943464,
+        83.61016521379482,
+        88.03121158286406,
+        77.52187262646532,
+        65.82871755954854,
+        76.30380877258581
+      ],
+      "timing": {
+        "warmup": 5,
+        "repeats": 20,
+        "timing_ms": [
+          53.46406555175781,
+          52.49740982055664,
+          53.2295036315918,
+          53.339134216308594,
+          52.20454406738281,
+          54.06105422973633,
+          52.87385559082031,
+          52.80460739135742,
+          52.77145767211914,
+          52.768577575683594,
+          52.9027214050293,
+          52.589569091796875,
+          52.477054595947266,
+          52.32931137084961,
+          52.83942413330078,
+          53.1333122253418,
+          54.58124923706055,
+          53.33580780029297,
+          52.6253776550293,
+          52.814815521240234
+        ],
+        "median_ms": 52.82711982727051,
+        "stdev_ms": 0.5603679396667685
+      }
+    }
+  ],
+  "arrays": "confusion.npz",
+  "windows": [
+    {
+      "index": 0,
+      "image": "leftImg8bit/val/frankfurt/frankfurt_000000_000294_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.15464508533477783,
+            "difference_rms": 1.6885218201423413e-07,
+            "relative_l2": 1.0918690804828657e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8714174032211304,
+              "aggregation_error_squared_sum": 297.5399169921875,
+              "dense_aggregation_squared_sum": 391.8255615234375,
+              "retained_dense_probability_mass": 0.10644906759262085
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7806282639503479,
+              "aggregation_error_squared_sum": 238.77085876464844,
+              "dense_aggregation_squared_sum": 391.8255615234375,
+              "retained_dense_probability_mass": 0.09851290285587311
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6681382656097412,
+              "aggregation_error_squared_sum": 174.9143524169922,
+              "dense_aggregation_squared_sum": 391.8255615234375,
+              "retained_dense_probability_mass": 0.08576975017786026
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.47523146867752075,
+              "aggregation_error_squared_sum": 88.4918212890625,
+              "dense_aggregation_squared_sum": 391.8255615234375,
+              "retained_dense_probability_mass": 0.07014932483434677
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4084303677082062,
+              "aggregation_error_squared_sum": 65.3625259399414,
+              "dense_aggregation_squared_sum": 391.8255615234375,
+              "retained_dense_probability_mass": 0.06467509269714355
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.4235716760158539,
+              "aggregation_error_squared_sum": 70.298583984375,
+              "dense_aggregation_squared_sum": 391.8255615234375,
+              "retained_dense_probability_mass": 0.06559912860393524
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.17175135016441345,
+            "difference_rms": 1.4799576320001506e-07,
+            "relative_l2": 8.616861464361136e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7318974137306213,
+              "aggregation_error_squared_sum": 517.7870483398438,
+              "dense_aggregation_squared_sum": 966.6087036132812,
+              "retained_dense_probability_mass": 0.2544398307800293
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6033190488815308,
+              "aggregation_error_squared_sum": 351.83966064453125,
+              "dense_aggregation_squared_sum": 966.6087036132812,
+              "retained_dense_probability_mass": 0.1972510814666748
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.5413857102394104,
+              "aggregation_error_squared_sum": 283.31158447265625,
+              "dense_aggregation_squared_sum": 966.6087036132812,
+              "retained_dense_probability_mass": 0.17173922061920166
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3268508315086365,
+              "aggregation_error_squared_sum": 103.26421356201172,
+              "dense_aggregation_squared_sum": 966.6087036132812,
+              "retained_dense_probability_mass": 0.1289699673652649
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3268508315086365,
+              "aggregation_error_squared_sum": 103.26421356201172,
+              "dense_aggregation_squared_sum": 966.6087036132812,
+              "retained_dense_probability_mass": 0.1289699673652649
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3844425678253174,
+              "aggregation_error_squared_sum": 142.86099243164062,
+              "dense_aggregation_squared_sum": 966.6087036132812,
+              "retained_dense_probability_mass": 0.13213655352592468
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.10173207521438599,
+            "difference_rms": 1.0031548924871458e-07,
+            "relative_l2": 9.86075292530586e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9414599537849426,
+              "aggregation_error_squared_sum": 601.1737670898438,
+              "dense_aggregation_squared_sum": 678.2601318359375,
+              "retained_dense_probability_mass": 0.3162267804145813
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7709517478942871,
+              "aggregation_error_squared_sum": 403.1351318359375,
+              "dense_aggregation_squared_sum": 678.2601318359375,
+              "retained_dense_probability_mass": 0.28553229570388794
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3595764636993408,
+              "aggregation_error_squared_sum": 87.69581604003906,
+              "dense_aggregation_squared_sum": 678.2601318359375,
+              "retained_dense_probability_mass": 0.2554224729537964
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3595764636993408,
+              "aggregation_error_squared_sum": 87.69581604003906,
+              "dense_aggregation_squared_sum": 678.2601318359375,
+              "retained_dense_probability_mass": 0.2554224729537964
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3595764636993408,
+              "aggregation_error_squared_sum": 87.69581604003906,
+              "dense_aggregation_squared_sum": 678.2601318359375,
+              "retained_dense_probability_mass": 0.2554224729537964
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3272938132286072,
+              "aggregation_error_squared_sum": 72.65607452392578,
+              "dense_aggregation_squared_sum": 678.2601318359375,
+              "retained_dense_probability_mass": 0.2557671070098877
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.26415911316871643,
+            "difference_rms": 2.59771212540727e-07,
+            "relative_l2": 9.833892136157374e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.678259015083313,
+              "aggregation_error_squared_sum": 2103.791015625,
+              "dense_aggregation_squared_sum": 4573.10888671875,
+              "retained_dense_probability_mass": 0.4157765507698059
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.47619903087615967,
+              "aggregation_error_squared_sum": 1037.0234375,
+              "dense_aggregation_squared_sum": 4573.10888671875,
+              "retained_dense_probability_mass": 0.3418179750442505
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.36501583456993103,
+              "aggregation_error_squared_sum": 609.3052368164062,
+              "dense_aggregation_squared_sum": 4573.10888671875,
+              "retained_dense_probability_mass": 0.2632235288619995
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.36501583456993103,
+              "aggregation_error_squared_sum": 609.3052368164062,
+              "dense_aggregation_squared_sum": 4573.10888671875,
+              "retained_dense_probability_mass": 0.2632235288619995
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.36501583456993103,
+              "aggregation_error_squared_sum": 609.3052368164062,
+              "dense_aggregation_squared_sum": 4573.10888671875,
+              "retained_dense_probability_mass": 0.2632235288619995
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3372434675693512,
+              "aggregation_error_squared_sum": 520.1141357421875,
+              "dense_aggregation_squared_sum": 4573.10888671875,
+              "retained_dense_probability_mass": 0.25996142625808716
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 5,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2079349011182785,
+            "difference_rms": 1.9357992186996853e-07,
+            "relative_l2": 9.309640631727234e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.949684739112854,
+              "aggregation_error_squared_sum": 2555.607666015625,
+              "dense_aggregation_squared_sum": 2833.578369140625,
+              "retained_dense_probability_mass": 0.3485555052757263
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6356477737426758,
+              "aggregation_error_squared_sum": 1144.90185546875,
+              "dense_aggregation_squared_sum": 2833.578369140625,
+              "retained_dense_probability_mass": 0.3116779327392578
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.4188821017742157,
+              "aggregation_error_squared_sum": 497.1859436035156,
+              "dense_aggregation_squared_sum": 2833.578369140625,
+              "retained_dense_probability_mass": 0.2554713785648346
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.4188821017742157,
+              "aggregation_error_squared_sum": 497.1859436035156,
+              "dense_aggregation_squared_sum": 2833.578369140625,
+              "retained_dense_probability_mass": 0.2554713785648346
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.4188821017742157,
+              "aggregation_error_squared_sum": 497.1859436035156,
+              "dense_aggregation_squared_sum": 2833.578369140625,
+              "retained_dense_probability_mass": 0.2554713785648346
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3862614035606384,
+              "aggregation_error_squared_sum": 422.7637939453125,
+              "dense_aggregation_squared_sum": 2833.578369140625,
+              "retained_dense_probability_mass": 0.2528574764728546
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 7,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.4049868881702423,
+            "difference_rms": 3.575238736175379e-07,
+            "relative_l2": 8.828035902297415e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6504195928573608,
+              "aggregation_error_squared_sum": 4547.2578125,
+              "dense_aggregation_squared_sum": 10748.857421875,
+              "retained_dense_probability_mass": 0.445728063583374
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4420493543148041,
+              "aggregation_error_squared_sum": 2100.40869140625,
+              "dense_aggregation_squared_sum": 10748.857421875,
+              "retained_dense_probability_mass": 0.35579347610473633
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.32471051812171936,
+              "aggregation_error_squared_sum": 1133.326416015625,
+              "dense_aggregation_squared_sum": 10748.857421875,
+              "retained_dense_probability_mass": 0.29373258352279663
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.32471051812171936,
+              "aggregation_error_squared_sum": 1133.326416015625,
+              "dense_aggregation_squared_sum": 10748.857421875,
+              "retained_dense_probability_mass": 0.29373258352279663
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.32471051812171936,
+              "aggregation_error_squared_sum": 1133.326416015625,
+              "dense_aggregation_squared_sum": 10748.857421875,
+              "retained_dense_probability_mass": 0.29373258352279663
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.30413132905960083,
+              "aggregation_error_squared_sum": 994.2247314453125,
+              "dense_aggregation_squared_sum": 10748.857421875,
+              "retained_dense_probability_mass": 0.28733301162719727
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 9,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.3788630962371826,
+            "difference_rms": 3.376339066107903e-07,
+            "relative_l2": 8.911765689845197e-07,
+            "cosine_similarity": 0.9999998807907104,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8731222152709961,
+              "aggregation_error_squared_sum": 7171.25341796875,
+              "dense_aggregation_squared_sum": 9406.8671875,
+              "retained_dense_probability_mass": 0.3412030339241028
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6116495132446289,
+              "aggregation_error_squared_sum": 3519.2509765625,
+              "dense_aggregation_squared_sum": 9406.8671875,
+              "retained_dense_probability_mass": 0.29728013277053833
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3151175081729889,
+              "aggregation_error_squared_sum": 934.0928955078125,
+              "dense_aggregation_squared_sum": 9406.8671875,
+              "retained_dense_probability_mass": 0.25400733947753906
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3151175081729889,
+              "aggregation_error_squared_sum": 934.0928955078125,
+              "dense_aggregation_squared_sum": 9406.8671875,
+              "retained_dense_probability_mass": 0.25400733947753906
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3151175081729889,
+              "aggregation_error_squared_sum": 934.0928955078125,
+              "dense_aggregation_squared_sum": 9406.8671875,
+              "retained_dense_probability_mass": 0.25400733947753906
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.27753862738609314,
+              "aggregation_error_squared_sum": 724.5892944335938,
+              "dense_aggregation_squared_sum": 9406.8671875,
+              "retained_dense_probability_mass": 0.25323063135147095
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.28052619099617004,
+            "difference_rms": 2.938461420853855e-07,
+            "relative_l2": 1.047481987370702e-06,
+            "cosine_similarity": 0.9999998807907104,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5498062968254089,
+              "aggregation_error_squared_sum": 3118.00341796875,
+              "dense_aggregation_squared_sum": 10314.7158203125,
+              "retained_dense_probability_mass": 0.650800347328186
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.196781724691391,
+              "aggregation_error_squared_sum": 399.4171447753906,
+              "dense_aggregation_squared_sum": 10314.7158203125,
+              "retained_dense_probability_mass": 0.5063170194625854
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.196781724691391,
+              "aggregation_error_squared_sum": 399.4171447753906,
+              "dense_aggregation_squared_sum": 10314.7158203125,
+              "retained_dense_probability_mass": 0.5063170194625854
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.196781724691391,
+              "aggregation_error_squared_sum": 399.4171447753906,
+              "dense_aggregation_squared_sum": 10314.7158203125,
+              "retained_dense_probability_mass": 0.5063170194625854
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.196781724691391,
+              "aggregation_error_squared_sum": 399.4171447753906,
+              "dense_aggregation_squared_sum": 10314.7158203125,
+              "retained_dense_probability_mass": 0.5063170194625854
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3375477194786072,
+              "aggregation_error_squared_sum": 1175.242919921875,
+              "dense_aggregation_squared_sum": 10314.7158203125,
+              "retained_dense_probability_mass": 0.5076795220375061
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.22693344950675964,
+            "difference_rms": 2.0807540579426131e-07,
+            "relative_l2": 9.169005465992086e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8995012640953064,
+              "aggregation_error_squared_sum": 5461.48828125,
+              "dense_aggregation_squared_sum": 6750.05810546875,
+              "retained_dense_probability_mass": 0.5073385238647461
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.07142986357212067,
+              "aggregation_error_squared_sum": 34.4403190612793,
+              "dense_aggregation_squared_sum": 6750.05810546875,
+              "retained_dense_probability_mass": 0.4996434450149536
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.07142986357212067,
+              "aggregation_error_squared_sum": 34.4403190612793,
+              "dense_aggregation_squared_sum": 6750.05810546875,
+              "retained_dense_probability_mass": 0.4996434450149536
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.07142986357212067,
+              "aggregation_error_squared_sum": 34.4403190612793,
+              "dense_aggregation_squared_sum": 6750.05810546875,
+              "retained_dense_probability_mass": 0.4996434450149536
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.07142986357212067,
+              "aggregation_error_squared_sum": 34.4403190612793,
+              "dense_aggregation_squared_sum": 6750.05810546875,
+              "retained_dense_probability_mass": 0.4996434450149536
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.27140313386917114,
+              "aggregation_error_squared_sum": 497.20697021484375,
+              "dense_aggregation_squared_sum": 6750.05810546875,
+              "retained_dense_probability_mass": 0.4995056092739105
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "image": "leftImg8bit/val/frankfurt/frankfurt_000001_029236_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.1716863363981247,
+            "difference_rms": 2.1647940684488276e-07,
+            "relative_l2": 1.2609006034836057e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6696174144744873,
+              "aggregation_error_squared_sum": 216.54367065429688,
+              "dense_aggregation_squared_sum": 482.93865966796875,
+              "retained_dense_probability_mass": 0.11624658107757568
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6526984572410583,
+              "aggregation_error_squared_sum": 205.73928833007812,
+              "dense_aggregation_squared_sum": 482.93865966796875,
+              "retained_dense_probability_mass": 0.10367503017187119
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.559234082698822,
+              "aggregation_error_squared_sum": 151.0355987548828,
+              "dense_aggregation_squared_sum": 482.93865966796875,
+              "retained_dense_probability_mass": 0.09560723602771759
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.45406574010849,
+              "aggregation_error_squared_sum": 99.57022094726562,
+              "dense_aggregation_squared_sum": 482.93865966796875,
+              "retained_dense_probability_mass": 0.07534202933311462
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3285767734050751,
+              "aggregation_error_squared_sum": 52.139366149902344,
+              "dense_aggregation_squared_sum": 482.93865966796875,
+              "retained_dense_probability_mass": 0.06627911329269409
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3352290689945221,
+              "aggregation_error_squared_sum": 54.271942138671875,
+              "dense_aggregation_squared_sum": 482.93865966796875,
+              "retained_dense_probability_mass": 0.0659196600317955
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.17464706301689148,
+            "difference_rms": 1.6448404949187534e-07,
+            "relative_l2": 9.418082527190563e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6986066102981567,
+              "aggregation_error_squared_sum": 487.7962341308594,
+              "dense_aggregation_squared_sum": 999.4776000976562,
+              "retained_dense_probability_mass": 0.2566257119178772
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6313772201538086,
+              "aggregation_error_squared_sum": 398.4289855957031,
+              "dense_aggregation_squared_sum": 999.4776000976562,
+              "retained_dense_probability_mass": 0.2181028127670288
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.5758523344993591,
+              "aggregation_error_squared_sum": 331.4326171875,
+              "dense_aggregation_squared_sum": 999.4776000976562,
+              "retained_dense_probability_mass": 0.17660191655158997
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3702366352081299,
+              "aggregation_error_squared_sum": 137.00355529785156,
+              "dense_aggregation_squared_sum": 999.4776000976562,
+              "retained_dense_probability_mass": 0.1279824823141098
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3702366352081299,
+              "aggregation_error_squared_sum": 137.00355529785156,
+              "dense_aggregation_squared_sum": 999.4776000976562,
+              "retained_dense_probability_mass": 0.1279824823141098
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.39901813864707947,
+              "aggregation_error_squared_sum": 159.13229370117188,
+              "dense_aggregation_squared_sum": 999.4776000976562,
+              "retained_dense_probability_mass": 0.13227148354053497
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.09962405264377594,
+            "difference_rms": 9.702209524675709e-08,
+            "relative_l2": 9.73882265498105e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 1.066102385520935,
+              "aggregation_error_squared_sum": 739.2763061523438,
+              "dense_aggregation_squared_sum": 650.4425048828125,
+              "retained_dense_probability_mass": 0.3172604739665985
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8818588852882385,
+              "aggregation_error_squared_sum": 505.83294677734375,
+              "dense_aggregation_squared_sum": 650.4425048828125,
+              "retained_dense_probability_mass": 0.28498342633247375
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3638080656528473,
+              "aggregation_error_squared_sum": 86.09017181396484,
+              "dense_aggregation_squared_sum": 650.4425048828125,
+              "retained_dense_probability_mass": 0.2560024857521057
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3638080656528473,
+              "aggregation_error_squared_sum": 86.09017181396484,
+              "dense_aggregation_squared_sum": 650.4425048828125,
+              "retained_dense_probability_mass": 0.2560024857521057
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3638080656528473,
+              "aggregation_error_squared_sum": 86.09017181396484,
+              "dense_aggregation_squared_sum": 650.4425048828125,
+              "retained_dense_probability_mass": 0.2560024857521057
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.33135756850242615,
+              "aggregation_error_squared_sum": 71.41717529296875,
+              "dense_aggregation_squared_sum": 650.4425048828125,
+              "retained_dense_probability_mass": 0.25472959876060486
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.26681748032569885,
+            "difference_rms": 2.605206361749879e-07,
+            "relative_l2": 9.764002015799633e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6837658882141113,
+              "aggregation_error_squared_sum": 2181.34228515625,
+              "dense_aggregation_squared_sum": 4665.6162109375,
+              "retained_dense_probability_mass": 0.4360817074775696
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5082851052284241,
+              "aggregation_error_squared_sum": 1205.3795166015625,
+              "dense_aggregation_squared_sum": 4665.6162109375,
+              "retained_dense_probability_mass": 0.3648516535758972
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.32344841957092285,
+              "aggregation_error_squared_sum": 488.1115417480469,
+              "dense_aggregation_squared_sum": 4665.6162109375,
+              "retained_dense_probability_mass": 0.2598041892051697
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.32344841957092285,
+              "aggregation_error_squared_sum": 488.1115417480469,
+              "dense_aggregation_squared_sum": 4665.6162109375,
+              "retained_dense_probability_mass": 0.2598041892051697
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.32344841957092285,
+              "aggregation_error_squared_sum": 488.1115417480469,
+              "dense_aggregation_squared_sum": 4665.6162109375,
+              "retained_dense_probability_mass": 0.2598041892051697
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3071483373641968,
+              "aggregation_error_squared_sum": 440.15472412109375,
+              "dense_aggregation_squared_sum": 4665.6162109375,
+              "retained_dense_probability_mass": 0.25749289989471436
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 5,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.20482122898101807,
+            "difference_rms": 1.8687252634208562e-07,
+            "relative_l2": 9.123689324042061e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9640105366706848,
+              "aggregation_error_squared_sum": 2555.01806640625,
+              "dense_aggregation_squared_sum": 2749.3525390625,
+              "retained_dense_probability_mass": 0.3681237995624542
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6742143630981445,
+              "aggregation_error_squared_sum": 1249.75927734375,
+              "dense_aggregation_squared_sum": 2749.3525390625,
+              "retained_dense_probability_mass": 0.32244670391082764
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3730471134185791,
+              "aggregation_error_squared_sum": 382.611328125,
+              "dense_aggregation_squared_sum": 2749.3525390625,
+              "retained_dense_probability_mass": 0.2543838620185852
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3730471134185791,
+              "aggregation_error_squared_sum": 382.611328125,
+              "dense_aggregation_squared_sum": 2749.3525390625,
+              "retained_dense_probability_mass": 0.2543838620185852
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3730471134185791,
+              "aggregation_error_squared_sum": 382.611328125,
+              "dense_aggregation_squared_sum": 2749.3525390625,
+              "retained_dense_probability_mass": 0.2543838620185852
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.31889623403549194,
+              "aggregation_error_squared_sum": 279.5948486328125,
+              "dense_aggregation_squared_sum": 2749.3525390625,
+              "retained_dense_probability_mass": 0.2525370717048645
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 7,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.41814354062080383,
+            "difference_rms": 3.711240879056277e-07,
+            "relative_l2": 8.875518915374414e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5917131900787354,
+              "aggregation_error_squared_sum": 4011.934326171875,
+              "dense_aggregation_squared_sum": 11458.591796875,
+              "retained_dense_probability_mass": 0.4612676501274109
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4435620903968811,
+              "aggregation_error_squared_sum": 2254.447265625,
+              "dense_aggregation_squared_sum": 11458.591796875,
+              "retained_dense_probability_mass": 0.38051530718803406
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.26862969994544983,
+              "aggregation_error_squared_sum": 826.8740234375,
+              "dense_aggregation_squared_sum": 11458.591796875,
+              "retained_dense_probability_mass": 0.29716169834136963
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.26862969994544983,
+              "aggregation_error_squared_sum": 826.8740234375,
+              "dense_aggregation_squared_sum": 11458.591796875,
+              "retained_dense_probability_mass": 0.29716169834136963
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.26862969994544983,
+              "aggregation_error_squared_sum": 826.8740234375,
+              "dense_aggregation_squared_sum": 11458.591796875,
+              "retained_dense_probability_mass": 0.29716169834136963
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.24416987597942352,
+              "aggregation_error_squared_sum": 683.1490478515625,
+              "dense_aggregation_squared_sum": 11458.591796875,
+              "retained_dense_probability_mass": 0.2947003245353699
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 9,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.37284499406814575,
+            "difference_rms": 3.4260935422025796e-07,
+            "relative_l2": 9.189055845126859e-07,
+            "cosine_similarity": 0.9999998807907104,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7712059020996094,
+              "aggregation_error_squared_sum": 5418.4833984375,
+              "dense_aggregation_squared_sum": 9110.392578125,
+              "retained_dense_probability_mass": 0.3492198586463928
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5867863297462463,
+              "aggregation_error_squared_sum": 3136.8740234375,
+              "dense_aggregation_squared_sum": 9110.392578125,
+              "retained_dense_probability_mass": 0.3081296682357788
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.25503677129745483,
+              "aggregation_error_squared_sum": 592.57421875,
+              "dense_aggregation_squared_sum": 9110.392578125,
+              "retained_dense_probability_mass": 0.25385358929634094
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.25503677129745483,
+              "aggregation_error_squared_sum": 592.57421875,
+              "dense_aggregation_squared_sum": 9110.392578125,
+              "retained_dense_probability_mass": 0.25385358929634094
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.25503677129745483,
+              "aggregation_error_squared_sum": 592.57421875,
+              "dense_aggregation_squared_sum": 9110.392578125,
+              "retained_dense_probability_mass": 0.25385358929634094
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.22097095847129822,
+              "aggregation_error_squared_sum": 444.84381103515625,
+              "dense_aggregation_squared_sum": 9110.392578125,
+              "retained_dense_probability_mass": 0.25216349959373474
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.22512853145599365,
+            "difference_rms": 2.0970507819129125e-07,
+            "relative_l2": 9.314904900747933e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6655561327934265,
+              "aggregation_error_squared_sum": 2942.664794921875,
+              "dense_aggregation_squared_sum": 6643.10986328125,
+              "retained_dense_probability_mass": 0.6311502456665039
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.2035571038722992,
+              "aggregation_error_squared_sum": 275.260498046875,
+              "dense_aggregation_squared_sum": 6643.10986328125,
+              "retained_dense_probability_mass": 0.49995315074920654
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.2035571038722992,
+              "aggregation_error_squared_sum": 275.260498046875,
+              "dense_aggregation_squared_sum": 6643.10986328125,
+              "retained_dense_probability_mass": 0.49995315074920654
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.2035571038722992,
+              "aggregation_error_squared_sum": 275.260498046875,
+              "dense_aggregation_squared_sum": 6643.10986328125,
+              "retained_dense_probability_mass": 0.49995315074920654
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.2035571038722992,
+              "aggregation_error_squared_sum": 275.260498046875,
+              "dense_aggregation_squared_sum": 6643.10986328125,
+              "retained_dense_probability_mass": 0.49995315074920654
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2610712945461273,
+              "aggregation_error_squared_sum": 452.782470703125,
+              "dense_aggregation_squared_sum": 6643.10986328125,
+              "retained_dense_probability_mass": 0.5012855529785156
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2640649378299713,
+            "difference_rms": 2.234945668533328e-07,
+            "relative_l2": 8.463621270493604e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8014208078384399,
+              "aggregation_error_squared_sum": 5870.203125,
+              "dense_aggregation_squared_sum": 9139.701171875,
+              "retained_dense_probability_mass": 0.5161241292953491
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.07462239265441895,
+              "aggregation_error_squared_sum": 50.894439697265625,
+              "dense_aggregation_squared_sum": 9139.701171875,
+              "retained_dense_probability_mass": 0.4999774694442749
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.07462239265441895,
+              "aggregation_error_squared_sum": 50.894439697265625,
+              "dense_aggregation_squared_sum": 9139.701171875,
+              "retained_dense_probability_mass": 0.4999774694442749
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.07462239265441895,
+              "aggregation_error_squared_sum": 50.894439697265625,
+              "dense_aggregation_squared_sum": 9139.701171875,
+              "retained_dense_probability_mass": 0.4999774694442749
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.07462239265441895,
+              "aggregation_error_squared_sum": 50.894439697265625,
+              "dense_aggregation_squared_sum": 9139.701171875,
+              "retained_dense_probability_mass": 0.4999774694442749
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.11626292765140533,
+              "aggregation_error_squared_sum": 123.54197692871094,
+              "dense_aggregation_squared_sum": 9139.701171875,
+              "retained_dense_probability_mass": 0.5000242590904236
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 280,
+      "image": "leftImg8bit/val/lindau/lindau_000013_000019_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.22885122895240784,
+            "difference_rms": 2.626234163471963e-07,
+            "relative_l2": 1.1475726751086768e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.811734676361084,
+              "aggregation_error_squared_sum": 565.399169921875,
+              "dense_aggregation_squared_sum": 858.078369140625,
+              "retained_dense_probability_mass": 0.12524114549160004
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7522891163825989,
+              "aggregation_error_squared_sum": 485.6199035644531,
+              "dense_aggregation_squared_sum": 858.078369140625,
+              "retained_dense_probability_mass": 0.11170929670333862
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.5264094471931458,
+              "aggregation_error_squared_sum": 237.7794647216797,
+              "dense_aggregation_squared_sum": 858.078369140625,
+              "retained_dense_probability_mass": 0.08866801857948303
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.4232480823993683,
+              "aggregation_error_squared_sum": 153.71524047851562,
+              "dense_aggregation_squared_sum": 858.078369140625,
+              "retained_dense_probability_mass": 0.08161503076553345
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.29184842109680176,
+              "aggregation_error_squared_sum": 73.08724975585938,
+              "dense_aggregation_squared_sum": 858.078369140625,
+              "retained_dense_probability_mass": 0.06596844643354416
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.31055256724357605,
+              "aggregation_error_squared_sum": 82.75556945800781,
+              "dense_aggregation_squared_sum": 858.078369140625,
+              "retained_dense_probability_mass": 0.06606650352478027
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.20428262650966644,
+            "difference_rms": 2.27246587769514e-07,
+            "relative_l2": 1.1124126331196749e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7699209451675415,
+              "aggregation_error_squared_sum": 810.598388671875,
+              "dense_aggregation_squared_sum": 1367.456298828125,
+              "retained_dense_probability_mass": 0.2852463722229004
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6126505136489868,
+              "aggregation_error_squared_sum": 513.261962890625,
+              "dense_aggregation_squared_sum": 1367.456298828125,
+              "retained_dense_probability_mass": 0.2029416859149933
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.5817148089408875,
+              "aggregation_error_squared_sum": 462.7364196777344,
+              "dense_aggregation_squared_sum": 1367.456298828125,
+              "retained_dense_probability_mass": 0.18286530673503876
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.29631176590919495,
+              "aggregation_error_squared_sum": 120.06356811523438,
+              "dense_aggregation_squared_sum": 1367.456298828125,
+              "retained_dense_probability_mass": 0.1283835470676422
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.29631176590919495,
+              "aggregation_error_squared_sum": 120.06356811523438,
+              "dense_aggregation_squared_sum": 1367.456298828125,
+              "retained_dense_probability_mass": 0.1283835470676422
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.33899468183517456,
+              "aggregation_error_squared_sum": 157.14450073242188,
+              "dense_aggregation_squared_sum": 1367.456298828125,
+              "retained_dense_probability_mass": 0.1302472949028015
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.12238779664039612,
+            "difference_rms": 1.1365440144572858e-07,
+            "relative_l2": 9.286416116083274e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8401173949241638,
+              "aggregation_error_squared_sum": 692.8458251953125,
+              "dense_aggregation_squared_sum": 981.6499633789062,
+              "retained_dense_probability_mass": 0.32428810000419617
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6817919015884399,
+              "aggregation_error_squared_sum": 456.310302734375,
+              "dense_aggregation_squared_sum": 981.6499633789062,
+              "retained_dense_probability_mass": 0.3033766746520996
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.28110840916633606,
+              "aggregation_error_squared_sum": 77.57188415527344,
+              "dense_aggregation_squared_sum": 981.6499633789062,
+              "retained_dense_probability_mass": 0.25335532426834106
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.28110840916633606,
+              "aggregation_error_squared_sum": 77.57188415527344,
+              "dense_aggregation_squared_sum": 981.6499633789062,
+              "retained_dense_probability_mass": 0.25335532426834106
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.28110840916633606,
+              "aggregation_error_squared_sum": 77.57188415527344,
+              "dense_aggregation_squared_sum": 981.6499633789062,
+              "retained_dense_probability_mass": 0.25335532426834106
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.24426208436489105,
+              "aggregation_error_squared_sum": 58.56912612915039,
+              "dense_aggregation_squared_sum": 981.6499633789062,
+              "retained_dense_probability_mass": 0.2527671754360199
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.3077470660209656,
+            "difference_rms": 3.31767012085038e-07,
+            "relative_l2": 1.0780509001051541e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5609099864959717,
+              "aggregation_error_squared_sum": 1952.785888671875,
+              "dense_aggregation_squared_sum": 6206.80712890625,
+              "retained_dense_probability_mass": 0.40760526061058044
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4156366288661957,
+              "aggregation_error_squared_sum": 1072.249755859375,
+              "dense_aggregation_squared_sum": 6206.80712890625,
+              "retained_dense_probability_mass": 0.3705718517303467
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.26015591621398926,
+              "aggregation_error_squared_sum": 420.08349609375,
+              "dense_aggregation_squared_sum": 6206.80712890625,
+              "retained_dense_probability_mass": 0.2550202012062073
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.26015591621398926,
+              "aggregation_error_squared_sum": 420.08349609375,
+              "dense_aggregation_squared_sum": 6206.80712890625,
+              "retained_dense_probability_mass": 0.2550202012062073
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.26015591621398926,
+              "aggregation_error_squared_sum": 420.08349609375,
+              "dense_aggregation_squared_sum": 6206.80712890625,
+              "retained_dense_probability_mass": 0.2550202012062073
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2329658716917038,
+              "aggregation_error_squared_sum": 336.8626708984375,
+              "dense_aggregation_squared_sum": 6206.80712890625,
+              "retained_dense_probability_mass": 0.255875825881958
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 5,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.227823868393898,
+            "difference_rms": 2.072985694212548e-07,
+            "relative_l2": 9.099071576201823e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8281047940254211,
+              "aggregation_error_squared_sum": 2332.649658203125,
+              "dense_aggregation_squared_sum": 3401.56640625,
+              "retained_dense_probability_mass": 0.33144092559814453
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6506860852241516,
+              "aggregation_error_squared_sum": 1440.197265625,
+              "dense_aggregation_squared_sum": 3401.56640625,
+              "retained_dense_probability_mass": 0.3107692003250122
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.30203142762184143,
+              "aggregation_error_squared_sum": 310.301025390625,
+              "dense_aggregation_squared_sum": 3401.56640625,
+              "retained_dense_probability_mass": 0.25025081634521484
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.30203142762184143,
+              "aggregation_error_squared_sum": 310.301025390625,
+              "dense_aggregation_squared_sum": 3401.56640625,
+              "retained_dense_probability_mass": 0.25025081634521484
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.30203142762184143,
+              "aggregation_error_squared_sum": 310.301025390625,
+              "dense_aggregation_squared_sum": 3401.56640625,
+              "retained_dense_probability_mass": 0.25025081634521484
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2761831283569336,
+              "aggregation_error_squared_sum": 259.4617004394531,
+              "dense_aggregation_squared_sum": 3401.56640625,
+              "retained_dense_probability_mass": 0.2528923749923706
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 7,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.47016018629074097,
+            "difference_rms": 4.3286078721394006e-07,
+            "relative_l2": 9.206665936289937e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5800496339797974,
+              "aggregation_error_squared_sum": 4874.189453125,
+              "dense_aggregation_squared_sum": 14486.7890625,
+              "retained_dense_probability_mass": 0.4002019762992859
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.47725382447242737,
+              "aggregation_error_squared_sum": 3299.67333984375,
+              "dense_aggregation_squared_sum": 14486.7890625,
+              "retained_dense_probability_mass": 0.3489876985549927
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.21729344129562378,
+              "aggregation_error_squared_sum": 684.0146484375,
+              "dense_aggregation_squared_sum": 14486.7890625,
+              "retained_dense_probability_mass": 0.2761920988559723
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.21729344129562378,
+              "aggregation_error_squared_sum": 684.0146484375,
+              "dense_aggregation_squared_sum": 14486.7890625,
+              "retained_dense_probability_mass": 0.2761920988559723
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.21729344129562378,
+              "aggregation_error_squared_sum": 684.0146484375,
+              "dense_aggregation_squared_sum": 14486.7890625,
+              "retained_dense_probability_mass": 0.2761920988559723
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.20834709703922272,
+              "aggregation_error_squared_sum": 628.8499755859375,
+              "dense_aggregation_squared_sum": 14486.7890625,
+              "retained_dense_probability_mass": 0.2795615792274475
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 9,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.36824673414230347,
+            "difference_rms": 3.3728667858667905e-07,
+            "relative_l2": 9.159257956525835e-07,
+            "cosine_similarity": 0.9999998807907104,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7491776943206787,
+              "aggregation_error_squared_sum": 4988.01708984375,
+              "dense_aggregation_squared_sum": 8887.0625,
+              "retained_dense_probability_mass": 0.30978935956954956
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6107085347175598,
+              "aggregation_error_squared_sum": 3314.5625,
+              "dense_aggregation_squared_sum": 8887.0625,
+              "retained_dense_probability_mass": 0.2946847975254059
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.21980397403240204,
+              "aggregation_error_squared_sum": 429.3675537109375,
+              "dense_aggregation_squared_sum": 8887.0625,
+              "retained_dense_probability_mass": 0.250409334897995
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.21980397403240204,
+              "aggregation_error_squared_sum": 429.3675537109375,
+              "dense_aggregation_squared_sum": 8887.0625,
+              "retained_dense_probability_mass": 0.250409334897995
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.21980397403240204,
+              "aggregation_error_squared_sum": 429.3675537109375,
+              "dense_aggregation_squared_sum": 8887.0625,
+              "retained_dense_probability_mass": 0.250409334897995
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.19964419305324554,
+              "aggregation_error_squared_sum": 354.2187805175781,
+              "dense_aggregation_squared_sum": 8887.0625,
+              "retained_dense_probability_mass": 0.2521781921386719
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.23210279643535614,
+            "difference_rms": 2.0771139475073142e-07,
+            "relative_l2": 8.949112384470936e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6969913244247437,
+              "aggregation_error_squared_sum": 3430.2509765625,
+              "dense_aggregation_squared_sum": 7061.0810546875,
+              "retained_dense_probability_mass": 0.5895370244979858
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.15123622119426727,
+              "aggregation_error_squared_sum": 161.50381469726562,
+              "dense_aggregation_squared_sum": 7061.0810546875,
+              "retained_dense_probability_mass": 0.5000277161598206
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.15123622119426727,
+              "aggregation_error_squared_sum": 161.50381469726562,
+              "dense_aggregation_squared_sum": 7061.0810546875,
+              "retained_dense_probability_mass": 0.5000277161598206
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.15123622119426727,
+              "aggregation_error_squared_sum": 161.50381469726562,
+              "dense_aggregation_squared_sum": 7061.0810546875,
+              "retained_dense_probability_mass": 0.5000277161598206
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.15123622119426727,
+              "aggregation_error_squared_sum": 161.50381469726562,
+              "dense_aggregation_squared_sum": 7061.0810546875,
+              "retained_dense_probability_mass": 0.5000277161598206
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.21249620616436005,
+              "aggregation_error_squared_sum": 318.840576171875,
+              "dense_aggregation_squared_sum": 7061.0810546875,
+              "retained_dense_probability_mass": 0.5022850036621094
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2450932115316391,
+            "difference_rms": 2.2557156853508786e-07,
+            "relative_l2": 9.203500894727767e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9297967553138733,
+              "aggregation_error_squared_sum": 6806.896484375,
+              "dense_aggregation_squared_sum": 7873.59521484375,
+              "retained_dense_probability_mass": 0.49941757321357727
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.07250866293907166,
+              "aggregation_error_squared_sum": 41.395477294921875,
+              "dense_aggregation_squared_sum": 7873.59521484375,
+              "retained_dense_probability_mass": 0.500745415687561
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.07250866293907166,
+              "aggregation_error_squared_sum": 41.395477294921875,
+              "dense_aggregation_squared_sum": 7873.59521484375,
+              "retained_dense_probability_mass": 0.500745415687561
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.07250866293907166,
+              "aggregation_error_squared_sum": 41.395477294921875,
+              "dense_aggregation_squared_sum": 7873.59521484375,
+              "retained_dense_probability_mass": 0.500745415687561
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.07250866293907166,
+              "aggregation_error_squared_sum": 41.395477294921875,
+              "dense_aggregation_squared_sum": 7873.59521484375,
+              "retained_dense_probability_mass": 0.500745415687561
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.12480868399143219,
+              "aggregation_error_squared_sum": 122.64863586425781,
+              "dense_aggregation_squared_sum": 7873.59521484375,
+              "retained_dense_probability_mass": 0.500010073184967
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 374,
+      "image": "leftImg8bit/val/munster/munster_000048_000019_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.15006837248802185,
+            "difference_rms": 2.2756616147034947e-07,
+            "relative_l2": 1.516416546110122e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7532662749290466,
+              "aggregation_error_squared_sum": 209.36097717285156,
+              "dense_aggregation_squared_sum": 368.97650146484375,
+              "retained_dense_probability_mass": 0.10099198669195175
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6884012222290039,
+              "aggregation_error_squared_sum": 174.85659790039062,
+              "dense_aggregation_squared_sum": 368.97650146484375,
+              "retained_dense_probability_mass": 0.08487844467163086
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.5453433990478516,
+              "aggregation_error_squared_sum": 109.73341369628906,
+              "dense_aggregation_squared_sum": 368.97650146484375,
+              "retained_dense_probability_mass": 0.07795757800340652
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.5004211068153381,
+              "aggregation_error_squared_sum": 92.39958190917969,
+              "dense_aggregation_squared_sum": 368.97650146484375,
+              "retained_dense_probability_mass": 0.07415767014026642
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3980693519115448,
+              "aggregation_error_squared_sum": 58.46772766113281,
+              "dense_aggregation_squared_sum": 368.97650146484375,
+              "retained_dense_probability_mass": 0.06523362547159195
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.4021667540073395,
+              "aggregation_error_squared_sum": 59.67755889892578,
+              "dense_aggregation_squared_sum": 368.97650146484375,
+              "retained_dense_probability_mass": 0.06467533111572266
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.15413379669189453,
+            "difference_rms": 1.3471334625592135e-07,
+            "relative_l2": 8.740026942177792e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8504576086997986,
+              "aggregation_error_squared_sum": 563.055908203125,
+              "dense_aggregation_squared_sum": 778.477783203125,
+              "retained_dense_probability_mass": 0.23075468838214874
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7802030444145203,
+              "aggregation_error_squared_sum": 473.8724670410156,
+              "dense_aggregation_squared_sum": 778.477783203125,
+              "retained_dense_probability_mass": 0.1963939070701599
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.7229246497154236,
+              "aggregation_error_squared_sum": 406.8480529785156,
+              "dense_aggregation_squared_sum": 778.477783203125,
+              "retained_dense_probability_mass": 0.18354350328445435
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3423786759376526,
+              "aggregation_error_squared_sum": 91.25563049316406,
+              "dense_aggregation_squared_sum": 778.477783203125,
+              "retained_dense_probability_mass": 0.12770578265190125
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3423786759376526,
+              "aggregation_error_squared_sum": 91.25563049316406,
+              "dense_aggregation_squared_sum": 778.477783203125,
+              "retained_dense_probability_mass": 0.12770578265190125
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.36554154753685,
+              "aggregation_error_squared_sum": 104.02067565917969,
+              "dense_aggregation_squared_sum": 778.477783203125,
+              "retained_dense_probability_mass": 0.1302773505449295
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.09924225509166718,
+            "difference_rms": 9.035549197733417e-08,
+            "relative_l2": 9.104538207793667e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9079074859619141,
+              "aggregation_error_squared_sum": 532.055419921875,
+              "dense_aggregation_squared_sum": 645.4664306640625,
+              "retained_dense_probability_mass": 0.3286527991294861
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.7613685131072998,
+              "aggregation_error_squared_sum": 374.16522216796875,
+              "dense_aggregation_squared_sum": 645.4664306640625,
+              "retained_dense_probability_mass": 0.3102455735206604
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.32337796688079834,
+              "aggregation_error_squared_sum": 67.49856567382812,
+              "dense_aggregation_squared_sum": 645.4664306640625,
+              "retained_dense_probability_mass": 0.2532481551170349
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.32337796688079834,
+              "aggregation_error_squared_sum": 67.49856567382812,
+              "dense_aggregation_squared_sum": 645.4664306640625,
+              "retained_dense_probability_mass": 0.2532481551170349
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.32337796688079834,
+              "aggregation_error_squared_sum": 67.49856567382812,
+              "dense_aggregation_squared_sum": 645.4664306640625,
+              "retained_dense_probability_mass": 0.2532481551170349
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.29367655515670776,
+              "aggregation_error_squared_sum": 55.668846130371094,
+              "dense_aggregation_squared_sum": 645.4664306640625,
+              "retained_dense_probability_mass": 0.2532712519168854
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2890314757823944,
+            "difference_rms": 3.038605598248978e-07,
+            "relative_l2": 1.051306071531144e-06,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5777971148490906,
+              "aggregation_error_squared_sum": 1827.76953125,
+              "dense_aggregation_squared_sum": 5474.83056640625,
+              "retained_dense_probability_mass": 0.43516305088996887
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.41563528776168823,
+              "aggregation_error_squared_sum": 945.7916870117188,
+              "dense_aggregation_squared_sum": 5474.83056640625,
+              "retained_dense_probability_mass": 0.3813484311103821
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3088929355144501,
+              "aggregation_error_squared_sum": 522.3800659179688,
+              "dense_aggregation_squared_sum": 5474.83056640625,
+              "retained_dense_probability_mass": 0.2571330666542053
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3088929355144501,
+              "aggregation_error_squared_sum": 522.3800659179688,
+              "dense_aggregation_squared_sum": 5474.83056640625,
+              "retained_dense_probability_mass": 0.2571330666542053
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3088929355144501,
+              "aggregation_error_squared_sum": 522.3800659179688,
+              "dense_aggregation_squared_sum": 5474.83056640625,
+              "retained_dense_probability_mass": 0.2571330666542053
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2986696660518646,
+              "aggregation_error_squared_sum": 488.3743591308594,
+              "dense_aggregation_squared_sum": 5474.83056640625,
+              "retained_dense_probability_mass": 0.25564756989479065
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 5,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.19891221821308136,
+            "difference_rms": 1.7820551079239522e-07,
+            "relative_l2": 8.959002570918528e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9617797136306763,
+              "aggregation_error_squared_sum": 2398.582275390625,
+              "dense_aggregation_squared_sum": 2593.00537109375,
+              "retained_dense_probability_mass": 0.33917203545570374
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6879779100418091,
+              "aggregation_error_squared_sum": 1227.3046875,
+              "dense_aggregation_squared_sum": 2593.00537109375,
+              "retained_dense_probability_mass": 0.31849610805511475
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.344508558511734,
+              "aggregation_error_squared_sum": 307.75384521484375,
+              "dense_aggregation_squared_sum": 2593.00537109375,
+              "retained_dense_probability_mass": 0.25210756063461304
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.344508558511734,
+              "aggregation_error_squared_sum": 307.75384521484375,
+              "dense_aggregation_squared_sum": 2593.00537109375,
+              "retained_dense_probability_mass": 0.25210756063461304
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.344508558511734,
+              "aggregation_error_squared_sum": 307.75384521484375,
+              "dense_aggregation_squared_sum": 2593.00537109375,
+              "retained_dense_probability_mass": 0.25210756063461304
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.317628413438797,
+              "aggregation_error_squared_sum": 261.6026611328125,
+              "dense_aggregation_squared_sum": 2593.00537109375,
+              "retained_dense_probability_mass": 0.25134941935539246
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 7,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.4247255027294159,
+            "difference_rms": 3.6964388527849223e-07,
+            "relative_l2": 8.703124194653356e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.5673460364341736,
+              "aggregation_error_squared_sum": 3805.33642578125,
+              "dense_aggregation_squared_sum": 11822.166015625,
+              "retained_dense_probability_mass": 0.43009838461875916
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.45364445447921753,
+              "aggregation_error_squared_sum": 2432.92236328125,
+              "dense_aggregation_squared_sum": 11822.166015625,
+              "retained_dense_probability_mass": 0.3656233549118042
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.2643597722053528,
+              "aggregation_error_squared_sum": 826.2049560546875,
+              "dense_aggregation_squared_sum": 11822.166015625,
+              "retained_dense_probability_mass": 0.2836002707481384
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.2643597722053528,
+              "aggregation_error_squared_sum": 826.2049560546875,
+              "dense_aggregation_squared_sum": 11822.166015625,
+              "retained_dense_probability_mass": 0.2836002707481384
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.2643597722053528,
+              "aggregation_error_squared_sum": 826.2049560546875,
+              "dense_aggregation_squared_sum": 11822.166015625,
+              "retained_dense_probability_mass": 0.2836002707481384
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.24495257437229156,
+              "aggregation_error_squared_sum": 709.350830078125,
+              "dense_aggregation_squared_sum": 11822.166015625,
+              "retained_dense_probability_mass": 0.2839694619178772
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 9,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.35452800989151,
+            "difference_rms": 3.2562820706516504e-07,
+            "relative_l2": 9.184837495013198e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000007152557373
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7535004019737244,
+              "aggregation_error_squared_sum": 4676.79736328125,
+              "dense_aggregation_squared_sum": 8237.23828125,
+              "retained_dense_probability_mass": 0.33375412225723267
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5669381618499756,
+              "aggregation_error_squared_sum": 2647.60400390625,
+              "dense_aggregation_squared_sum": 8237.23828125,
+              "retained_dense_probability_mass": 0.306314080953598
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.2629498243331909,
+              "aggregation_error_squared_sum": 569.544189453125,
+              "dense_aggregation_squared_sum": 8237.23828125,
+              "retained_dense_probability_mass": 0.2529444098472595
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.2629498243331909,
+              "aggregation_error_squared_sum": 569.544189453125,
+              "dense_aggregation_squared_sum": 8237.23828125,
+              "retained_dense_probability_mass": 0.2529444098472595
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.2629498243331909,
+              "aggregation_error_squared_sum": 569.544189453125,
+              "dense_aggregation_squared_sum": 8237.23828125,
+              "retained_dense_probability_mass": 0.2529444098472595
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.24899932742118835,
+              "aggregation_error_squared_sum": 510.7142028808594,
+              "dense_aggregation_squared_sum": 8237.23828125,
+              "retained_dense_probability_mass": 0.2526707053184509
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.22655999660491943,
+            "difference_rms": 2.0725131832932675e-07,
+            "relative_l2": 9.147745458903955e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6279509663581848,
+              "aggregation_error_squared_sum": 2652.9453125,
+              "dense_aggregation_squared_sum": 6727.859375,
+              "retained_dense_probability_mass": 0.61269611120224
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.21546420454978943,
+              "aggregation_error_squared_sum": 312.3396301269531,
+              "dense_aggregation_squared_sum": 6727.859375,
+              "retained_dense_probability_mass": 0.4988953769207001
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.21546420454978943,
+              "aggregation_error_squared_sum": 312.3396301269531,
+              "dense_aggregation_squared_sum": 6727.859375,
+              "retained_dense_probability_mass": 0.4988953769207001
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.21546420454978943,
+              "aggregation_error_squared_sum": 312.3396301269531,
+              "dense_aggregation_squared_sum": 6727.859375,
+              "retained_dense_probability_mass": 0.4988953769207001
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.21546420454978943,
+              "aggregation_error_squared_sum": 312.3396301269531,
+              "dense_aggregation_squared_sum": 6727.859375,
+              "retained_dense_probability_mass": 0.4988953769207001
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2691403031349182,
+              "aggregation_error_squared_sum": 487.3426513671875,
+              "dense_aggregation_squared_sum": 6727.859375,
+              "retained_dense_probability_mass": 0.5026508569717407
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.23163580894470215,
+            "difference_rms": 2.0301000347444642e-07,
+            "relative_l2": 8.764189374232956e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8183745741844177,
+              "aggregation_error_squared_sum": 4710.056640625,
+              "dense_aggregation_squared_sum": 7032.69677734375,
+              "retained_dense_probability_mass": 0.5125097632408142
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.131260484457016,
+              "aggregation_error_squared_sum": 121.16856384277344,
+              "dense_aggregation_squared_sum": 7032.69677734375,
+              "retained_dense_probability_mass": 0.49975574016571045
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.131260484457016,
+              "aggregation_error_squared_sum": 121.16856384277344,
+              "dense_aggregation_squared_sum": 7032.69677734375,
+              "retained_dense_probability_mass": 0.49975574016571045
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.131260484457016,
+              "aggregation_error_squared_sum": 121.16856384277344,
+              "dense_aggregation_squared_sum": 7032.69677734375,
+              "retained_dense_probability_mass": 0.49975574016571045
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.131260484457016,
+              "aggregation_error_squared_sum": 121.16856384277344,
+              "dense_aggregation_squared_sum": 7032.69677734375,
+              "retained_dense_probability_mass": 0.49975574016571045
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.13007290661334991,
+              "aggregation_error_squared_sum": 118.98592376708984,
+              "dense_aggregation_squared_sum": 7032.69677734375,
+              "retained_dense_probability_mass": 0.49978065490722656
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 499,
+      "image": "leftImg8bit/val/munster/munster_000173_000019_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "blocks": [
+        {
+          "stage": 1,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.18896593153476715,
+            "difference_rms": 1.9965216324635549e-07,
+            "relative_l2": 1.0565511274762684e-06,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000003576278687
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8289671540260315,
+              "aggregation_error_squared_sum": 402.0331726074219,
+              "dense_aggregation_squared_sum": 585.0422973632812,
+              "retained_dense_probability_mass": 0.15538141131401062
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.8030551671981812,
+              "aggregation_error_squared_sum": 377.2923278808594,
+              "dense_aggregation_squared_sum": 585.0422973632812,
+              "retained_dense_probability_mass": 0.13414831459522247
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.6190462708473206,
+              "aggregation_error_squared_sum": 224.19891357421875,
+              "dense_aggregation_squared_sum": 585.0422973632812,
+              "retained_dense_probability_mass": 0.10714763402938843
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.4357268512248993,
+              "aggregation_error_squared_sum": 111.07489013671875,
+              "dense_aggregation_squared_sum": 585.0422973632812,
+              "retained_dense_probability_mass": 0.07763385027647018
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.29905030131340027,
+              "aggregation_error_squared_sum": 52.320960998535156,
+              "dense_aggregation_squared_sum": 585.0422973632812,
+              "retained_dense_probability_mass": 0.06562360376119614
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.294979989528656,
+              "aggregation_error_squared_sum": 50.906394958496094,
+              "dense_aggregation_squared_sum": 585.0422973632812,
+              "retained_dense_probability_mass": 0.06402313709259033
+            }
+          }
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.18560338020324707,
+            "difference_rms": 1.7623275994083087e-07,
+            "relative_l2": 9.495126960246125e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.7606334090232849,
+              "aggregation_error_squared_sum": 653.08984375,
+              "dense_aggregation_squared_sum": 1128.8133544921875,
+              "retained_dense_probability_mass": 0.3221394419670105
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5956370830535889,
+              "aggregation_error_squared_sum": 400.484375,
+              "dense_aggregation_squared_sum": 1128.8133544921875,
+              "retained_dense_probability_mass": 0.22846171259880066
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.49911966919898987,
+              "aggregation_error_squared_sum": 281.21044921875,
+              "dense_aggregation_squared_sum": 1128.8133544921875,
+              "retained_dense_probability_mass": 0.1759488433599472
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.32510828971862793,
+              "aggregation_error_squared_sum": 119.31037902832031,
+              "dense_aggregation_squared_sum": 1128.8133544921875,
+              "retained_dense_probability_mass": 0.12831872701644897
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.32510828971862793,
+              "aggregation_error_squared_sum": 119.31037902832031,
+              "dense_aggregation_squared_sum": 1128.8133544921875,
+              "retained_dense_probability_mass": 0.12831872701644897
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.40007856488227844,
+              "aggregation_error_squared_sum": 180.68106079101562,
+              "dense_aggregation_squared_sum": 1128.8133544921875,
+              "retained_dense_probability_mass": 0.1334746778011322
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.10932505875825882,
+            "difference_rms": 9.555416369266823e-08,
+            "relative_l2": 8.740371413296089e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8431156277656555,
+              "aggregation_error_squared_sum": 556.79345703125,
+              "dense_aggregation_squared_sum": 783.2850952148438,
+              "retained_dense_probability_mass": 0.33587712049484253
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5524198412895203,
+              "aggregation_error_squared_sum": 239.03326416015625,
+              "dense_aggregation_squared_sum": 783.2850952148438,
+              "retained_dense_probability_mass": 0.287870854139328
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.32708144187927246,
+              "aggregation_error_squared_sum": 83.79759979248047,
+              "dense_aggregation_squared_sum": 783.2850952148438,
+              "retained_dense_probability_mass": 0.2528175115585327
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.32708144187927246,
+              "aggregation_error_squared_sum": 83.79759979248047,
+              "dense_aggregation_squared_sum": 783.2850952148438,
+              "retained_dense_probability_mass": 0.2528175115585327
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.32708144187927246,
+              "aggregation_error_squared_sum": 83.79759979248047,
+              "dense_aggregation_squared_sum": 783.2850952148438,
+              "retained_dense_probability_mass": 0.2528175115585327
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2916332185268402,
+              "aggregation_error_squared_sum": 66.61835479736328,
+              "dense_aggregation_squared_sum": 783.2850952148438,
+              "retained_dense_probability_mass": 0.253864049911499
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2985781133174896,
+            "difference_rms": 2.926404363279289e-07,
+            "relative_l2": 9.801134410736267e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6604329943656921,
+              "aggregation_error_squared_sum": 2548.3193359375,
+              "dense_aggregation_squared_sum": 5842.46728515625,
+              "retained_dense_probability_mass": 0.4219857156276703
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.46069276332855225,
+              "aggregation_error_squared_sum": 1239.992431640625,
+              "dense_aggregation_squared_sum": 5842.46728515625,
+              "retained_dense_probability_mass": 0.33230552077293396
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.3243265151977539,
+              "aggregation_error_squared_sum": 614.5557250976562,
+              "dense_aggregation_squared_sum": 5842.46728515625,
+              "retained_dense_probability_mass": 0.2550484240055084
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.3243265151977539,
+              "aggregation_error_squared_sum": 614.5557250976562,
+              "dense_aggregation_squared_sum": 5842.46728515625,
+              "retained_dense_probability_mass": 0.2550484240055084
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.3243265151977539,
+              "aggregation_error_squared_sum": 614.5557250976562,
+              "dense_aggregation_squared_sum": 5842.46728515625,
+              "retained_dense_probability_mass": 0.2550484240055084
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.28982409834861755,
+              "aggregation_error_squared_sum": 490.755615234375,
+              "dense_aggregation_squared_sum": 5842.46728515625,
+              "retained_dense_probability_mass": 0.257587194442749
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 5,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.21974584460258484,
+            "difference_rms": 1.8500615794891928e-07,
+            "relative_l2": 8.419096957368311e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8596726059913635,
+              "aggregation_error_squared_sum": 2338.772216796875,
+              "dense_aggregation_squared_sum": 3164.62109375,
+              "retained_dense_probability_mass": 0.36044585704803467
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.6003831028938293,
+              "aggregation_error_squared_sum": 1140.7191162109375,
+              "dense_aggregation_squared_sum": 3164.62109375,
+              "retained_dense_probability_mass": 0.3030410408973694
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.32886114716529846,
+              "aggregation_error_squared_sum": 342.252685546875,
+              "dense_aggregation_squared_sum": 3164.62109375,
+              "retained_dense_probability_mass": 0.2520769238471985
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.32886114716529846,
+              "aggregation_error_squared_sum": 342.252685546875,
+              "dense_aggregation_squared_sum": 3164.62109375,
+              "retained_dense_probability_mass": 0.2520769238471985
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.32886114716529846,
+              "aggregation_error_squared_sum": 342.252685546875,
+              "dense_aggregation_squared_sum": 3164.62109375,
+              "retained_dense_probability_mass": 0.2520769238471985
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2895265519618988,
+              "aggregation_error_squared_sum": 265.2763366699219,
+              "dense_aggregation_squared_sum": 3164.62109375,
+              "retained_dense_probability_mass": 0.2515072226524353
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 7,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.4132194519042969,
+            "difference_rms": 3.5482784710438864e-07,
+            "relative_l2": 8.586910666963377e-07,
+            "cosine_similarity": 0.9999999403953552,
+            "candidate_reference_norm_ratio": 1.0000004768371582
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.668180525302887,
+              "aggregation_error_squared_sum": 4996.08056640625,
+              "dense_aggregation_squared_sum": 11190.302734375,
+              "retained_dense_probability_mass": 0.42800402641296387
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.4760023057460785,
+              "aggregation_error_squared_sum": 2535.478515625,
+              "dense_aggregation_squared_sum": 11190.302734375,
+              "retained_dense_probability_mass": 0.33625948429107666
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.2862795889377594,
+              "aggregation_error_squared_sum": 917.1124877929688,
+              "dense_aggregation_squared_sum": 11190.302734375,
+              "retained_dense_probability_mass": 0.2827765643596649
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.2862795889377594,
+              "aggregation_error_squared_sum": 917.1124877929688,
+              "dense_aggregation_squared_sum": 11190.302734375,
+              "retained_dense_probability_mass": 0.2827765643596649
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.2862795889377594,
+              "aggregation_error_squared_sum": 917.1124877929688,
+              "dense_aggregation_squared_sum": 11190.302734375,
+              "retained_dense_probability_mass": 0.2827765643596649
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2631184458732605,
+              "aggregation_error_squared_sum": 774.719482421875,
+              "dense_aggregation_squared_sum": 11190.302734375,
+              "retained_dense_probability_mass": 0.2823539674282074
+            }
+          }
+        },
+        {
+          "stage": 3,
+          "block": 9,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.37485289573669434,
+            "difference_rms": 3.4366425438747683e-07,
+            "relative_l2": 9.167976600110705e-07,
+            "cosine_similarity": 1.0000001192092896,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.8717151880264282,
+              "aggregation_error_squared_sum": 6997.6376953125,
+              "dense_aggregation_squared_sum": 9208.7822265625,
+              "retained_dense_probability_mass": 0.3321077227592468
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.5786463022232056,
+              "aggregation_error_squared_sum": 3083.39111328125,
+              "dense_aggregation_squared_sum": 9208.7822265625,
+              "retained_dense_probability_mass": 0.2895317077636719
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.28406810760498047,
+              "aggregation_error_squared_sum": 743.0999145507812,
+              "dense_aggregation_squared_sum": 9208.7822265625,
+              "retained_dense_probability_mass": 0.2529759407043457
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.28406810760498047,
+              "aggregation_error_squared_sum": 743.0999145507812,
+              "dense_aggregation_squared_sum": 9208.7822265625,
+              "retained_dense_probability_mass": 0.2529759407043457
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.28406810760498047,
+              "aggregation_error_squared_sum": 743.0999145507812,
+              "dense_aggregation_squared_sum": 9208.7822265625,
+              "retained_dense_probability_mass": 0.2529759407043457
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.2602327764034271,
+              "aggregation_error_squared_sum": 623.6288452148438,
+              "dense_aggregation_squared_sum": 9208.7822265625,
+              "retained_dense_probability_mass": 0.2531803250312805
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 1,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.2870054841041565,
+            "difference_rms": 2.608365434753068e-07,
+            "relative_l2": 9.088207093554956e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.6898466348648071,
+              "aggregation_error_squared_sum": 5138.02197265625,
+              "dense_aggregation_squared_sum": 10796.6953125,
+              "retained_dense_probability_mass": 0.6025921702384949
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.22356398403644562,
+              "aggregation_error_squared_sum": 539.6281127929688,
+              "dense_aggregation_squared_sum": 10796.6953125,
+              "retained_dense_probability_mass": 0.5012089014053345
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.22356398403644562,
+              "aggregation_error_squared_sum": 539.6281127929688,
+              "dense_aggregation_squared_sum": 10796.6953125,
+              "retained_dense_probability_mass": 0.5012089014053345
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.22356398403644562,
+              "aggregation_error_squared_sum": 539.6281127929688,
+              "dense_aggregation_squared_sum": 10796.6953125,
+              "retained_dense_probability_mass": 0.5012089014053345
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.22356398403644562,
+              "aggregation_error_squared_sum": 539.6281127929688,
+              "dense_aggregation_squared_sum": 10796.6953125,
+              "retained_dense_probability_mass": 0.5012089014053345
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.3001832067966461,
+              "aggregation_error_squared_sum": 972.8897705078125,
+              "dense_aggregation_squared_sum": 10796.6953125,
+              "retained_dense_probability_mass": 0.5032796859741211
+            }
+          }
+        },
+        {
+          "stage": 4,
+          "block": 3,
+          "queries": 256,
+          "dense_check": {
+            "reference_rms": 0.25700920820236206,
+            "difference_rms": 2.1535781513648544e-07,
+            "relative_l2": 8.379381597478641e-07,
+            "cosine_similarity": 1.0,
+            "candidate_reference_norm_ratio": 1.0000005960464478
+          },
+          "layouts": {
+            "extent0": {
+              "aggregation_relative_l2": 0.9476451277732849,
+              "aggregation_error_squared_sum": 7774.97900390625,
+              "dense_aggregation_squared_sum": 8657.8046875,
+              "retained_dense_probability_mass": 0.4955017566680908
+            },
+            "extent1": {
+              "aggregation_relative_l2": 0.07609821110963821,
+              "aggregation_error_squared_sum": 50.136810302734375,
+              "dense_aggregation_squared_sum": 8657.8046875,
+              "retained_dense_probability_mass": 0.5009205937385559
+            },
+            "extent2": {
+              "aggregation_relative_l2": 0.07609821110963821,
+              "aggregation_error_squared_sum": 50.136810302734375,
+              "dense_aggregation_squared_sum": 8657.8046875,
+              "retained_dense_probability_mass": 0.5009205937385559
+            },
+            "extent3": {
+              "aggregation_relative_l2": 0.07609821110963821,
+              "aggregation_error_squared_sum": 50.136810302734375,
+              "dense_aggregation_squared_sum": 8657.8046875,
+              "retained_dense_probability_mass": 0.5009205937385559
+            },
+            "extent4": {
+              "aggregation_relative_l2": 0.07609821110963821,
+              "aggregation_error_squared_sum": 50.136810302734375,
+              "dense_aggregation_squared_sum": 8657.8046875,
+              "retained_dense_probability_mass": 0.5009205937385559
+            },
+            "dispersed32": {
+              "aggregation_relative_l2": 0.1518244594335556,
+              "aggregation_error_squared_sum": 199.5681610107422,
+              "dense_aggregation_squared_sum": 8657.8046875,
+              "retained_dense_probability_mass": 0.4997406303882599
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "precision": "FP32",
+  "cudnn_allow_tf32": true,
+  "cudnn_deterministic": true,
+  "matmul_allow_tf32": false
+}

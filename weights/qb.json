@@ -1,0 +1,23 @@
+{
+  "case": "qb",
+  "path": "fusformer/quickbird.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "Caoxuheng/HIFtool",
+    "revision": "d364ecb60aa944af17223c050bad24199899ae00",
+    "subdirectory": "",
+    "include": [
+      "Networks/Fusformer",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "dataset_source": {
+    "repository": "elsting/PanCollection",
+    "hosting": "huggingface",
+    "revision": "b39e5daf0a322105977a7d4ce53ca0c4806defed",
+    "filename": "test_data/test_qb_multiExm1.h5"
+  },
+  "weights_url": "https://raw.githubusercontent.com/Caoxuheng/HIFtool/d364ecb60aa944af17223c050bad24199899ae00/PretrainModel/QB/Fusformer/400.pth",
+  "upstream_filename": "400.pth"
+}

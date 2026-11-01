@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "representative-context"
+version = "0.1.0"
+description = "Representative spatial context for inference with finite attention capacity"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "third_party/mmsegmentation/LICENSE"]
+dependencies = ["torch==2.10.0", "numpy>=1.24"]
+
+[project.optional-dependencies]
+cuda = ["triton==3.6.0; sys_platform == 'linux'"]
+uavid = ["albumentations==2.0.8", "opencv-python==5.0.0.93"]
+test = ["pytest>=8"]
+mmseg = ["mmengine==0.10.7", "mmcv-lite==2.1.0", "prettytable"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["cuda: requires an NVIDIA GPU and Triton"]

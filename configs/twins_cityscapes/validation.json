@@ -1,0 +1,162 @@
+{
+  "architecture": "twins_svt_s",
+  "dataset": "Cityscapes",
+  "classes": 19,
+  "model": {
+    "backbone": {
+      "attn_drop_rate": 0.0,
+      "depths": [
+        2,
+        2,
+        10,
+        4
+      ],
+      "drop_path_rate": 0.2,
+      "drop_rate": 0.0,
+      "embed_dims": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "in_channels": 3,
+      "init_cfg": null,
+      "mlp_ratios": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "norm_after_stage": true,
+      "norm_cfg": {
+        "type": "LN"
+      },
+      "num_heads": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "out_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "patch_sizes": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qkv_bias": true,
+      "sr_ratios": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "strides": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "type": "SVT",
+      "windiow_sizes": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    "data_preprocessor": {
+      "bgr_to_rgb": true,
+      "mean": [
+        123.675,
+        116.28,
+        103.53
+      ],
+      "pad_val": 0,
+      "seg_pad_val": 255,
+      "size": [
+        1024,
+        1024
+      ],
+      "std": [
+        58.395,
+        57.12,
+        57.375
+      ],
+      "type": "SegDataPreProcessor"
+    },
+    "decode_head": {
+      "align_corners": false,
+      "channels": 128,
+      "dropout_ratio": 0.1,
+      "feature_strides": [
+        4,
+        8,
+        16,
+        32
+      ],
+      "in_channels": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "in_index": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loss_decode": {
+        "loss_weight": 1.0,
+        "type": "CrossEntropyLoss",
+        "use_sigmoid": false
+      },
+      "norm_cfg": {
+        "requires_grad": true,
+        "type": "SyncBN"
+      },
+      "num_classes": 19,
+      "type": "FPNHead"
+    },
+    "neck": {
+      "in_channels": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "num_outs": 4,
+      "out_channels": 256,
+      "type": "FPN"
+    },
+    "test_cfg": {
+      "crop_size": [
+        1024,
+        1024
+      ],
+      "mode": "slide",
+      "stride": [
+        768,
+        768
+      ]
+    },
+    "train_cfg": {},
+    "type": "EncoderDecoder"
+  },
+  "checkpoint": "weights/twins/twins_svt_s_cityscapes.pth",
+  "data_root": "datasets/Cityscapes",
+  "expected_images": 500,
+  "seed": 42,
+  "threads": 4,
+  "timing": {
+    "warmup": 5,
+    "repeats": 20,
+    "rounds": 3
+  }
+}

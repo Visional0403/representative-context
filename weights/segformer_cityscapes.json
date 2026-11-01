@@ -1,0 +1,13 @@
+{
+  "architecture": "segformer_b0",
+  "dataset": "Cityscapes",
+  "path": "segformer/segformer_b0_cityscapes.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": "MMSegmentation official Cityscapes task checkpoint",
+  "upstream_config": "segformer_mit-b0_8xb1-160k_cityscapes-1024x1024",
+  "source_version": "mmsegmentation 1.2.2",
+  "training_iterations": 160000,
+  "evaluation_config": "configs/segformer_cityscapes/validation.json",
+  "evaluation_seed": 42,
+  "weights_url": "https://download.openmmlab.com/mmsegmentation/v0.5/segformer/segformer_mit-b0_8x1_1024x1024_160k_cityscapes/segformer_mit-b0_8x1_1024x1024_160k_cityscapes_20211208_101857-e7f88502.pth"
+}

@@ -1,0 +1,8 @@
+{
+  "case": "glpn_nyu",
+  "dataset": "NYUv2 official test",
+  "path": "glpn_nyu",
+  "format": "huggingface_safetensors",
+  "source": "https://huggingface.co/vinvino02/glpn-nyu",
+  "weight_revision": "cb8ce03174424af9a3315da175ead88667f0578c"
+}

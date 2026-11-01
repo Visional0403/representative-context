@@ -1,0 +1,549 @@
+{
+  "attention": [
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Dense",
+      "p10": 9.184,
+      "p25": 9.248,
+      "median": 9.324,
+      "p75": 9.428,
+      "p90": 9.545
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Indexed",
+      "p10": 3.476,
+      "p25": 3.55,
+      "median": 3.622,
+      "p75": 3.703,
+      "p90": 3.732
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Dense",
+      "p10": 141.151,
+      "p25": 141.315,
+      "median": 141.502,
+      "p75": 141.659,
+      "p90": 141.884
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Indexed",
+      "p10": 10.865,
+      "p25": 10.965,
+      "median": 10.995,
+      "p75": 11.084,
+      "p90": 11.165
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Dense",
+      "p10": 555.863,
+      "p25": 557.295,
+      "median": 565.474,
+      "p75": 572.605,
+      "p90": 581.037
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Indexed",
+      "p10": 23.988,
+      "p25": 24.148,
+      "median": 24.318,
+      "p75": 25.665,
+      "p90": 26.125
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Dense",
+      "p10": 14.451,
+      "p25": 14.511,
+      "median": 14.618,
+      "p75": 14.722,
+      "p90": 14.813
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Indexed",
+      "p10": 8.643,
+      "p25": 8.798,
+      "median": 8.945,
+      "p75": 9.105,
+      "p90": 9.32
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Dense",
+      "p10": 221.044,
+      "p25": 221.379,
+      "median": 221.738,
+      "p75": 222.912,
+      "p90": 225.24
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Indexed",
+      "p10": 22.93,
+      "p25": 23.147,
+      "median": 23.323,
+      "p75": 23.513,
+      "p90": 23.835
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Dense",
+      "p10": 858.725,
+      "p25": 865.163,
+      "median": 889.296,
+      "p75": 909.712,
+      "p90": 921.004
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Indexed",
+      "p10": 50.694,
+      "p25": 51.11,
+      "median": 51.915,
+      "p75": 54.958,
+      "p90": 56.574
+    }
+  ],
+  "same_edge": [
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Dense",
+      "median": 9.715,
+      "p90": 10.093
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Reordered",
+      "median": 5.328,
+      "p90": 5.435
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Indexed",
+      "median": 3.775,
+      "p90": 3.923
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Dense",
+      "median": 145.775,
+      "p90": 146.416
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Reordered",
+      "median": 24.146,
+      "p90": 24.761
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Indexed",
+      "median": 11.431,
+      "p90": 11.601
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Dense",
+      "median": 593.45,
+      "p90": 607.863
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Reordered",
+      "median": 49.366,
+      "p90": 50.933
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Indexed",
+      "median": 25.341,
+      "p90": 26.519
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Dense",
+      "median": 14.818,
+      "p90": 15.148
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Reordered",
+      "median": 10.61,
+      "p90": 10.84
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Indexed",
+      "median": 9.011,
+      "p90": 9.291
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Dense",
+      "median": 224.453,
+      "p90": 225.419
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Reordered",
+      "median": 48.7,
+      "p90": 49.056
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Indexed",
+      "median": 23.558,
+      "p90": 23.77
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Dense",
+      "median": 941.004,
+      "p90": 974.418
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Reordered",
+      "median": 100.173,
+      "p90": 106.138
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Indexed",
+      "median": 54.775,
+      "p90": 57.258
+    }
+  ],
+  "whole_model": [
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Dense",
+      "p10": 28.988,
+      "p25": 29.319,
+      "median": 29.641,
+      "p75": 29.878,
+      "p90": 30.471
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "1K",
+      "method": "Indexed",
+      "p10": 22.94,
+      "p25": 23.128,
+      "median": 23.382,
+      "p75": 23.678,
+      "p90": 23.902
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Dense",
+      "p10": 239.877,
+      "p25": 241.025,
+      "median": 242.899,
+      "p75": 245.333,
+      "p90": 247.588
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "2K",
+      "method": "Indexed",
+      "p10": 103.925,
+      "p25": 104.279,
+      "median": 104.553,
+      "p75": 104.954,
+      "p90": 105.843
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Dense",
+      "p10": 869.516,
+      "p25": 876.935,
+      "median": 887.809,
+      "p75": 910.532,
+      "p90": 921.137
+    },
+    {
+      "model": "SegFormer",
+      "resolution": "Native",
+      "method": "Indexed",
+      "p10": 286.042,
+      "p25": 287.185,
+      "median": 288.78,
+      "p75": 290.264,
+      "p90": 291.083
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Dense",
+      "p10": 65.24,
+      "p25": 65.384,
+      "median": 65.846,
+      "p75": 66.266,
+      "p90": 66.471
+    },
+    {
+      "model": "Twins",
+      "resolution": "1K",
+      "method": "Indexed",
+      "p10": 59.466,
+      "p25": 59.656,
+      "median": 60.057,
+      "p75": 60.366,
+      "p90": 60.59
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Dense",
+      "p10": 453.369,
+      "p25": 454.823,
+      "median": 456.511,
+      "p75": 457.746,
+      "p90": 458.467
+    },
+    {
+      "model": "Twins",
+      "resolution": "2K",
+      "method": "Indexed",
+      "p10": 254.566,
+      "p25": 255.204,
+      "median": 255.612,
+      "p75": 256.946,
+      "p90": 258.06
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Dense",
+      "p10": 1361.943,
+      "p25": 1382.458,
+      "median": 1447.814,
+      "p75": 1474.918,
+      "p90": 1484.483
+    },
+    {
+      "model": "Twins",
+      "resolution": "Native",
+      "method": "Indexed",
+      "p10": 535.334,
+      "p25": 537.333,
+      "median": 541.869,
+      "p75": 550.206,
+      "p90": 561.573
+    }
+  ],
+  "profiles": [
+    {
+      "model": "segformer",
+      "q": 65536,
+      "dense": {
+        "mean_ms": 31.189752101898193,
+        "parts_ms": {
+          "global_aggregation": 9.85343195249637,
+          "local_attention": 0.0,
+          "projection_sr": 2.055034674810789,
+          "ffn": 4.527552021046479,
+          "decoder": 9.714090585708618,
+          "other": 5.039642643328989
+        }
+      },
+      "sparse": {
+        "mean_ms": 27.015562693277996,
+        "parts_ms": {
+          "global_aggregation": 3.973575972020626,
+          "local_attention": 0.0,
+          "projection_sr": 2.3800933318852913,
+          "ffn": 4.868391990661621,
+          "decoder": 9.962751865386963,
+          "other": 5.83074933802709
+        }
+      }
+    },
+    {
+      "model": "segformer",
+      "q": 262144,
+      "dense": {
+        "mean_ms": 248.1185620625814,
+        "parts_ms": {
+          "global_aggregation": 152.50824455420175,
+          "local_attention": 0.0,
+          "projection_sr": 6.803194688283838,
+          "ffn": 24.972997387250263,
+          "decoder": 42.39462407430013,
+          "other": 21.43950133168255
+        }
+      },
+      "sparse": {
+        "mean_ms": 106.70913887023926,
+        "parts_ms": {
+          "global_aggregation": 11.625917315483093,
+          "local_attention": 0.0,
+          "projection_sr": 6.763442674292794,
+          "ffn": 25.046842659513157,
+          "decoder": 42.289834340413414,
+          "other": 20.98310136778552
+        }
+      }
+    },
+    {
+      "model": "segformer",
+      "q": 518400,
+      "dense": {
+        "mean_ms": 914.6391652425131,
+        "parts_ms": {
+          "global_aggregation": 647.2193700472513,
+          "local_attention": 0.0,
+          "projection_sr": 17.057655977550894,
+          "ffn": 54.8678883711497,
+          "decoder": 145.69249979654947,
+          "other": 49.80174395462382
+        }
+      },
+      "sparse": {
+        "mean_ms": 290.4891840616862,
+        "parts_ms": {
+          "global_aggregation": 25.704200088977814,
+          "local_attention": 0.0,
+          "projection_sr": 16.496890665652852,
+          "ffn": 52.987309316794075,
+          "decoder": 146.33993530273438,
+          "other": 48.960847984359134
+        }
+      }
+    },
+    {
+      "model": "twins",
+      "q": 65536,
+      "dense": {
+        "mean_ms": 66.21797688802083,
+        "parts_ms": {
+          "global_aggregation": 14.662088225285212,
+          "local_attention": 10.817018712560335,
+          "projection_sr": 3.1573733573022764,
+          "ffn": 11.275269304712614,
+          "decoder": 7.6737812757492065,
+          "other": 18.632445293721197
+        }
+      },
+      "sparse": {
+        "mean_ms": 60.04640769958496,
+        "parts_ms": {
+          "global_aggregation": 8.774349426229795,
+          "local_attention": 10.438906654715538,
+          "projection_sr": 2.9272133558115456,
+          "ffn": 11.329527998963991,
+          "decoder": 7.675642649332683,
+          "other": 18.900768073227177
+        }
+      }
+    },
+    {
+      "model": "twins",
+      "q": 262144,
+      "dense": {
+        "mean_ms": 468.8975524902344,
+        "parts_ms": {
+          "global_aggregation": 234.5355171362559,
+          "local_attention": 51.849573691686,
+          "projection_sr": 11.92453062084193,
+          "ffn": 47.203151881694794,
+          "decoder": 34.23751990000407,
+          "other": 89.14725837862352
+        }
+      },
+      "sparse": {
+        "mean_ms": 257.8515879313151,
+        "parts_ms": {
+          "global_aggregation": 24.128455976645153,
+          "local_attention": 51.97466391324997,
+          "projection_sr": 11.942818627673356,
+          "ffn": 45.57140803337097,
+          "decoder": 34.068224589029946,
+          "other": 90.16601637782878
+        }
+      }
+    },
+    {
+      "model": "twins",
+      "q": 518400,
+      "dense": {
+        "mean_ms": 1504.0458984375,
+        "parts_ms": {
+          "global_aggregation": 1005.4517742792765,
+          "local_attention": 109.47515694300334,
+          "projection_sr": 28.130530661427958,
+          "ffn": 92.66781316200893,
+          "decoder": 69.55648040771484,
+          "other": 198.7641313006558
+        }
+      },
+      "sparse": {
+        "mean_ms": 559.466298421224,
+        "parts_ms": {
+          "global_aggregation": 58.664447943369545,
+          "local_attention": 108.84565325578053,
+          "projection_sr": 27.96155197454694,
+          "ffn": 92.27416811386745,
+          "decoder": 69.72578430175781,
+          "other": 201.9946765799832
+        }
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "name": "1K",
+      "height": 1024,
+      "width": 1024
+    },
+    {
+      "name": "2K",
+      "height": 2048,
+      "width": 2048
+    },
+    {
+      "name": "Native",
+      "height": 2160,
+      "width": 3840
+    }
+  ]
+}

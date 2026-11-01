@@ -1,0 +1,40 @@
+{
+  "case": "gamus",
+  "files": [
+    {
+      "file": "accuracy.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "accuracy_units": 2861
+    },
+    {
+      "file": "timing_02.json",
+      "resource_exponents": [
+        16
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_04.json",
+      "resource_exponents": [
+        15
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "timing_05.json",
+      "resource_exponents": [
+        12,
+        13,
+        14
+      ],
+      "accuracy_units": null
+    }
+  ]
+}

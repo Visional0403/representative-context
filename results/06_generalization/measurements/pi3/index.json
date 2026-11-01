@@ -1,0 +1,35 @@
+{
+  "case": "pi3",
+  "files": [
+    {
+      "file": "timing_01.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "accuracy_units": null
+    },
+    {
+      "file": "accuracy_02.json",
+      "resource_exponents": [
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "accuracy_units": 10
+    },
+    {
+      "file": "accuracy_03.json",
+      "resource_exponents": [
+        16
+      ],
+      "accuracy_units": 10
+    }
+  ]
+}

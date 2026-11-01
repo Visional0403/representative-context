@@ -1,0 +1,9 @@
+{
+  "case": "tcd_tiled",
+  "dataset": "OAM-TCD CC-BY test",
+  "path": "oam_tcd",
+  "format": "huggingface_safetensors",
+  "source": "https://huggingface.co/restor/tcd-segformer-mit-b0",
+  "revision": "904e2fb0696abb4bae63f43344bd99ec1959d092",
+  "dataset_source": "https://huggingface.co/datasets/restor/tcd"
+}

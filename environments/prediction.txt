@@ -1,0 +1,20 @@
+# Install after the CUDA-enabled core environment (PyTorch 2.10.0).
+torchvision==0.25.0
+transformers==4.46.3
+safetensors==0.5.3
+huggingface-hub==0.36.0
+tokenizers==0.20.3
+pyarrow==18.1.0
+h5py==3.11.0
+timm==0.9.16
+einops==0.8.2
+yacs==0.1.8
+scipy==1.15.3
+Pillow==12.2.0
+fvcore==0.1.5.post20221221
+iopath==0.1.10
+hydra-core==1.3.2
+omegaconf==2.3.0
+scikit-image==0.24.0
+lmdb==3.0.0
+matplotlib>=3.7,<4

@@ -1,0 +1,153 @@
+{
+  "polyp_pvt": {
+    "repository": "DengPingFan/Polyp-PVT",
+    "revision": "cd71fbf9fcd8c32cc0f33699f4e0186073c64dc4",
+    "subdirectory": "",
+    "include": [
+      "lib",
+      "README.md"
+    ]
+  },
+  "hitnet": {
+    "repository": "HUuxiaobin/HitNet",
+    "revision": "2ffd660f5b72c31daee998a35574cd82ae476c37",
+    "subdirectory": "",
+    "include": [
+      "lib",
+      "README.md"
+    ]
+  },
+  "trufor": {
+    "repository": "grip-unina/TruFor",
+    "revision": "ae54475df6f41a491d7615100feb19263dec13f7",
+    "subdirectory": "TruFor_train_test",
+    "include": [
+      "lib",
+      "LICENSE.txt",
+      "LICENSE_CMX.txt",
+      "README.md"
+    ]
+  },
+  "changeformer": {
+    "repository": "wgcban/ChangeFormer",
+    "revision": "5ca45352d06e15a01e2d6525d891f9c5bbf54f52",
+    "subdirectory": "",
+    "include": [
+      "models",
+      "misc",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "gma": {
+    "repository": "zacjiang/GMA",
+    "revision": "2f1fd29468a86a354d44dd25d107930b3f175043",
+    "subdirectory": "",
+    "include": [
+      "core",
+      "imgs",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "fusformer_cave": {
+    "repository": "J-FHu/Fusformer",
+    "revision": "b075443ec51b958c6ae0f3cfc01eaf3a15ea7257",
+    "subdirectory": "",
+    "include": [
+      "model.py",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "fusformer_qb": {
+    "repository": "Caoxuheng/HIFtool",
+    "revision": "d364ecb60aa944af17223c050bad24199899ae00",
+    "subdirectory": "",
+    "include": [
+      "Networks/Fusformer",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "transweather": {
+    "repository": "jeya-maria-jose/TransWeather",
+    "revision": "54c4e69180502e0386ee6186a4318d6d61e0bf8d",
+    "subdirectory": "",
+    "include": [
+      "transweather_model.py",
+      "base_networks.py",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "iml_vit": {
+    "repository": "SunnyHaze/IML-ViT",
+    "revision": "07dd2be0f4ea27a5c97c9fa5ffbe236733833eac",
+    "subdirectory": "",
+    "include": [
+      "iml_vit_model.py",
+      "modules",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "altimap": {
+    "repository": "JTRNEO/SynRS3D",
+    "revision": "ab5a4857825448e4c5cd1fe3aa3045c7348814c5",
+    "subdirectory": "",
+    "include": [
+      "models",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "dinov2": {
+    "repository": "facebookresearch/dinov2",
+    "revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "subdirectory": "",
+    "include": [
+      "dinov2",
+      "hubconf.py",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "geco2": {
+    "repository": "jerpelhan/GECO2",
+    "revision": "67d27e8a93f14226f94d1f2c5c6dab5b5dd7162b",
+    "subdirectory": "",
+    "include": [
+      "models",
+      "utils",
+      "configs",
+      "Deformable-DETR/models",
+      "sam2/sam2",
+      "sam2/LICENSE",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "pi3": {
+    "repository": "yyfz/Pi3",
+    "revision": "9fa3ddb3f8d53041f8b2738df404f62223bbaa7b",
+    "subdirectory": "",
+    "include": [
+      "pi3",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "sparge": {
+    "repository": "thu-ml/SpargeAttn",
+    "revision": "ae5b629ebb41e41f86b3ea2ab5a3283f13ac151a",
+    "subdirectory": "",
+    "include": [
+      "spas_sage_attn",
+      "csrc",
+      "setup.py",
+      "LICENSE",
+      "README.md"
+    ]
+  }
+}

@@ -1,0 +1,1437 @@
+{
+  "case": "gma_sintel",
+  "statistical_unit": "complete labeled image pair",
+  "vector_mse": "mean squared Euclidean vector error over valid pixels",
+  "layouts": [
+    "dispersed32",
+    "clustered16"
+  ],
+  "interventions": [
+    "sparse",
+    "restore_motion",
+    "restore_matching",
+    "matching_norm_matched",
+    "restore_aggregation"
+  ],
+  "pairs": [
+    {
+      "scene": "alley_1",
+      "first_frame": "frame_0025.png",
+      "render_pass": "final",
+      "arrays": "alley_1.npz",
+      "context_arrays": "contexts_alley_1.npz",
+      "dense_task": {
+        "valid_pixels": 446464,
+        "epe_sum": 177775.3528264732,
+        "GT_EPE": 0.3981851903545934,
+        "flow_change_sum": 0.0,
+        "mean_flow_change": 0.0,
+        "flow_change_squared_sum": 0.0,
+        "rms_flow_change": 0.0,
+        "improved_pixels": 0,
+        "degraded_pixels": 0
+      },
+      "layouts": {
+        "dispersed32": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.017047359888592028,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.004664899590791488,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.016369722381589756,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.5342476864835546,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.01704735990693234
+              },
+              "clustered16": {
+                "full_rms": 0.03283454600382176,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.013730186824818797,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.029693241041627478,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.5720291308953644,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.03283454602413624
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.017179182719011296,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.004603447935049222,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01653025731842436,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.5269120897872336,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.01717918274418078
+              },
+              "clustered16": {
+                "full_rms": 0.03328562236803028,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.01365290032816146,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.030238712656273297,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.5634294014615144,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.03328562241920773
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 177773.75717145472,
+                "GT_EPE": 0.39818161637098337,
+                "flow_change_sum": 5470.236650696828,
+                "mean_flow_change": 0.01225235775044982,
+                "flow_change_squared_sum": 617.2596568133808,
+                "rms_flow_change": 0.0371826829578265,
+                "improved_pixels": 230563,
+                "degraded_pixels": 215901
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 177734.203497894,
+                "GT_EPE": 0.3980930231729635,
+                "flow_change_sum": 5500.119340694174,
+                "mean_flow_change": 0.012319289664327188,
+                "flow_change_squared_sum": 633.3092128887176,
+                "rms_flow_change": 0.03766298002954085,
+                "improved_pixels": 230888,
+                "degraded_pixels": 215576
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.016603965071957067,
+                  "sparse_vs_dense_rms": 0.017246831755677042,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.016537964077865893,
+                  "sparse_vs_dense_rms": 0.017182273738156312,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 177987.37008448667,
+                "GT_EPE": 0.3986600713259897,
+                "flow_change_sum": 4133.031257290415,
+                "mean_flow_change": 0.009257255360545117,
+                "flow_change_squared_sum": 316.310241667898,
+                "rms_flow_change": 0.02661726350444675,
+                "improved_pixels": 220741,
+                "degraded_pixels": 225723
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.004598111836375514,
+                  "sparse_vs_dense_rms": 0.017246831755677042,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.00461234264008392,
+                  "sparse_vs_dense_rms": 0.017102703484418308,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 178143.72121261706,
+                "GT_EPE": 0.3990102700612302,
+                "flow_change_sum": 4949.450390223224,
+                "mean_flow_change": 0.011085889097941209,
+                "flow_change_squared_sum": 418.2968545518906,
+                "rms_flow_change": 0.030608995425706834,
+                "improved_pixels": 219846,
+                "degraded_pixels": 226618
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.017246832009616686,
+                  "sparse_vs_dense_rms": 0.017246831755677042,
+                  "norm_matching_scale": 3.750850864313024
+                },
+                {
+                  "restored_vs_dense_rms": 0.017097105842781096,
+                  "sparse_vs_dense_rms": 0.017097106163162946,
+                  "norm_matching_scale": 3.6810112680404714
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 177940.05161819718,
+                "GT_EPE": 0.39855408637246714,
+                "flow_change_sum": 4098.863846287392,
+                "mean_flow_change": 0.009180726433234017,
+                "flow_change_squared_sum": 322.67106704862647,
+                "rms_flow_change": 0.026883560676865037,
+                "improved_pixels": 222773,
+                "degraded_pixels": 223691
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        },
+        "clustered16": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.017174127751569745,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.004715111748224151,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.016489413363215594,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.5399118057915823,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.017174127743203364
+              },
+              "clustered16": {
+                "full_rms": 0.03474962569249069,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.013817708538725146,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03177600990091322,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.5819313782146973,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.03474962568855323
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.01732619774649205,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.004619490171506323,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01668014586907378,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.5287673280358404,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.017326197749519916
+              },
+              "clustered16": {
+                "full_rms": 0.03510497751558155,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.013730982091434753,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03221328860077563,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.572367133375761,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.03510497752732216
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 178889.8982896457,
+                "GT_EPE": 0.40068157407908744,
+                "flow_change_sum": 24402.4059902837,
+                "mean_flow_change": 0.05465705183460189,
+                "flow_change_squared_sum": 9467.751333672259,
+                "rms_flow_change": 0.14562307534491664,
+                "improved_pixels": 189935,
+                "degraded_pixels": 256529
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 178860.28292575455,
+                "GT_EPE": 0.40061524092817014,
+                "flow_change_sum": 24240.06269198768,
+                "mean_flow_change": 0.05429343170331243,
+                "flow_change_squared_sum": 9056.578246255525,
+                "rms_flow_change": 0.1424258594639932,
+                "improved_pixels": 190302,
+                "degraded_pixels": 256162
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.03234807093202161,
+                  "sparse_vs_dense_rms": 0.03523677943803859,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.03219450680330107,
+                  "sparse_vs_dense_rms": 0.035078125245307186,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 179417.01814190426,
+                "GT_EPE": 0.4018622288513839,
+                "flow_change_sum": 16610.90635882923,
+                "mean_flow_change": 0.03720547761707378,
+                "flow_change_squared_sum": 5505.2657225889725,
+                "rms_flow_change": 0.11104421031728919,
+                "improved_pixels": 203046,
+                "degraded_pixels": 243418
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.013737815617444867,
+                  "sparse_vs_dense_rms": 0.03523677943803859,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.013726920814813937,
+                  "sparse_vs_dense_rms": 0.03359633163345783,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 179576.90585868113,
+                "GT_EPE": 0.4022203489165557,
+                "flow_change_sum": 17352.70245018791,
+                "mean_flow_change": 0.03886696900576062,
+                "flow_change_squared_sum": 6418.7144674982155,
+                "rms_flow_change": 0.11990320873928931,
+                "improved_pixels": 201816,
+                "degraded_pixels": 244648
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.035236780507693674,
+                  "sparse_vs_dense_rms": 0.03523677943803859,
+                  "norm_matching_scale": 2.5649477631140583
+                },
+                {
+                  "restored_vs_dense_rms": 0.033663695530476545,
+                  "sparse_vs_dense_rms": 0.03366369452686484,
+                  "norm_matching_scale": 2.4440750380896383
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 179346.60176459563,
+                "GT_EPE": 0.40170450868288515,
+                "flow_change_sum": 16441.736903843983,
+                "mean_flow_change": 0.03682656810816546,
+                "flow_change_squared_sum": 5049.962976390174,
+                "rms_flow_change": 0.10635327651093995,
+                "improved_pixels": 202317,
+                "degraded_pixels": 244147
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        }
+      }
+    },
+    {
+      "scene": "bamboo_1",
+      "first_frame": "frame_0025.png",
+      "render_pass": "final",
+      "arrays": "bamboo_1.npz",
+      "context_arrays": "contexts_bamboo_1.npz",
+      "dense_task": {
+        "valid_pixels": 446464,
+        "epe_sum": 158957.69906473777,
+        "GT_EPE": 0.35603699080942197,
+        "flow_change_sum": 0.0,
+        "mean_flow_change": 0.0,
+        "flow_change_squared_sum": 0.0,
+        "rms_flow_change": 0.0,
+        "improved_pixels": 0,
+        "degraded_pixels": 0
+      },
+      "layouts": {
+        "dispersed32": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.01372538939673425,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0014923741567270566,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01360830370853183,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.17797028110445642,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.013725389427379676
+              },
+              "clustered16": {
+                "full_rms": 0.021285207053366634,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0037635337636829132,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.020859868964943306,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.44849692621866505,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.021285207062927435
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.013647830587169951,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0014779513670356865,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.013529129395874926,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.1766177907680915,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.013647830587429358
+              },
+              "clustered16": {
+                "full_rms": 0.021875662082123066,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0037053827240418223,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.021462095831036098,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.4420364451676203,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.021875662072232887
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 158956.45894065377,
+                "GT_EPE": 0.3560342131519087,
+                "flow_change_sum": 5732.511603832806,
+                "mean_flow_change": 0.012839807025499942,
+                "flow_change_squared_sum": 458.48241574560495,
+                "rms_flow_change": 0.032045578711722325,
+                "improved_pixels": 222525,
+                "degraded_pixels": 223939
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 159008.99189967217,
+                "GT_EPE": 0.356151877642256,
+                "flow_change_sum": 5487.749949864697,
+                "mean_flow_change": 0.01229158442755675,
+                "flow_change_squared_sum": 394.4659708937669,
+                "rms_flow_change": 0.029724294063458816,
+                "improved_pixels": 223380,
+                "degraded_pixels": 223084
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.013600503974145233,
+                  "sparse_vs_dense_rms": 0.01371905583857001,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.01353562548191935,
+                  "sparse_vs_dense_rms": 0.013651573040695584,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 159090.53675542524,
+                "GT_EPE": 0.3563345236243577,
+                "flow_change_sum": 4422.354763255371,
+                "mean_flow_change": 0.009905288585989847,
+                "flow_change_squared_sum": 339.23051526766216,
+                "rms_flow_change": 0.027564761112649293,
+                "improved_pixels": 213084,
+                "degraded_pixels": 233380
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.0014808783528571369,
+                  "sparse_vs_dense_rms": 0.01371905583857001,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.0014736884534073977,
+                  "sparse_vs_dense_rms": 0.01351608030140717,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 158462.2734387711,
+                "GT_EPE": 0.354927325470298,
+                "flow_change_sum": 11662.112505792493,
+                "mean_flow_change": 0.026121059045729315,
+                "flow_change_squared_sum": 8049.041870863573,
+                "rms_flow_change": 0.13426996333909066,
+                "improved_pixels": 214054,
+                "degraded_pixels": 232410
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.013719056119242705,
+                  "sparse_vs_dense_rms": 0.01371905583857001,
+                  "norm_matching_scale": 9.264134229594962
+                },
+                {
+                  "restored_vs_dense_rms": 0.013549047145908882,
+                  "sparse_vs_dense_rms": 0.013549047818464987,
+                  "norm_matching_scale": 8.167505653163722
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 159175.36112505174,
+                "GT_EPE": 0.3565245151345948,
+                "flow_change_sum": 4290.619812741269,
+                "mean_flow_change": 0.009610225713027857,
+                "flow_change_squared_sum": 353.6031911213048,
+                "rms_flow_change": 0.02814264192170814,
+                "improved_pixels": 213783,
+                "degraded_pixels": 232681
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        },
+        "clustered16": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.013834067658044008,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0014776883306748907,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01372340561611337,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.17618638801222475,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.013834067659345858
+              },
+              "clustered16": {
+                "full_rms": 0.02279420578122208,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0038239018031422842,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.022387992242598572,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.4557039478832204,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.022794205778932874
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.013627921552560072,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.00151171569493216,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.013506512181853891,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.18073664893084773,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.013627921551007395
+              },
+              "clustered16": {
+                "full_rms": 0.02309499546252762,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0038230385850569325,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.02268243235875444,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 0.456307314500014,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.02309499544721266
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 158449.1669266668,
+                "GT_EPE": 0.3548979692128969,
+                "flow_change_sum": 17441.53657973411,
+                "mean_flow_change": 0.039065941665473836,
+                "flow_change_squared_sum": 7396.423418441762,
+                "rms_flow_change": 0.1287115912654437,
+                "improved_pixels": 214324,
+                "degraded_pixels": 232140
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 158484.7480711129,
+                "GT_EPE": 0.3549776646518261,
+                "flow_change_sum": 16436.930995932595,
+                "mean_flow_change": 0.036815803728705104,
+                "flow_change_squared_sum": 5847.641703438725,
+                "rms_flow_change": 0.11444508719896165,
+                "improved_pixels": 215452,
+                "degraded_pixels": 231012
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.02271377086403057,
+                  "sparse_vs_dense_rms": 0.023126405208604386,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.02261515924890548,
+                  "sparse_vs_dense_rms": 0.023020974021445893,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 158293.5218116585,
+                "GT_EPE": 0.35454935182155445,
+                "flow_change_sum": 12745.260347542648,
+                "mean_flow_change": 0.028547117679236508,
+                "flow_change_squared_sum": 5159.225443526797,
+                "rms_flow_change": 0.1074976647622838,
+                "improved_pixels": 226118,
+                "degraded_pixels": 220346
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.003822880623360347,
+                  "sparse_vs_dense_rms": 0.023126405208604386,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.003773632327633183,
+                  "sparse_vs_dense_rms": 0.02193277047412606,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 157349.09429593754,
+                "GT_EPE": 0.3524340020604966,
+                "flow_change_sum": 22357.380818166064,
+                "mean_flow_change": 0.05007655895697316,
+                "flow_change_squared_sum": 32556.218395687385,
+                "rms_flow_change": 0.27003729791243597,
+                "improved_pixels": 216902,
+                "degraded_pixels": 229562
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.023126405046248424,
+                  "sparse_vs_dense_rms": 0.023126405208604386,
+                  "norm_matching_scale": 6.049470932282491
+                },
+                {
+                  "restored_vs_dense_rms": 0.022432226061719077,
+                  "sparse_vs_dense_rms": 0.022432226369348544,
+                  "norm_matching_scale": 5.512630066477094
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 158456.0420606752,
+                "GT_EPE": 0.35491336829100484,
+                "flow_change_sum": 12065.878559449182,
+                "mean_flow_change": 0.027025423235578192,
+                "flow_change_squared_sum": 4000.0717289275376,
+                "rms_flow_change": 0.09465436942304033,
+                "improved_pixels": 225898,
+                "degraded_pixels": 220566
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        }
+      }
+    },
+    {
+      "scene": "market_5",
+      "first_frame": "frame_0025.png",
+      "render_pass": "final",
+      "arrays": "market_5.npz",
+      "context_arrays": "contexts_market_5.npz",
+      "dense_task": {
+        "valid_pixels": 446464,
+        "epe_sum": 3843121.8141697254,
+        "GT_EPE": 8.607909740023217,
+        "flow_change_sum": 0.0,
+        "mean_flow_change": 0.0,
+        "flow_change_squared_sum": 0.0,
+        "rms_flow_change": 0.0,
+        "improved_pixels": 0,
+        "degraded_pixels": 0
+      },
+      "layouts": {
+        "dispersed32": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.020472893365979617,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.009402981541084305,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01812853904484592,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.1117090947720631,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.020472893453158735
+              },
+              "clustered16": {
+                "full_rms": 0.05430896248430049,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.04192339450115939,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03500857508082672,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 4.867339550244078,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.05430896259489055
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.020551599945007656,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.010625099278579714,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01744325524008667,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.2637745165502134,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.02055160003396951
+              },
+              "clustered16": {
+                "full_rms": 0.05743985007852428,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.045521834883045224,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.034791023199780634,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 5.342327106494071,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.05743985049154133
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3637666.8230295065,
+                "GT_EPE": 8.147727079965028,
+                "flow_change_sum": 770936.5357768937,
+                "mean_flow_change": 1.7267608044028044,
+                "flow_change_squared_sum": 23402009.76836932,
+                "rms_flow_change": 7.239913129329427,
+                "improved_pixels": 218561,
+                "degraded_pixels": 227903
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3628492.998935788,
+                "GT_EPE": 8.127179344663373,
+                "flow_change_sum": 773876.0926890594,
+                "mean_flow_change": 1.7333448893730725,
+                "flow_change_squared_sum": 23550003.248269204,
+                "rms_flow_change": 7.262769527462087,
+                "improved_pixels": 218288,
+                "degraded_pixels": 228176
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.01727484265791791,
+                  "sparse_vs_dense_rms": 0.01965897842386206,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.017422510508113002,
+                  "sparse_vs_dense_rms": 0.02046962759543931,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3652874.3440527553,
+                "GT_EPE": 8.181789223885364,
+                "flow_change_sum": 767592.638126133,
+                "mean_flow_change": 1.7192710680505774,
+                "flow_change_squared_sum": 23458840.574300487,
+                "rms_flow_change": 7.248698712439104,
+                "improved_pixels": 215504,
+                "degraded_pixels": 230960
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.00915813164438906,
+                  "sparse_vs_dense_rms": 0.01965897842386206,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.01062616194238483,
+                  "sparse_vs_dense_rms": 0.020562344791119028,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3659472.968169666,
+                "GT_EPE": 8.196568968986673,
+                "flow_change_sum": 769515.136167549,
+                "mean_flow_change": 1.723577121934913,
+                "flow_change_squared_sum": 23417789.249435656,
+                "rms_flow_change": 7.242353578291124,
+                "improved_pixels": 215298,
+                "degraded_pixels": 231166
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.01965897862018407,
+                  "sparse_vs_dense_rms": 0.01965897842386206,
+                  "norm_matching_scale": 2.1466145265455525
+                },
+                {
+                  "restored_vs_dense_rms": 0.020657158839810334,
+                  "sparse_vs_dense_rms": 0.020657158458321574,
+                  "norm_matching_scale": 1.9186471499179552
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3641457.927723047,
+                "GT_EPE": 8.156218480601005,
+                "flow_change_sum": 772109.0160776385,
+                "mean_flow_change": 1.7293869518654101,
+                "flow_change_squared_sum": 23701851.25464729,
+                "rms_flow_change": 7.286146701239783,
+                "improved_pixels": 214699,
+                "degraded_pixels": 231765
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        },
+        "clustered16": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.020381522819797108,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.009319498763478817,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01801715995164099,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.1017810640580221,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.020381522782290138
+              },
+              "clustered16": {
+                "full_rms": 0.05585440429759153,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.042512755663163065,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03651034476217856,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 4.945568296435706,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.05585440404058642
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.020005342162274165,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.009931473613371693,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.017206584860270924,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.1712484541247448,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.020005342303363434
+              },
+              "clustered16": {
+                "full_rms": 0.05673029612280358,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.04426596260998338,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03520000323616623,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 5.177561916757347,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.05673029628742519
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3813462.760787562,
+                "GT_EPE": 8.541478732411935,
+                "flow_change_sum": 842506.0584292042,
+                "mean_flow_change": 1.8870638134971782,
+                "flow_change_squared_sum": 19936725.467604693,
+                "rms_flow_change": 6.682418817221516,
+                "improved_pixels": 196119,
+                "degraded_pixels": 250345
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3750271.4776173877,
+                "GT_EPE": 8.399941490506261,
+                "flow_change_sum": 849192.2981970583,
+                "mean_flow_change": 1.9020398020827172,
+                "flow_change_squared_sum": 20783884.230281882,
+                "rms_flow_change": 6.822917725778321,
+                "improved_pixels": 195341,
+                "degraded_pixels": 251123
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.03603878509023527,
+                  "sparse_vs_dense_rms": 0.05937102844597657,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.03527685971032393,
+                  "sparse_vs_dense_rms": 0.05575086676500043,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3805588.8057805705,
+                "GT_EPE": 8.523842472809836,
+                "flow_change_sum": 762601.3802428549,
+                "mean_flow_change": 1.708091537599571,
+                "flow_change_squared_sum": 17335130.14077557,
+                "rms_flow_change": 6.231180478544597,
+                "improved_pixels": 202485,
+                "degraded_pixels": 243979
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.046961936015104545,
+                  "sparse_vs_dense_rms": 0.05937102844597657,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.04416133037621469,
+                  "sparse_vs_dense_rms": 0.05610260023043205,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3821596.218125633,
+                "GT_EPE": 8.559696231108518,
+                "flow_change_sum": 760090.014455975,
+                "mean_flow_change": 1.7024665246379889,
+                "flow_change_squared_sum": 17135754.750224527,
+                "rms_flow_change": 6.195243717626765,
+                "improved_pixels": 202891,
+                "degraded_pixels": 243573
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.05937103055012136,
+                  "sparse_vs_dense_rms": 0.05937102844597657,
+                  "norm_matching_scale": 1.2642372415583725
+                },
+                {
+                  "restored_vs_dense_rms": 0.05634604177780583,
+                  "sparse_vs_dense_rms": 0.056346040149576,
+                  "norm_matching_scale": 1.2653517364913907
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 3747637.9076405913,
+                "GT_EPE": 8.394042761881341,
+                "flow_change_sum": 763719.9968720834,
+                "mean_flow_change": 1.7105970400123713,
+                "flow_change_squared_sum": 17916944.209234234,
+                "rms_flow_change": 6.33488518055044,
+                "improved_pixels": 204334,
+                "degraded_pixels": 242130
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        }
+      }
+    },
+    {
+      "scene": "temple_3",
+      "first_frame": "frame_0025.png",
+      "render_pass": "final",
+      "arrays": "temple_3.npz",
+      "context_arrays": "contexts_temple_3.npz",
+      "dense_task": {
+        "valid_pixels": 446464,
+        "epe_sum": 1923162.6559720747,
+        "GT_EPE": 4.3075425028044245,
+        "flow_change_sum": 0.0,
+        "mean_flow_change": 0.0,
+        "flow_change_squared_sum": 0.0,
+        "rms_flow_change": 0.0,
+        "improved_pixels": 0,
+        "degraded_pixels": 0
+      },
+      "layouts": {
+        "dispersed32": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.023544176897275327,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.013114925055335382,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01931048939184244,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.5177955679709276,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.02354417688405112
+              },
+              "clustered16": {
+                "full_rms": 0.047723767091719105,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.0323421166184291,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.034444010726008875,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 3.7730604615295604,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.047723767105285385
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.023725895499099404,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.013422013695556742,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01925551061856761,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.5542821444426282,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.02372589546887988
+              },
+              "clustered16": {
+                "full_rms": 0.048319754308051924,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.03261267324234701,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03505047383051146,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 3.802500279137183,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.04831975423123557
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1915059.8945612821,
+                "GT_EPE": 4.289393757528675,
+                "flow_change_sum": 125915.92083811625,
+                "mean_flow_change": 0.2820292808336534,
+                "flow_change_squared_sum": 1055687.624297365,
+                "rms_flow_change": 1.537710189707273,
+                "improved_pixels": 203864,
+                "degraded_pixels": 242600
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1915123.7969722382,
+                "GT_EPE": 4.289536887570416,
+                "flow_change_sum": 125093.89958840892,
+                "mean_flow_change": 0.2801880993504715,
+                "flow_change_squared_sum": 1074883.3730455833,
+                "rms_flow_change": 1.5516274335797298,
+                "improved_pixels": 203387,
+                "degraded_pixels": 243077
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.019273252486105254,
+                  "sparse_vs_dense_rms": 0.023720919590497463,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.019229272232485637,
+                  "sparse_vs_dense_rms": 0.023658971998454813,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1914378.6523629206,
+                "GT_EPE": 4.287867896096708,
+                "flow_change_sum": 122139.62298107808,
+                "mean_flow_change": 0.27357104487949324,
+                "flow_change_squared_sum": 1030567.4975914469,
+                "rms_flow_change": 1.5193051072343755,
+                "improved_pixels": 201400,
+                "degraded_pixels": 245064
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.013398503722875583,
+                  "sparse_vs_dense_rms": 0.023720919590497463,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.013418903742364765,
+                  "sparse_vs_dense_rms": 0.023686285898107163,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1914500.565552743,
+                "GT_EPE": 4.288140959971561,
+                "flow_change_sum": 124342.94860852868,
+                "mean_flow_change": 0.2785061026387988,
+                "flow_change_squared_sum": 1015819.3216822058,
+                "rms_flow_change": 1.508394748185584,
+                "improved_pixels": 200884,
+                "degraded_pixels": 245580
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.023720919115988347,
+                  "sparse_vs_dense_rms": 0.023720919590497463,
+                  "norm_matching_scale": 1.7704155688667065
+                },
+                {
+                  "restored_vs_dense_rms": 0.023737397449634327,
+                  "sparse_vs_dense_rms": 0.023737398082366294,
+                  "norm_matching_scale": 1.7588112671129705
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1914594.5908824096,
+                "GT_EPE": 4.288351559996796,
+                "flow_change_sum": 121658.72155845558,
+                "mean_flow_change": 0.2724939111741497,
+                "flow_change_squared_sum": 1055642.3104964853,
+                "rms_flow_change": 1.537677187406459,
+                "improved_pixels": 201881,
+                "degraded_pixels": 244583
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        },
+        "clustered16": {
+          "comparisons": {
+            "6": {
+              "dispersed32": {
+                "full_rms": 0.023662246824531132,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.01309365391087027,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.019396932499997084,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.516588726513899,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.02366224686527246
+              },
+              "clustered16": {
+                "full_rms": 0.05041691283141857,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.033321696460174494,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.0371787308478071,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 3.889743253468868,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.05041691298822372
+              }
+            },
+            "12": {
+              "dispersed32": {
+                "full_rms": 0.02383415667488872,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.013529703601362393,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.01928855288314963,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 1.5659185532798274,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.023834156518076924
+              },
+              "clustered16": {
+                "full_rms": 0.050637290893722854,
+                "full_dimension": 128,
+                "explicit_motion_rms": 0.033264704482292476,
+                "explicit_motion_dimension": 128,
+                "learned_matching_rms": 0.03766320671364284,
+                "learned_matching_dimension": 128,
+                "motion_pixels_rms": 3.8782213276822546,
+                "motion_pixels_dimension": 2,
+                "native_vs_direct_max_abs_error": 0.0,
+                "actual_aggregation_rms": 0.05063729075314596
+              }
+            }
+          },
+          "interventions": {
+            "sparse": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1947469.7281422636,
+                "GT_EPE": 4.36198602382782,
+                "flow_change_sum": 267915.46106938546,
+                "mean_flow_change": 0.6000830102077334,
+                "flow_change_squared_sum": 1922766.121365825,
+                "rms_flow_change": 2.075248017893611,
+                "improved_pixels": 204076,
+                "degraded_pixels": 242388
+              },
+              "local_restoration": []
+            },
+            "restore_motion": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1943923.6952569475,
+                "GT_EPE": 4.35404354048019,
+                "flow_change_sum": 260566.4680306403,
+                "mean_flow_change": 0.5836225721013123,
+                "flow_change_squared_sum": 1810519.0487459586,
+                "rms_flow_change": 2.013762857259381,
+                "improved_pixels": 203539,
+                "degraded_pixels": 242925
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.037210307548273376,
+                  "sparse_vs_dense_rms": 0.05029154430552957,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.03755493621886971,
+                  "sparse_vs_dense_rms": 0.05046454952679763,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "restore_matching": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1949949.3381228521,
+                "GT_EPE": 4.367539909427976,
+                "flow_change_sum": 239526.5055673807,
+                "mean_flow_change": 0.5364967960851954,
+                "flow_change_squared_sum": 1979472.1399303146,
+                "rms_flow_change": 2.105627160190274,
+                "improved_pixels": 197928,
+                "degraded_pixels": 248536
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.03326581987748466,
+                  "sparse_vs_dense_rms": 0.05029154430552957,
+                  "norm_matching_scale": 1.0
+                },
+                {
+                  "restored_vs_dense_rms": 0.03319978861160803,
+                  "sparse_vs_dense_rms": 0.049085404622278374,
+                  "norm_matching_scale": 1.0
+                }
+              ]
+            },
+            "matching_norm_matched": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1952691.2102114542,
+                "GT_EPE": 4.373681215532392,
+                "flow_change_sum": 245250.9155097366,
+                "mean_flow_change": 0.549318456829076,
+                "flow_change_squared_sum": 2049715.0215384357,
+                "rms_flow_change": 2.142661267372852,
+                "improved_pixels": 197636,
+                "degraded_pixels": 248828
+              },
+              "local_restoration": [
+                {
+                  "restored_vs_dense_rms": 0.05029154563038883,
+                  "sparse_vs_dense_rms": 0.05029154430552957,
+                  "norm_matching_scale": 1.5118083513573177
+                },
+                {
+                  "restored_vs_dense_rms": 0.04917931445480503,
+                  "sparse_vs_dense_rms": 0.049179312871356864,
+                  "norm_matching_scale": 1.476846648701093
+                }
+              ]
+            },
+            "restore_aggregation": {
+              "task": {
+                "valid_pixels": 446464,
+                "epe_sum": 1945634.9217912245,
+                "GT_EPE": 4.357876383742529,
+                "flow_change_sum": 230704.8404722339,
+                "mean_flow_change": 0.5167378343432705,
+                "flow_change_squared_sum": 1854823.3456133867,
+                "rms_flow_change": 2.0382528290352306,
+                "improved_pixels": 197789,
+                "degraded_pixels": 248675
+              },
+              "local_restoration": []
+            }
+          },
+          "replay_max_abs_error": {
+            "low_resolution": 0.0,
+            "prediction": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "seed": 42,
+  "k": 14,
+  "total_updates": 12,
+  "restored_updates": [
+    11,
+    12
+  ],
+  "diagnostic_updates": [
+    6,
+    12
+  ],
+  "capacity_limit": 2048,
+  "actual_capacity": 1760,
+  "groups": 4,
+  "precision": "FP32",
+  "cudnn_allow_tf32": false,
+  "cudnn_deterministic": false,
+  "matmul_allow_tf32": false,
+  "complete_declared_pairs": true
+}

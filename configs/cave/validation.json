@@ -1,0 +1,24 @@
+{
+  "case": "cave",
+  "expected_samples": 11,
+  "seed": 42,
+  "threads": 4,
+  "data_root": "datasets/cave",
+  "weights": "weights/fusformer/cave.pth",
+  "source": "third_party/sources/fusformer_cave",
+  "execution": {
+    "cudnn_allow_tf32": false,
+    "cudnn_deterministic": true
+  },
+  "timing": {
+    "warmup": 2,
+    "repeats": 5,
+    "rounds": 3
+  },
+  "timer": "cuda_event",
+  "dense_backend": "indexed",
+  "timing_scope": "complete task-model forward on preloaded GPU inputs",
+  "precision": "FP32",
+  "timing_summary": "median_weighted_round_medians",
+  "speedup_summary": "ratio_of_reported_latencies"
+}

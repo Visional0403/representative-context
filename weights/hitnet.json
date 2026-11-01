@@ -1,0 +1,18 @@
+{
+  "case": "hitnet",
+  "dataset": "CHAMELEON",
+  "path": "hitnet/hitnet.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "HUuxiaobin/HitNet",
+    "revision": "2ffd660f5b72c31daee998a35574cd82ae476c37",
+    "subdirectory": "",
+    "include": [
+      "lib",
+      "README.md"
+    ]
+  },
+  "weights_url": "https://huggingface.co/stablediffusionuser/hitnet/resolve/b9adfd179eddbdd580924a1c1a252de89adf2f82/Net_epoch_best.pth",
+  "weight_revision": "b9adfd179eddbdd580924a1c1a252de89adf2f82",
+  "upstream_filename": "Net_epoch_best.pth"
+}

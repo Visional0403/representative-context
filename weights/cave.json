@@ -1,0 +1,17 @@
+{
+  "case": "cave",
+  "path": "fusformer/cave.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "J-FHu/Fusformer",
+    "revision": "b075443ec51b958c6ae0f3cfc01eaf3a15ea7257",
+    "subdirectory": "",
+    "include": [
+      "model.py",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "weights_url": "https://raw.githubusercontent.com/J-FHu/Fusformer/b075443ec51b958c6ae0f3cfc01eaf3a15ea7257/Trained_model/1000.pth",
+  "upstream_filename": "1000.pth"
+}

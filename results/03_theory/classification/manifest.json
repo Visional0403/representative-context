@@ -1,0 +1,70 @@
+{
+  "model": "SegFormer-B0",
+  "dataset": "UAVid validation",
+  "classes": 8,
+  "statistical_unit": "sampled pixel within a fixed validation window",
+  "windows": [
+    {
+      "window_index": 0,
+      "path": "uavid_window_000.npz",
+      "image": "val/seq16/Images/000000.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "sampled_pixels": 8192,
+      "sampling_seed": 20261005
+    },
+    {
+      "window_index": 17,
+      "path": "uavid_window_017.npz",
+      "image": "val/seq17/Images/000700.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "sampled_pixels": 8192,
+      "sampling_seed": 20261022
+    },
+    {
+      "window_index": 34,
+      "path": "uavid_window_034.npz",
+      "image": "val/seq19/Images/000400.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "sampled_pixels": 8192,
+      "sampling_seed": 20261039
+    },
+    {
+      "window_index": 51,
+      "path": "uavid_window_051.npz",
+      "image": "val/seq36/Images/000100.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "sampled_pixels": 8192,
+      "sampling_seed": 20261056
+    },
+    {
+      "window_index": 69,
+      "path": "uavid_window_069.npz",
+      "image": "val/seq37/Images/000900.png",
+      "top_left": [
+        112,
+        1024
+      ],
+      "sampled_pixels": 8192,
+      "sampling_seed": 20261074
+    }
+  ],
+  "total_sampled_pixels": 40960,
+  "layout": "dispersed32",
+  "window_size": 2048,
+  "k": 14,
+  "inference_seed": 42,
+  "precision": "FP32",
+  "cudnn_allow_tf32": false
+}

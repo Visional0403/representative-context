@@ -1,0 +1,477 @@
+{
+  "case": "segformer_uavid",
+  "checkpoint": "weights/segformer/segformer_b0_uavid.pth",
+  "data_root": "datasets/UAVid",
+  "expected_images": 70,
+  "protocol": {
+    "coordinates": "pixel",
+    "center": "(size-1)/2",
+    "sigma": "size/4",
+    "normalization": "positive_weight_sum",
+    "seed": 42,
+    "threads": 4,
+    "precision": "float32",
+    "fusion": "logits"
+  },
+  "configurations": [
+    {
+      "id": "allocation_no_density_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "capacities": [
+        205,
+        98,
+        49,
+        26
+      ],
+      "result": "results/segformer_uavid/evaluations/allocation_no_density_2048_k14.json"
+    },
+    {
+      "id": "allocation_no_density_2048_k16",
+      "window_size": 2048,
+      "k": 16,
+      "capacities": [
+        820,
+        373,
+        216,
+        106
+      ],
+      "result": "results/segformer_uavid/evaluations/allocation_no_density_2048_k16.json"
+    },
+    {
+      "id": "allocation_uniform_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "capacities": [
+        142,
+        137,
+        142,
+        147
+      ],
+      "result": "results/segformer_uavid/evaluations/allocation_uniform_2048_k14.json"
+    },
+    {
+      "id": "allocation_uniform_2048_k16",
+      "window_size": 2048,
+      "k": 16,
+      "capacities": [
+        586,
+        512,
+        586,
+        512
+      ],
+      "result": "results/segformer_uavid/evaluations/allocation_uniform_2048_k16.json"
+    },
+    {
+      "id": "balanced_random_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "balanced_random",
+      "result": "results/segformer_uavid/evaluations/balanced_random_2048_k13.json"
+    },
+    {
+      "id": "balanced_random_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "balanced_random",
+      "result": "results/segformer_uavid/evaluations/balanced_random_2048_k14.json"
+    },
+    {
+      "id": "balanced_random_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "balanced_random",
+      "result": "results/segformer_uavid/evaluations/balanced_random_2048_k15.json"
+    },
+    {
+      "id": "clustered16_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "clustered16",
+      "result": "results/segformer_uavid/evaluations/clustered16_2048_k13.json"
+    },
+    {
+      "id": "clustered16_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "clustered16",
+      "result": "results/segformer_uavid/evaluations/clustered16_2048_k14.json"
+    },
+    {
+      "id": "clustered16_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "clustered16",
+      "result": "results/segformer_uavid/evaluations/clustered16_2048_k15.json"
+    },
+    {
+      "id": "clustered1_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "clustered1",
+      "result": "results/segformer_uavid/evaluations/clustered1_2048_k13.json"
+    },
+    {
+      "id": "clustered1_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "clustered1",
+      "result": "results/segformer_uavid/evaluations/clustered1_2048_k14.json"
+    },
+    {
+      "id": "clustered1_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "clustered1",
+      "result": "results/segformer_uavid/evaluations/clustered1_2048_k15.json"
+    },
+    {
+      "id": "controlled_cluster1_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "cluster": 1,
+      "result": "results/segformer_uavid/evaluations/controlled_cluster1_2048_k14.json"
+    },
+    {
+      "id": "controlled_cluster2_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "cluster": 2,
+      "result": "results/segformer_uavid/evaluations/controlled_cluster2_2048_k14.json"
+    },
+    {
+      "id": "controlled_cluster4_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "cluster": 4,
+      "result": "results/segformer_uavid/evaluations/controlled_cluster4_2048_k14.json"
+    },
+    {
+      "id": "dense_1024",
+      "window_size": 1024,
+      "dense": true,
+      "result": "results/segformer_uavid/evaluations/dense_1024.json"
+    },
+    {
+      "id": "dense_2048",
+      "window_size": 2048,
+      "dense": true,
+      "result": "results/segformer_uavid/evaluations/dense_2048.json"
+    },
+    {
+      "id": "dispersed16_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "dispersed16",
+      "result": "results/segformer_uavid/evaluations/dispersed16_2048_k13.json"
+    },
+    {
+      "id": "dispersed16_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "dispersed16",
+      "result": "results/segformer_uavid/evaluations/dispersed16_2048_k14.json"
+    },
+    {
+      "id": "dispersed16_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "dispersed16",
+      "result": "results/segformer_uavid/evaluations/dispersed16_2048_k15.json"
+    },
+    {
+      "id": "dispersed32_1024_k12",
+      "window_size": 1024,
+      "k": 12,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_1024_k12.json"
+    },
+    {
+      "id": "dispersed32_1024_k13",
+      "window_size": 1024,
+      "k": 13,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_1024_k13.json"
+    },
+    {
+      "id": "dispersed32_1024_k14",
+      "window_size": 1024,
+      "k": 14,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_1024_k14.json"
+    },
+    {
+      "id": "dispersed32_1024_k15",
+      "window_size": 1024,
+      "k": 15,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_1024_k15.json"
+    },
+    {
+      "id": "dispersed32_1024_k16",
+      "window_size": 1024,
+      "k": 16,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_1024_k16.json"
+    },
+    {
+      "id": "dispersed32_1024_k17",
+      "window_size": 1024,
+      "k": 17,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_1024_k17.json"
+    },
+    {
+      "id": "dispersed32_2048_k12",
+      "window_size": 2048,
+      "k": 12,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_2048_k12.json"
+    },
+    {
+      "id": "dispersed32_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_2048_k13.json"
+    },
+    {
+      "id": "dispersed32_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_2048_k14.json"
+    },
+    {
+      "id": "dispersed32_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_2048_k15.json"
+    },
+    {
+      "id": "dispersed32_2048_k16",
+      "window_size": 2048,
+      "k": 16,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_2048_k16.json"
+    },
+    {
+      "id": "dispersed32_2048_k17",
+      "window_size": 2048,
+      "k": 17,
+      "pattern": "dispersed32",
+      "result": "results/segformer_uavid/evaluations/dispersed32_2048_k17.json"
+    },
+    {
+      "id": "dispersed64_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "dispersed64",
+      "result": "results/segformer_uavid/evaluations/dispersed64_2048_k13.json"
+    },
+    {
+      "id": "dispersed64_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "dispersed64",
+      "result": "results/segformer_uavid/evaluations/dispersed64_2048_k14.json"
+    },
+    {
+      "id": "dispersed64_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "dispersed64",
+      "result": "results/segformer_uavid/evaluations/dispersed64_2048_k15.json"
+    },
+    {
+      "id": "extent0_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent0",
+      "result": "results/segformer_uavid/evaluations/extent0_2048_k14.json"
+    },
+    {
+      "id": "extent1_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent1",
+      "result": "results/segformer_uavid/evaluations/extent1_2048_k14.json"
+    },
+    {
+      "id": "extent2_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent2",
+      "result": "results/segformer_uavid/evaluations/extent2_2048_k14.json"
+    },
+    {
+      "id": "extent3_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent3",
+      "result": "results/segformer_uavid/evaluations/extent3_2048_k14.json"
+    },
+    {
+      "id": "extent4_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent4",
+      "result": "results/segformer_uavid/evaluations/extent4_2048_k14.json"
+    },
+    {
+      "id": "extent5_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent5",
+      "result": "results/segformer_uavid/evaluations/extent5_2048_k14.json"
+    },
+    {
+      "id": "extent6_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "extent6",
+      "result": "results/segformer_uavid/evaluations/extent6_2048_k14.json"
+    },
+    {
+      "id": "grid_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "pattern": "grid",
+      "result": "results/segformer_uavid/evaluations/grid_2048_k13.json"
+    },
+    {
+      "id": "grid_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "pattern": "grid",
+      "result": "results/segformer_uavid/evaluations/grid_2048_k14.json"
+    },
+    {
+      "id": "grid_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "pattern": "grid",
+      "result": "results/segformer_uavid/evaluations/grid_2048_k15.json"
+    },
+    {
+      "id": "grid_2048_k16",
+      "window_size": 2048,
+      "k": 16,
+      "pattern": "grid",
+      "result": "results/segformer_uavid/evaluations/grid_2048_k16.json"
+    },
+    {
+      "id": "pooled_regions_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "method": "pooled_regions",
+      "result": "results/segformer_uavid/evaluations/pooled_regions_2048_k13.json"
+    },
+    {
+      "id": "pooled_regions_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "method": "pooled_regions",
+      "result": "results/segformer_uavid/evaluations/pooled_regions_2048_k14.json"
+    },
+    {
+      "id": "pooled_regions_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "method": "pooled_regions",
+      "result": "results/segformer_uavid/evaluations/pooled_regions_2048_k15.json"
+    },
+    {
+      "id": "sparge_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "method": "sparge",
+      "result": "results/segformer_uavid/evaluations/sparge_2048_k14.json"
+    },
+    {
+      "id": "sparge_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "method": "sparge",
+      "result": "results/segformer_uavid/evaluations/sparge_2048_k15.json"
+    },
+    {
+      "id": "sparge_2048_k16",
+      "window_size": 2048,
+      "k": 16,
+      "method": "sparge",
+      "result": "results/segformer_uavid/evaluations/sparge_2048_k16.json"
+    },
+    {
+      "id": "sparge_fp32_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "method": "sparge_fp32",
+      "result": "results/segformer_uavid/evaluations/sparge_fp32_2048_k14.json"
+    },
+    {
+      "id": "sparge_fp32_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "method": "sparge_fp32",
+      "result": "results/segformer_uavid/evaluations/sparge_fp32_2048_k15.json"
+    },
+    {
+      "id": "sparge_fp32_2048_k16",
+      "window_size": 2048,
+      "k": 16,
+      "method": "sparge_fp32",
+      "result": "results/segformer_uavid/evaluations/sparge_fp32_2048_k16.json"
+    },
+    {
+      "id": "sparge_quant_full_2048",
+      "window_size": 2048,
+      "k": 14,
+      "method": "sparge_quant_full",
+      "result": "results/segformer_uavid/evaluations/sparge_quant_full_2048.json"
+    },
+    {
+      "id": "topk_exact_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "method": "topk_exact",
+      "result": "results/segformer_uavid/evaluations/topk_exact_2048_k13.json"
+    },
+    {
+      "id": "topk_exact_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "method": "topk_exact",
+      "result": "results/segformer_uavid/evaluations/topk_exact_2048_k14.json"
+    },
+    {
+      "id": "topk_exact_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "method": "topk_exact",
+      "result": "results/segformer_uavid/evaluations/topk_exact_2048_k15.json"
+    },
+    {
+      "id": "topk_proxy8_2048_k13",
+      "window_size": 2048,
+      "k": 13,
+      "method": "topk_proxy8",
+      "result": "results/segformer_uavid/evaluations/topk_proxy8_2048_k13.json"
+    },
+    {
+      "id": "topk_proxy8_2048_k14",
+      "window_size": 2048,
+      "k": 14,
+      "method": "topk_proxy8",
+      "result": "results/segformer_uavid/evaluations/topk_proxy8_2048_k14.json"
+    },
+    {
+      "id": "topk_proxy8_2048_k15",
+      "window_size": 2048,
+      "k": 15,
+      "method": "topk_proxy8",
+      "result": "results/segformer_uavid/evaluations/topk_proxy8_2048_k15.json"
+    }
+  ]
+}

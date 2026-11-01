@@ -1,0 +1,2726 @@
+{
+  "case": "twins_cityscapes",
+  "task": "correlation",
+  "inference_seed": 42,
+  "k": 14,
+  "window_size": 1024,
+  "classes": 19,
+  "statistical_unit": "fixed city window",
+  "windows": [
+    {
+      "index": 133,
+      "scene": "frankfurt",
+      "image": "leftImg8bit/val/frankfurt/frankfurt_000001_032711_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "arrays": "gradient_133.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "capacity": 64,
+          "sampled_queries": 16,
+          "heads": 2,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7651072144508362,
+              "dense_max_relative_change": 2.1634920699398208e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3403262816926607,
+                "1": 0.42525264900119475
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6094733215868473,
+              "dense_max_relative_change": 1.7952923769826157e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3306048230924272,
+                "1": 0.38290481586200936
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.6076276153326035,
+              "dense_max_relative_change": 2.0559876645620534e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3600814430277316,
+                "1": 0.4015039397908765
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.49486537277698517,
+              "dense_max_relative_change": 2.3395710968543426e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31660462376618015,
+                "1": 0.36069190520980465
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.49751633778214455,
+              "dense_max_relative_change": 2.062238309008535e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3566085232742503,
+                "1": 0.38621633945458567
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4274202939122915,
+              "dense_max_relative_change": 1.6901464050533832e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3539482047227854,
+                "1": 0.36268839956843907
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4259174484759569,
+              "dense_max_relative_change": 1.9648335580768617e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3645526698906837,
+                "1": 0.3477963488857529
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.40345533937215805,
+              "dense_max_relative_change": 2.1056592913737404e-07,
+              "aggregation_relative_l2": {
+                "4": 0.37577762076416715,
+                "1": 0.34415567006927544
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.40044284611940384,
+              "dense_max_relative_change": 2.0261467170712422e-07,
+              "aggregation_relative_l2": {
+                "4": 0.33797932788479584,
+                "1": 0.33957571496189615
+              }
+            }
+          ]
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "capacity": 128,
+          "sampled_queries": 16,
+          "heads": 4,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5642865858972073,
+              "dense_max_relative_change": 1.9377445426016493e-07,
+              "aggregation_relative_l2": {
+                "4": 0.41279741976739553,
+                "1": 0.34740920850251344
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.40464503318071365,
+              "dense_max_relative_change": 2.1778343750611384e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3834447189191545,
+                "1": 0.32838220789115785
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4075422175228596,
+              "dense_max_relative_change": 2.0965742919543118e-07,
+              "aggregation_relative_l2": {
+                "4": 0.37090577544383413,
+                "1": 0.35354771131839513
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.29067483358085155,
+              "dense_max_relative_change": 2.0655291166349343e-07,
+              "aggregation_relative_l2": {
+                "4": 0.36941562581253035,
+                "1": 0.3272620078779372
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.2948786113411188,
+              "dense_max_relative_change": 2.174126620957395e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3508605341867437,
+                "1": 0.33402805172340166
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2217170698568225,
+              "dense_max_relative_change": 2.1743645106653275e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34487037188743574,
+                "1": 0.30952793087875413
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.22497255448251963,
+              "dense_max_relative_change": 2.0063683336957183e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3217351300690245,
+                "1": 0.3517139599082474
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.19629834592342377,
+              "dense_max_relative_change": 1.870841401796497e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3404625273473358,
+                "1": 0.316109043950875
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.19839966762810946,
+              "dense_max_relative_change": 2.1433399410852871e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29734146894011193,
+                "1": 0.33511580079825626
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6413260400295258,
+              "dense_max_relative_change": 1.821430544168834e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4101751639814629,
+                "1": 0.34108216244654205
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4579954259097576,
+              "dense_max_relative_change": 1.863982816985299e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3569124940704648,
+                "1": 0.32709088301321637
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4578047189861536,
+              "dense_max_relative_change": 1.8855732264455582e-07,
+              "aggregation_relative_l2": {
+                "4": 0.35638713462828486,
+                "1": 0.31342731060951184
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3223880883306265,
+              "dense_max_relative_change": 1.9306459364543116e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32611158446217453,
+                "1": 0.3268209739637619
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.32386043667793274,
+              "dense_max_relative_change": 1.8750868946426635e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31653146203945176,
+                "1": 0.3035652107693816
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.24007277004420757,
+              "dense_max_relative_change": 1.8913441124368546e-07,
+              "aggregation_relative_l2": {
+                "4": 0.30807376893745286,
+                "1": 0.313994680396197
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.24185784347355366,
+              "dense_max_relative_change": 1.825770965524498e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2960669863323076,
+                "1": 0.3052354841242126
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.21368182450532913,
+              "dense_max_relative_change": 1.9578392596031335e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2929717751558005,
+                "1": 0.3012715646108026
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21200402919203043,
+              "dense_max_relative_change": 1.904303701394383e-07,
+              "aggregation_relative_l2": {
+                "4": 0.28966006969612285,
+                "1": 0.305802876291258
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 3,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6655387841165066,
+              "dense_max_relative_change": 2.5112277057814936e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4420773643384418,
+                "1": 0.30428221812070627
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.46338440477848053,
+              "dense_max_relative_change": 2.854044964806235e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3721314361454847,
+                "1": 0.3009578196910712
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4681975282728672,
+              "dense_max_relative_change": 2.3013024019746808e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3962668082577279,
+                "1": 0.28821146235825984
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.31873900815844536,
+              "dense_max_relative_change": 2.751105796505726e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34603032436330733,
+                "1": 0.30371782510526685
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3221855666488409,
+              "dense_max_relative_change": 2.7682037284648686e-07,
+              "aggregation_relative_l2": {
+                "4": 0.36814403817437574,
+                "1": 0.28721346471529996
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.23404366429895163,
+              "dense_max_relative_change": 2.524190279018512e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3215049048008861,
+                "1": 0.29189607252772365
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23290561698377132,
+              "dense_max_relative_change": 2.483934622432571e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3235742307287295,
+                "1": 0.27854321371081586
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.20356190111488104,
+              "dense_max_relative_change": 2.7050344897361356e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32555734036049666,
+                "1": 0.2891993591085975
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.20512716379016638,
+              "dense_max_relative_change": 2.407407180271548e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3114026452221418,
+                "1": 0.2748752296424497
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 5,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6949789635837078,
+              "dense_max_relative_change": 1.8269912516188924e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4399330390471433,
+                "1": 0.3148369349030146
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.47931348718702793,
+              "dense_max_relative_change": 2.0438211834061804e-07,
+              "aggregation_relative_l2": {
+                "4": 0.37452129639878623,
+                "1": 0.32420042929496445
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4772218279540539,
+              "dense_max_relative_change": 2.013200486317146e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3780066648810411,
+                "1": 0.31363446171536197
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.32490519620478153,
+              "dense_max_relative_change": 1.9607202261795464e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3272475949033144,
+                "1": 0.34474593305612194
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3237150441855192,
+              "dense_max_relative_change": 1.9896663161489414e-07,
+              "aggregation_relative_l2": {
+                "4": 0.343072357100499,
+                "1": 0.3164148745491397
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.23050938174128532,
+              "dense_max_relative_change": 2.042080353703568e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3151353386083434,
+                "1": 0.32511101657360325
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23341303691267967,
+              "dense_max_relative_change": 1.944271019738153e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31654644269961435,
+                "1": 0.30597255486542796
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.19810133054852486,
+              "dense_max_relative_change": 2.22350095668844e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29679805261324466,
+                "1": 0.3192376445296287
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.20232288911938667,
+              "dense_max_relative_change": 2.0651872034704866e-07,
+              "aggregation_relative_l2": {
+                "4": 0.30008223613828067,
+                "1": 0.30931754030594544
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 7,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6978376284241676,
+              "dense_max_relative_change": 2.466079820351297e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3364693517238645,
+                "1": 0.281197149955144
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.48061186261475086,
+              "dense_max_relative_change": 2.9226936248960556e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32603629868220907,
+                "1": 0.2714343976862021
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.47762712463736534,
+              "dense_max_relative_change": 2.3273635463283426e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3031614320641473,
+                "1": 0.2811495115314445
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.31937052123248577,
+              "dense_max_relative_change": 2.4712713297958544e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2968758837924178,
+                "1": 0.2520945882807193
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.32365707121789455,
+              "dense_max_relative_change": 2.2308370262180688e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2826390549660655,
+                "1": 0.2778022679073299
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.22650334984064102,
+              "dense_max_relative_change": 2.4792743147372676e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2758294090462877,
+                "1": 0.2516943844275742
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23232217226177454,
+              "dense_max_relative_change": 2.956061848635727e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2740504318183815,
+                "1": 0.25392834837686157
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.19491986650973558,
+              "dense_max_relative_change": 2.1996463317464077e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2630073480356478,
+                "1": 0.24392709494843112
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.19736517872661352,
+              "dense_max_relative_change": 2.279934960824903e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2681833069664666,
+                "1": 0.2539442776542504
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 9,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7622570469975471,
+              "dense_max_relative_change": 1.8297497206276603e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29000679518566047,
+                "1": 0.2745269016976025
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5515857078135014,
+              "dense_max_relative_change": 2.0976339953904244e-07,
+              "aggregation_relative_l2": {
+                "4": 0.26027854712628373,
+                "1": 0.2154310720259363
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5529800914227962,
+              "dense_max_relative_change": 1.8676917079574196e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2552359487534294,
+                "1": 0.27327006217143696
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.39821253530681133,
+              "dense_max_relative_change": 2.105606569102747e-07,
+              "aggregation_relative_l2": {
+                "4": 0.23574785338687276,
+                "1": 0.22048872585080423
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.39667717553675175,
+              "dense_max_relative_change": 1.9709635523668112e-07,
+              "aggregation_relative_l2": {
+                "4": 0.240900057457129,
+                "1": 0.2786351762846622
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.304804764688015,
+              "dense_max_relative_change": 1.8955039138290886e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2178340847635817,
+                "1": 0.22281551602585795
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.30571985244750977,
+              "dense_max_relative_change": 1.8855924110994238e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29704995951115054,
+                "1": 0.23119996984026359
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2737334184348583,
+              "dense_max_relative_change": 2.1011368289691745e-07,
+              "aggregation_relative_l2": {
+                "4": 0.20190407134978203,
+                "1": 0.22099281223151943
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.27285763062536716,
+              "dense_max_relative_change": 2.0665699196342757e-07,
+              "aggregation_relative_l2": {
+                "4": 0.23371759885635796,
+                "1": 0.2334311506816385
+              }
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "capacity": 512,
+          "sampled_queries": 16,
+          "heads": 16,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7196546010673046,
+              "dense_max_relative_change": 2.65243926378389e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3253016756222532,
+                "1": 0.25816402890987994
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.500391123816371,
+              "dense_max_relative_change": 2.627450044201396e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3097260046799786,
+                "1": 0.26482622506112163
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5039769932627678,
+              "dense_max_relative_change": 2.864626935661363e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29666828226082204,
+                "1": 0.2593560256283493
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.34571537002921104,
+              "dense_max_relative_change": 2.5482793830633454e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2865021034603386,
+                "1": 0.26297287019474874
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3469601757824421,
+              "dense_max_relative_change": 3.3187549774993386e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29089022687443056,
+                "1": 0.2584824262058457
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2505249809473753,
+              "dense_max_relative_change": 2.859497669760458e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2676843789682991,
+                "1": 0.26557261421866235
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.25228119641542435,
+              "dense_max_relative_change": 3.389546066046023e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2852076884460313,
+                "1": 0.2699953566702384
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2187374010682106,
+              "dense_max_relative_change": 2.980784472583764e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2665419067797606,
+                "1": 0.26571127660991706
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21763505320996046,
+              "dense_max_relative_change": 3.219554969291494e-07,
+              "aggregation_relative_l2": {
+                "4": 0.28844160172884514,
+                "1": 0.2843876905149162
+              }
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "capacity": 512,
+          "sampled_queries": 16,
+          "heads": 16,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.8513111285865307,
+              "dense_max_relative_change": 1.8177053107137908e-07,
+              "aggregation_relative_l2": {
+                "4": 0.1114494544840886,
+                "1": 0.07599327118223374
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6430488713085651,
+              "dense_max_relative_change": 1.909678815081861e-07,
+              "aggregation_relative_l2": {
+                "4": 0.08897976576560629,
+                "1": 0.08212251765754254
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.6462920382618904,
+              "dense_max_relative_change": 1.729762146851499e-07,
+              "aggregation_relative_l2": {
+                "4": 0.09856025541780558,
+                "1": 0.08110715385534374
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4936430435627699,
+              "dense_max_relative_change": 1.8053752626201458e-07,
+              "aggregation_relative_l2": {
+                "4": 0.07930408654204928,
+                "1": 0.07834806626301709
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4965693224221468,
+              "dense_max_relative_change": 1.6746795949984516e-07,
+              "aggregation_relative_l2": {
+                "4": 0.09484116717145466,
+                "1": 0.083445334561462
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.40615710243582726,
+              "dense_max_relative_change": 1.6801016045064898e-07,
+              "aggregation_relative_l2": {
+                "4": 0.07593821321565525,
+                "1": 0.08107979844122408
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4098608922213316,
+              "dense_max_relative_change": 1.773529447746114e-07,
+              "aggregation_relative_l2": {
+                "4": 0.08770786365956981,
+                "1": 0.07604442417831021
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3758741058409214,
+              "dense_max_relative_change": 1.7584088141120446e-07,
+              "aggregation_relative_l2": {
+                "4": 0.07576102538538747,
+                "1": 0.06679166641948492
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3796596731990576,
+              "dense_max_relative_change": 1.7325474743756786e-07,
+              "aggregation_relative_l2": {
+                "4": 0.07663614436632595,
+                "1": 0.08071547203129872
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 296,
+      "scene": "lindau",
+      "image": "leftImg8bit/val/lindau/lindau_000029_000019_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "arrays": "gradient_296.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "capacity": 64,
+          "sampled_queries": 16,
+          "heads": 2,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.760469488799572,
+              "dense_max_relative_change": 1.930323776377918e-07,
+              "aggregation_relative_l2": {
+                "4": 0.26691197699631036,
+                "1": 0.19233776781948692
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6142955608665943,
+              "dense_max_relative_change": 1.7665003326783335e-07,
+              "aggregation_relative_l2": {
+                "4": 0.24704598220255297,
+                "1": 0.2177303598926916
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.6109397783875465,
+              "dense_max_relative_change": 1.6132175062466558e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2387781659586403,
+                "1": 0.2052812772275464
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5037585888057947,
+              "dense_max_relative_change": 2.4246520524684456e-07,
+              "aggregation_relative_l2": {
+                "4": 0.20668718126343036,
+                "1": 0.23246139347305128
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5044271182268858,
+              "dense_max_relative_change": 1.8932256296011474e-07,
+              "aggregation_relative_l2": {
+                "4": 0.20763091713572343,
+                "1": 0.20104700934312575
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.43811960332095623,
+              "dense_max_relative_change": 1.747490756542902e-07,
+              "aggregation_relative_l2": {
+                "4": 0.194302769900598,
+                "1": 0.2281963177765157
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.43678269162774086,
+              "dense_max_relative_change": 1.654934180805867e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2129803199905371,
+                "1": 0.19737092076533072
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.41525150649249554,
+              "dense_max_relative_change": 2.3589242914567876e-07,
+              "aggregation_relative_l2": {
+                "4": 0.18165917511729984,
+                "1": 0.2062018420263452
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.415444303303957,
+              "dense_max_relative_change": 1.901912298762909e-07,
+              "aggregation_relative_l2": {
+                "4": 0.20331869300468627,
+                "1": 0.21033068743897326
+              }
+            }
+          ]
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "capacity": 128,
+          "sampled_queries": 16,
+          "heads": 4,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.574977207928896,
+              "dense_max_relative_change": 1.4263099501476972e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3759298982234002,
+                "1": 0.29378900322051904
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4282661955803633,
+              "dense_max_relative_change": 1.5425368360411085e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3450119631412239,
+                "1": 0.3032462544507475
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4310860186815262,
+              "dense_max_relative_change": 1.64609360808754e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3459593720996393,
+                "1": 0.288487630637945
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3216981701552868,
+              "dense_max_relative_change": 1.7057141121767927e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31157194798400834,
+                "1": 0.3122929407441711
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.32398850843310356,
+              "dense_max_relative_change": 1.7599911927845824e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32086792418196275,
+                "1": 0.2786546290179583
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2596776485443115,
+              "dense_max_relative_change": 1.7390277662343578e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3130956442885981,
+                "1": 0.2907564612123488
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.2597140120342374,
+              "dense_max_relative_change": 1.619566916133408e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29408059509360907,
+                "1": 0.2678482683710783
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.23720667697489262,
+              "dense_max_relative_change": 1.8573294369161886e-07,
+              "aggregation_relative_l2": {
+                "4": 0.30376529293558296,
+                "1": 0.29019500969827017
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23759721778333187,
+              "dense_max_relative_change": 1.3560496370246256e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2865046031778785,
+                "1": 0.26838141743742916
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6191959045827389,
+              "dense_max_relative_change": 1.652400811735788e-07,
+              "aggregation_relative_l2": {
+                "4": 0.44187810093422136,
+                "1": 0.3138279231564395
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.44457381404936314,
+              "dense_max_relative_change": 1.8350617381202028e-07,
+              "aggregation_relative_l2": {
+                "4": 0.37455493984128885,
+                "1": 0.2934396811111588
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.44551161117851734,
+              "dense_max_relative_change": 1.8504242405015248e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3692839530314944,
+                "1": 0.2960245585931305
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3188071958720684,
+              "dense_max_relative_change": 1.7372776994761807e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3106341899172234,
+                "1": 0.2715783777370711
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.31470139510929585,
+              "dense_max_relative_change": 1.9543635687568894e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29758328768301884,
+                "1": 0.28269877795702464
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.242494092322886,
+              "dense_max_relative_change": 1.76790962314044e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2725083397689873,
+                "1": 0.2540681500913349
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23946539871394634,
+              "dense_max_relative_change": 1.9077722868132696e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2644503427339363,
+                "1": 0.2660552194604725
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.21583822928369045,
+              "dense_max_relative_change": 1.8760154318897548e-07,
+              "aggregation_relative_l2": {
+                "4": 0.24963003252257854,
+                "1": 0.24828848158290592
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21305021829903126,
+              "dense_max_relative_change": 2.028365742035021e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2493618991720932,
+                "1": 0.2554470026410762
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 3,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6715139523148537,
+              "dense_max_relative_change": 2.367589218010835e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3742252803693505,
+                "1": 0.3046144073250332
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4787037819623947,
+              "dense_max_relative_change": 2.1431193886201072e-07,
+              "aggregation_relative_l2": {
+                "4": 0.33545651538759363,
+                "1": 0.30021855855469687
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4831726308912039,
+              "dense_max_relative_change": 2.2013847456037183e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3427455196329632,
+                "1": 0.2944624287725026
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3388432078063488,
+              "dense_max_relative_change": 2.078485152878784e-07,
+              "aggregation_relative_l2": {
+                "4": 0.30413477091593766,
+                "1": 0.30670940538566815
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.34746882133185863,
+              "dense_max_relative_change": 2.1003853589718346e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3194540707881638,
+                "1": 0.29014605099481355
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.25854338612407446,
+              "dense_max_relative_change": 2.149177618093745e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2929762471037585,
+                "1": 0.30009796198650396
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.2643836885690689,
+              "dense_max_relative_change": 2.0355223284695967e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3023439816099539,
+                "1": 0.2889731918392864
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.23148906975984573,
+              "dense_max_relative_change": 2.2552902123607055e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2959188172654603,
+                "1": 0.29378071777421677
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23413566872477531,
+              "dense_max_relative_change": 2.1342341938179743e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2924808551307943,
+                "1": 0.2935937718593764
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 5,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6796524748206139,
+              "dense_max_relative_change": 2.0980313308882614e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4122881862935479,
+                "1": 0.30435912332840837
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.46799642220139503,
+              "dense_max_relative_change": 2.764352586837049e-07,
+              "aggregation_relative_l2": {
+                "4": 0.36540636384890257,
+                "1": 0.31151779027476634
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4708614144474268,
+              "dense_max_relative_change": 2.621011390147032e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3565024500525604,
+                "1": 0.30326574221769614
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.31814418360590935,
+              "dense_max_relative_change": 2.4989779490169894e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3236900347020189,
+                "1": 0.3128045122725364
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.31852725334465504,
+              "dense_max_relative_change": 2.621471253405616e-07,
+              "aggregation_relative_l2": {
+                "4": 0.325738930788315,
+                "1": 0.3184143901077481
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.22863770090043545,
+              "dense_max_relative_change": 2.530050267068873e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31383430595062517,
+                "1": 0.3049192848011856
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.2308341022580862,
+              "dense_max_relative_change": 2.3300943041704159e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32703163525522566,
+                "1": 0.3235018945079922
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.19645733386278152,
+              "dense_max_relative_change": 2.2085734485699504e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3240112523135504,
+                "1": 0.306287479537629
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.19903925526887178,
+              "dense_max_relative_change": 2.5913755052897613e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32563728099680966,
+                "1": 0.3311993814739413
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 7,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6895217597484589,
+              "dense_max_relative_change": 1.916947809377234e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3495785894902398,
+                "1": 0.27288877095703934
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4839896485209465,
+              "dense_max_relative_change": 2.2220675077733176e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3161171676629403,
+                "1": 0.2780620349072431
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4809419270604849,
+              "dense_max_relative_change": 2.0699343394880998e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34248700104953206,
+                "1": 0.28772991304232354
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3321030307561159,
+              "dense_max_relative_change": 2.2965252810536185e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2962587788862204,
+                "1": 0.27272170018154496
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.33521533757448196,
+              "dense_max_relative_change": 2.1899241176015494e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3219018297182314,
+                "1": 0.2673430467572139
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.24283801577985287,
+              "dense_max_relative_change": 2.281391289216117e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29949798334414446,
+                "1": 0.2698765809660677
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.24609989114105701,
+              "dense_max_relative_change": 2.318401897127842e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31669898314785394,
+                "1": 0.2817880998313498
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2132999999448657,
+              "dense_max_relative_change": 2.3952105721036787e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3014305523153668,
+                "1": 0.276521073442729
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21190156321972609,
+              "dense_max_relative_change": 2.38781012740219e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2853609277031331,
+                "1": 0.29470924674733745
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 9,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7692959755659103,
+              "dense_max_relative_change": 1.8694902337301755e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34295024727166223,
+                "1": 0.2713752845170554
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5743003375828266,
+              "dense_max_relative_change": 1.94872455949735e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3165192603938934,
+                "1": 0.23931429484412736
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5760103389620781,
+              "dense_max_relative_change": 1.9870810774591519e-07,
+              "aggregation_relative_l2": {
+                "4": 0.315918011611645,
+                "1": 0.26521727656187993
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.432050209492445,
+              "dense_max_relative_change": 2.0431582470337162e-07,
+              "aggregation_relative_l2": {
+                "4": 0.28147842203728457,
+                "1": 0.23963884850692313
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.42836882546544075,
+              "dense_max_relative_change": 1.9143426754908432e-07,
+              "aggregation_relative_l2": {
+                "4": 0.274935510600826,
+                "1": 0.2709533622247658
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3442869372665882,
+              "dense_max_relative_change": 2.0278108081583923e-07,
+              "aggregation_relative_l2": {
+                "4": 0.26563749295220607,
+                "1": 0.24897677649544545
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3436513338238001,
+              "dense_max_relative_change": 2.193209667211704e-07,
+              "aggregation_relative_l2": {
+                "4": 0.26786992768681617,
+                "1": 0.28376168447055167
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3139661531895399,
+              "dense_max_relative_change": 2.3064536947003944e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2563778301847151,
+                "1": 0.24133379559001109
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3149130027741194,
+              "dense_max_relative_change": 2.142032116125847e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2498947612300966,
+                "1": 0.2712845896035331
+              }
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "capacity": 512,
+          "sampled_queries": 16,
+          "heads": 16,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7113110311329365,
+              "dense_max_relative_change": 2.2374277364178852e-07,
+              "aggregation_relative_l2": {
+                "4": 0.30421182590542606,
+                "1": 0.2524800158516808
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5005976781249046,
+              "dense_max_relative_change": 2.5281019588874187e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2875792201524209,
+                "1": 0.26515493065758733
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4984543174505234,
+              "dense_max_relative_change": 2.5991420216087135e-07,
+              "aggregation_relative_l2": {
+                "4": 0.27633563303971587,
+                "1": 0.26516329125682203
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.34997392632067204,
+              "dense_max_relative_change": 2.6805062702806026e-07,
+              "aggregation_relative_l2": {
+                "4": 0.276319636377428,
+                "1": 0.2608814161846965
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3461299743503332,
+              "dense_max_relative_change": 2.861939378817624e-07,
+              "aggregation_relative_l2": {
+                "4": 0.256277366198282,
+                "1": 0.26447930368732747
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.25628980714827776,
+              "dense_max_relative_change": 2.5073558163057896e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2610020438776854,
+                "1": 0.2638774410780299
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.254014422185719,
+              "dense_max_relative_change": 2.6772772798722144e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2538726564349059,
+                "1": 0.2749258836846556
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.22248476557433605,
+              "dense_max_relative_change": 2.901929292420391e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2639700397807861,
+                "1": 0.2644985285441334
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.22155327070504427,
+              "dense_max_relative_change": 2.9826341574334947e-07,
+              "aggregation_relative_l2": {
+                "4": 0.26992467204797127,
+                "1": 0.3031050815301803
+              }
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "capacity": 512,
+          "sampled_queries": 16,
+          "heads": 16,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.8643817566335201,
+              "dense_max_relative_change": 1.4581875973362912e-07,
+              "aggregation_relative_l2": {
+                "4": 0.15609862721335693,
+                "1": 0.06895449163089401
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6831190101802349,
+              "dense_max_relative_change": 1.7454776468639466e-07,
+              "aggregation_relative_l2": {
+                "4": 0.12147981260223335,
+                "1": 0.06964410179953971
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.686858806759119,
+              "dense_max_relative_change": 1.583919129188871e-07,
+              "aggregation_relative_l2": {
+                "4": 0.13369392783370732,
+                "1": 0.08040556396165897
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5504821129143238,
+              "dense_max_relative_change": 1.6859749507602828e-07,
+              "aggregation_relative_l2": {
+                "4": 0.09600392251660356,
+                "1": 0.07863586783716922
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5542631596326828,
+              "dense_max_relative_change": 1.7212705927249772e-07,
+              "aggregation_relative_l2": {
+                "4": 0.118505745655825,
+                "1": 0.08720415428925206
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4732766542583704,
+              "dense_max_relative_change": 1.810506518040711e-07,
+              "aggregation_relative_l2": {
+                "4": 0.08594219512250528,
+                "1": 0.0821125104708887
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4757324904203415,
+              "dense_max_relative_change": 1.747825422171445e-07,
+              "aggregation_relative_l2": {
+                "4": 0.08968870530095004,
+                "1": 0.08021521945597027
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4473850317299366,
+              "dense_max_relative_change": 1.596667829062426e-07,
+              "aggregation_relative_l2": {
+                "4": 0.089654800447911,
+                "1": 0.07725749099994839
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4455385636538267,
+              "dense_max_relative_change": 1.9777935733600316e-07,
+              "aggregation_relative_l2": {
+                "4": 0.08401165696537513,
+                "1": 0.07950099525703082
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 413,
+      "scene": "munster",
+      "image": "leftImg8bit/val/munster/munster_000087_000019_leftImg8bit.png",
+      "top_left": [
+        0,
+        768
+      ],
+      "arrays": "gradient_413.npz",
+      "blocks": [
+        {
+          "stage": 0,
+          "block": 1,
+          "capacity": 64,
+          "sampled_queries": 16,
+          "heads": 2,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7113389559090137,
+              "dense_max_relative_change": 2.259485967215369e-07,
+              "aggregation_relative_l2": {
+                "4": 0.5184900598367619,
+                "1": 0.3619574674958013
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5577813237905502,
+              "dense_max_relative_change": 2.2618930017870298e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4644067005972369,
+                "1": 0.3826106121062167
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5582976378500462,
+              "dense_max_relative_change": 2.161401084777026e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4626759148566382,
+                "1": 0.37481943805286383
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4444127678871155,
+              "dense_max_relative_change": 2.2458065984665154e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4208636891420203,
+                "1": 0.40214779857437355
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.44632062315940857,
+              "dense_max_relative_change": 2.1447212361636048e-07,
+              "aggregation_relative_l2": {
+                "4": 0.4481350303496384,
+                "1": 0.4002196233267874
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3735093977302313,
+              "dense_max_relative_change": 2.2114450359822513e-07,
+              "aggregation_relative_l2": {
+                "4": 0.40083332472965516,
+                "1": 0.4235813394485406
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3747948631644249,
+              "dense_max_relative_change": 2.565642205354379e-07,
+              "aggregation_relative_l2": {
+                "4": 0.39753163518118284,
+                "1": 0.38480887028115535
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3507937155663967,
+              "dense_max_relative_change": 2.096822129260545e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3873377937265347,
+                "1": 0.4127221486848183
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3496504072099924,
+              "dense_max_relative_change": 2.0754352192398073e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3825709751313086,
+                "1": 0.3864248251921186
+              }
+            }
+          ]
+        },
+        {
+          "stage": 1,
+          "block": 1,
+          "capacity": 128,
+          "sampled_queries": 16,
+          "heads": 4,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5935761220753193,
+              "dense_max_relative_change": 1.9840391018988157e-07,
+              "aggregation_relative_l2": {
+                "4": 0.43218122420764504,
+                "1": 0.31759330765816435
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.43867392279207706,
+              "dense_max_relative_change": 2.6460867275091005e-07,
+              "aggregation_relative_l2": {
+                "4": 0.38156782781563764,
+                "1": 0.3242053071716816
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.437881113961339,
+              "dense_max_relative_change": 2.527618221392913e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3884545628137673,
+                "1": 0.311342193344193
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3262293338775635,
+              "dense_max_relative_change": 3.179757186444476e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34399845027838855,
+                "1": 0.3257814159236406
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.324740681797266,
+              "dense_max_relative_change": 2.5699677053125924e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3652570511597943,
+                "1": 0.31884115711925615
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2572829397395253,
+              "dense_max_relative_change": 2.990898053667479e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3192600536144438,
+                "1": 0.32558397599187194
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.2574279345571995,
+              "dense_max_relative_change": 1.9665141337554815e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3438682299095015,
+                "1": 0.33366887184967897
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2297122785821557,
+              "dense_max_relative_change": 2.0785034848813666e-07,
+              "aggregation_relative_l2": {
+                "4": 0.32169257992117983,
+                "1": 0.3257731603598959
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23308162856847048,
+              "dense_max_relative_change": 2.1158264473797317e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34575083802133094,
+                "1": 0.32483015245252045
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 1,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6550008989870548,
+              "dense_max_relative_change": 1.9075854140737647e-07,
+              "aggregation_relative_l2": {
+                "4": 0.46414308907360313,
+                "1": 0.3464366660871583
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.47031592577695847,
+              "dense_max_relative_change": 2.24191083475489e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3872609646204462,
+                "1": 0.331528502916642
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.47212309017777443,
+              "dense_max_relative_change": 2.3638531843062083e-07,
+              "aggregation_relative_l2": {
+                "4": 0.39368248671105593,
+                "1": 0.3146645320772141
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.33236613869667053,
+              "dense_max_relative_change": 2.1368275326949515e-07,
+              "aggregation_relative_l2": {
+                "4": 0.34099801303679694,
+                "1": 0.3214324855670021
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3350571859627962,
+              "dense_max_relative_change": 2.2378178243798175e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3384315158159138,
+                "1": 0.3029534471158646
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2512298421934247,
+              "dense_max_relative_change": 2.253384536743397e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29986481668753945,
+                "1": 0.31108210491546556
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.25074278376996517,
+              "dense_max_relative_change": 2.1434630070871208e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2911210465072062,
+                "1": 0.30786732940327427
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.22162679303437471,
+              "dense_max_relative_change": 2.4812243282212876e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3012071514719039,
+                "1": 0.2978426989495089
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.22190003748983145,
+              "dense_max_relative_change": 2.355203179149612e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2801786629698222,
+                "1": 0.2956721193617261
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 3,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.6882346011698246,
+              "dense_max_relative_change": 2.6740019620774547e-07,
+              "aggregation_relative_l2": {
+                "4": 0.33865782174643017,
+                "1": 0.2996019135599469
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.47525656037032604,
+              "dense_max_relative_change": 2.7101552291242115e-07,
+              "aggregation_relative_l2": {
+                "4": 0.303660213993598,
+                "1": 0.28821484753033616
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.47938416339457035,
+              "dense_max_relative_change": 2.3835568185859302e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2910924600033673,
+                "1": 0.28390272721774157
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3219124414026737,
+              "dense_max_relative_change": 2.80992537682323e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2944985189437922,
+                "1": 0.2737694240067906
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3252726327627897,
+              "dense_max_relative_change": 2.421716089884285e-07,
+              "aggregation_relative_l2": {
+                "4": 0.28152886122443793,
+                "1": 0.27292774794365127
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.23252251837402582,
+              "dense_max_relative_change": 2.3614862243448442e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2842782483868143,
+                "1": 0.27131261169289905
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.23162859492003918,
+              "dense_max_relative_change": 2.6420289600537217e-07,
+              "aggregation_relative_l2": {
+                "4": 0.26356088359448465,
+                "1": 0.26757453836077666
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.20197376795113087,
+              "dense_max_relative_change": 2.429993628538796e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2679408333480754,
+                "1": 0.26330147451593694
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.19990941882133484,
+              "dense_max_relative_change": 2.689436939817824e-07,
+              "aggregation_relative_l2": {
+                "4": 0.25228515693577186,
+                "1": 0.2619025796892322
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 5,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.712056115269661,
+              "dense_max_relative_change": 1.6029724747568252e-07,
+              "aggregation_relative_l2": {
+                "4": 0.40169601130177374,
+                "1": 0.31639586351428495
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.49074779264628887,
+              "dense_max_relative_change": 1.9483238133943814e-07,
+              "aggregation_relative_l2": {
+                "4": 0.361554847451629,
+                "1": 0.3209283381625004
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.49311188608407974,
+              "dense_max_relative_change": 2.3622490630259563e-07,
+              "aggregation_relative_l2": {
+                "4": 0.36092589196500185,
+                "1": 0.2997676460503622
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.33230629190802574,
+              "dense_max_relative_change": 2.109449610543379e-07,
+              "aggregation_relative_l2": {
+                "4": 0.3068392602404944,
+                "1": 0.30307086500994784
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3352015782147646,
+              "dense_max_relative_change": 2.143948449884192e-07,
+              "aggregation_relative_l2": {
+                "4": 0.31346566576508883,
+                "1": 0.2957285787692844
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.23882962856441736,
+              "dense_max_relative_change": 2.0336253214736644e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2786460798035576,
+                "1": 0.3083210771839379
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.24347012303769588,
+              "dense_max_relative_change": 1.7689053777303343e-07,
+              "aggregation_relative_l2": {
+                "4": 0.29083495702745166,
+                "1": 0.28925841256371976
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.20561256166547537,
+              "dense_max_relative_change": 2.2013969669387734e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2720795723105948,
+                "1": 0.28988477989937594
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21118040475994349,
+              "dense_max_relative_change": 1.8631214970810106e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2857151971903982,
+                "1": 0.28163392260198955
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 7,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7220265008509159,
+              "dense_max_relative_change": 1.9065848277932673e-07,
+              "aggregation_relative_l2": {
+                "4": 0.28375091341881353,
+                "1": 0.20962803927967263
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5075642876327038,
+              "dense_max_relative_change": 1.9386953908906435e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2587609463151339,
+                "1": 0.20351290491397772
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5025319829583168,
+              "dense_max_relative_change": 2.026720409276095e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2572227751488227,
+                "1": 0.22072174682242152
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3469938840717077,
+              "dense_max_relative_change": 1.819085184706637e-07,
+              "aggregation_relative_l2": {
+                "4": 0.21635382178224968,
+                "1": 0.19638918643421177
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.34554644860327244,
+              "dense_max_relative_change": 2.0966933789168252e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2207909663060741,
+                "1": 0.2106100429339448
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.25406881514936686,
+              "dense_max_relative_change": 1.9031206477393425e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2100388778220874,
+                "1": 0.20366023296086458
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.25227126758545637,
+              "dense_max_relative_change": 2.0567844671859348e-07,
+              "aggregation_relative_l2": {
+                "4": 0.19925954364848286,
+                "1": 0.21305549374548172
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.22093930188566446,
+              "dense_max_relative_change": 2.0010469370390638e-07,
+              "aggregation_relative_l2": {
+                "4": 0.19674619290639664,
+                "1": 0.20102784419903302
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21890708897262812,
+              "dense_max_relative_change": 1.9531452721821552e-07,
+              "aggregation_relative_l2": {
+                "4": 0.1897337009210052,
+                "1": 0.20835502943839415
+              }
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "block": 9,
+          "capacity": 256,
+          "sampled_queries": 16,
+          "heads": 8,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7725963033735752,
+              "dense_max_relative_change": 1.5748248927138775e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2980851906292652,
+                "1": 0.1907198867000547
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5544530861079693,
+              "dense_max_relative_change": 1.892288707949774e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2629056467781377,
+                "1": 0.21043060818091489
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5538227632641792,
+              "dense_max_relative_change": 1.6435947713944188e-07,
+              "aggregation_relative_l2": {
+                "4": 0.24912320526083034,
+                "1": 0.20483187866912192
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3915950283408165,
+              "dense_max_relative_change": 1.6182819706500595e-07,
+              "aggregation_relative_l2": {
+                "4": 0.22181084639708298,
+                "1": 0.21072460119952166
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.39356473460793495,
+              "dense_max_relative_change": 1.8221922459815687e-07,
+              "aggregation_relative_l2": {
+                "4": 0.22603333098249626,
+                "1": 0.1899753102694372
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2950808797031641,
+              "dense_max_relative_change": 2.0537245859486575e-07,
+              "aggregation_relative_l2": {
+                "4": 0.195292760485827,
+                "1": 0.2048362328465843
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.2958952020853758,
+              "dense_max_relative_change": 1.5108479090031324e-07,
+              "aggregation_relative_l2": {
+                "4": 0.20391339113594603,
+                "1": 0.18846886846788843
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.26329978182911873,
+              "dense_max_relative_change": 1.761488306328829e-07,
+              "aggregation_relative_l2": {
+                "4": 0.1822456509546663,
+                "1": 0.194441792492959
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.26398342475295067,
+              "dense_max_relative_change": 1.6737023145196872e-07,
+              "aggregation_relative_l2": {
+                "4": 0.1923026478385131,
+                "1": 0.1866451926230519
+              }
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "block": 1,
+          "capacity": 512,
+          "sampled_queries": 16,
+          "heads": 16,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.7412539012730122,
+              "dense_max_relative_change": 2.0212358720073098e-07,
+              "aggregation_relative_l2": {
+                "4": 0.24587273455828057,
+                "1": 0.22164140968414872
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.5141717828810215,
+              "dense_max_relative_change": 2.1412857620362047e-07,
+              "aggregation_relative_l2": {
+                "4": 0.23673838326119617,
+                "1": 0.2180115423309528
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.5185650419443846,
+              "dense_max_relative_change": 2.164420607186912e-07,
+              "aggregation_relative_l2": {
+                "4": 0.23458578417942177,
+                "1": 0.21327983943495274
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3554801885038614,
+              "dense_max_relative_change": 1.9935933437409403e-07,
+              "aggregation_relative_l2": {
+                "4": 0.23479356678286067,
+                "1": 0.21525260003950678
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.3536345213651657,
+              "dense_max_relative_change": 2.1939759164979478e-07,
+              "aggregation_relative_l2": {
+                "4": 0.22344649464532357,
+                "1": 0.22153667745951924
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.2566269263625145,
+              "dense_max_relative_change": 2.0461318683828722e-07,
+              "aggregation_relative_l2": {
+                "4": 0.21780731550571417,
+                "1": 0.2065268960739637
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.25403996650129557,
+              "dense_max_relative_change": 2.220251644757809e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2219375543952224,
+                "1": 0.22570772598202565
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.22213461343199015,
+              "dense_max_relative_change": 2.13516301528216e-07,
+              "aggregation_relative_l2": {
+                "4": 0.2185837831596585,
+                "1": 0.20616754462990491
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.21912879217416048,
+              "dense_max_relative_change": 1.9839947640321043e-07,
+              "aggregation_relative_l2": {
+                "4": 0.21785695450888296,
+                "1": 0.2389381536834769
+              }
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "block": 3,
+          "capacity": 512,
+          "sampled_queries": 16,
+          "heads": 16,
+          "interventions": [
+            {
+              "reassignment_fraction": 0.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.8520322665572166,
+              "dense_max_relative_change": 1.5172852840805717e-07,
+              "aggregation_relative_l2": {
+                "4": 0.1153665649507216,
+                "1": 0.08734655290987556
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.632438350468874,
+              "dense_max_relative_change": 1.6062725194387895e-07,
+              "aggregation_relative_l2": {
+                "4": 0.11126924055488845,
+                "1": 0.08734998432307675
+              }
+            },
+            {
+              "reassignment_fraction": 0.25,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.6378590427339077,
+              "dense_max_relative_change": 1.5777851558596012e-07,
+              "aggregation_relative_l2": {
+                "4": 0.11083643359884482,
+                "1": 0.08885971265308365
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.4733492136001587,
+              "dense_max_relative_change": 1.6155325965883094e-07,
+              "aggregation_relative_l2": {
+                "4": 0.10322324290426187,
+                "1": 0.08805026681527074
+              }
+            },
+            {
+              "reassignment_fraction": 0.5,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.4797383975237608,
+              "dense_max_relative_change": 1.587398514857341e-07,
+              "aggregation_relative_l2": {
+                "4": 0.10821038893319929,
+                "1": 0.09360633356366004
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.38441038876771927,
+              "dense_max_relative_change": 1.6881627118436882e-07,
+              "aggregation_relative_l2": {
+                "4": 0.10115195850215274,
+                "1": 0.08992824684107405
+              }
+            },
+            {
+              "reassignment_fraction": 0.75,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.38605890423059464,
+              "dense_max_relative_change": 1.7787333206342737e-07,
+              "aggregation_relative_l2": {
+                "4": 0.09962982711975793,
+                "1": 0.09082676505874704
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261022,
+              "neighbor_residual_cosine": 0.3515339195728302,
+              "dense_max_relative_change": 1.5705742839600134e-07,
+              "aggregation_relative_l2": {
+                "4": 0.10102245847065498,
+                "1": 0.08742890667988357
+              }
+            },
+            {
+              "reassignment_fraction": 1.0,
+              "seed": 20261023,
+              "neighbor_residual_cosine": 0.352629316970706,
+              "dense_max_relative_change": 1.6385047274525277e-07,
+              "aggregation_relative_l2": {
+                "4": 0.09520177117454129,
+                "1": 0.0941152945984484
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "complete_windows": true,
+  "declared_indices": [
+    133,
+    296,
+    413
+  ]
+}

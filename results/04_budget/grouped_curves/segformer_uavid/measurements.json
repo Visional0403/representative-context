@@ -1,0 +1,22 @@
+{
+  "case": "segformer_uavid",
+  "source_groups": [
+    "seq16",
+    "seq17",
+    "seq19",
+    "seq36",
+    "seq37"
+  ],
+  "configurations": [
+    "dense",
+    "k14",
+    "k15",
+    "k16"
+  ],
+  "classes": 8,
+  "arrays": "confusion.npz",
+  "evaluation_scope": "fixed independent-sequence windows",
+  "window_size": 2048,
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 20261022
+}

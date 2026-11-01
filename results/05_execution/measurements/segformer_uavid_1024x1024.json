@@ -1,0 +1,2640 @@
+{
+  "case": "segformer_uavid",
+  "k": 16,
+  "seed": 42,
+  "input_shape": [
+    1024,
+    1024
+  ],
+  "image": "val/seq16/Images/000000.png",
+  "normalization": {
+    "input_scale": "RGB/255",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "precision": "FP32",
+  "batch_size": 1,
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "torch": "2.10.0+cu128",
+    "triton": "3.6.0",
+    "python": "3.10.12",
+    "threads": 4,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "cudnn_allow_tf32": true,
+    "matmul_allow_tf32": false
+  },
+  "pure": {
+    "blocks": [
+      {
+        "block_number": 1,
+        "stage": 1,
+        "block": 1,
+        "seed": 42,
+        "query_tensor": {
+          "shape": [
+            1,
+            1,
+            65536,
+            32
+          ],
+          "strides": [
+            2097152,
+            32,
+            32,
+            1
+          ],
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 8388608
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            1,
+            1024,
+            32
+          ],
+          "strides": [
+            65536,
+            32,
+            64,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 131072
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            1,
+            1024,
+            32
+          ],
+          "strides": [
+            65536,
+            32,
+            64,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 131072
+        },
+        "query_grid": [
+          256,
+          256
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 65536,
+        "KV": 1024,
+        "heads": 1,
+        "head_dimension": 32,
+        "capacity_limit": 256,
+        "groups": 4,
+        "query_counts": [
+          16384,
+          16384,
+          16384,
+          16384
+        ],
+        "kv_counts": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "dense_edges_per_head": 67108864,
+        "sparse_edges_per_head": 16777216,
+        "retention": 0.25,
+        "dense_flops": 8589934592,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false
+      },
+      {
+        "block_number": 2,
+        "stage": 1,
+        "block": 2,
+        "seed": 43,
+        "query_tensor": {
+          "shape": [
+            1,
+            1,
+            65536,
+            32
+          ],
+          "strides": [
+            2097152,
+            32,
+            32,
+            1
+          ],
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 8388608
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            1,
+            1024,
+            32
+          ],
+          "strides": [
+            65536,
+            32,
+            64,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 131072
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            1,
+            1024,
+            32
+          ],
+          "strides": [
+            65536,
+            32,
+            64,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 131072
+        },
+        "query_grid": [
+          256,
+          256
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 65536,
+        "KV": 1024,
+        "heads": 1,
+        "head_dimension": 32,
+        "capacity_limit": 256,
+        "groups": 4,
+        "query_counts": [
+          16384,
+          16384,
+          16384,
+          16384
+        ],
+        "kv_counts": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "dense_edges_per_head": 67108864,
+        "sparse_edges_per_head": 16777216,
+        "retention": 0.25,
+        "dense_flops": 8589934592,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false
+      },
+      {
+        "block_number": 3,
+        "stage": 2,
+        "block": 1,
+        "seed": 142,
+        "query_tensor": {
+          "shape": [
+            1,
+            2,
+            16384,
+            32
+          ],
+          "strides": [
+            1048576,
+            32,
+            64,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 4194304
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            2,
+            1024,
+            32
+          ],
+          "strides": [
+            131072,
+            32,
+            128,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 262144
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            2,
+            1024,
+            32
+          ],
+          "strides": [
+            131072,
+            32,
+            128,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 262144
+        },
+        "query_grid": [
+          128,
+          128
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 16384,
+        "KV": 1024,
+        "heads": 2,
+        "head_dimension": 32,
+        "capacity_limit": 512,
+        "groups": 2,
+        "query_counts": [
+          8192,
+          8192
+        ],
+        "kv_counts": [
+          512,
+          512
+        ],
+        "dense_edges_per_head": 16777216,
+        "sparse_edges_per_head": 8388608,
+        "retention": 0.5,
+        "dense_flops": 4294967296,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false
+      },
+      {
+        "block_number": 4,
+        "stage": 2,
+        "block": 2,
+        "seed": 143,
+        "query_tensor": {
+          "shape": [
+            1,
+            2,
+            16384,
+            32
+          ],
+          "strides": [
+            1048576,
+            32,
+            64,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 4194304
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            2,
+            1024,
+            32
+          ],
+          "strides": [
+            131072,
+            32,
+            128,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 262144
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            2,
+            1024,
+            32
+          ],
+          "strides": [
+            131072,
+            32,
+            128,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 262144
+        },
+        "query_grid": [
+          128,
+          128
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 16384,
+        "KV": 1024,
+        "heads": 2,
+        "head_dimension": 32,
+        "capacity_limit": 512,
+        "groups": 2,
+        "query_counts": [
+          8192,
+          8192
+        ],
+        "kv_counts": [
+          512,
+          512
+        ],
+        "dense_edges_per_head": 16777216,
+        "sparse_edges_per_head": 8388608,
+        "retention": 0.5,
+        "dense_flops": 4294967296,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false
+      },
+      {
+        "block_number": 5,
+        "stage": 3,
+        "block": 1,
+        "seed": 242,
+        "query_tensor": {
+          "shape": [
+            1,
+            5,
+            4096,
+            32
+          ],
+          "strides": [
+            655360,
+            32,
+            160,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 2621440
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            5,
+            1024,
+            32
+          ],
+          "strides": [
+            327680,
+            32,
+            320,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 655360
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            5,
+            1024,
+            32
+          ],
+          "strides": [
+            327680,
+            32,
+            320,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 655360
+        },
+        "query_grid": [
+          64,
+          64
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 4096,
+        "KV": 1024,
+        "heads": 5,
+        "head_dimension": 32,
+        "capacity_limit": 1024,
+        "groups": 1,
+        "query_counts": [
+          4096
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 4194304,
+        "sparse_edges_per_head": 4194304,
+        "retention": 1.0,
+        "dense_flops": 2684354560,
+        "sparse_flops": 2684354560,
+        "index_bytes": 0,
+        "dense_single_group": true
+      },
+      {
+        "block_number": 6,
+        "stage": 3,
+        "block": 2,
+        "seed": 243,
+        "query_tensor": {
+          "shape": [
+            1,
+            5,
+            4096,
+            32
+          ],
+          "strides": [
+            655360,
+            32,
+            160,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 2621440
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            5,
+            1024,
+            32
+          ],
+          "strides": [
+            327680,
+            32,
+            320,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 655360
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            5,
+            1024,
+            32
+          ],
+          "strides": [
+            327680,
+            32,
+            320,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 655360
+        },
+        "query_grid": [
+          64,
+          64
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 4096,
+        "KV": 1024,
+        "heads": 5,
+        "head_dimension": 32,
+        "capacity_limit": 1024,
+        "groups": 1,
+        "query_counts": [
+          4096
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 4194304,
+        "sparse_edges_per_head": 4194304,
+        "retention": 1.0,
+        "dense_flops": 2684354560,
+        "sparse_flops": 2684354560,
+        "index_bytes": 0,
+        "dense_single_group": true
+      },
+      {
+        "block_number": 7,
+        "stage": 4,
+        "block": 1,
+        "seed": 342,
+        "query_tensor": {
+          "shape": [
+            1,
+            8,
+            1024,
+            32
+          ],
+          "strides": [
+            262144,
+            32,
+            256,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 1048576
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            8,
+            1024,
+            32
+          ],
+          "strides": [
+            524288,
+            32,
+            512,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 1048576
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            8,
+            1024,
+            32
+          ],
+          "strides": [
+            524288,
+            32,
+            512,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 1048576
+        },
+        "query_grid": [
+          32,
+          32
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 1024,
+        "KV": 1024,
+        "heads": 8,
+        "head_dimension": 32,
+        "capacity_limit": 2048,
+        "groups": 1,
+        "query_counts": [
+          1024
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 1048576,
+        "sparse_edges_per_head": 1048576,
+        "retention": 1.0,
+        "dense_flops": 1073741824,
+        "sparse_flops": 1073741824,
+        "index_bytes": 0,
+        "dense_single_group": true
+      },
+      {
+        "block_number": 8,
+        "stage": 4,
+        "block": 2,
+        "seed": 343,
+        "query_tensor": {
+          "shape": [
+            1,
+            8,
+            1024,
+            32
+          ],
+          "strides": [
+            262144,
+            32,
+            256,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 1048576
+        },
+        "key_tensor": {
+          "shape": [
+            1,
+            8,
+            1024,
+            32
+          ],
+          "strides": [
+            524288,
+            32,
+            512,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 1048576
+        },
+        "value_tensor": {
+          "shape": [
+            1,
+            8,
+            1024,
+            32
+          ],
+          "strides": [
+            524288,
+            32,
+            512,
+            1
+          ],
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0",
+          "logical_bytes": 1048576
+        },
+        "query_grid": [
+          32,
+          32
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 1024,
+        "KV": 1024,
+        "heads": 8,
+        "head_dimension": 32,
+        "capacity_limit": 2048,
+        "groups": 1,
+        "query_counts": [
+          1024
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 1048576,
+        "sparse_edges_per_head": 1048576,
+        "retention": 1.0,
+        "dense_flops": 1073741824,
+        "sparse_flops": 1073741824,
+        "index_bytes": 0,
+        "dense_single_group": true
+      }
+    ],
+    "timing": {
+      "dense": {
+        "median_ms": 9.324032306671143,
+        "mean_ms": 9.493374411265055,
+        "stdev_ms": 0.9110759858777833,
+        "min_ms": 9.078783988952637,
+        "max_ms": 15.80339241027832,
+        "timing_ms": [
+          15.80339241027832,
+          12.219391822814941,
+          9.078783988952637,
+          9.205568313598633,
+          9.326592445373535,
+          9.270272254943848,
+          9.1146240234375,
+          9.361408233642578,
+          9.129983901977539,
+          9.291775703430176,
+          9.257984161376953,
+          9.474047660827637,
+          9.42579174041748,
+          9.342975616455078,
+          9.665535926818848,
+          9.219072341918945,
+          9.370271682739258,
+          9.539584159851074,
+          9.208831787109375,
+          9.397248268127441,
+          9.10745620727539,
+          9.278464317321777,
+          9.32147216796875,
+          9.215680122375488,
+          9.397120475769043,
+          9.318400382995605,
+          9.210880279541016,
+          9.30303955078125,
+          9.22316837310791,
+          9.294848442077637,
+          9.29587173461914,
+          9.40339183807373,
+          9.496383666992188,
+          9.184255599975586,
+          9.32863998413086,
+          9.275391578674316,
+          9.433088302612305,
+          9.350144386291504,
+          9.3951997756958,
+          9.279487609863281,
+          9.308159828186035,
+          9.405216217041016,
+          9.283583641052246,
+          9.466879844665527,
+          9.255935668945312,
+          9.472000122070312,
+          9.371423721313477,
+          9.218048095703125,
+          9.392831802368164,
+          9.180159568786621,
+          9.364416122436523,
+          9.185279846191406,
+          9.470975875854492,
+          9.591808319091797,
+          9.5283203125,
+          9.792287826538086,
+          9.165823936462402,
+          9.619392395019531,
+          9.43718433380127,
+          9.277215957641602
+        ],
+        "round_median_ms": [
+          9.334784030914307,
+          9.299455642700195,
+          9.38212776184082
+        ]
+      },
+      "indexed": {
+        "median_ms": 3.621888041496277,
+        "mean_ms": 3.6138490637143454,
+        "stdev_ms": 0.10178972224929927,
+        "min_ms": 3.4007039070129395,
+        "max_ms": 3.782655954360962,
+        "timing_ms": [
+          3.6024320125579834,
+          3.719167947769165,
+          3.4998080730438232,
+          3.4017279148101807,
+          3.5973119735717773,
+          3.5737600326538086,
+          3.6720640659332275,
+          3.4887681007385254,
+          3.4007039070129395,
+          3.635200023651123,
+          3.5880959033966064,
+          3.782655954360962,
+          3.7158079147338867,
+          3.446784019470215,
+          3.651263952255249,
+          3.492863893508911,
+          3.6874239444732666,
+          3.7662720680236816,
+          3.485408067703247,
+          3.6862399578094482,
+          3.708928108215332,
+          3.553215980529785,
+          3.680255889892578,
+          3.5522561073303223,
+          3.7017600536346436,
+          3.584768056869507,
+          3.586047887802124,
+          3.7550079822540283,
+          3.748863935470581,
+          3.4785280227661133,
+          3.655679941177368,
+          3.5676159858703613,
+          3.693567991256714,
+          3.7068800926208496,
+          3.4949440956115723,
+          3.6084799766540527,
+          3.457024097442627,
+          3.6372480392456055,
+          3.631103992462158,
+          3.4556798934936523,
+          3.6812798976898193,
+          3.5082240104675293,
+          3.732480049133301,
+          3.6710400581359863,
+          3.544800043106079,
+          3.6126720905303955,
+          3.703808069229126,
+          3.560447931289673,
+          3.6536319255828857,
+          3.509984016418457,
+          3.7106239795684814,
+          3.7027199268341064,
+          3.5522561073303223,
+          3.768127918243408,
+          3.7160959243774414,
+          3.566272020339966,
+          3.6126720905303955,
+          3.420095920562744,
+          3.732192039489746,
+          3.7199039459228516
+        ],
+        "round_median_ms": [
+          3.5998719930648804,
+          3.6197919845581055,
+          3.662335991859436
+        ]
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "order": [
+            "dense",
+            "indexed"
+          ],
+          "timing_ms": {
+            "dense": [
+              15.80339241027832,
+              12.219391822814941,
+              9.078783988952637,
+              9.205568313598633,
+              9.326592445373535,
+              9.270272254943848,
+              9.1146240234375,
+              9.361408233642578,
+              9.129983901977539,
+              9.291775703430176,
+              9.257984161376953,
+              9.474047660827637,
+              9.42579174041748,
+              9.342975616455078,
+              9.665535926818848,
+              9.219072341918945,
+              9.370271682739258,
+              9.539584159851074,
+              9.208831787109375,
+              9.397248268127441
+            ],
+            "indexed": [
+              3.6024320125579834,
+              3.719167947769165,
+              3.4998080730438232,
+              3.4017279148101807,
+              3.5973119735717773,
+              3.5737600326538086,
+              3.6720640659332275,
+              3.4887681007385254,
+              3.4007039070129395,
+              3.635200023651123,
+              3.5880959033966064,
+              3.782655954360962,
+              3.7158079147338867,
+              3.446784019470215,
+              3.651263952255249,
+              3.492863893508911,
+              3.6874239444732666,
+              3.7662720680236816,
+              3.485408067703247,
+              3.6862399578094482
+            ]
+          }
+        },
+        {
+          "round": 2,
+          "order": [
+            "indexed",
+            "dense"
+          ],
+          "timing_ms": {
+            "indexed": [
+              3.708928108215332,
+              3.553215980529785,
+              3.680255889892578,
+              3.5522561073303223,
+              3.7017600536346436,
+              3.584768056869507,
+              3.586047887802124,
+              3.7550079822540283,
+              3.748863935470581,
+              3.4785280227661133,
+              3.655679941177368,
+              3.5676159858703613,
+              3.693567991256714,
+              3.7068800926208496,
+              3.4949440956115723,
+              3.6084799766540527,
+              3.457024097442627,
+              3.6372480392456055,
+              3.631103992462158,
+              3.4556798934936523
+            ],
+            "dense": [
+              9.10745620727539,
+              9.278464317321777,
+              9.32147216796875,
+              9.215680122375488,
+              9.397120475769043,
+              9.318400382995605,
+              9.210880279541016,
+              9.30303955078125,
+              9.22316837310791,
+              9.294848442077637,
+              9.29587173461914,
+              9.40339183807373,
+              9.496383666992188,
+              9.184255599975586,
+              9.32863998413086,
+              9.275391578674316,
+              9.433088302612305,
+              9.350144386291504,
+              9.3951997756958,
+              9.279487609863281
+            ]
+          }
+        },
+        {
+          "round": 3,
+          "order": [
+            "dense",
+            "indexed"
+          ],
+          "timing_ms": {
+            "dense": [
+              9.308159828186035,
+              9.405216217041016,
+              9.283583641052246,
+              9.466879844665527,
+              9.255935668945312,
+              9.472000122070312,
+              9.371423721313477,
+              9.218048095703125,
+              9.392831802368164,
+              9.180159568786621,
+              9.364416122436523,
+              9.185279846191406,
+              9.470975875854492,
+              9.591808319091797,
+              9.5283203125,
+              9.792287826538086,
+              9.165823936462402,
+              9.619392395019531,
+              9.43718433380127,
+              9.277215957641602
+            ],
+            "indexed": [
+              3.6812798976898193,
+              3.5082240104675293,
+              3.732480049133301,
+              3.6710400581359863,
+              3.544800043106079,
+              3.6126720905303955,
+              3.703808069229126,
+              3.560447931289673,
+              3.6536319255828857,
+              3.509984016418457,
+              3.7106239795684814,
+              3.7027199268341064,
+              3.5522561073303223,
+              3.768127918243408,
+              3.7160959243774414,
+              3.566272020339966,
+              3.6126720905303955,
+              3.420095920562744,
+              3.732192039489746,
+              3.7199039459228516
+            ]
+          }
+        }
+      ],
+      "speedup": 2.5743568547246403
+    },
+    "warmup": 10,
+    "rounds": 3,
+    "repeats": 20
+  },
+  "comparison": {
+    "blocks": [
+      {
+        "stage": 1,
+        "\u5757": 1,
+        "query_grid": [
+          256,
+          256
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 65536,
+        "KV": 1024,
+        "heads": 1,
+        "head_dimension": 32,
+        "capacity_limit": 256,
+        "groups": 4,
+        "query_counts": [
+          16384,
+          16384,
+          16384,
+          16384
+        ],
+        "kv_counts": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "dense_edges_per_head": 67108864,
+        "sparse_edges_per_head": 16777216,
+        "retention": 0.25,
+        "dense_flops": 8589934592,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false,
+        "bucket_plan": {
+          "buckets": 1,
+          "query_counts": [
+            16384,
+            16384,
+            16384,
+            16384
+          ],
+          "kv_counts": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "bucket_shapes": [
+            {
+              "query_length": 16384,
+              "kv_length": 256,
+              "groups": 4
+            }
+          ],
+          "edges_per_head": 16777216
+        },
+        "numerical_check": {
+          "full_relative_l2": 4.040535372951126e-07,
+          "full_max_abs_error": 5.066394805908203e-07,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 2.086162567138672e-07,
+          "fp64_indexed_max_abs_error": 1.7881393432617188e-07
+        }
+      },
+      {
+        "stage": 1,
+        "\u5757": 2,
+        "query_grid": [
+          256,
+          256
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 65536,
+        "KV": 1024,
+        "heads": 1,
+        "head_dimension": 32,
+        "capacity_limit": 256,
+        "groups": 4,
+        "query_counts": [
+          16384,
+          16384,
+          16384,
+          16384
+        ],
+        "kv_counts": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "dense_edges_per_head": 67108864,
+        "sparse_edges_per_head": 16777216,
+        "retention": 0.25,
+        "dense_flops": 8589934592,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false,
+        "bucket_plan": {
+          "buckets": 1,
+          "query_counts": [
+            16384,
+            16384,
+            16384,
+            16384
+          ],
+          "kv_counts": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "bucket_shapes": [
+            {
+              "query_length": 16384,
+              "kv_length": 256,
+              "groups": 4
+            }
+          ],
+          "edges_per_head": 16777216
+        },
+        "numerical_check": {
+          "full_relative_l2": 3.4528028436398017e-07,
+          "full_max_abs_error": 8.195638656616211e-07,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 1.8440186977386475e-07,
+          "fp64_indexed_max_abs_error": 1.6391277313232422e-07
+        }
+      },
+      {
+        "stage": 2,
+        "\u5757": 1,
+        "query_grid": [
+          128,
+          128
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 16384,
+        "KV": 1024,
+        "heads": 2,
+        "head_dimension": 32,
+        "capacity_limit": 512,
+        "groups": 2,
+        "query_counts": [
+          8192,
+          8192
+        ],
+        "kv_counts": [
+          512,
+          512
+        ],
+        "dense_edges_per_head": 16777216,
+        "sparse_edges_per_head": 8388608,
+        "retention": 0.5,
+        "dense_flops": 4294967296,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false,
+        "bucket_plan": {
+          "buckets": 1,
+          "query_counts": [
+            8192,
+            8192
+          ],
+          "kv_counts": [
+            512,
+            512
+          ],
+          "bucket_shapes": [
+            {
+              "query_length": 8192,
+              "kv_length": 512,
+              "groups": 2
+            }
+          ],
+          "edges_per_head": 8388608
+        },
+        "numerical_check": {
+          "full_relative_l2": 3.1406858624905e-07,
+          "full_max_abs_error": 5.066394805908203e-07,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 3.2782554626464844e-07,
+          "fp64_indexed_max_abs_error": 2.384185791015625e-07
+        }
+      },
+      {
+        "stage": 2,
+        "\u5757": 2,
+        "query_grid": [
+          128,
+          128
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 16384,
+        "KV": 1024,
+        "heads": 2,
+        "head_dimension": 32,
+        "capacity_limit": 512,
+        "groups": 2,
+        "query_counts": [
+          8192,
+          8192
+        ],
+        "kv_counts": [
+          512,
+          512
+        ],
+        "dense_edges_per_head": 16777216,
+        "sparse_edges_per_head": 8388608,
+        "retention": 0.5,
+        "dense_flops": 4294967296,
+        "sparse_flops": 2147483648,
+        "index_bytes": 4096,
+        "dense_single_group": false,
+        "bucket_plan": {
+          "buckets": 1,
+          "query_counts": [
+            8192,
+            8192
+          ],
+          "kv_counts": [
+            512,
+            512
+          ],
+          "bucket_shapes": [
+            {
+              "query_length": 8192,
+              "kv_length": 512,
+              "groups": 2
+            }
+          ],
+          "edges_per_head": 8388608
+        },
+        "numerical_check": {
+          "full_relative_l2": 2.9678190571758023e-07,
+          "full_max_abs_error": 5.364418029785156e-07,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 5.066394805908203e-07,
+          "fp64_indexed_max_abs_error": 3.2782554626464844e-07
+        }
+      },
+      {
+        "stage": 3,
+        "\u5757": 1,
+        "query_grid": [
+          64,
+          64
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 4096,
+        "KV": 1024,
+        "heads": 5,
+        "head_dimension": 32,
+        "capacity_limit": 1024,
+        "groups": 1,
+        "query_counts": [
+          4096
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 4194304,
+        "sparse_edges_per_head": 4194304,
+        "retention": 1.0,
+        "dense_flops": 2684354560,
+        "sparse_flops": 2684354560,
+        "index_bytes": 0,
+        "dense_single_group": true,
+        "bucket_plan": null,
+        "numerical_check": {
+          "full_relative_l2": 0.0,
+          "full_max_abs_error": 0.0,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 5.960464477539062e-07,
+          "fp64_indexed_max_abs_error": 5.960464477539062e-07
+        }
+      },
+      {
+        "stage": 3,
+        "\u5757": 2,
+        "query_grid": [
+          64,
+          64
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 4096,
+        "KV": 1024,
+        "heads": 5,
+        "head_dimension": 32,
+        "capacity_limit": 1024,
+        "groups": 1,
+        "query_counts": [
+          4096
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 4194304,
+        "sparse_edges_per_head": 4194304,
+        "retention": 1.0,
+        "dense_flops": 2684354560,
+        "sparse_flops": 2684354560,
+        "index_bytes": 0,
+        "dense_single_group": true,
+        "bucket_plan": null,
+        "numerical_check": {
+          "full_relative_l2": 0.0,
+          "full_max_abs_error": 0.0,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 6.556510925292969e-07,
+          "fp64_indexed_max_abs_error": 6.556510925292969e-07
+        }
+      },
+      {
+        "stage": 4,
+        "\u5757": 1,
+        "query_grid": [
+          32,
+          32
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 1024,
+        "KV": 1024,
+        "heads": 8,
+        "head_dimension": 32,
+        "capacity_limit": 2048,
+        "groups": 1,
+        "query_counts": [
+          1024
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 1048576,
+        "sparse_edges_per_head": 1048576,
+        "retention": 1.0,
+        "dense_flops": 1073741824,
+        "sparse_flops": 1073741824,
+        "index_bytes": 0,
+        "dense_single_group": true,
+        "bucket_plan": null,
+        "numerical_check": {
+          "full_relative_l2": 0.0,
+          "full_max_abs_error": 0.0,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 1.1920928955078125e-06,
+          "fp64_indexed_max_abs_error": 1.1920928955078125e-06
+        }
+      },
+      {
+        "stage": 4,
+        "\u5757": 2,
+        "query_grid": [
+          32,
+          32
+        ],
+        "kv_grid": [
+          32,
+          32
+        ],
+        "Q": 1024,
+        "KV": 1024,
+        "heads": 8,
+        "head_dimension": 32,
+        "capacity_limit": 2048,
+        "groups": 1,
+        "query_counts": [
+          1024
+        ],
+        "kv_counts": [
+          1024
+        ],
+        "dense_edges_per_head": 1048576,
+        "sparse_edges_per_head": 1048576,
+        "retention": 1.0,
+        "dense_flops": 1073741824,
+        "sparse_flops": 1073741824,
+        "index_bytes": 0,
+        "dense_single_group": true,
+        "bucket_plan": null,
+        "numerical_check": {
+          "full_relative_l2": 0.0,
+          "full_max_abs_error": 0.0,
+          "fp64_queries": 16,
+          "fp64_reordered_max_abs_error": 1.1920928955078125e-06,
+          "fp64_indexed_max_abs_error": 1.1920928955078125e-06
+        }
+      }
+    ],
+    "timing": {
+      "methods": {
+        "dense": {
+          "count": 60,
+          "median_ms": 9.71452808380127,
+          "mean_ms": 10.231728569666545,
+          "percentiles_10_90_ms": [
+            9.455706024169922,
+            10.093148899078368
+          ],
+          "percentiles_25_75_ms": [
+            9.549551725387573,
+            9.850879669189453
+          ],
+          "min_max_ms": [
+            9.335776329040527,
+            16.78233528137207
+          ],
+          "timing_ms": [
+            16.722944259643555,
+            16.58880043029785,
+            16.78233528137207,
+            16.19251251220703,
+            14.649344444274902,
+            9.553919792175293,
+            9.615360260009766,
+            9.692159652709961,
+            9.388031959533691,
+            9.992192268371582,
+            9.667584419250488,
+            9.448448181152344,
+            9.694208145141602,
+            9.40937614440918,
+            9.4269437789917,
+            9.548735618591309,
+            9.416704177856445,
+            9.750528335571289,
+            9.53651237487793,
+            9.70854377746582,
+            9.667584419250488,
+            9.695232391357422,
+            9.467904090881348,
+            9.747455596923828,
+            9.903936386108398,
+            9.45740795135498,
+            9.828096389770508,
+            9.456512451171875,
+            9.670656204223633,
+            9.918463706970215,
+            9.69001579284668,
+            9.887743949890137,
+            9.838591575622559,
+            9.335776329040527,
+            9.790464401245117,
+            9.704447746276855,
+            10.12019157409668,
+            9.812992095947266,
+            9.8088960647583,
+            9.720512390136719,
+            9.668383598327637,
+            9.549823760986328,
+            9.790335655212402,
+            9.550944328308105,
+            9.802623748779297,
+            10.090144157409668,
+            9.482975959777832,
+            9.93075180053711,
+            9.904224395751953,
+            9.53551959991455,
+            9.93667221069336,
+            9.902015686035156,
+            9.549823760986328,
+            9.752575874328613,
+            9.51091194152832,
+            9.793536186218262,
+            9.738240242004395,
+            9.534463882446289,
+            9.82323169708252,
+            9.748448371887207
+          ]
+        },
+        "reordered": {
+          "count": 60,
+          "median_ms": 5.327871799468994,
+          "mean_ms": 5.308539764086405,
+          "percentiles_10_90_ms": [
+            5.082111835479736,
+            5.4350849151611325
+          ],
+          "percentiles_25_75_ms": [
+            5.2661519050598145,
+            5.391272068023682
+          ],
+          "min_max_ms": [
+            4.965375900268555,
+            5.590015888214111
+          ],
+          "timing_ms": [
+            5.511168003082275,
+            5.590015888214111,
+            5.280384063720703,
+            5.343232154846191,
+            5.332640171051025,
+            5.377024173736572,
+            5.040128231048584,
+            5.184512138366699,
+            5.301248073577881,
+            5.494783878326416,
+            5.4773759841918945,
+            5.379072189331055,
+            5.381120204925537,
+            5.2591681480407715,
+            5.395455837249756,
+            5.4036478996276855,
+            4.965375900268555,
+            5.1609601974487305,
+            5.268479824066162,
+            5.310463905334473,
+            5.322495937347412,
+            5.396480083465576,
+            5.340832233428955,
+            5.029888153076172,
+            5.31763219833374,
+            5.31763219833374,
+            5.254144191741943,
+            5.3173441886901855,
+            5.2408318519592285,
+            5.319680213928223,
+            5.5089921951293945,
+            5.327871799468994,
+            4.994048118591309,
+            5.082111835479736,
+            5.39408016204834,
+            5.421055793762207,
+            5.328639984130859,
+            5.318624019622803,
+            5.27564811706543,
+            5.327871799468994,
+            5.082111835479736,
+            5.113855838775635,
+            5.459968090057373,
+            5.301248073577881,
+            5.396480083465576,
+            5.389311790466309,
+            5.180416107177734,
+            5.334015846252441,
+            5.3797760009765625,
+            5.373568058013916,
+            5.035007953643799,
+            5.198912143707275,
+            5.398528099060059,
+            5.390336036682129,
+            5.4323201179504395,
+            5.387040138244629,
+            5.3094401359558105,
+            5.354496002197266,
+            5.293791770935059,
+            5.409599781036377
+          ]
+        },
+        "indexed": {
+          "count": 60,
+          "median_ms": 3.7748160362243652,
+          "mean_ms": 3.7384757161140443,
+          "percentiles_10_90_ms": [
+            3.5109888315200806,
+            3.9230464696884155
+          ],
+          "percentiles_25_75_ms": [
+            3.5906559824943542,
+            3.8592000603675842
+          ],
+          "min_max_ms": [
+            3.398655891418457,
+            4.176671981811523
+          ],
+          "timing_ms": [
+            3.8878400325775146,
+            3.528480052947998,
+            3.9669759273529053,
+            3.9239680767059326,
+            3.4303998947143555,
+            4.031487941741943,
+            3.941279888153076,
+            3.4662399291992188,
+            3.7925119400024414,
+            3.7201919555664062,
+            3.6515839099884033,
+            3.7782399654388428,
+            3.398655891418457,
+            3.7119998931884766,
+            3.821471929550171,
+            3.4662399291992188,
+            3.8584320545196533,
+            3.5942399501800537,
+            3.847935914993286,
+            3.8451199531555176,
+            3.5949759483337402,
+            3.910304069519043,
+            3.8983678817749023,
+            3.5133440494537354,
+            3.787775993347168,
+            3.7641921043395996,
+            3.4990079402923584,
+            3.7857279777526855,
+            3.5399680137634277,
+            3.7160959243774414,
+            3.596287965774536,
+            3.7713921070098877,
+            3.8993918895721436,
+            3.980288028717041,
+            3.575808048248291,
+            3.73417592048645,
+            3.680255889892578,
+            3.8508799076080322,
+            3.8410239219665527,
+            3.563231945037842,
+            3.910655975341797,
+            3.579904079437256,
+            3.9229440689086914,
+            3.8410239219665527,
+            3.512320041656494,
+            4.176671981811523,
+            3.7857279777526855,
+            3.5469439029693604,
+            3.8267838954925537,
+            3.7099521160125732,
+            3.4201600551605225,
+            3.6780800819396973,
+            3.917504072189331,
+            3.708928108215332,
+            3.861504077911377,
+            3.5252480506896973,
+            3.851263999938965,
+            3.92192006111145,
+            3.6062400341033936,
+            3.8389759063720703
+          ]
+        }
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "order": [
+            "dense",
+            "reordered",
+            "indexed"
+          ],
+          "timing_ms": {
+            "dense": [
+              16.722944259643555,
+              16.58880043029785,
+              16.78233528137207,
+              16.19251251220703,
+              14.649344444274902,
+              9.553919792175293,
+              9.615360260009766,
+              9.692159652709961,
+              9.388031959533691,
+              9.992192268371582,
+              9.667584419250488,
+              9.448448181152344,
+              9.694208145141602,
+              9.40937614440918,
+              9.4269437789917,
+              9.548735618591309,
+              9.416704177856445,
+              9.750528335571289,
+              9.53651237487793,
+              9.70854377746582
+            ],
+            "reordered": [
+              5.511168003082275,
+              5.590015888214111,
+              5.280384063720703,
+              5.343232154846191,
+              5.332640171051025,
+              5.377024173736572,
+              5.040128231048584,
+              5.184512138366699,
+              5.301248073577881,
+              5.494783878326416,
+              5.4773759841918945,
+              5.379072189331055,
+              5.381120204925537,
+              5.2591681480407715,
+              5.395455837249756,
+              5.4036478996276855,
+              4.965375900268555,
+              5.1609601974487305,
+              5.268479824066162,
+              5.310463905334473
+            ],
+            "indexed": [
+              3.8878400325775146,
+              3.528480052947998,
+              3.9669759273529053,
+              3.9239680767059326,
+              3.4303998947143555,
+              4.031487941741943,
+              3.941279888153076,
+              3.4662399291992188,
+              3.7925119400024414,
+              3.7201919555664062,
+              3.6515839099884033,
+              3.7782399654388428,
+              3.398655891418457,
+              3.7119998931884766,
+              3.821471929550171,
+              3.4662399291992188,
+              3.8584320545196533,
+              3.5942399501800537,
+              3.847935914993286,
+              3.8451199531555176
+            ]
+          }
+        },
+        {
+          "round": 2,
+          "order": [
+            "reordered",
+            "indexed",
+            "dense"
+          ],
+          "timing_ms": {
+            "reordered": [
+              5.322495937347412,
+              5.396480083465576,
+              5.340832233428955,
+              5.029888153076172,
+              5.31763219833374,
+              5.31763219833374,
+              5.254144191741943,
+              5.3173441886901855,
+              5.2408318519592285,
+              5.319680213928223,
+              5.5089921951293945,
+              5.327871799468994,
+              4.994048118591309,
+              5.082111835479736,
+              5.39408016204834,
+              5.421055793762207,
+              5.328639984130859,
+              5.318624019622803,
+              5.27564811706543,
+              5.327871799468994
+            ],
+            "indexed": [
+              3.5949759483337402,
+              3.910304069519043,
+              3.8983678817749023,
+              3.5133440494537354,
+              3.787775993347168,
+              3.7641921043395996,
+              3.4990079402923584,
+              3.7857279777526855,
+              3.5399680137634277,
+              3.7160959243774414,
+              3.596287965774536,
+              3.7713921070098877,
+              3.8993918895721436,
+              3.980288028717041,
+              3.575808048248291,
+              3.73417592048645,
+              3.680255889892578,
+              3.8508799076080322,
+              3.8410239219665527,
+              3.563231945037842
+            ],
+            "dense": [
+              9.667584419250488,
+              9.695232391357422,
+              9.467904090881348,
+              9.747455596923828,
+              9.903936386108398,
+              9.45740795135498,
+              9.828096389770508,
+              9.456512451171875,
+              9.670656204223633,
+              9.918463706970215,
+              9.69001579284668,
+              9.887743949890137,
+              9.838591575622559,
+              9.335776329040527,
+              9.790464401245117,
+              9.704447746276855,
+              10.12019157409668,
+              9.812992095947266,
+              9.8088960647583,
+              9.720512390136719
+            ]
+          }
+        },
+        {
+          "round": 3,
+          "order": [
+            "indexed",
+            "dense",
+            "reordered"
+          ],
+          "timing_ms": {
+            "indexed": [
+              3.910655975341797,
+              3.579904079437256,
+              3.9229440689086914,
+              3.8410239219665527,
+              3.512320041656494,
+              4.176671981811523,
+              3.7857279777526855,
+              3.5469439029693604,
+              3.8267838954925537,
+              3.7099521160125732,
+              3.4201600551605225,
+              3.6780800819396973,
+              3.917504072189331,
+              3.708928108215332,
+              3.861504077911377,
+              3.5252480506896973,
+              3.851263999938965,
+              3.92192006111145,
+              3.6062400341033936,
+              3.8389759063720703
+            ],
+            "dense": [
+              9.668383598327637,
+              9.549823760986328,
+              9.790335655212402,
+              9.550944328308105,
+              9.802623748779297,
+              10.090144157409668,
+              9.482975959777832,
+              9.93075180053711,
+              9.904224395751953,
+              9.53551959991455,
+              9.93667221069336,
+              9.902015686035156,
+              9.549823760986328,
+              9.752575874328613,
+              9.51091194152832,
+              9.793536186218262,
+              9.738240242004395,
+              9.534463882446289,
+              9.82323169708252,
+              9.748448371887207
+            ],
+            "reordered": [
+              5.082111835479736,
+              5.113855838775635,
+              5.459968090057373,
+              5.301248073577881,
+              5.396480083465576,
+              5.389311790466309,
+              5.180416107177734,
+              5.334015846252441,
+              5.3797760009765625,
+              5.373568058013916,
+              5.035007953643799,
+              5.198912143707275,
+              5.398528099060059,
+              5.390336036682129,
+              5.4323201179504395,
+              5.387040138244629,
+              5.3094401359558105,
+              5.354496002197266,
+              5.293791770935059,
+              5.409599781036377
+            ]
+          }
+        }
+      ]
+    },
+    "warmup": 5,
+    "rounds": 3,
+    "repeats": 20
+  },
+  "profile": {
+    "unprofiled_timing": {
+      "methods": {
+        "dense": {
+          "count": 30,
+          "median_ms": 29.64070415496826,
+          "mean_ms": 29.660498110453286,
+          "percentiles_10_90_ms": [
+            28.988109397888184,
+            30.471008682250975
+          ],
+          "percentiles_25_75_ms": [
+            29.31942367553711,
+            29.877631187438965
+          ],
+          "min_max_ms": [
+            28.35251235961914,
+            30.78214454650879
+          ],
+          "timing_ms": [
+            28.98841667175293,
+            29.203392028808594,
+            29.808639526367188,
+            30.57151985168457,
+            29.635583877563477,
+            29.885311126708984,
+            29.57619285583496,
+            30.78214454650879,
+            29.478912353515625,
+            29.517824172973633,
+            29.834239959716797,
+            30.458879470825195,
+            29.136768341064453,
+            29.318143844604492,
+            29.32326316833496,
+            29.92425537109375,
+            30.459840774536133,
+            28.908544540405273,
+            28.35251235961914,
+            28.98534393310547,
+            29.96326446533203,
+            29.826047897338867,
+            29.511680603027344,
+            29.656063079833984,
+            29.854591369628906,
+            29.792255401611328,
+            30.60223960876465,
+            29.568832397460938,
+            29.244415283203125,
+            29.645824432373047
+          ]
+        },
+        "indexed": {
+          "count": 30,
+          "median_ms": 23.382015228271484,
+          "mean_ms": 23.466800053914387,
+          "percentiles_10_90_ms": [
+            22.93985233306885,
+            23.901798439025878
+          ],
+          "percentiles_25_75_ms": [
+            23.128320693969727,
+            23.677696228027344
+          ],
+          "min_max_ms": [
+            22.780927658081055,
+            25.19740867614746
+          ],
+          "timing_ms": [
+            23.49443244934082,
+            22.780927658081055,
+            22.87718391418457,
+            25.19740867614746,
+            23.50182342529297,
+            24.680448532104492,
+            22.982656478881836,
+            23.67897605895996,
+            23.313247680664062,
+            23.701215744018555,
+            23.371776580810547,
+            23.853055953979492,
+            23.09712028503418,
+            23.395328521728516,
+            23.382015228271484,
+            23.201791763305664,
+            23.126047134399414,
+            22.87513542175293,
+            23.47417640686035,
+            23.242752075195312,
+            23.12704086303711,
+            23.25708770751953,
+            22.946815490722656,
+            23.132160186767578,
+            23.754751205444336,
+            24.34048080444336,
+            23.673856735229492,
+            23.758752822875977,
+            23.382015228271484,
+            23.403520584106445
+          ]
+        }
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "order": [
+            "dense",
+            "indexed"
+          ],
+          "timing_ms": {
+            "dense": [
+              28.98841667175293,
+              29.203392028808594,
+              29.808639526367188,
+              30.57151985168457,
+              29.635583877563477,
+              29.885311126708984,
+              29.57619285583496,
+              30.78214454650879,
+              29.478912353515625,
+              29.517824172973633
+            ],
+            "indexed": [
+              23.49443244934082,
+              22.780927658081055,
+              22.87718391418457,
+              25.19740867614746,
+              23.50182342529297,
+              24.680448532104492,
+              22.982656478881836,
+              23.67897605895996,
+              23.313247680664062,
+              23.701215744018555
+            ]
+          }
+        },
+        {
+          "round": 2,
+          "order": [
+            "indexed",
+            "dense"
+          ],
+          "timing_ms": {
+            "indexed": [
+              23.371776580810547,
+              23.853055953979492,
+              23.09712028503418,
+              23.395328521728516,
+              23.382015228271484,
+              23.201791763305664,
+              23.126047134399414,
+              22.87513542175293,
+              23.47417640686035,
+              23.242752075195312
+            ],
+            "dense": [
+              29.834239959716797,
+              30.458879470825195,
+              29.136768341064453,
+              29.318143844604492,
+              29.32326316833496,
+              29.92425537109375,
+              30.459840774536133,
+              28.908544540405273,
+              28.35251235961914,
+              28.98534393310547
+            ]
+          }
+        },
+        {
+          "round": 3,
+          "order": [
+            "dense",
+            "indexed"
+          ],
+          "timing_ms": {
+            "dense": [
+              29.96326446533203,
+              29.826047897338867,
+              29.511680603027344,
+              29.656063079833984,
+              29.854591369628906,
+              29.792255401611328,
+              30.60223960876465,
+              29.568832397460938,
+              29.244415283203125,
+              29.645824432373047
+            ],
+            "indexed": [
+              23.12704086303711,
+              23.25708770751953,
+              22.946815490722656,
+              23.132160186767578,
+              23.754751205444336,
+              24.34048080444336,
+              23.673856735229492,
+              23.758752822875977,
+              23.382015228271484,
+              23.403520584106445
+            ]
+          }
+        }
+      ]
+    },
+    "profile_observations": {
+      "dense": [
+        {
+          "total_ms": 29.5731201171875,
+          "parts_ms": {
+            "other_model": 0.0050879999762400985,
+            "other_backbone": 3.760064006317407,
+            "projection_and_sr": 1.5238080037524924,
+            "global_aggregation": 10.390527904033661,
+            "FFN": 4.1164799481630325,
+            "decoding": 9.777152061462402
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 1
+        },
+        {
+          "total_ms": 30.03081512451172,
+          "parts_ms": {
+            "other_model": 0.0808639966417104,
+            "other_backbone": 4.119904006831348,
+            "projection_and_sr": 1.7650240047369152,
+            "global_aggregation": 9.973759949207306,
+            "FFN": 4.148223981261253,
+            "decoding": 9.943039894104004
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 2
+        },
+        {
+          "total_ms": 31.886335372924805,
+          "parts_ms": {
+            "other_model": 0.11683200160041451,
+            "other_backbone": 5.341151971137151,
+            "projection_and_sr": 2.859264002298005,
+            "global_aggregation": 9.977599889039993,
+            "FFN": 4.149184018373489,
+            "decoding": 9.442303657531738
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 3
+        },
+        {
+          "total_ms": 29.319168090820312,
+          "parts_ms": {
+            "other_model": 0.047103999997489154,
+            "other_backbone": 4.117503915796988,
+            "projection_and_sr": 1.481728011276573,
+            "global_aggregation": 9.976831942796707,
+            "FFN": 4.297728076577187,
+            "decoding": 9.398271560668945
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 4
+        },
+        {
+          "total_ms": 30.58995246887207,
+          "parts_ms": {
+            "other_model": 0.12912000576034188,
+            "other_backbone": 5.217695900937542,
+            "projection_and_sr": 1.8446080236462876,
+            "global_aggregation": 9.727999955415726,
+            "FFN": 4.148351952433586,
+            "decoding": 9.522175788879395
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 1
+        },
+        {
+          "total_ms": 31.527936935424805,
+          "parts_ms": {
+            "other_model": 0.006144000100903213,
+            "other_backbone": 5.207487930427305,
+            "projection_and_sr": 2.1984000236261636,
+            "global_aggregation": 9.29353615641594,
+            "FFN": 4.69193609058857,
+            "decoding": 10.13043212890625
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 2
+        },
+        {
+          "total_ms": 31.219711303710938,
+          "parts_ms": {
+            "other_model": 0.08396799757611006,
+            "other_backbone": 4.810592011664994,
+            "projection_and_sr": 1.8279999954393134,
+            "global_aggregation": 9.501696199178696,
+            "FFN": 5.140479937195778,
+            "decoding": 9.854975700378418
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 3
+        },
+        {
+          "total_ms": 30.81830406188965,
+          "parts_ms": {
+            "other_model": 0.22732800105586648,
+            "other_backbone": 4.409247959731147,
+            "projection_and_sr": 1.9620480216108263,
+            "global_aggregation": 10.152959942817688,
+            "FFN": 4.593695968389511,
+            "decoding": 9.473024368286133
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 4
+        },
+        {
+          "total_ms": 35.53785705566406,
+          "parts_ms": {
+            "other_model": 0.054207998677156866,
+            "other_backbone": 7.101472093490884,
+            "projection_and_sr": 3.3781439821468666,
+            "global_aggregation": 10.057439744472504,
+            "FFN": 5.364000111818314,
+            "decoding": 9.582592010498047
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 1
+        },
+        {
+          "total_ms": 30.5797119140625,
+          "parts_ms": {
+            "other_model": 0.21811199828516692,
+            "other_backbone": 5.309375978540629,
+            "projection_and_sr": 1.5759360179072246,
+            "global_aggregation": 9.962495982646942,
+            "FFN": 4.054080039262772,
+            "decoding": 9.459712028503418
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 2
+        },
+        {
+          "total_ms": 32.01126480102539,
+          "parts_ms": {
+            "other_model": 0.16665600577834994,
+            "other_backbone": 5.41843196132686,
+            "projection_and_sr": 2.2599359959131107,
+            "global_aggregation": 9.205759823322296,
+            "FFN": 4.938592046499252,
+            "decoding": 10.02188777923584
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 3
+        },
+        {
+          "total_ms": 31.18284797668457,
+          "parts_ms": {
+            "other_model": 0.09625600138679147,
+            "other_backbone": 4.431103976909071,
+            "projection_and_sr": 1.9835200153756887,
+            "global_aggregation": 10.020575940608978,
+            "FFN": 4.68787208199501,
+            "decoding": 9.963520050048828
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 4
+        }
+      ],
+      "indexed": [
+        {
+          "total_ms": 23.820287704467773,
+          "parts_ms": {
+            "other_model": 0.07404799689538777,
+            "other_backbone": 4.850559911457822,
+            "projection_and_sr": 1.697760024573654,
+            "global_aggregation": 3.71097594499588,
+            "FFN": 4.119391977787018,
+            "decoding": 9.367551803588867
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 1
+        },
+        {
+          "total_ms": 27.017215728759766,
+          "parts_ms": {
+            "other_model": 0.11980800225865096,
+            "other_backbone": 5.396384094958194,
+            "projection_and_sr": 2.255839990451932,
+            "global_aggregation": 3.7550080120563507,
+            "FFN": 5.74681593477726,
+            "decoding": 9.743359565734863
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 2
+        },
+        {
+          "total_ms": 24.411136627197266,
+          "parts_ms": {
+            "other_model": 0.0514879998518154,
+            "other_backbone": 4.5789120473200455,
+            "projection_and_sr": 1.6302720067324117,
+            "global_aggregation": 3.588095933198929,
+            "FFN": 4.661311998963356,
+            "decoding": 9.901056289672852
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 3
+        },
+        {
+          "total_ms": 24.021728515625,
+          "parts_ms": {
+            "other_model": 0.06844799825921655,
+            "other_backbone": 4.063039960106835,
+            "projection_and_sr": 1.6252480056136847,
+            "global_aggregation": 3.547135978937149,
+            "FFN": 4.925344005227089,
+            "decoding": 9.792511940002441
+          },
+          "events": 142,
+          "round": 1,
+          "repeat": 4
+        },
+        {
+          "total_ms": 25.168895721435547,
+          "parts_ms": {
+            "other_model": 0.11878400191199034,
+            "other_backbone": 5.013183991424739,
+            "projection_and_sr": 1.6672640058677644,
+            "global_aggregation": 4.180991947650909,
+            "FFN": 4.606080010533333,
+            "decoding": 9.582592010498047
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 1
+        },
+        {
+          "total_ms": 26.32806396484375,
+          "parts_ms": {
+            "other_model": 0.19894400099292397,
+            "other_backbone": 5.279039977001958,
+            "projection_and_sr": 1.6439360002987087,
+            "global_aggregation": 4.122623890638351,
+            "FFN": 4.169727981090546,
+            "decoding": 10.91379165649414
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 2
+        },
+        {
+          "total_ms": 23.8939208984375,
+          "parts_ms": {
+            "other_model": 0.07980800315272063,
+            "other_backbone": 4.35379193990957,
+            "projection_and_sr": 1.5885120158782229,
+            "global_aggregation": 3.853247970342636,
+            "FFN": 4.054015964269638,
+            "decoding": 9.964544296264648
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 3
+        },
+        {
+          "total_ms": 26.573823928833008,
+          "parts_ms": {
+            "other_model": 0.14028800174128264,
+            "other_backbone": 5.401663974043913,
+            "projection_and_sr": 2.3983359888661653,
+            "global_aggregation": 3.917631983757019,
+            "FFN": 4.464640036225319,
+            "decoding": 10.251263618469238
+          },
+          "events": 142,
+          "round": 2,
+          "repeat": 4
+        },
+        {
+          "total_ms": 39.65235137939453,
+          "parts_ms": {
+            "other_model": 0.11145600234158337,
+            "other_backbone": 11.131807981058955,
+            "projection_and_sr": 6.300671966630034,
+            "global_aggregation": 4.634880006313324,
+            "FFN": 7.349248051643372,
+            "decoding": 10.124287605285645
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 1
+        },
+        {
+          "total_ms": 31.074304580688477,
+          "parts_ms": {
+            "other_model": 0.3889600143302232,
+            "other_backbone": 7.59689605422318,
+            "projection_and_sr": 3.199135992792435,
+            "global_aggregation": 4.462303966283798,
+            "FFN": 5.520832002162933,
+            "decoding": 9.90617561340332
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 2
+        },
+        {
+          "total_ms": 27.593727111816406,
+          "parts_ms": {
+            "other_model": 0.06041599961463362,
+            "other_backbone": 6.438720076344907,
+            "projection_and_sr": 2.6341119813732803,
+            "global_aggregation": 3.8807039856910706,
+            "FFN": 4.623423993587494,
+            "decoding": 9.956352233886719
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 3
+        },
+        {
+          "total_ms": 24.631296157836914,
+          "parts_ms": {
+            "other_model": 0.08703999861609191,
+            "other_backbone": 4.36550402850844,
+            "projection_and_sr": 1.9200320035452023,
+            "global_aggregation": 4.029312044382095,
+            "FFN": 4.179871931672096,
+            "decoding": 10.049535751342773
+          },
+          "events": 142,
+          "round": 3,
+          "repeat": 4
+        }
+      ]
+    },
+    "local_attention_modules": 0,
+    "unprofiled_recheck": {
+      "methods": {
+        "dense": {
+          "count": 5,
+          "median_ms": 29.38265609741211,
+          "mean_ms": 29.4453182220459,
+          "percentiles_10_90_ms": [
+            29.14344940185547,
+            29.76972770690918
+          ],
+          "percentiles_25_75_ms": [
+            29.362079620361328,
+            29.603839874267578
+          ],
+          "min_max_ms": [
+            28.997695922851562,
+            29.880319595336914
+          ],
+          "timing_ms": [
+            28.997695922851562,
+            29.38265609741211,
+            29.880319595336914,
+            29.362079620361328,
+            29.603839874267578
+          ]
+        },
+        "indexed": {
+          "count": 5,
+          "median_ms": 23.699264526367188,
+          "mean_ms": 23.661305618286132,
+          "percentiles_10_90_ms": [
+            23.501171493530272,
+            23.79653091430664
+          ],
+          "percentiles_25_75_ms": [
+            23.538591384887695,
+            23.794687271118164
+          ],
+          "min_max_ms": [
+            23.476224899291992,
+            23.797760009765625
+          ],
+          "timing_ms": [
+            23.797760009765625,
+            23.476224899291992,
+            23.699264526367188,
+            23.794687271118164,
+            23.538591384887695
+          ]
+        }
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "order": [
+            "dense",
+            "indexed"
+          ],
+          "timing_ms": {
+            "dense": [
+              28.997695922851562,
+              29.38265609741211,
+              29.880319595336914,
+              29.362079620361328,
+              29.603839874267578
+            ],
+            "indexed": [
+              23.797760009765625,
+              23.476224899291992,
+              23.699264526367188,
+              23.794687271118164,
+              23.538591384887695
+            ]
+          }
+        }
+      ]
+    },
+    "profile_summary": {
+      "dense": {
+        "count": 12,
+        "mean_total_ms": 31.189752101898193,
+        "mean_parts_ms": {
+          "FFN": 4.527552021046479,
+          "other_backbone": 4.9370026427592775,
+          "projection_and_sr": 2.055034674810789,
+          "other_model": 0.10264000056971175,
+          "global_aggregation": 9.85343195249637,
+          "decoding": 9.714090585708618
+        },
+        "profiled_total_distribution": {
+          "count": 12,
+          "median_ms": 31.00057601928711,
+          "mean_ms": 31.189752101898193,
+          "percentiles_10_90_ms": [
+            29.618889617919923,
+            31.99877185821533
+          ],
+          "percentiles_25_75_ms": [
+            30.442487716674805,
+            31.617536544799805
+          ],
+          "min_max_ms": [
+            29.319168090820312,
+            35.53785705566406
+          ]
+        },
+        "profiled_vs_unprofiled_percent": 4.587852762232414
+      },
+      "indexed": {
+        "count": 12,
+        "mean_total_ms": 27.015562693277996,
+        "mean_parts_ms": {
+          "FFN": 4.868391990661621,
+          "other_backbone": 5.70579200302988,
+          "projection_and_sr": 2.3800933318852913,
+          "other_model": 0.12495733499721003,
+          "global_aggregation": 3.973575972020626,
+          "decoding": 9.962751865386963
+        },
+        "profiled_total_distribution": {
+          "count": 12,
+          "median_ms": 25.74847984313965,
+          "mean_ms": 27.015562693277996,
+          "percentiles_10_90_ms": [
+            23.90670166015625,
+            30.72624683380127
+          ],
+          "percentiles_25_75_ms": [
+            24.3137845993042,
+            27.161343574523926
+          ],
+          "min_max_ms": [
+            23.820287704467773,
+            39.65235137939453
+          ]
+        },
+        "profiled_vs_unprofiled_percent": 10.12087534699251
+      }
+    }
+  }
+}

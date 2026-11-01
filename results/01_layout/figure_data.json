@@ -1,0 +1,2308 @@
+{
+  "random_controls": {
+    "random_control_rows": [
+      {
+        "dataset": "uavid",
+        "budget_scale": 0.5,
+        "mIoU_percent": 71.78431806292416
+      },
+      {
+        "dataset": "uavid",
+        "budget_scale": 1.0,
+        "mIoU_percent": 72.04392337833526
+      },
+      {
+        "dataset": "uavid",
+        "budget_scale": 2.0,
+        "mIoU_percent": 72.13891626541763
+      },
+      {
+        "dataset": "twins",
+        "budget_scale": 0.5,
+        "mIoU_percent": 78.5217815516353
+      },
+      {
+        "dataset": "twins",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.78281161155249
+      },
+      {
+        "dataset": "twins",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.90604176011851
+      }
+    ]
+  },
+  "diag": {
+    "case": {
+      "uavid": {
+        "whole_window": {
+          "dense_start": {
+            "median_ms": 245.0599365234375
+          },
+          "point32": {
+            "median_ms": 96.48172760009766
+          },
+          "proxy8": {
+            "median_ms": 414.7225646972656
+          },
+          "exact": {
+            "median_ms": 525.0753479003906
+          },
+          "region": {
+            "median_ms": 115.4783706665039
+          },
+          "dense_end": {
+            "median_ms": 241.88191986083984
+          }
+        },
+        "attention": {
+          "point32": {
+            "instrumented_component_ms": {
+              "fixed_indexed_attention": 3.011487990617752
+            }
+          },
+          "proxy8": {
+            "instrumented_component_ms": {
+              "topk_selection_and_indices": 284.0947836190462,
+              "low_dimensional_score_projection": 1.722367987036705,
+              "fused_selected_attention": 23.664191684685647,
+              "output_allocation": 0.021536000189371407,
+              "pair_scoring": 43.6761920042336
+            }
+          },
+          "exact": {
+            "instrumented_component_ms": {
+              "topk_selection_and_indices": 256.5110715031624,
+              "low_dimensional_score_projection": 0.018080000183545053,
+              "fused_selected_attention": 13.943232012912631,
+              "output_allocation": 0.1630400032736361,
+              "pair_scoring": 187.29983969032764
+            }
+          },
+          "region": {
+            "instrumented_component_ms": {
+              "topk_selection_and_indices": 0.20025600027292967,
+              "candidate_key_value_organization": 3.53846400603652,
+              "region_organization_and_pooling": 4.685952037572861,
+              "query_order_restoration": 2.058239959180355,
+              "selected_attention": 8.745984137058258,
+              "pair_scoring": 0.25055999867618084
+            }
+          }
+        },
+        "coverage": {
+          "point32": {
+            "retained_dense_probability_mass": 0.036269520118992815,
+            "weighted_aggregation_relative_l2": 0.38243403886311184
+          },
+          "proxy8": {
+            "retained_dense_probability_mass": 0.16099683828251335,
+            "weighted_aggregation_relative_l2": 0.7336155750437906
+          },
+          "exact": {
+            "retained_dense_probability_mass": 0.28753074731237144,
+            "weighted_aggregation_relative_l2": 0.49073331943606224
+          },
+          "region": {
+            "retained_dense_probability_mass": 0.09640675622929809,
+            "weighted_aggregation_relative_l2": 0.7691630321927354
+          }
+        }
+      },
+      "twins": {
+        "whole_window": {
+          "dense_start": {
+            "median_ms": 66.58807754516602
+          },
+          "point32": {
+            "median_ms": 50.85593605041504
+          },
+          "proxy8": {
+            "median_ms": 101.66364669799805
+          },
+          "exact": {
+            "median_ms": 114.13086318969727
+          },
+          "region": {
+            "median_ms": 59.38457489013672
+          },
+          "dense_end": {
+            "median_ms": 63.36665725708008
+          }
+        },
+        "attention": {
+          "point32": {
+            "instrumented_component_ms": {
+              "fixed_indexed_attention": 1.67603200674057
+            }
+          },
+          "proxy8": {
+            "instrumented_component_ms": {
+              "topk_selection_and_indices": 37.409791469573975,
+              "low_dimensional_score_projection": 0.5815360099077225,
+              "fused_selected_attention": 7.104671992361546,
+              "output_allocation": 0.033632000791840255,
+              "pair_scoring": 5.444607958197594
+            }
+          },
+          "exact": {
+            "instrumented_component_ms": {
+              "topk_selection_and_indices": 38.39692783355713,
+              "low_dimensional_score_projection": 0.025695999385789037,
+              "fused_selected_attention": 5.039103955030441,
+              "output_allocation": 0.03836800088174641,
+              "pair_scoring": 21.130976140499115
+            }
+          },
+          "region": {
+            "instrumented_component_ms": {
+              "topk_selection_and_indices": 0.1732480013743043,
+              "candidate_key_value_organization": 2.3322879932820797,
+              "region_organization_and_pooling": 3.4272000193595886,
+              "query_order_restoration": 0.3953920006752014,
+              "selected_attention": 4.627456098794937,
+              "pair_scoring": 0.3193600056692958
+            }
+          }
+        },
+        "coverage": {
+          "point32": {
+            "retained_dense_probability_mass": 0.19616466263930002,
+            "weighted_aggregation_relative_l2": 0.2732233588587993
+          },
+          "proxy8": {
+            "retained_dense_probability_mass": 0.486363732152515,
+            "weighted_aggregation_relative_l2": 0.45341378774395014
+          },
+          "exact": {
+            "retained_dense_probability_mass": 0.6431518950396113,
+            "weighted_aggregation_relative_l2": 0.34095811048919183
+          },
+          "region": {
+            "retained_dense_probability_mass": 0.37357187353902394,
+            "weighted_aggregation_relative_l2": 0.6203162527468228
+          }
+        }
+      }
+    }
+  },
+  "ctrl": {
+    "complete_results": [
+      {
+        "case": "uavid",
+        "remote_cluster_side": 4,
+        "miou_percent": 71.37641508191498
+      },
+      {
+        "case": "uavid",
+        "remote_cluster_side": 2,
+        "miou_percent": 71.59098883527074
+      },
+      {
+        "case": "uavid",
+        "remote_cluster_side": 1,
+        "miou_percent": 71.80489180477474
+      },
+      {
+        "case": "twins",
+        "remote_cluster_side": 4,
+        "miou_percent": 78.47069549564914
+      },
+      {
+        "case": "twins",
+        "remote_cluster_side": 2,
+        "miou_percent": 78.51802138575808
+      },
+      {
+        "case": "twins",
+        "remote_cluster_side": 1,
+        "miou_percent": 78.70562490596045
+      }
+    ],
+    "paired_comparisons": [
+      {
+        "case": "uavid",
+        "reference_cluster_side": 4,
+        "candidate_cluster_side": 2,
+        "paired_ci95": [
+          -0.027249710846689368,
+          0.4034243083252837
+        ]
+      },
+      {
+        "case": "uavid",
+        "reference_cluster_side": 4,
+        "candidate_cluster_side": 1,
+        "paired_ci95": [
+          0.13733973320188717,
+          0.7770069589234225
+        ]
+      },
+      {
+        "case": "twins",
+        "reference_cluster_side": 4,
+        "candidate_cluster_side": 2,
+        "paired_ci95": [
+          -0.22365529758058605,
+          0.36897764706174846
+        ]
+      },
+      {
+        "case": "twins",
+        "reference_cluster_side": 4,
+        "candidate_cluster_side": 1,
+        "paired_ci95": [
+          -0.02791674442108345,
+          0.5758148925883053
+        ]
+      }
+    ]
+  },
+  "sparge": {
+    "measurements": [
+      {
+        "models": "segformer",
+        "k": 14,
+        "sparge_minus_dispersed32_pp": -1.1534987488901152,
+        "whole_model": {
+          "dense": {
+            "median_ms": 250.61939239501953
+          },
+          "point32": {
+            "median_ms": 96.44900894165039,
+            "speedup_over_fp32_dense": 2.5984651905198834
+          },
+          "sparge": {
+            "median_ms": 99.57734298706055,
+            "speedup_over_fp32_dense": 2.5168314887412286
+          }
+        }
+      },
+      {
+        "models": "segformer",
+        "k": 15,
+        "sparge_minus_dispersed32_pp": -0.49929192999279337,
+        "whole_model": {
+          "dense": {
+            "median_ms": 255.247314453125
+          },
+          "point32": {
+            "median_ms": 98.86513900756836,
+            "speedup_over_fp32_dense": 2.581772675539203
+          },
+          "sparge": {
+            "median_ms": 100.19225692749023,
+            "speedup_over_fp32_dense": 2.5475752546212136
+          }
+        }
+      },
+      {
+        "models": "segformer",
+        "k": 16,
+        "sparge_minus_dispersed32_pp": -0.031871150247908986,
+        "whole_model": {
+          "dense": {
+            "median_ms": 257.3685760498047
+          },
+          "point32": {
+            "median_ms": 104.79462432861328,
+            "speedup_over_fp32_dense": 2.455932999413715
+          },
+          "sparge": {
+            "median_ms": 100.53324508666992,
+            "speedup_over_fp32_dense": 2.5600345022974906
+          }
+        }
+      },
+      {
+        "models": "twins",
+        "k": 14,
+        "sparge_minus_dispersed32_pp": -0.7849894861602138,
+        "whole_model": {
+          "dense": {
+            "median_ms": 65.40734481811523
+          },
+          "point32": {
+            "median_ms": 52.59622383117676,
+            "speedup_over_fp32_dense": 1.2435749195238728
+          },
+          "sparge": {
+            "median_ms": 54.45664024353027,
+            "speedup_over_fp32_dense": 1.201090345008678
+          }
+        }
+      },
+      {
+        "models": "twins",
+        "k": 15,
+        "sparge_minus_dispersed32_pp": -0.005987168729248538,
+        "whole_model": {
+          "dense": {
+            "median_ms": 65.22659301757812
+          },
+          "point32": {
+            "median_ms": 55.582719802856445,
+            "speedup_over_fp32_dense": 1.173504881533812
+          },
+          "sparge": {
+            "median_ms": 55.15083312988281,
+            "speedup_over_fp32_dense": 1.1826946088732047
+          }
+        }
+      },
+      {
+        "models": "twins",
+        "k": 16,
+        "sparge_minus_dispersed32_pp": 0.06235723729295728,
+        "whole_model": {
+          "dense": {
+            "median_ms": 65.08951950073242
+          },
+          "point32": {
+            "median_ms": 59.621376037597656,
+            "speedup_over_fp32_dense": 1.0917144793787805
+          },
+          "sparge": {
+            "median_ms": 60.354047775268555,
+            "speedup_over_fp32_dense": 1.078461543177628
+          }
+        }
+      }
+    ]
+  },
+  "grid_results": {
+    "models": {
+      "segformer": {
+        "budget_points": [
+          {
+            "k": 13,
+            "grid_mIoU": 71.67940430090425
+          },
+          {
+            "k": 14,
+            "grid_mIoU": 71.93449655012085
+          },
+          {
+            "k": 15,
+            "grid_mIoU": 72.11286161753999
+          },
+          {
+            "k": 16,
+            "point32_mIoU": 72.22761837625495,
+            "grid_mIoU": 72.20791727086645
+          }
+        ]
+      },
+      "twins": {
+        "budget_points": [
+          {
+            "k": 13,
+            "grid_mIoU": 78.46910639643148
+          },
+          {
+            "k": 14,
+            "grid_mIoU": 78.7109376945229
+          },
+          {
+            "k": 15,
+            "grid_mIoU": 78.83234259766954
+          },
+          {
+            "k": 16,
+            "point32_mIoU": 79.00499840530513,
+            "grid_mIoU": 78.96432984678367
+          }
+        ]
+      }
+    }
+  },
+  "paired": {
+    "paired_results": [
+      {
+        "case": "uavid",
+        "candidate_method": "proxy8",
+        "overall_miou_difference_pp": -2.236355536641696,
+        "paired_ci95": [
+          -3.4304564207521793,
+          -1.2102597898373517
+        ],
+        "bootstrap": {
+          "repeats": 5000,
+          "seed": 42,
+          "grouping": "sequences",
+          "draw_method": "multinomial"
+        }
+      },
+      {
+        "case": "uavid",
+        "candidate_method": "exact",
+        "overall_miou_difference_pp": -1.015167784989771,
+        "paired_ci95": [
+          -1.6228631222807053,
+          -0.44727435112949365
+        ],
+        "bootstrap": {
+          "repeats": 5000,
+          "seed": 42,
+          "grouping": "sequences",
+          "draw_method": "multinomial"
+        }
+      },
+      {
+        "case": "twins",
+        "candidate_method": "proxy8",
+        "overall_miou_difference_pp": 0.024078815160464728,
+        "paired_ci95": [
+          -0.20482756290575635,
+          0.23035134481869288
+        ],
+        "bootstrap": {
+          "repeats": 5000,
+          "seed": 42,
+          "grouping": "cities",
+          "draw_method": "multinomial"
+        }
+      },
+      {
+        "case": "twins",
+        "candidate_method": "exact",
+        "overall_miou_difference_pp": -0.0163091596277809,
+        "paired_ci95": [
+          -0.2539592124872424,
+          0.1901197632555006
+        ],
+        "bootstrap": {
+          "repeats": 5000,
+          "seed": 42,
+          "grouping": "cities",
+          "draw_method": "multinomial"
+        }
+      }
+    ]
+  },
+  "coverage": {
+    "uavid": {
+      "blocks": [
+        {
+          "Q": 262144,
+          "heads": 1,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.038693762686564215,
+              "retained_dense_probability_mass": 0.016863517463207245,
+              "aggregation_relative_l2": 0.2732108655524204
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.06721245497465134,
+              "aggregation_relative_l2": 0.7820777348653907
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.21525976061820984,
+              "aggregation_relative_l2": 0.34830545894300086
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.044436194002628326,
+              "aggregation_relative_l2": 0.4823330069825526
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.324379531325236
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.07378922151003144
+            }
+          }
+        },
+        {
+          "Q": 262144,
+          "heads": 1,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.039653584227936856,
+              "retained_dense_probability_mass": 0.015177393332123756,
+              "aggregation_relative_l2": 0.451226071295244
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.11352670192718506,
+              "aggregation_relative_l2": 0.7755894673360303
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.24043607711791992,
+              "aggregation_relative_l2": 0.5242451589631622
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.0763527899980545,
+              "aggregation_relative_l2": 0.6940965696999852
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.324379531325236
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.07178871929859594
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.030038271238585032,
+              "retained_dense_probability_mass": 0.031459737569093704,
+              "aggregation_relative_l2": 0.330272196628681
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.1439274251461029,
+              "aggregation_relative_l2": 0.7532128500812532
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.23280730843544006,
+              "aggregation_relative_l2": 0.6059310237161101
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.0660320296883583,
+              "aggregation_relative_l2": 0.760570123521995
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.29742743654019244
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06348156354798659
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.030869095305269323,
+              "retained_dense_probability_mass": 0.03262888640165329,
+              "aggregation_relative_l2": 0.6256866138322075
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.1907634735107422,
+              "aggregation_relative_l2": 1.110603241547027
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.29796093702316284,
+              "aggregation_relative_l2": 0.7721730667000559
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.07846309244632721,
+              "aggregation_relative_l2": 0.8446956146806909
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.29742743654019244
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06000787302032531
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 5,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.018993207315613964,
+              "retained_dense_probability_mass": 0.06931954622268677,
+              "aggregation_relative_l2": 0.4228995761311442
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.28156837821006775,
+              "aggregation_relative_l2": 0.6962211685265571
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.45760592818260193,
+              "aggregation_relative_l2": 0.4787184527005188
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.14802561700344086,
+              "aggregation_relative_l2": 0.8666619242805651
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2682375795857336
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.061395752297097504
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 5,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.018969601617727958,
+              "retained_dense_probability_mass": 0.06774815171957016,
+              "aggregation_relative_l2": 0.5851883976212132
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.32299932837486267,
+              "aggregation_relative_l2": 0.8771738489844026
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5054234266281128,
+              "aggregation_relative_l2": 0.6738545751505203
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.17086084187030792,
+              "aggregation_relative_l2": 0.9733123007678905
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2682375795857336
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06117531728841501
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01485757064256597,
+              "retained_dense_probability_mass": 0.13561397790908813,
+              "aggregation_relative_l2": 0.3826380348367595
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.4739843010902405,
+              "aggregation_relative_l2": 0.6139514781661011
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6762421131134033,
+              "aggregation_relative_l2": 0.34117045116228484
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.30834245681762695,
+              "aggregation_relative_l2": 0.6786827789621797
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.21939533498213204
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.05097060890257318
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.014777694302581426,
+              "retained_dense_probability_mass": 0.13086143136024475,
+              "aggregation_relative_l2": 0.3602626260057146
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.46147477626800537,
+              "aggregation_relative_l2": 0.6045804857593896
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.673573911190033,
+              "aggregation_relative_l2": 0.3717288789428837
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.29659587144851685,
+              "aggregation_relative_l2": 0.7893349377094235
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.21939533498213204
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.04282826909743913
+            }
+          }
+        },
+        {
+          "Q": 262144,
+          "heads": 1,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.038693762686564215,
+              "retained_dense_probability_mass": 0.01680125668644905,
+              "aggregation_relative_l2": 0.2439639705706498
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.06026570126414299,
+              "aggregation_relative_l2": 0.8098119314867833
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.1498652696609497,
+              "aggregation_relative_l2": 0.4020527480886875
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.05173831433057785,
+              "aggregation_relative_l2": 0.49986518669167734
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.324379531325236
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.07378922151003144
+            }
+          }
+        },
+        {
+          "Q": 262144,
+          "heads": 1,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.039653584227936856,
+              "retained_dense_probability_mass": 0.015674393624067307,
+              "aggregation_relative_l2": 0.48775120396784133
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.09377094358205795,
+              "aggregation_relative_l2": 0.9845516252034522
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.21603409945964813,
+              "aggregation_relative_l2": 0.6589204422458933
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.07737405598163605,
+              "aggregation_relative_l2": 0.8067954636831434
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.324379531325236
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.07178871929859594
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.030038271238585032,
+              "retained_dense_probability_mass": 0.0324799120426178,
+              "aggregation_relative_l2": 0.3914910015819336
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.13157334923744202,
+              "aggregation_relative_l2": 0.8642659117833521
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.23289752006530762,
+              "aggregation_relative_l2": 0.6940157606441588
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.06460557878017426,
+              "aggregation_relative_l2": 0.8877701024960393
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.29742743654019244
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06348156354798659
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.030869095305269323,
+              "retained_dense_probability_mass": 0.03183712065219879,
+              "aggregation_relative_l2": 0.5238918117375039
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.1875792145729065,
+              "aggregation_relative_l2": 1.0559942228594594
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.288749635219574,
+              "aggregation_relative_l2": 0.980090529301516
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.07370571792125702,
+              "aggregation_relative_l2": 0.6641140242313033
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.29742743654019244
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06000787302032531
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 5,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.018993207315613964,
+              "retained_dense_probability_mass": 0.06910210847854614,
+              "aggregation_relative_l2": 0.4556112407682561
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.33172178268432617,
+              "aggregation_relative_l2": 0.6496631964921533
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.4941900372505188,
+              "aggregation_relative_l2": 0.4466476749007003
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.165456160902977,
+              "aggregation_relative_l2": 0.9017712919577319
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2682375795857336
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.061395752297097504
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 5,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.018969601617727958,
+              "retained_dense_probability_mass": 0.06763400882482529,
+              "aggregation_relative_l2": 0.5287157877928509
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.2922602891921997,
+              "aggregation_relative_l2": 0.8827086575134394
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.4887393116950989,
+              "aggregation_relative_l2": 0.640841507110569
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.16134655475616455,
+              "aggregation_relative_l2": 0.9532362565564823
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2682375795857336
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06117531728841501
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01485757064256597,
+              "retained_dense_probability_mass": 0.12876048684120178,
+              "aggregation_relative_l2": 0.3147177561467621
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.47017574310302734,
+              "aggregation_relative_l2": 0.6336627426717911
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6798981428146362,
+              "aggregation_relative_l2": 0.36329501815929044
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.29251229763031006,
+              "aggregation_relative_l2": 0.7368100914559373
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.21939533498213204
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.05097060890257318
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.014777694302581426,
+              "retained_dense_probability_mass": 0.13236933946609497,
+              "aggregation_relative_l2": 0.24663778577785084
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.43204426765441895,
+              "aggregation_relative_l2": 0.6011196985529084
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6354978680610657,
+              "aggregation_relative_l2": 0.3734762185558516
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.30025583505630493,
+              "aggregation_relative_l2": 0.8465454446686722
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.21939533498213204
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.04282826909743913
+            }
+          }
+        },
+        {
+          "Q": 262144,
+          "heads": 1,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.038693762686564215,
+              "retained_dense_probability_mass": 0.015808388590812683,
+              "aggregation_relative_l2": 0.22053012147067508
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.04321745038032532,
+              "aggregation_relative_l2": 0.8812838110698021
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.12418796122074127,
+              "aggregation_relative_l2": 0.44467991673579504
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.03791659325361252,
+              "aggregation_relative_l2": 0.6196951044979709
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.324379531325236
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.07378922151003144
+            }
+          }
+        },
+        {
+          "Q": 262144,
+          "heads": 1,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.039653584227936856,
+              "retained_dense_probability_mass": 0.016933966428041458,
+              "aggregation_relative_l2": 0.3996091436603824
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.07803311944007874,
+              "aggregation_relative_l2": 0.7933177330820118
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.199909508228302,
+              "aggregation_relative_l2": 0.5650917674606764
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.07084977626800537,
+              "aggregation_relative_l2": 0.793323081756785
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.324379531325236
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.07178871929859594
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.030038271238585032,
+              "retained_dense_probability_mass": 0.031638555228710175,
+              "aggregation_relative_l2": 0.24586390526086424
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.13533064723014832,
+              "aggregation_relative_l2": 0.6390725743139973
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.22165803611278534,
+              "aggregation_relative_l2": 0.496983902890644
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.0619206503033638,
+              "aggregation_relative_l2": 0.6777474784067158
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.29742743654019244
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06348156354798659
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.030869095305269323,
+              "retained_dense_probability_mass": 0.03307747468352318,
+              "aggregation_relative_l2": 0.4870159403012671
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.16644521057605743,
+              "aggregation_relative_l2": 1.0156470087362182
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.282430499792099,
+              "aggregation_relative_l2": 0.724710770248508
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.07534720003604889,
+              "aggregation_relative_l2": 0.5937717030415914
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.29742743654019244
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06000787302032531
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 5,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.018993207315613964,
+              "retained_dense_probability_mass": 0.07058028131723404,
+              "aggregation_relative_l2": 0.3475416864291998
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.31410589814186096,
+              "aggregation_relative_l2": 0.5852850451017588
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.4720737934112549,
+              "aggregation_relative_l2": 0.41926149839648735
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.16464099287986755,
+              "aggregation_relative_l2": 0.7109476478572047
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2682375795857336
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.061395752297097504
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 5,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.018969601617727958,
+              "retained_dense_probability_mass": 0.06760908663272858,
+              "aggregation_relative_l2": 0.48976722661794037
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.3190149962902069,
+              "aggregation_relative_l2": 0.8396688558616329
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5090466141700745,
+              "aggregation_relative_l2": 0.5823113586527254
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.1881856769323349,
+              "aggregation_relative_l2": 0.8600796448065462
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2682375795857336
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06117531728841501
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01485757064256597,
+              "retained_dense_probability_mass": 0.13398796319961548,
+              "aggregation_relative_l2": 0.3422647223010097
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5194365382194519,
+              "aggregation_relative_l2": 0.6214588100972673
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.7089850902557373,
+              "aggregation_relative_l2": 0.32235711393111005
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.3808886706829071,
+              "aggregation_relative_l2": 0.6721944010491273
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.21939533498213204
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.05097060890257318
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.014777694302581426,
+              "retained_dense_probability_mass": 0.13093113899230957,
+              "aggregation_relative_l2": 0.2927124488346903
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.49072539806365967,
+              "aggregation_relative_l2": 0.6043909483855618
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6569074392318726,
+              "aggregation_relative_l2": 0.4459115881517533
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.3413047194480896,
+              "aggregation_relative_l2": 0.739330537979781
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.21939533498213204
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.04282826909743913
+            }
+          }
+        }
+      ]
+    },
+    "twins": {
+      "blocks": [
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.040301109611247804,
+              "retained_dense_probability_mass": 0.06963101029396057,
+              "aggregation_relative_l2": 0.3454568695800315
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.3192105293273926,
+              "aggregation_relative_l2": 0.5303255559288952
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5066155195236206,
+              "aggregation_relative_l2": 0.4423778238972277
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.19681388139724731,
+              "aggregation_relative_l2": 0.6156497983528948
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2788094086563152
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06736155059591283
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 4,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.031367915810423974,
+              "retained_dense_probability_mass": 0.13921111822128296,
+              "aggregation_relative_l2": 0.362156486730519
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.46063315868377686,
+              "aggregation_relative_l2": 0.5972447630239441
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6601581573486328,
+              "aggregation_relative_l2": 0.43362288991708053
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.30694109201431274,
+              "aggregation_relative_l2": 0.6105236433519317
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.22853731885223139
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.04911904869249495
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2572620213031769,
+              "aggregation_relative_l2": 0.3194840772410533
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5253708362579346,
+              "aggregation_relative_l2": 0.5304765808858466
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6409469842910767,
+              "aggregation_relative_l2": 0.46352828308961314
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.3895983099937439,
+              "aggregation_relative_l2": 0.8297785138815403
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2622431516647339,
+              "aggregation_relative_l2": 0.33966810738657915
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.6670270562171936,
+              "aggregation_relative_l2": 0.349692071148697
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.8171004056930542,
+              "aggregation_relative_l2": 0.19926270131642085
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.5319634675979614,
+              "aggregation_relative_l2": 0.5311230785984916
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.03441090645711164
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2561851739883423,
+              "aggregation_relative_l2": 0.30857953581646125
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5781238079071045,
+              "aggregation_relative_l2": 0.4508973493579737
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.7262510061264038,
+              "aggregation_relative_l2": 0.3118547175916163
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.4172154664993286,
+              "aggregation_relative_l2": 0.649353224201223
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2968388497829437,
+              "aggregation_relative_l2": 0.26876914958512277
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.6377174854278564,
+              "aggregation_relative_l2": 0.29057961962018425
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.7678264379501343,
+              "aggregation_relative_l2": 0.20897259688811143
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.5220268964767456,
+              "aggregation_relative_l2": 0.4828634294308792
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.03441090645711164
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.254878968000412,
+              "aggregation_relative_l2": 0.3098552628145638
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5176621675491333,
+              "aggregation_relative_l2": 0.5093817361786898
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6647858619689941,
+              "aggregation_relative_l2": 0.32169466906027055
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.41891539096832275,
+              "aggregation_relative_l2": 0.6768301683480709
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 1024,
+          "heads": 16,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.011404948083653995,
+              "retained_dense_probability_mass": 0.5043118596076965,
+              "aggregation_relative_l2": 0.3180993050701072
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.7864447832107544,
+              "aggregation_relative_l2": 0.25815437523207513
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.890193521976471,
+              "aggregation_relative_l2": 0.21534851167536348
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.7129978537559509,
+              "aggregation_relative_l2": 0.44857109577027365
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.09694205871105893
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.01995865914639449
+            }
+          }
+        },
+        {
+          "Q": 1024,
+          "heads": 16,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.011404948083653995,
+              "retained_dense_probability_mass": 0.5001885890960693,
+              "aggregation_relative_l2": 0.11429978218837536
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.7565686702728271,
+              "aggregation_relative_l2": 0.4855905450136966
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.8329318761825562,
+              "aggregation_relative_l2": 0.46480980597628746
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.7556544542312622,
+              "aggregation_relative_l2": 0.7684204320341256
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.09694205871105893
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.01995865914639449
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.040301109611247804,
+              "retained_dense_probability_mass": 0.06464838236570358,
+              "aggregation_relative_l2": 0.3741638585018244
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.39898115396499634,
+              "aggregation_relative_l2": 0.5890653620121135
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5734605193138123,
+              "aggregation_relative_l2": 0.4290287515243989
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.2304319143295288,
+              "aggregation_relative_l2": 0.7339665384323518
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2788094086563152
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06736155059591283
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 4,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.031367915810423974,
+              "retained_dense_probability_mass": 0.13573136925697327,
+              "aggregation_relative_l2": 0.3143684131962837
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.4180096983909607,
+              "aggregation_relative_l2": 0.635261853404174
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5984846353530884,
+              "aggregation_relative_l2": 0.4865272119786345
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.3036651611328125,
+              "aggregation_relative_l2": 0.7807246717293846
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.22853731885223139
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.04911904869249495
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.25388163328170776,
+              "aggregation_relative_l2": 0.30842104282508465
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5157803297042847,
+              "aggregation_relative_l2": 0.5854284500791159
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6262743473052979,
+              "aggregation_relative_l2": 0.49820456418208797
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.4151840806007385,
+              "aggregation_relative_l2": 0.7531830387278604
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2545841932296753,
+              "aggregation_relative_l2": 0.26724848737042256
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.6921043992042542,
+              "aggregation_relative_l2": 0.32374783188945244
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.8333027958869934,
+              "aggregation_relative_l2": 0.1922302284185932
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.5629873871803284,
+              "aggregation_relative_l2": 0.5087884626392639
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.03441090645711164
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.25164735317230225,
+              "aggregation_relative_l2": 0.26322011267395445
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5188202261924744,
+              "aggregation_relative_l2": 0.5929330039382303
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6857341527938843,
+              "aggregation_relative_l2": 0.3775574579545867
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.38502809405326843,
+              "aggregation_relative_l2": 0.8091956206475596
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.28458893299102783,
+              "aggregation_relative_l2": 0.21137364692351665
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.6007881760597229,
+              "aggregation_relative_l2": 0.3572783512807723
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.7471714019775391,
+              "aggregation_relative_l2": 0.2626752256123038
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.5272014141082764,
+              "aggregation_relative_l2": 0.5488555942152744
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.03441090645711164
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.25109198689460754,
+              "aggregation_relative_l2": 0.18882269642286242
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.4882996082305908,
+              "aggregation_relative_l2": 0.5245381784503773
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5897270441055298,
+              "aggregation_relative_l2": 0.4151356957855985
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.38519468903541565,
+              "aggregation_relative_l2": 0.6428676302391386
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 1024,
+          "heads": 16,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.011404948083653995,
+              "retained_dense_probability_mass": 0.5004146099090576,
+              "aggregation_relative_l2": 0.2419466826239398
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.7317126989364624,
+              "aggregation_relative_l2": 0.33687401412551304
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.8128052353858948,
+              "aggregation_relative_l2": 0.2692783610732488
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.7090450525283813,
+              "aggregation_relative_l2": 0.4410983592499072
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.09694205871105893
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.01995865914639449
+            }
+          }
+        },
+        {
+          "Q": 1024,
+          "heads": 16,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.011404948083653995,
+              "retained_dense_probability_mass": 0.49981218576431274,
+              "aggregation_relative_l2": 0.11462288749503727
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.6750030517578125,
+              "aggregation_relative_l2": 0.43994020915188514
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.7562504410743713,
+              "aggregation_relative_l2": 0.40479674232573926
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.6679210662841797,
+              "aggregation_relative_l2": 0.6418704007927329
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.09694205871105893
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.01995865914639449
+            }
+          }
+        },
+        {
+          "Q": 65536,
+          "heads": 2,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.040301109611247804,
+              "retained_dense_probability_mass": 0.06817315518856049,
+              "aggregation_relative_l2": 0.29360413212637254
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.3236677050590515,
+              "aggregation_relative_l2": 0.5022260388228443
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5288785099983215,
+              "aggregation_relative_l2": 0.4293614082151184
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.2547084093093872,
+              "aggregation_relative_l2": 0.6123400473674914
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.2788094086563152
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.06736155059591283
+            }
+          }
+        },
+        {
+          "Q": 16384,
+          "heads": 4,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.031367915810423974,
+              "retained_dense_probability_mass": 0.13924527168273926,
+              "aggregation_relative_l2": 0.3601797361947123
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.445360004901886,
+              "aggregation_relative_l2": 0.5317141497902634
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6256985068321228,
+              "aggregation_relative_l2": 0.445555626180849
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.3220497965812683,
+              "aggregation_relative_l2": 0.6886477907736513
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.22853731885223139
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.04911904869249495
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.25551629066467285,
+              "aggregation_relative_l2": 0.30766261413459
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5088316202163696,
+              "aggregation_relative_l2": 0.5651656939133468
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6257367134094238,
+              "aggregation_relative_l2": 0.5069743863960288
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.4167846143245697,
+              "aggregation_relative_l2": 0.7122429212453096
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.25281083583831787,
+              "aggregation_relative_l2": 0.2639456887148946
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.683619499206543,
+              "aggregation_relative_l2": 0.30990828405880594
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.8288812637329102,
+              "aggregation_relative_l2": 0.18106514947992547
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.5555152893066406,
+              "aggregation_relative_l2": 0.5345188646715616
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.03441090645711164
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2506982684135437,
+              "aggregation_relative_l2": 0.3535325405606384
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5140609741210938,
+              "aggregation_relative_l2": 0.5525788773277431
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.6560570001602173,
+              "aggregation_relative_l2": 0.4023618746101259
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.36885982751846313,
+              "aggregation_relative_l2": 0.91983151135039
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2878796458244324,
+              "aggregation_relative_l2": 0.200471402450927
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.5846789479255676,
+              "aggregation_relative_l2": 0.3705287422867935
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.7167419791221619,
+              "aggregation_relative_l2": 0.24532505866401
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.496614933013916,
+              "aggregation_relative_l2": 0.5694641560525088
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.03441090645711164
+            }
+          }
+        },
+        {
+          "Q": 4096,
+          "heads": 8,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.01946946421268625,
+              "retained_dense_probability_mass": 0.2508505582809448,
+              "aggregation_relative_l2": 0.18754001388671152
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.4629339873790741,
+              "aggregation_relative_l2": 0.5059596724499538
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.5680172443389893,
+              "aggregation_relative_l2": 0.42842799366577006
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.3712940514087677,
+              "aggregation_relative_l2": 0.6098083692689319
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.17045242045164954
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.034705046241484475
+            }
+          }
+        },
+        {
+          "Q": 1024,
+          "heads": 16,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.011404948083653995,
+              "retained_dense_probability_mass": 0.5006838440895081,
+              "aggregation_relative_l2": 0.24878629230432575
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.7539856433868408,
+              "aggregation_relative_l2": 0.29258959680279906
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.8359249830245972,
+              "aggregation_relative_l2": 0.224434362624419
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.687698483467102,
+              "aggregation_relative_l2": 0.5563830256279713
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.09694205871105893
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.01995865914639449
+            }
+          }
+        },
+        {
+          "Q": 1024,
+          "heads": 16,
+          "methods": {
+            "point32": {
+              "normalized_nearest_key_distance": 0.011404948083653995,
+              "retained_dense_probability_mass": 0.5001574754714966,
+              "aggregation_relative_l2": 0.11748902112725902
+            },
+            "proxy8": {
+              "retained_dense_probability_mass": 0.6919490694999695,
+              "aggregation_relative_l2": 0.37829380063886714
+            },
+            "exact": {
+              "retained_dense_probability_mass": 0.780719518661499,
+              "aggregation_relative_l2": 0.3211830482590077
+            },
+            "region": {
+              "retained_dense_probability_mass": 0.6488323211669922,
+              "aggregation_relative_l2": 0.8001066447321733
+            },
+            "cover1": {
+              "normalized_nearest_key_distance": 0.09694205871105893
+            },
+            "cover16": {
+              "normalized_nearest_key_distance": 0.01995865914639449
+            }
+          }
+        }
+      ]
+    }
+  },
+  "layout_results": {
+    "measurements": [
+      {
+        "dataset": "uavid",
+        "mode": "point16",
+        "budget_scale": 0.5,
+        "mIoU_percent": 71.8379642647458
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point32",
+        "budget_scale": 0.5,
+        "mIoU_percent": 71.76853631656645
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point64",
+        "budget_scale": 0.5,
+        "mIoU_percent": 71.74323218645843
+      },
+      {
+        "dataset": "uavid",
+        "mode": "cover1",
+        "budget_scale": 0.5,
+        "mIoU_percent": 69.82067893126431
+      },
+      {
+        "dataset": "uavid",
+        "mode": "cover16",
+        "budget_scale": 0.5,
+        "mIoU_percent": 70.73755129758501
+      },
+      {
+        "dataset": "uavid",
+        "mode": "topk_proxy8",
+        "budget_scale": 0.5,
+        "mIoU_percent": 68.60783128493672
+      },
+      {
+        "dataset": "uavid",
+        "mode": "topk_exact",
+        "budget_scale": 0.5,
+        "mIoU_percent": 70.51246089509516
+      },
+      {
+        "dataset": "uavid",
+        "mode": "bra_region",
+        "budget_scale": 0.5,
+        "mIoU_percent": 65.76055016182507
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point16",
+        "budget_scale": 1.0,
+        "mIoU_percent": 72.10561939438598
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point32",
+        "budget_scale": 1.0,
+        "mIoU_percent": 72.07881086502118
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point64",
+        "budget_scale": 1.0,
+        "mIoU_percent": 72.0576382630069
+      },
+      {
+        "dataset": "uavid",
+        "mode": "cover1",
+        "budget_scale": 1.0,
+        "mIoU_percent": 71.29194827504942
+      },
+      {
+        "dataset": "uavid",
+        "mode": "cover16",
+        "budget_scale": 1.0,
+        "mIoU_percent": 71.25910534433703
+      },
+      {
+        "dataset": "uavid",
+        "mode": "topk_proxy8",
+        "budget_scale": 1.0,
+        "mIoU_percent": 69.84245532837949
+      },
+      {
+        "dataset": "uavid",
+        "mode": "topk_exact",
+        "budget_scale": 1.0,
+        "mIoU_percent": 71.06364308003141
+      },
+      {
+        "dataset": "uavid",
+        "mode": "bra_region",
+        "budget_scale": 1.0,
+        "mIoU_percent": 67.77671473403984
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point16",
+        "budget_scale": 2.0,
+        "mIoU_percent": 72.17265340418876
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point32",
+        "budget_scale": 2.0,
+        "mIoU_percent": 72.19218090771334
+      },
+      {
+        "dataset": "uavid",
+        "mode": "point64",
+        "budget_scale": 2.0,
+        "mIoU_percent": 72.16748324951092
+      },
+      {
+        "dataset": "uavid",
+        "mode": "cover1",
+        "budget_scale": 2.0,
+        "mIoU_percent": 71.87525649095019
+      },
+      {
+        "dataset": "uavid",
+        "mode": "cover16",
+        "budget_scale": 2.0,
+        "mIoU_percent": 71.80681719421655
+      },
+      {
+        "dataset": "uavid",
+        "mode": "topk_proxy8",
+        "budget_scale": 2.0,
+        "mIoU_percent": 70.90363424399256
+      },
+      {
+        "dataset": "uavid",
+        "mode": "topk_exact",
+        "budget_scale": 2.0,
+        "mIoU_percent": 71.57110649783807
+      },
+      {
+        "dataset": "uavid",
+        "mode": "bra_region",
+        "budget_scale": 2.0,
+        "mIoU_percent": 69.76077029905439
+      },
+      {
+        "dataset": "uavid",
+        "mode": "dense",
+        "budget_scale": null,
+        "mIoU_percent": 72.241193849095
+      },
+      {
+        "dataset": "twins",
+        "mode": "point16",
+        "budget_scale": 0.5,
+        "mIoU_percent": 78.57501365754239
+      },
+      {
+        "dataset": "twins",
+        "mode": "point32",
+        "budget_scale": 0.5,
+        "mIoU_percent": 78.63184227016093
+      },
+      {
+        "dataset": "twins",
+        "mode": "point64",
+        "budget_scale": 0.5,
+        "mIoU_percent": 78.54428265186965
+      },
+      {
+        "dataset": "twins",
+        "mode": "cover1",
+        "budget_scale": 0.5,
+        "mIoU_percent": 73.64203596795406
+      },
+      {
+        "dataset": "twins",
+        "mode": "cover16",
+        "budget_scale": 0.5,
+        "mIoU_percent": 77.82005159380442
+      },
+      {
+        "dataset": "twins",
+        "mode": "topk_proxy8",
+        "budget_scale": 0.5,
+        "mIoU_percent": 78.5272357680267
+      },
+      {
+        "dataset": "twins",
+        "mode": "topk_exact",
+        "budget_scale": 0.5,
+        "mIoU_percent": 78.51545662313202
+      },
+      {
+        "dataset": "twins",
+        "mode": "bra_region",
+        "budget_scale": 0.5,
+        "mIoU_percent": 76.98921394528396
+      },
+      {
+        "dataset": "twins",
+        "mode": "point16",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.8788588089264
+      },
+      {
+        "dataset": "twins",
+        "mode": "point32",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.85101359339598
+      },
+      {
+        "dataset": "twins",
+        "mode": "point64",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.82077392547941
+      },
+      {
+        "dataset": "twins",
+        "mode": "cover1",
+        "budget_scale": 1.0,
+        "mIoU_percent": 76.91796928268371
+      },
+      {
+        "dataset": "twins",
+        "mode": "cover16",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.36232058740804
+      },
+      {
+        "dataset": "twins",
+        "mode": "topk_proxy8",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.87509240855645
+      },
+      {
+        "dataset": "twins",
+        "mode": "topk_exact",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.8347044337682
+      },
+      {
+        "dataset": "twins",
+        "mode": "bra_region",
+        "budget_scale": 1.0,
+        "mIoU_percent": 78.35384856622628
+      },
+      {
+        "dataset": "twins",
+        "mode": "point16",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.92912031847473
+      },
+      {
+        "dataset": "twins",
+        "mode": "point32",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.93550257228836
+      },
+      {
+        "dataset": "twins",
+        "mode": "point64",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.93556827951484
+      },
+      {
+        "dataset": "twins",
+        "mode": "cover1",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.05309207191362
+      },
+      {
+        "dataset": "twins",
+        "mode": "cover16",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.73511578798231
+      },
+      {
+        "dataset": "twins",
+        "mode": "topk_proxy8",
+        "budget_scale": 2.0,
+        "mIoU_percent": 79.05486658832973
+      },
+      {
+        "dataset": "twins",
+        "mode": "topk_exact",
+        "budget_scale": 2.0,
+        "mIoU_percent": 79.00715716211076
+      },
+      {
+        "dataset": "twins",
+        "mode": "bra_region",
+        "budget_scale": 2.0,
+        "mIoU_percent": 78.81418109867347
+      },
+      {
+        "dataset": "twins",
+        "mode": "dense",
+        "budget_scale": null,
+        "mIoU_percent": 79.01315513321748
+      }
+    ],
+    "coverage_gradient": [
+      {
+        "mode": "extent0",
+        "spatial_coverage_score": 0.8273896725345653,
+        "miou_percent": 76.91796928268371
+      },
+      {
+        "mode": "extent1",
+        "spatial_coverage_score": 0.8948305604755016,
+        "miou_percent": 77.94975920118873
+      },
+      {
+        "mode": "extent2",
+        "spatial_coverage_score": 0.9539247086936086,
+        "miou_percent": 78.54992186219539
+      },
+      {
+        "mode": "extent3",
+        "spatial_coverage_score": 0.9708918437868514,
+        "miou_percent": 78.54789443540525
+      },
+      {
+        "mode": "extent4",
+        "spatial_coverage_score": 0.9792374297937226,
+        "miou_percent": 78.7921137745865
+      },
+      {
+        "mode": "dense",
+        "miou_percent": 79.01315513321748
+      }
+    ]
+  }
+}

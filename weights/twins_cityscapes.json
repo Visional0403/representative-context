@@ -1,0 +1,23 @@
+{
+  "architecture": "twins_svt_s",
+  "dataset": "Cityscapes",
+  "path": "twins/twins_svt_s_cityscapes.pth",
+  "format": "pure_pytorch_state_dict",
+  "training_config": "configs/twins_cityscapes/training.json",
+  "training_iterations": 80000,
+  "selection_metric": "validation_miou_percent",
+  "recorded_selection_value": 79.01000213623047,
+  "training_seed": 42,
+  "initialization": "ImageNet pretrained Twins-SVT-S",
+  "initialization_url": "https://download.openmmlab.com/mmsegmentation/v0.5/pretrain/twins/alt_gvt_small_20220308-7e1c3695.pth",
+  "warmup_iterations": 1000,
+  "validation_interval": 2500,
+  "deterministic_training": false,
+  "cudnn_benchmark": false,
+  "evaluation_seed": 42,
+  "distribution": "github_release",
+  "release_tag": "weights-v1",
+  "download_url": "https://github.com/Visional0403/representative-context/releases/download/weights-v1/twins_svt_s_cityscapes.pth",
+  "size_bytes": 111243598,
+  "state_dict_entries": 329
+}

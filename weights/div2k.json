@@ -1,0 +1,24 @@
+{
+  "case": "div2k",
+  "path": "transweather/transweather_tur.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "jeya-maria-jose/TransWeather",
+    "revision": "54c4e69180502e0386ee6186a4318d6d61e0bf8d",
+    "subdirectory": "",
+    "include": [
+      "transweather_model.py",
+      "base_networks.py",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "task_weight_source": {
+    "repository": "GWu/TUR",
+    "revision": "0caa4ef69202d1841d98c18f2c0fe1fc2ae23aa8",
+    "filename": "Transweather_TUR_5task.pth",
+    "prediction_branch": "mean",
+    "hosting": "huggingface"
+  },
+  "weights_url": "https://huggingface.co/GWu/TUR/resolve/0caa4ef69202d1841d98c18f2c0fe1fc2ae23aa8/Transweather_TUR_5task.pth"
+}

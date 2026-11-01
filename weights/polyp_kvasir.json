@@ -1,0 +1,17 @@
+{
+  "case": "polyp_kvasir",
+  "dataset": "Kvasir-SEG authors' test split",
+  "path": "polyp_pvt/polyp_pvt.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "DengPingFan/Polyp-PVT",
+    "revision": "cd71fbf9fcd8c32cc0f33699f4e0186073c64dc4",
+    "subdirectory": "",
+    "include": [
+      "lib",
+      "README.md"
+    ]
+  },
+  "weights_url": "https://drive.google.com/drive/folders/1xC5Opwu5Afz4xiK5O9v4NnQOZY0A9-2j",
+  "upstream_filename": "PolypPVT.pth"
+}

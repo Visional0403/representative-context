@@ -1,0 +1,62 @@
+{
+  "model": "segformer_b0",
+  "dataset": "UAVid",
+  "path": "segformer/segformer_b0_uavid.pth",
+  "format": "pure_pytorch_state_dict",
+  "training_crops": 5600,
+  "crop_shape": [
+    1024,
+    1024
+  ],
+  "selection_metric": "validation_miou_percent",
+  "recorded_selection_value": 72.8295451021982,
+  "training_seed": 42,
+  "warmup_settings": {
+    "optimizer_updates": 125,
+    "schedule": "linear"
+  },
+  "evaluation_seed": 42,
+  "distribution": "github_release",
+  "training_loss": {
+    "cross_entropy": {
+      "class_order": [
+        "clutter",
+        "building",
+        "road",
+        "tree",
+        "low_vegetation",
+        "static_car",
+        "moving_car",
+        "human"
+      ],
+      "class_weights": [
+        1.5,
+        0.8,
+        2.0,
+        2.5,
+        2.0,
+        14.0,
+        8.0,
+        18.0
+      ],
+      "weight_selection": "manually_tuned"
+    },
+    "combination": {
+      "cross_entropy_coefficient": 0.5,
+      "dice_coefficient": 0.5
+    }
+  },
+  "training_epoch_budget": 40,
+  "architecture": "dense MiT-B0 SRA with the five-BatchNorm convolutional task decoder",
+  "state_dict_entries": 187,
+  "training_provenance": "configs/segformer_uavid/training_provenance.json",
+  "published_evaluation": {
+    "protocol": "original-image pixel-coordinate Gaussian logit fusion",
+    "dense_1024_miou_percent": 72.81881699963238,
+    "same_checkpoint_for_all_paired_comparisons": true
+  },
+  "release_tag": "weights-v1",
+  "download_url": "https://github.com/Visional0403/representative-context/releases/download/weights-v1/segformer_b0_uavid.pth",
+  "size_bytes": 14940244,
+  "initialization": "ImageNet-pretrained MiT-B0 backbone"
+}

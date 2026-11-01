@@ -1,0 +1,20 @@
+{
+  "case": "changeformer",
+  "dataset": "LEVIR-CD test",
+  "path": "changeformer/changeformer_v6.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "wgcban/ChangeFormer",
+    "revision": "5ca45352d06e15a01e2d6525d891f9c5bbf54f52",
+    "subdirectory": "",
+    "include": [
+      "models",
+      "misc",
+      "README.md",
+      "LICENSE"
+    ]
+  },
+  "weights_url": "https://www.dropbox.com/sh/xoswrsu9n4ypr5h/AAAmUOE-DTq59fX-tE2TwPzKa?dl=0",
+  "upstream_filename": "best_ckpt.pt",
+  "task_variant": "ChangeFormerV6 LEVIR-CD"
+}

@@ -1,0 +1,640 @@
+{
+  "case": "cave",
+  "resource_exponents": [
+    12,
+    13,
+    14,
+    15,
+    17
+  ],
+  "scope": "complete evaluation split",
+  "records": [
+    {
+      "id": "CAVE_test_00",
+      "dense": {
+        "PSNRdB": 50.934456839478855,
+        "RMSE": 0.0028397307094623426,
+        "sam_deg": 1.4698896272805109,
+        "ERGAS": 0.5015108157086887,
+        "gt_spectral_centroid_nm": 536.6573394196973,
+        "predicted_spectral_centroid_nm": 535.0899593482634,
+        "spectral_centroid_mae_nm": 2.312278382527827
+      },
+      "k12": {
+        "PSNRdB": 50.49261484647728,
+        "RMSE": 0.0029879220115947573,
+        "sam_deg": 1.6871964585107782,
+        "ERGAS": 0.5272423944824149,
+        "gt_spectral_centroid_nm": 536.6573394196973,
+        "predicted_spectral_centroid_nm": 535.1416605127781,
+        "spectral_centroid_mae_nm": 2.341996738417031
+      },
+      "k13": {
+        "PSNRdB": 50.613762607557355,
+        "RMSE": 0.002946536801016707,
+        "sam_deg": 1.6467096727785098,
+        "ERGAS": 0.5197993573147297,
+        "gt_spectral_centroid_nm": 536.6573394196973,
+        "predicted_spectral_centroid_nm": 535.1593587985252,
+        "spectral_centroid_mae_nm": 2.305678042690036
+      },
+      "k14": {
+        "PSNRdB": 50.73672531326753,
+        "RMSE": 0.002905117712970584,
+        "sam_deg": 1.565299499884687,
+        "ERGAS": 0.5128571618908007,
+        "gt_spectral_centroid_nm": 536.6573394196973,
+        "predicted_spectral_centroid_nm": 535.1665459043213,
+        "spectral_centroid_mae_nm": 2.279360401149039
+      },
+      "k15": {
+        "PSNRdB": 50.80452219242715,
+        "RMSE": 0.002882530361453601,
+        "sam_deg": 1.5332062208588781,
+        "ERGAS": 0.5090001515469014,
+        "gt_spectral_centroid_nm": 536.6573394196973,
+        "predicted_spectral_centroid_nm": 535.1653880095089,
+        "spectral_centroid_mae_nm": 2.270087485877734
+      },
+      "k17": {
+        "PSNRdB": 50.912370491613174,
+        "RMSE": 0.0028469607217416876,
+        "sam_deg": 1.4659877080002184,
+        "ERGAS": 0.5027564372516459,
+        "gt_spectral_centroid_nm": 536.6573394196973,
+        "predicted_spectral_centroid_nm": 535.0773426102195,
+        "spectral_centroid_mae_nm": 2.3164812691064354
+      }
+    },
+    {
+      "id": "CAVE_test_01",
+      "dense": {
+        "PSNRdB": 39.05610033215273,
+        "RMSE": 0.011147949261082644,
+        "sam_deg": 2.7054615140254903,
+        "ERGAS": 3.988388199596063,
+        "gt_spectral_centroid_nm": 519.0639284368506,
+        "predicted_spectral_centroid_nm": 517.5187740451488,
+        "spectral_centroid_mae_nm": 3.8173213712649066
+      },
+      "k12": {
+        "PSNRdB": 39.22469283345086,
+        "RMSE": 0.01093365480518968,
+        "sam_deg": 2.8429957251779325,
+        "ERGAS": 3.876422616443577,
+        "gt_spectral_centroid_nm": 519.0639284368506,
+        "predicted_spectral_centroid_nm": 517.739124900171,
+        "spectral_centroid_mae_nm": 3.704800578801863
+      },
+      "k13": {
+        "PSNRdB": 39.383247264033436,
+        "RMSE": 0.010735879709802994,
+        "sam_deg": 2.805887010499619,
+        "ERGAS": 3.8004173233377037,
+        "gt_spectral_centroid_nm": 519.0639284368506,
+        "predicted_spectral_centroid_nm": 517.7120025872687,
+        "spectral_centroid_mae_nm": 3.7145053744837755
+      },
+      "k14": {
+        "PSNRdB": 39.47467251905158,
+        "RMSE": 0.010623469467564001,
+        "sam_deg": 2.755498908770083,
+        "ERGAS": 3.7771452474165903,
+        "gt_spectral_centroid_nm": 519.0639284368506,
+        "predicted_spectral_centroid_nm": 517.7179893379447,
+        "spectral_centroid_mae_nm": 3.6804905915875543
+      },
+      "k15": {
+        "PSNRdB": 39.308427022940286,
+        "RMSE": 0.010828758014973674,
+        "sam_deg": 2.74754395536034,
+        "ERGAS": 3.8615113497407005,
+        "gt_spectral_centroid_nm": 519.0639284368506,
+        "predicted_spectral_centroid_nm": 517.6990491183168,
+        "spectral_centroid_mae_nm": 3.6873465965269916
+      },
+      "k17": {
+        "PSNRdB": 39.12376672341156,
+        "RMSE": 0.011061439894837603,
+        "sam_deg": 2.7036418077676903,
+        "ERGAS": 3.951687285000095,
+        "gt_spectral_centroid_nm": 519.0639284368506,
+        "predicted_spectral_centroid_nm": 517.5603461543939,
+        "spectral_centroid_mae_nm": 3.7923986647551637
+      }
+    },
+    {
+      "id": "CAVE_test_02",
+      "dense": {
+        "PSNRdB": 47.384762978758566,
+        "RMSE": 0.004273284928109774,
+        "sam_deg": 2.800907092306192,
+        "ERGAS": 0.7535558113109576,
+        "gt_spectral_centroid_nm": 555.3231308314666,
+        "predicted_spectral_centroid_nm": 555.0363250773049,
+        "spectral_centroid_mae_nm": 1.525102869125213
+      },
+      "k12": {
+        "PSNRdB": 46.517175426068334,
+        "RMSE": 0.0047221657692207595,
+        "sam_deg": 4.039751993049613,
+        "ERGAS": 0.8319075290134599,
+        "gt_spectral_centroid_nm": 555.3231308314666,
+        "predicted_spectral_centroid_nm": 555.1042283976169,
+        "spectral_centroid_mae_nm": 1.917388760540637
+      },
+      "k13": {
+        "PSNRdB": 46.87655966192323,
+        "RMSE": 0.004530770007191866,
+        "sam_deg": 3.719108497406222,
+        "ERGAS": 0.7961550770108458,
+        "gt_spectral_centroid_nm": 555.3231308314666,
+        "predicted_spectral_centroid_nm": 555.0830348707739,
+        "spectral_centroid_mae_nm": 1.8071851342122776
+      },
+      "k14": {
+        "PSNRdB": 47.184852590018906,
+        "RMSE": 0.004372777407311654,
+        "sam_deg": 3.06834962067663,
+        "ERGAS": 0.7682954199309583,
+        "gt_spectral_centroid_nm": 555.3231308314666,
+        "predicted_spectral_centroid_nm": 555.0351526366137,
+        "spectral_centroid_mae_nm": 1.6755225087451533
+      },
+      "k15": {
+        "PSNRdB": 47.26010029374903,
+        "RMSE": 0.004335058727770462,
+        "sam_deg": 2.929524153482239,
+        "ERGAS": 0.7641874347468476,
+        "gt_spectral_centroid_nm": 555.3231308314666,
+        "predicted_spectral_centroid_nm": 555.0506987798262,
+        "spectral_centroid_mae_nm": 1.5908933375887735
+      },
+      "k17": {
+        "PSNRdB": 47.382276351187976,
+        "RMSE": 0.004274508474544468,
+        "sam_deg": 2.8023848463391796,
+        "ERGAS": 0.7536600156379356,
+        "gt_spectral_centroid_nm": 555.3231308314666,
+        "predicted_spectral_centroid_nm": 555.0326409198098,
+        "spectral_centroid_mae_nm": 1.5275804294741488
+      }
+    },
+    {
+      "id": "CAVE_test_03",
+      "dense": {
+        "PSNRdB": 51.33810802393729,
+        "RMSE": 0.002710782034992952,
+        "sam_deg": 3.945166101624067,
+        "ERGAS": 1.4031919537726998,
+        "gt_spectral_centroid_nm": 554.7992180918003,
+        "predicted_spectral_centroid_nm": 554.8686974986418,
+        "spectral_centroid_mae_nm": 3.728632330885738
+      },
+      "k12": {
+        "PSNRdB": 50.372371612370664,
+        "RMSE": 0.0030295729842884657,
+        "sam_deg": 5.501376621254142,
+        "ERGAS": 1.696565046239799,
+        "gt_spectral_centroid_nm": 554.7992180918003,
+        "predicted_spectral_centroid_nm": 554.8577454817018,
+        "spectral_centroid_mae_nm": 4.435150357031752
+      },
+      "k13": {
+        "PSNRdB": 50.51512153755276,
+        "RMSE": 0.002980189794219287,
+        "sam_deg": 5.286899799535109,
+        "ERGAS": 1.649207580038664,
+        "gt_spectral_centroid_nm": 554.7992180918003,
+        "predicted_spectral_centroid_nm": 554.8695190796616,
+        "spectral_centroid_mae_nm": 4.306142282222908
+      },
+      "k14": {
+        "PSNRdB": 51.10886025454186,
+        "RMSE": 0.0027832805665270128,
+        "sam_deg": 4.203213326464514,
+        "ERGAS": 1.4558647299732674,
+        "gt_spectral_centroid_nm": 554.7992180918003,
+        "predicted_spectral_centroid_nm": 554.8575127734173,
+        "spectral_centroid_mae_nm": 3.985256981804992
+      },
+      "k15": {
+        "PSNRdB": 51.14727968190987,
+        "RMSE": 0.0027709967467458006,
+        "sam_deg": 4.143572820290071,
+        "ERGAS": 1.44341116605784,
+        "gt_spectral_centroid_nm": 554.7992180918003,
+        "predicted_spectral_centroid_nm": 554.8534997509307,
+        "spectral_centroid_mae_nm": 3.976176168076339
+      },
+      "k17": {
+        "PSNRdB": 51.31907092045375,
+        "RMSE": 0.002716729846229636,
+        "sam_deg": 3.9487944360693215,
+        "ERGAS": 1.4083869520617145,
+        "gt_spectral_centroid_nm": 554.7992180918003,
+        "predicted_spectral_centroid_nm": 554.8697175558922,
+        "spectral_centroid_mae_nm": 3.7286439920844883
+      }
+    },
+    {
+      "id": "CAVE_test_04",
+      "dense": {
+        "PSNRdB": 49.7920591613059,
+        "RMSE": 0.0032388962891327843,
+        "sam_deg": 0.8627339417194769,
+        "ERGAS": 0.30127954199998586,
+        "gt_spectral_centroid_nm": 565.628001278838,
+        "predicted_spectral_centroid_nm": 565.0234459405295,
+        "spectral_centroid_mae_nm": 0.8991545996010877
+      },
+      "k12": {
+        "PSNRdB": 48.028301117091495,
+        "RMSE": 0.003968121342729092,
+        "sam_deg": 1.084683240958834,
+        "ERGAS": 0.36917907931252814,
+        "gt_spectral_centroid_nm": 565.628001278838,
+        "predicted_spectral_centroid_nm": 564.6640128315851,
+        "spectral_centroid_mae_nm": 1.379968010345259
+      },
+      "k13": {
+        "PSNRdB": 48.399040405730005,
+        "RMSE": 0.003802314009665746,
+        "sam_deg": 1.0537332594003852,
+        "ERGAS": 0.35437845693889714,
+        "gt_spectral_centroid_nm": 565.628001278838,
+        "predicted_spectral_centroid_nm": 564.7417848682214,
+        "spectral_centroid_mae_nm": 1.3021089529824093
+      },
+      "k14": {
+        "PSNRdB": 48.6681367066397,
+        "RMSE": 0.0036863211217542722,
+        "sam_deg": 1.011583311989342,
+        "ERGAS": 0.3432326145240817,
+        "gt_spectral_centroid_nm": 565.628001278838,
+        "predicted_spectral_centroid_nm": 564.6625316935914,
+        "spectral_centroid_mae_nm": 1.3221942088849867
+      },
+      "k15": {
+        "PSNRdB": 48.70275165893328,
+        "RMSE": 0.003671659652003402,
+        "sam_deg": 1.0088115887766802,
+        "ERGAS": 0.34150423878475555,
+        "gt_spectral_centroid_nm": 565.628001278838,
+        "predicted_spectral_centroid_nm": 564.6680451993473,
+        "spectral_centroid_mae_nm": 1.3143540212573348
+      },
+      "k17": {
+        "PSNRdB": 49.77416291237314,
+        "RMSE": 0.003245576531662957,
+        "sam_deg": 0.86943140074221,
+        "ERGAS": 0.30201134039270544,
+        "gt_spectral_centroid_nm": 565.628001278838,
+        "predicted_spectral_centroid_nm": 564.9564780025383,
+        "spectral_centroid_mae_nm": 0.9167801943624316
+      }
+    },
+    {
+      "id": "CAVE_test_05",
+      "dense": {
+        "PSNRdB": 48.832893159145534,
+        "RMSE": 0.003617056911089654,
+        "sam_deg": 3.9371244267011605,
+        "ERGAS": 1.5031309875989864,
+        "gt_spectral_centroid_nm": 547.508083585502,
+        "predicted_spectral_centroid_nm": 546.5171205190893,
+        "spectral_centroid_mae_nm": 3.672695523181299
+      },
+      "k12": {
+        "PSNRdB": 48.518850160079275,
+        "RMSE": 0.0037502264453716074,
+        "sam_deg": 4.323027560421519,
+        "ERGAS": 1.5571836877230814,
+        "gt_spectral_centroid_nm": 547.508083585502,
+        "predicted_spectral_centroid_nm": 546.6240348964712,
+        "spectral_centroid_mae_nm": 3.7079071368727115
+      },
+      "k13": {
+        "PSNRdB": 48.68277907967211,
+        "RMSE": 0.00368011208377057,
+        "sam_deg": 4.1153357177068255,
+        "ERGAS": 1.5270182965862555,
+        "gt_spectral_centroid_nm": 547.508083585502,
+        "predicted_spectral_centroid_nm": 546.5748679257393,
+        "spectral_centroid_mae_nm": 3.688678400953197
+      },
+      "k14": {
+        "PSNRdB": 48.789998814516736,
+        "RMSE": 0.0036349635415744313,
+        "sam_deg": 3.9788611437891537,
+        "ERGAS": 1.5091840383155364,
+        "gt_spectral_centroid_nm": 547.508083585502,
+        "predicted_spectral_centroid_nm": 546.5359835645702,
+        "spectral_centroid_mae_nm": 3.6678506226712035
+      },
+      "k15": {
+        "PSNRdB": 48.81586279515501,
+        "RMSE": 0.0036241558067669935,
+        "sam_deg": 3.952978492349561,
+        "ERGAS": 1.5050349865212855,
+        "gt_spectral_centroid_nm": 547.508083585502,
+        "predicted_spectral_centroid_nm": 546.5164159546962,
+        "spectral_centroid_mae_nm": 3.667500408575835
+      },
+      "k17": {
+        "PSNRdB": 48.83408164712833,
+        "RMSE": 0.0036165620240071954,
+        "sam_deg": 3.933409713216447,
+        "ERGAS": 1.5028146203300938,
+        "gt_spectral_centroid_nm": 547.508083585502,
+        "predicted_spectral_centroid_nm": 546.5007094106802,
+        "spectral_centroid_mae_nm": 3.67925019253521
+      }
+    },
+    {
+      "id": "CAVE_test_06",
+      "dense": {
+        "PSNRdB": 50.04668879667876,
+        "RMSE": 0.0031453252412112728,
+        "sam_deg": 2.874947557610288,
+        "ERGAS": 2.6300199362112644,
+        "gt_spectral_centroid_nm": 550.5710568249189,
+        "predicted_spectral_centroid_nm": 549.4903061094891,
+        "spectral_centroid_mae_nm": 2.921318076055614
+      },
+      "k12": {
+        "PSNRdB": 49.97281961227525,
+        "RMSE": 0.0031721887412145587,
+        "sam_deg": 3.391328032698627,
+        "ERGAS": 2.6412136691302988,
+        "gt_spectral_centroid_nm": 550.5710568249189,
+        "predicted_spectral_centroid_nm": 549.6126124481232,
+        "spectral_centroid_mae_nm": 3.1884536699956048
+      },
+      "k13": {
+        "PSNRdB": 49.5536873440296,
+        "RMSE": 0.0033290140861165075,
+        "sam_deg": 3.1318869677130543,
+        "ERGAS": 2.763149305083503,
+        "gt_spectral_centroid_nm": 550.5710568249189,
+        "predicted_spectral_centroid_nm": 549.5497867396246,
+        "spectral_centroid_mae_nm": 3.0546178061230917
+      },
+      "k14": {
+        "PSNRdB": 49.747372235478586,
+        "RMSE": 0.003255602611836896,
+        "sam_deg": 3.0137540739303557,
+        "ERGAS": 2.7111190601451565,
+        "gt_spectral_centroid_nm": 550.5710568249189,
+        "predicted_spectral_centroid_nm": 549.5195780338482,
+        "spectral_centroid_mae_nm": 3.0009362698821787
+      },
+      "k15": {
+        "PSNRdB": 49.866807505380265,
+        "RMSE": 0.0032111428413657606,
+        "sam_deg": 2.958258362835411,
+        "ERGAS": 2.6777390226203455,
+        "gt_spectral_centroid_nm": 550.5710568249189,
+        "predicted_spectral_centroid_nm": 549.5219275791596,
+        "spectral_centroid_mae_nm": 2.9577225493940387
+      },
+      "k17": {
+        "PSNRdB": 50.03135855824836,
+        "RMSE": 0.003150881512918242,
+        "sam_deg": 2.878235207407755,
+        "ERGAS": 2.63755068446859,
+        "gt_spectral_centroid_nm": 550.5710568249189,
+        "predicted_spectral_centroid_nm": 549.5090565945359,
+        "spectral_centroid_mae_nm": 2.906191708200764
+      }
+    },
+    {
+      "id": "CAVE_test_07",
+      "dense": {
+        "PSNRdB": 44.369870852973854,
+        "RMSE": 0.006046533416271186,
+        "sam_deg": 2.6052289904755863,
+        "ERGAS": 1.3811112141344923,
+        "gt_spectral_centroid_nm": 548.589501716121,
+        "predicted_spectral_centroid_nm": 548.0057479962002,
+        "spectral_centroid_mae_nm": 2.0265721611881724
+      },
+      "k12": {
+        "PSNRdB": 43.75402531481668,
+        "RMSE": 0.006490807573988104,
+        "sam_deg": 2.990336722958184,
+        "ERGAS": 1.4810529630123144,
+        "gt_spectral_centroid_nm": 548.589501716121,
+        "predicted_spectral_centroid_nm": 548.1032737212504,
+        "spectral_centroid_mae_nm": 2.1871432859434656
+      },
+      "k13": {
+        "PSNRdB": 43.918768916192334,
+        "RMSE": 0.006368857827286239,
+        "sam_deg": 2.913296396830835,
+        "ERGAS": 1.4541945692459566,
+        "gt_spectral_centroid_nm": 548.589501716121,
+        "predicted_spectral_centroid_nm": 548.0991770289511,
+        "spectral_centroid_mae_nm": 2.1558073875025414
+      },
+      "k14": {
+        "PSNRdB": 43.97507077310771,
+        "RMSE": 0.006327708458297078,
+        "sam_deg": 2.7939625917471496,
+        "ERGAS": 1.4487414970971733,
+        "gt_spectral_centroid_nm": 548.589501716121,
+        "predicted_spectral_centroid_nm": 548.0679597520069,
+        "spectral_centroid_mae_nm": 2.1137682778850997
+      },
+      "k15": {
+        "PSNRdB": 43.977741406451045,
+        "RMSE": 0.006325763189335982,
+        "sam_deg": 2.769069606812313,
+        "ERGAS": 1.4485829946335418,
+        "gt_spectral_centroid_nm": 548.589501716121,
+        "predicted_spectral_centroid_nm": 548.0544647182821,
+        "spectral_centroid_mae_nm": 2.114232693863404
+      },
+      "k17": {
+        "PSNRdB": 44.32254831114591,
+        "RMSE": 0.006079566096623428,
+        "sam_deg": 2.6022908394279,
+        "ERGAS": 1.3888805923542242,
+        "gt_spectral_centroid_nm": 548.589501716121,
+        "predicted_spectral_centroid_nm": 547.9876159763842,
+        "spectral_centroid_mae_nm": 2.039351954202499
+      }
+    },
+    {
+      "id": "CAVE_test_08",
+      "dense": {
+        "PSNRdB": 48.58378766424054,
+        "RMSE": 0.0037222935244686285,
+        "sam_deg": 3.337475674061173,
+        "ERGAS": 1.3679467350146162,
+        "gt_spectral_centroid_nm": 564.6622732563847,
+        "predicted_spectral_centroid_nm": 564.3649382138307,
+        "spectral_centroid_mae_nm": 2.5465858924313585
+      },
+      "k12": {
+        "PSNRdB": 48.37547802265132,
+        "RMSE": 0.003812642624395206,
+        "sam_deg": 4.821966937930657,
+        "ERGAS": 1.423491485277366,
+        "gt_spectral_centroid_nm": 564.6622732563847,
+        "predicted_spectral_centroid_nm": 564.4288933952805,
+        "spectral_centroid_mae_nm": 3.3079297276508304
+      },
+      "k13": {
+        "PSNRdB": 48.454538535685614,
+        "RMSE": 0.0037780967327501126,
+        "sam_deg": 4.238295577466369,
+        "ERGAS": 1.4012003887398572,
+        "gt_spectral_centroid_nm": 564.6622732563847,
+        "predicted_spectral_centroid_nm": 564.4047799104216,
+        "spectral_centroid_mae_nm": 2.9994261720337763
+      },
+      "k14": {
+        "PSNRdB": 48.55558544821312,
+        "RMSE": 0.0037343990818580284,
+        "sam_deg": 3.7183777916862724,
+        "ERGAS": 1.3776074043652835,
+        "gt_spectral_centroid_nm": 564.6622732563847,
+        "predicted_spectral_centroid_nm": 564.3710887795465,
+        "spectral_centroid_mae_nm": 2.7769049021299197
+      },
+      "k15": {
+        "PSNRdB": 48.470190248099115,
+        "RMSE": 0.003771294846078791,
+        "sam_deg": 3.50623092571582,
+        "ERGAS": 1.3879770782346248,
+        "gt_spectral_centroid_nm": 564.6622732563847,
+        "predicted_spectral_centroid_nm": 564.3547477510601,
+        "spectral_centroid_mae_nm": 2.6866011309435094
+      },
+      "k17": {
+        "PSNRdB": 48.58048406311391,
+        "RMSE": 0.003723709535080373,
+        "sam_deg": 3.3387359443838265,
+        "ERGAS": 1.3688194766151238,
+        "gt_spectral_centroid_nm": 564.6622732563847,
+        "predicted_spectral_centroid_nm": 564.3695157704989,
+        "spectral_centroid_mae_nm": 2.542801657165204
+      }
+    },
+    {
+      "id": "CAVE_test_09",
+      "dense": {
+        "PSNRdB": 53.296908766159405,
+        "RMSE": 0.002163488353733914,
+        "sam_deg": 3.1279894049151347,
+        "ERGAS": 0.9873436190248999,
+        "gt_spectral_centroid_nm": 560.3275126541373,
+        "predicted_spectral_centroid_nm": 559.8324370780962,
+        "spectral_centroid_mae_nm": 2.579068246884169
+      },
+      "k12": {
+        "PSNRdB": 52.773984436160774,
+        "RMSE": 0.002297739436568732,
+        "sam_deg": 3.62414852309048,
+        "ERGAS": 1.0562130744727105,
+        "gt_spectral_centroid_nm": 560.3275126541373,
+        "predicted_spectral_centroid_nm": 559.8609783005146,
+        "spectral_centroid_mae_nm": 2.7221449387896635
+      },
+      "k13": {
+        "PSNRdB": 52.96159030685153,
+        "RMSE": 0.0022486428622276074,
+        "sam_deg": 3.4186537922534526,
+        "ERGAS": 1.0310982814151697,
+        "gt_spectral_centroid_nm": 560.3275126541373,
+        "predicted_spectral_centroid_nm": 559.8439238931229,
+        "spectral_centroid_mae_nm": 2.660186708623819
+      },
+      "k14": {
+        "PSNRdB": 53.11245009688136,
+        "RMSE": 0.0022099247975851596,
+        "sam_deg": 3.235597101681599,
+        "ERGAS": 1.0109247197473419,
+        "gt_spectral_centroid_nm": 560.3275126541373,
+        "predicted_spectral_centroid_nm": 559.8565099872606,
+        "spectral_centroid_mae_nm": 2.5878217204096887
+      },
+      "k15": {
+        "PSNRdB": 53.23141394049517,
+        "RMSE": 0.0021798635172240576,
+        "sam_deg": 3.1796437940132187,
+        "ERGAS": 0.9969549978981165,
+        "gt_spectral_centroid_nm": 560.3275126541373,
+        "predicted_spectral_centroid_nm": 559.8440910419856,
+        "spectral_centroid_mae_nm": 2.5808119801794063
+      },
+      "k17": {
+        "PSNRdB": 53.29445773567503,
+        "RMSE": 0.002164098944517551,
+        "sam_deg": 3.12879314163125,
+        "ERGAS": 0.9878552447000576,
+        "gt_spectral_centroid_nm": 560.3275126541373,
+        "predicted_spectral_centroid_nm": 559.8390436257442,
+        "spectral_centroid_mae_nm": 2.5770623979083216
+      }
+    },
+    {
+      "id": "CAVE_test_10",
+      "dense": {
+        "PSNRdB": 44.16765157908813,
+        "RMSE": 0.006188956369540379,
+        "sam_deg": 2.3521939094714184,
+        "ERGAS": 1.2798035985396243,
+        "gt_spectral_centroid_nm": 568.1963744317652,
+        "predicted_spectral_centroid_nm": 566.7461707996758,
+        "spectral_centroid_mae_nm": 2.970460488847874
+      },
+      "k12": {
+        "PSNRdB": 44.04394361299311,
+        "RMSE": 0.006277732691997789,
+        "sam_deg": 2.543054970480745,
+        "ERGAS": 1.2959519037724587,
+        "gt_spectral_centroid_nm": 568.1963744317652,
+        "predicted_spectral_centroid_nm": 566.8309726322752,
+        "spectral_centroid_mae_nm": 2.9699960319583196
+      },
+      "k13": {
+        "PSNRdB": 44.1202807499475,
+        "RMSE": 0.006222801711732249,
+        "sam_deg": 2.4780622102635097,
+        "ERGAS": 1.2833716191344788,
+        "gt_spectral_centroid_nm": 568.1963744317652,
+        "predicted_spectral_centroid_nm": 566.8130313138499,
+        "spectral_centroid_mae_nm": 2.9524963357761327
+      },
+      "k14": {
+        "PSNRdB": 44.156378613570254,
+        "RMSE": 0.006196993909540386,
+        "sam_deg": 2.4378732430717855,
+        "ERGAS": 1.2792725194203314,
+        "gt_spectral_centroid_nm": 568.1963744317652,
+        "predicted_spectral_centroid_nm": 566.824330852709,
+        "spectral_centroid_mae_nm": 2.918024830183946
+      },
+      "k15": {
+        "PSNRdB": 44.17877599649402,
+        "RMSE": 0.0061810349628789365,
+        "sam_deg": 2.427650541809761,
+        "ERGAS": 1.2757773979289189,
+        "gt_spectral_centroid_nm": 568.1963744317652,
+        "predicted_spectral_centroid_nm": 566.8275832785894,
+        "spectral_centroid_mae_nm": 2.9134939322995983
+      },
+      "k17": {
+        "PSNRdB": 44.18176020036213,
+        "RMSE": 0.0061789117146073946,
+        "sam_deg": 2.352605165504757,
+        "ERGAS": 1.2758184506241619,
+        "gt_spectral_centroid_nm": 568.1963744317652,
+        "predicted_spectral_centroid_nm": 566.7583784750506,
+        "spectral_centroid_mae_nm": 2.9631514893697815
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "case": "gamus",
+  "path": "gamus/altimap_gamus.pth",
+  "format": "pure_pytorch_state_dict",
+  "source": {
+    "repository": "JTRNEO/SynRS3D",
+    "revision": "ab5a4857825448e4c5cd1fe3aa3045c7348814c5",
+    "subdirectory": "",
+    "include": [
+      "models",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "weights_url": "https://huggingface.co/Dilavesh/altimap-height/resolve/d9c715f97a817ab8feb00dd2fbef463f2d99dd01/best.pth",
+  "checkpoint_key": "model"
+}

@@ -1,0 +1,958 @@
+{
+  "points": [
+    {
+      "case": "twins_uavid_slide1024",
+      "k": 12,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide1024",
+      "k": 13,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide1024",
+      "k": 14,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide1024",
+      "k": 15,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide1024",
+      "k": 16,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide1024",
+      "k": 17,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide2048",
+      "k": 12,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide2048",
+      "k": 13,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide2048",
+      "k": 14,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide2048",
+      "k": 15,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide2048",
+      "k": 16,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_slide2048",
+      "k": 17,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 12,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 12,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 13,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 13,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 14,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 14,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 15,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 15,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 16,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 16,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 17,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_uavid_native",
+      "k": 17,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_slide1024",
+      "k": 12,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide1024",
+      "k": 13,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide1024",
+      "k": 14,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide1024",
+      "k": 15,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide1024",
+      "k": 16,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide1024",
+      "k": 17,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide2048",
+      "k": 12,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide2048",
+      "k": 13,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide2048",
+      "k": 14,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide2048",
+      "k": 15,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide2048",
+      "k": 16,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_slide2048",
+      "k": 17,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "repeats_per_round": 20,
+          "warmup": 5,
+          "rounds": 3,
+          "warmup_evidence": "recorded invocation and matching measurement implementation"
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 12,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 12,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 13,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 13,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 14,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 14,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 15,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 15,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 16,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 16,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 17,
+      "timing_width": 3840,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_uavid_native",
+      "k": 17,
+      "timing_width": 4096,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        },
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "repeats_per_input": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_cityscapes_slide1024",
+      "k": 12,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_cityscapes_slide1024",
+      "k": 13,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_cityscapes_slide1024",
+      "k": 14,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_cityscapes_slide1024",
+      "k": 15,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_cityscapes_slide1024",
+      "k": 16,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "twins_cityscapes_slide1024",
+      "k": 17,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 5,
+          "rounds": 3,
+          "repeats_per_round": 20
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_cityscapes_slide1024",
+      "k": 12,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 10,
+          "repeats_per_round": 10
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_cityscapes_slide1024",
+      "k": 13,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 10,
+          "repeats_per_round": 10
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_cityscapes_slide1024",
+      "k": 14,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 10,
+          "repeats_per_round": 10
+        }
+      ],
+      "timing_evidence": "reported_summary"
+    },
+    {
+      "case": "segformer_cityscapes_slide1024",
+      "k": 15,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 10,
+          "repeats_per_round": 10
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_cityscapes_slide1024",
+      "k": 16,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 10,
+          "repeats_per_round": 10
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    },
+    {
+      "case": "segformer_cityscapes_slide1024",
+      "k": 17,
+      "timing_width": null,
+      "timing": [
+        {
+          "timer": "cuda_event",
+          "warmup": 10,
+          "repeats_per_round": 10
+        }
+      ],
+      "timing_evidence": "individual_calls"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Install after the CUDA PyTorch environment in core.txt.
+mmengine==0.10.7
+mmcv-lite==2.1.0
+Pillow==12.2.0
+scipy==1.15.3
+prettytable
